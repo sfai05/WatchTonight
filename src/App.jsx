@@ -58,7 +58,7 @@ export default function App() {
                 WatchTonight
               </h1>
               <p className="text-sm text-muted-foreground">
-                Tonight’s picks, ready for your couch.
+                Tonight’s picks — newly released, streaming at home.
               </p>
             </div>
           </div>
