@@ -32,6 +32,7 @@ export function transformMovieData(raw) {
     genres: movie.genres || [],
     director: movie.director || null,
     topActors: movie.top_actors || [],
+    releaseDate: movie.release_date || null,
     posterUrl: getPosterUrl(movie.poster_path, "w500"),
     trailerUrl: movie.trailer_url || null,
     streamingUrl: getStreamingLink(movie),

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
 import { ThemeToggle } from "@/components/ThemeToggle"
@@ -9,6 +9,41 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState("")
   const [lastUpdated, setLastUpdated] = useState("")
+
+  const structuredData = useMemo(() => {
+    const items = movies.map((movie, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Movie",
+        name: movie.title,
+        description: movie.overview || movie.description,
+        image: movie.posterUrl || undefined,
+        datePublished: movie.releaseDate || undefined,
+        url: movie.infoUrl || "https://watchtonight.app/",
+      },
+    }))
+
+    return {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          name: "WatchTonight",
+          url: "https://watchtonight.app/",
+          description: "Recently popular movies available to stream at home.",
+          inLanguage: "en",
+        },
+        {
+          "@type": "ItemList",
+          name: "Tonight’s picks",
+          itemListOrder: "ItemListOrderAscending",
+          numberOfItems: items.length,
+          itemListElement: items,
+        },
+      ],
+    }
+  }, [movies])
 
   useEffect(() => {
     let isMounted = true
@@ -80,11 +115,14 @@ export default function App() {
         )}
 
         {!isLoading && !error && (
-          <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
-            {movies.map((movie) => (
-              <MovieCard key={movie.id} movie={movie} />
-            ))}
-          </div>
+          <section className="space-y-6">
+            <h2 className="text-lg font-semibold">Tonight’s picks</h2>
+            <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+              {movies.map((movie) => (
+                <MovieCard key={movie.id} movie={movie} />
+              ))}
+            </div>
+          </section>
         )}
       </main>
 
@@ -112,6 +150,11 @@ export default function App() {
           </a>
         </div>
       </footer>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
     </div>
   )
 }

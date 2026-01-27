@@ -42,7 +42,7 @@ export function MovieCard({ movie }) {
               {movie.posterUrl ? (
                 <img
                   src={movie.posterUrl}
-                  alt={movie.title}
+                  alt={`${movie.title} movie poster`}
                   className="aspect-[2/3] w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
@@ -60,7 +60,7 @@ export function MovieCard({ movie }) {
               {movie.posterUrl ? (
                 <img
                   src={movie.posterUrl}
-                  alt={movie.title}
+                  alt={`${movie.title} movie poster`}
                   className="w-full rounded-xl object-cover"
                 />
               ) : (
