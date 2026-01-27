@@ -107,8 +107,8 @@ export function MovieCard({ movie }) {
                         Watch trailer
                       </Button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-3xl p-4">
-                      <div className="aspect-video w-full overflow-hidden rounded-lg bg-black">
+                    <DialogContent className="w-[92vw] max-w-5xl p-6">
+                      <div className="aspect-video w-full overflow-hidden rounded-xl bg-black">
                         <iframe
                           src={trailerEmbedUrl}
                           title={`${movie.title} trailer`}
