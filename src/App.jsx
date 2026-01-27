@@ -46,7 +46,7 @@ export default function App() {
             <img
               src="/icon.png"
               alt="WatchTonight logo"
-              className="h-14 w-14 rounded-2xl object-cover"
+              className="h-16 w-16 rounded-2xl object-cover"
             />
             <div>
               <h1
