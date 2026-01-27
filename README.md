@@ -1,16 +1,52 @@
-# React + Vite
+# WatchTonight
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WatchTonight is a minimal, modern movie wall for **recent digital releases you can stream at home**. Click a poster to open a two‑panel dialog with the overview, trailer, and streaming availability.
 
-Currently, two official plugins are available:
+Live: https://watchtonight.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Poster wall with hover zoom
+- Two‑panel dialog per movie (poster + details)
+- Embedded YouTube trailers
+- Streaming providers with logos
+- Light/dark theme toggle (dark default)
+- SEO: Open Graph, Twitter cards, sitemap, robots, JSON‑LD
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech stack
 
-## Expanding the ESLint configuration
+- Vite + React
+- Tailwind CSS
+- shadcn/ui (Button, Card, Dialog, Badge)
+- Lucide icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Data sources
+
+- TMDB
+- OMDb
+- Gemini (summaries)
+
+## Local development
+
+    npm install
+    npm run dev
+
+## Build
+
+    npm run build
+
+`npm run build` also updates the sitemap date from `public/data/movies.json`.
+
+## Deployment (GitHub Pages)
+
+This repo uses GitHub Actions to build and deploy to Pages. After pushing to `main`, the workflow in [.github/workflows/deploy.yml](.github/workflows/deploy.yml) publishes the site.
+
+For the custom domain, the CNAME is stored in [public/CNAME](public/CNAME).
+
+## Content updates
+
+The app reads from [public/data/movies.json](public/data/movies.json). Update that file and deploy to refresh the site.
+
+## License
+
+MIT
