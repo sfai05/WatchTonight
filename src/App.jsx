@@ -8,6 +8,7 @@ export default function App() {
   const [movies, setMovies] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState("")
+  const [lastUpdated, setLastUpdated] = useState("")
 
   useEffect(() => {
     let isMounted = true
@@ -18,6 +19,7 @@ export default function App() {
         const nextMovies = transformMovieData(raw)
         if (isMounted) {
           setMovies(nextMovies)
+          setLastUpdated(raw?.generated_at || "")
           setError("")
         }
       } catch (err) {
@@ -85,6 +87,31 @@ export default function App() {
           </div>
         )}
       </main>
+
+      <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-6 pb-10 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+        <span>
+          Last updated:{" "}
+          {lastUpdated
+            ? new Date(lastUpdated).toLocaleDateString(undefined, {
+                day: "2-digit",
+                month: "short",
+                year: "numeric",
+              })
+            : "Unknown"}
+        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          <span>Powered by TMDB + OMDb + Gemini</span>
+          <span aria-hidden="true">•</span>
+          <a
+            href="https://x.com/timesfai"
+            target="_blank"
+            rel="noreferrer"
+            className="hover:text-foreground"
+          >
+            @timesfai
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
