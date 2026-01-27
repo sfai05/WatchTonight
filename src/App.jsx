@@ -116,7 +116,7 @@ export default function App() {
 
         {!isLoading && !error && (
           <section className="space-y-6">
-            <h2 className="text-lg font-semibold">Tonight’s picks</h2>
+            <h2 className="sr-only">Tonight’s picks</h2>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
               {movies.map((movie) => (
                 <MovieCard key={movie.id} movie={movie} />
