@@ -30,9 +30,12 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
                 srcSet={dialogPosterSrcSet || undefined}
                 sizes="(min-width: 768px) 40vw, 80vw"
                 alt={`${movie.title} movie poster`}
+                width="500"
+                height="750"
                 className={`w-full rounded-xl object-cover ${
                   isDialogPosterLoaded ? "opacity-100" : "opacity-0"
                 }`}
+                decoding="async"
                 onLoad={() => setIsDialogPosterLoaded(true)}
                 onError={() => setIsDialogPosterLoaded(true)}
               />
@@ -110,6 +113,8 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
                         <img
                           src={provider.logoUrl}
                           alt={provider.name}
+                          width="20"
+                          height="20"
                           className="h-5 w-5 rounded object-cover"
                         />
                       ) : null}

@@ -47,6 +47,8 @@ export function MovieCard({ movie, isAboveFold = false }) {
                     srcSet={posterSrcSet || undefined}
                     sizes="(min-width: 1280px) 200px, (min-width: 768px) 33vw, 50vw"
                     alt={`${movie.title} movie poster`}
+                    width="500"
+                    height="750"
                     className={`aspect-[2/3] w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
                       isPosterLoaded ? "opacity-100" : "opacity-0"
                     }`}

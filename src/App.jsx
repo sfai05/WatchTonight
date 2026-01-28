@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
 import { ThemeToggle } from "@/components/ThemeToggle"
+import { Skeleton } from "@/components/ui/skeleton"
 import { fetchMoviesData, transformMovieData } from "@/lib/movieData"
 
 export default function App() {
@@ -108,9 +109,22 @@ export default function App() {
 
       <main className="mx-auto max-w-7xl px-6 py-10">
         {isLoading && (
-          <div className="rounded-xl border bg-card p-6 text-sm text-muted-foreground">
-            Loading fresh picks...
-          </div>
+          <section className="space-y-6">
+            <h2 className="sr-only">Tonight’s picks</h2>
+            <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+              {Array.from({ length: 10 }).map((_, index) => (
+                <div key={`skeleton-${index}`} className="flex h-full flex-col gap-3">
+                  <div className="overflow-hidden rounded-xl">
+                    <Skeleton className="aspect-[2/3] w-full" />
+                  </div>
+                  <div className="space-y-2">
+                    <Skeleton className="h-4 w-5/6" />
+                    <Skeleton className="h-4 w-2/3" />
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
         )}
 
         {error && (
