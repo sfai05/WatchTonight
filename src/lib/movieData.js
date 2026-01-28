@@ -5,6 +5,18 @@ export function getPosterUrl(posterPath, size = "w500") {
   return `${TMDB_IMAGE_BASE}${size}${posterPath}`
 }
 
+export function getPosterSrcSet(posterPath, sizes = ["w185", "w342", "w500"]) {
+  if (!posterPath) return ""
+  return sizes
+    .map((size) => {
+      const width = Number(size.replace("w", ""))
+      if (!Number.isFinite(width)) return null
+      return `${getPosterUrl(posterPath, size)} ${width}w`
+    })
+    .filter(Boolean)
+    .join(", ")
+}
+
 export function getProviderLogoUrl(logoPath, size = "w45") {
   if (!logoPath) return null
   return `${TMDB_IMAGE_BASE}${size}${logoPath}`
@@ -33,6 +45,7 @@ export function transformMovieData(raw) {
     director: movie.director || null,
     topActors: movie.top_actors || [],
     releaseDate: movie.release_date || null,
+    posterPath: movie.poster_path || null,
     posterUrl: getPosterUrl(movie.poster_path, "w500"),
     trailerUrl: movie.trailer_url || null,
     streamingUrl: getStreamingLink(movie),
