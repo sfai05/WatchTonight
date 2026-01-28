@@ -17,7 +17,10 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
   const [isDialogPosterLoaded, setIsDialogPosterLoaded] = useState(false)
 
   return (
-    <DialogContent className="w-[92vw] max-w-5xl p-0">
+    <DialogContent
+      className="left-0 top-0 h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 rounded-none p-0 overflow-y-auto sm:left-[50%] sm:top-[50%] sm:h-auto sm:max-h-[90vh] sm:w-[92vw] sm:max-w-5xl sm:translate-x-[-50%] sm:translate-y-[-50%] sm:rounded-xl sm:overflow-y-auto"
+      style={{ scrollbarGutter: "stable" }}
+    >
       <div className="grid gap-6 md:grid-cols-[1fr_1.1fr] items-stretch">
         <div className="h-full bg-muted/20 p-6">
           {movie.posterUrl ? (
@@ -84,7 +87,10 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
                     Watch trailer
                   </Button>
                 </DialogTrigger>
-                <DialogContent className="w-[92vw] max-w-5xl p-6">
+                <DialogContent
+                  className="left-0 top-0 h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 rounded-none p-6 overflow-y-auto sm:left-[50%] sm:top-[50%] sm:h-auto sm:max-h-[90vh] sm:w-[92vw] sm:max-w-5xl sm:translate-x-[-50%] sm:translate-y-[-50%] sm:rounded-xl sm:overflow-y-auto"
+                  style={{ scrollbarGutter: "stable" }}
+                >
                   <div className="aspect-video w-full overflow-hidden rounded-xl bg-black">
                     <iframe
                       src={trailerEmbedUrl}
