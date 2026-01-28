@@ -3,6 +3,7 @@
 WatchTonight is a minimal, modern movie wall for **recent digital releases you can stream at home**. Click a poster to open a two‑panel dialog with the overview, trailer, and streaming availability.
 
 Live: https://watchtonight.app/
+Inspired by: https://github.com/sjlu/popular-movies
 
 ## Features
 
@@ -36,7 +37,7 @@ Live: https://watchtonight.app/
     npm run build
 
 `npm run build` also updates the sitemap date from `public/data/movies.json`.
-
+x
 ## Deployment (GitHub Pages)
 
 This repo uses GitHub Actions to build and deploy to Pages. After pushing to `main`, the workflow in [.github/workflows/deploy.yml](.github/workflows/deploy.yml) publishes the site.
