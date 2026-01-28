@@ -1,7 +1,7 @@
-import { Moon, Sun } from "lucide-react"
 import { useEffect, useState } from "react"
 
 import { Button } from "@/components/ui/button"
+import { IconMoon, IconSun } from "@/components/icons"
 
 const STORAGE_KEY = "watchtonight-theme"
 
@@ -47,7 +47,7 @@ export function ThemeToggle() {
       aria-label="Toggle theme"
       title="Toggle theme"
     >
-      {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+      {isDark ? <IconSun className="h-4 w-4" /> : <IconMoon className="h-4 w-4" />}
     </Button>
   )
 }
