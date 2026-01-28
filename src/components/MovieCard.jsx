@@ -33,7 +33,7 @@ function getYouTubeEmbedUrl(url) {
   return null
 }
 
-export function MovieCard({ movie }) {
+export function MovieCard({ movie, isAboveFold = false }) {
   const trailerEmbedUrl = getYouTubeEmbedUrl(movie.trailerUrl)
   const posterSrcSet = getPosterSrcSet(movie.posterPath, ["w185", "w342", "w500"])
   const dialogPosterSrcSet = getPosterSrcSet(movie.posterPath, ["w342", "w500", "w780"])
@@ -59,7 +59,9 @@ export function MovieCard({ movie }) {
                     className={`aspect-[2/3] w-full object-cover transition-transform duration-300 group-hover:scale-105 ${
                       isPosterLoaded ? "opacity-100" : "opacity-0"
                     }`}
-                    loading="lazy"
+                    loading={isAboveFold ? "eager" : "lazy"}
+                    fetchpriority={isAboveFold ? "high" : undefined}
+                    decoding="async"
                     onLoad={() => setIsPosterLoaded(true)}
                     onError={() => setIsPosterLoaded(true)}
                   />

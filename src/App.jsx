@@ -123,8 +123,8 @@ export default function App() {
           <section className="space-y-6">
             <h2 className="sr-only">Tonight’s picks</h2>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
-              {movies.map((movie) => (
-                <MovieCard key={movie.id} movie={movie} />
+              {movies.map((movie, index) => (
+                <MovieCard key={movie.id} movie={movie} isAboveFold={index < 5} />
               ))}
             </div>
           </section>
