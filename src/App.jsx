@@ -80,11 +80,16 @@ export default function App() {
       <header>
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-6">
           <div className="flex items-center gap-3">
-            <img
-              src="/icon.png"
-              alt="WatchTonight logo"
-              className="h-16 w-16 rounded-2xl object-cover"
-            />
+            <picture>
+              <source srcSet="/icon-128.webp" type="image/webp" />
+              <img
+                src="/icon-128.png"
+                alt="WatchTonight logo"
+                width="64"
+                height="64"
+                className="h-16 w-16 rounded-2xl object-cover"
+              />
+            </picture>
             <div>
               <h1
                 className="text-3xl font-semibold"
