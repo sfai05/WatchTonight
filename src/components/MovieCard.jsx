@@ -35,7 +35,12 @@ export function MovieCard({ movie, isAboveFold = false }) {
     <div className="flex h-full flex-col gap-3">
       <Dialog>
         <DialogTrigger asChild>
-          <Card className="group cursor-pointer overflow-hidden border-0 shadow-none">
+          <Card
+            className="group cursor-pointer overflow-hidden border-0 shadow-none"
+            data-umami-event="Open details"
+            data-umami-event-title={movie.title}
+            data-umami-event-kind={movie.kind || "movie"}
+          >
             <CardContent className="p-0">
               {movie.posterUrl ? (
                 <div className="relative">

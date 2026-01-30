@@ -2,8 +2,8 @@
 
 WatchTonight is a minimal, modern movie wall for **recent digital releases you can stream at home**. Click a poster to open a two‑panel dialog with the overview, trailer, and streaming availability.
 
-Live: https://watchtonight.app/
-Inspired by: https://github.com/sjlu/popular-movies
+- Live: https://watchtonight.app/
+- Inspired by: https://github.com/sjlu/popular-movies
 
 ## Features
 

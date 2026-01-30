@@ -90,7 +90,12 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
             {trailerEmbedUrl ? (
               <Dialog>
                 <DialogTrigger asChild>
-                  <Button className="w-fit">
+                  <Button
+                    className="w-fit"
+                    data-umami-event="Watch trailer"
+                    data-umami-event-title={movie.title}
+                    data-umami-event-kind={movie.kind || "movie"}
+                  >
                     <IconPlay className="h-4 w-4" />
                     Watch trailer
                   </Button>

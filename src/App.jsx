@@ -148,8 +148,12 @@ export default function App() {
             <h2 className="sr-only">Tonight’s picks</h2>
             <Tabs defaultValue="movies">
               <TabsList className="mb-2">
-                <TabsTrigger value="movies">Movies</TabsTrigger>
-                <TabsTrigger value="tv">TV Shows</TabsTrigger>
+                <TabsTrigger value="movies" data-umami-event="Tab: Movies">
+                  Movies
+                </TabsTrigger>
+                <TabsTrigger value="tv" data-umami-event="Tab: TV Shows">
+                  TV Shows
+                </TabsTrigger>
               </TabsList>
               <TabsContent value="movies">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
