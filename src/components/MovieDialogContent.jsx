@@ -27,6 +27,8 @@ export default function MovieDialogContent({
   sonarrUrl,
 }) {
   const [isDialogPosterLoaded, setIsDialogPosterLoaded] = useState(false)
+  const [showRadarrTip, setShowRadarrTip] = useState(false)
+  const [showSonarrTip, setShowSonarrTip] = useState(false)
   const hasRadarr = Boolean(radarrUrl) && movie?.kind !== "tv"
   const radarrLink = hasRadarr
     ? `${radarrUrl}/add/new?term=${encodeURIComponent(`tmdb:${movie.id}`)}`
@@ -35,6 +37,9 @@ export default function MovieDialogContent({
   const sonarrLink = hasSonarr
     ? `${sonarrUrl}/add/new?term=${encodeURIComponent(`tvdb:${movie.tvdbId}`)}`
     : null
+  const traktLink = movie?.kind === "tv"
+    ? `https://trakt.tv/search?query=${encodeURIComponent(movie.seriesName || movie.title)}&type=show`
+    : `https://trakt.tv/search?query=${encodeURIComponent(movie.title)}&type=movie`
 
   return (
     <DialogContent
@@ -190,9 +195,21 @@ export default function MovieDialogContent({
                     </a>
                   ) : (
                     <TooltipProvider>
-                      <Tooltip>
+                      <Tooltip open={showSonarrTip} onOpenChange={setShowSonarrTip}>
                         <TooltipTrigger asChild>
-                          <span className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70">
+                          <span
+                            className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70"
+                            role="button"
+                            tabIndex={0}
+                            onClick={() => setShowSonarrTip(true)}
+                            onPointerDown={() => setShowSonarrTip(true)}
+                            onKeyDown={(event) => {
+                              if (event.key === "Enter" || event.key === " ") {
+                                event.preventDefault()
+                                setShowSonarrTip(true)
+                              }
+                            }}
+                          >
                             <img
                               src="/icons/sonarr.svg"
                               alt="Sonarr"
@@ -209,6 +226,23 @@ export default function MovieDialogContent({
                       </Tooltip>
                     </TooltipProvider>
                   )}
+                  <a
+                    href={traktLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-umami-event="Open Trakt"
+                    data-umami-event-title={movie.title}
+                    className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
+                  >
+                    <img
+                      src="/icons/trakt.svg"
+                      alt="Trakt"
+                      width="16"
+                      height="16"
+                      className="h-4 w-4"
+                    />
+                    Trakt
+                  </a>
                 </div>
               </div>
             ) : null}
@@ -219,6 +253,23 @@ export default function MovieDialogContent({
                   Add to watchlist
                 </div>
                 <div className="flex flex-wrap gap-2">
+                  <a
+                    href={traktLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-umami-event="Open Trakt"
+                    data-umami-event-title={movie.title}
+                    className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
+                  >
+                    <img
+                      src="/icons/trakt.svg"
+                      alt="Trakt"
+                      width="16"
+                      height="16"
+                      className="h-4 w-4"
+                    />
+                    Trakt
+                  </a>
                   {radarrLink ? (
                     <a
                       href={radarrLink}
@@ -239,9 +290,21 @@ export default function MovieDialogContent({
                     </a>
                   ) : (
                     <TooltipProvider>
-                      <Tooltip>
+                      <Tooltip open={showRadarrTip} onOpenChange={setShowRadarrTip}>
                         <TooltipTrigger asChild>
-                          <span className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70">
+                          <span
+                            className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70"
+                            role="button"
+                            tabIndex={0}
+                            onClick={() => setShowRadarrTip(true)}
+                            onPointerDown={() => setShowRadarrTip(true)}
+                            onKeyDown={(event) => {
+                              if (event.key === "Enter" || event.key === " ") {
+                                event.preventDefault()
+                                setShowRadarrTip(true)
+                              }
+                            }}
+                          >
                             <img
                               src="/icons/radarr.svg"
                               alt="Radarr"
