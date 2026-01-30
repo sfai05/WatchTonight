@@ -52,6 +52,14 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
         <div className="flex h-full flex-col gap-4 p-6">
           <DialogHeader className="text-left">
             <DialogTitle className="text-2xl">{movie.title}</DialogTitle>
+            {movie.kind === "tv" ? (
+              <p className="text-sm text-muted-foreground">
+                {movie.seasonNumber ? `Season ${movie.seasonNumber}` : ""}
+                {movie.episodeCount ? ` · ${movie.episodeCount} episodes` : ""}
+                {movie.network ? ` · ${movie.network}` : ""}
+                {movie.runtime ? ` · ${movie.runtime}m` : ""}
+              </p>
+            ) : null}
             <DialogDescription>{movie.overview}</DialogDescription>
           </DialogHeader>
           <div className="flex flex-wrap gap-2">

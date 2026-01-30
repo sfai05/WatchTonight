@@ -3,25 +3,33 @@ import { useEffect, useMemo, useState } from "react"
 import { MovieCard } from "@/components/MovieCard"
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { Skeleton } from "@/components/ui/skeleton"
-import { fetchMoviesData, transformMovieData } from "@/lib/movieData"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import {
+  fetchMoviesData,
+  fetchTvSeasonsData,
+  getLatestGeneratedAt,
+  transformMovieData,
+  transformTvSeasonData,
+} from "@/lib/movieData"
 
 export default function App() {
   const [movies, setMovies] = useState([])
+  const [tvSeasons, setTvSeasons] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState("")
   const [lastUpdated, setLastUpdated] = useState("")
 
   const structuredData = useMemo(() => {
-    const items = movies.map((movie, index) => ({
+    const items = [...movies, ...tvSeasons].map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
       item: {
-        "@type": "Movie",
-        name: movie.title,
-        description: movie.overview || movie.description,
-        image: movie.posterUrl || undefined,
-        datePublished: movie.releaseDate || undefined,
-        url: movie.infoUrl || "https://watchtonight.app/",
+        "@type": item.kind === "tv" ? "TVSeason" : "Movie",
+        name: item.title,
+        description: item.overview || item.description,
+        image: item.posterUrl || undefined,
+        datePublished: item.releaseDate || undefined,
+        url: item.infoUrl || "https://watchtonight.app/",
       },
     }))
 
@@ -44,23 +52,25 @@ export default function App() {
         },
       ],
     }
-  }, [movies])
+  }, [movies, tvSeasons])
 
   useEffect(() => {
     let isMounted = true
 
-    async function loadMovies() {
+    async function loadTitles() {
       try {
-        const raw = await fetchMoviesData()
-        const nextMovies = transformMovieData(raw)
+        const [moviesRaw, tvRaw] = await Promise.all([fetchMoviesData(), fetchTvSeasonsData()])
+        const nextMovies = transformMovieData(moviesRaw)
+        const nextTv = transformTvSeasonData(tvRaw)
         if (isMounted) {
           setMovies(nextMovies)
-          setLastUpdated(raw?.generated_at || "")
+          setTvSeasons(nextTv)
+          setLastUpdated(getLatestGeneratedAt(moviesRaw?.generated_at, tvRaw?.generated_at))
           setError("")
         }
       } catch (err) {
         if (isMounted) {
-          setError("Could not load movie data.")
+          setError("Could not load content data.")
         }
       } finally {
         if (isMounted) {
@@ -69,7 +79,7 @@ export default function App() {
       }
     }
 
-    loadMovies()
+    loadTitles()
 
     return () => {
       isMounted = false
@@ -107,7 +117,7 @@ export default function App() {
         </div>
       </header>
 
-      <main className="mx-auto max-w-7xl px-6 py-10">
+      <main className="mx-auto max-w-7xl px-6 py-6">
         {isLoading && (
           <section className="space-y-6">
             <h2 className="sr-only">Tonight’s picks</h2>
@@ -134,13 +144,28 @@ export default function App() {
         )}
 
         {!isLoading && !error && (
-          <section className="space-y-6">
+          <section className="space-y-4">
             <h2 className="sr-only">Tonight’s picks</h2>
-            <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
-              {movies.map((movie, index) => (
-                <MovieCard key={movie.id} movie={movie} isAboveFold={index < 5} />
-              ))}
-            </div>
+            <Tabs defaultValue="movies">
+              <TabsList className="mb-2">
+                <TabsTrigger value="movies">Movies</TabsTrigger>
+                <TabsTrigger value="tv">TV Shows</TabsTrigger>
+              </TabsList>
+              <TabsContent value="movies">
+                <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+                  {movies.map((movie, index) => (
+                    <MovieCard key={movie.id} movie={movie} isAboveFold={index < 5} />
+                  ))}
+                </div>
+              </TabsContent>
+              <TabsContent value="tv">
+                <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+                  {tvSeasons.map((season, index) => (
+                    <MovieCard key={season.id} movie={season} isAboveFold={index < 5} />
+                  ))}
+                </div>
+              </TabsContent>
+            </Tabs>
           </section>
         )}
       </main>
