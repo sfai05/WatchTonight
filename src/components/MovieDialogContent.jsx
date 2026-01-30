@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Skeleton } from "@/components/ui/skeleton"
-import { IconMonitorPlay, IconPlay } from "@/components/icons"
+import { IconMonitorPlay, IconPlay, IconPlus } from "@/components/icons"
 import {
   Dialog,
   DialogContent,
@@ -12,9 +12,29 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip"
 
-export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPosterSrcSet }) {
+export default function MovieDialogContent({
+  movie,
+  trailerEmbedUrl,
+  dialogPosterSrcSet,
+  radarrUrl,
+  sonarrUrl,
+}) {
   const [isDialogPosterLoaded, setIsDialogPosterLoaded] = useState(false)
+  const hasRadarr = Boolean(radarrUrl) && movie?.kind !== "tv"
+  const radarrLink = hasRadarr
+    ? `${radarrUrl}/add/new?term=${encodeURIComponent(`tmdb:${movie.id}`)}`
+    : null
+  const hasSonarr = Boolean(sonarrUrl) && movie?.kind === "tv" && movie?.tvdbId
+  const sonarrLink = hasSonarr
+    ? `${sonarrUrl}/add/new?term=${encodeURIComponent(`tvdb:${movie.tvdbId}`)}`
+    : null
 
   return (
     <DialogContent
@@ -140,6 +160,104 @@ export default function MovieDialogContent({ movie, trailerEmbedUrl, dialogPoste
                       <span className="text-xs">{provider.name}</span>
                     </div>
                   ))}
+                </div>
+              </div>
+            ) : null}
+            {movie?.kind === "tv" ? (
+              <div className="mt-4 grid gap-2">
+                <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground">
+                  <IconPlus className="h-4 w-4" />
+                  Add to watchlist
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {sonarrLink ? (
+                    <a
+                      href={sonarrLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      data-umami-event="Open Sonarr"
+                      data-umami-event-title={movie.title}
+                      className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
+                    >
+                      <img
+                        src="/icons/sonarr.svg"
+                        alt="Sonarr"
+                        width="16"
+                        height="16"
+                        className="h-4 w-4"
+                      />
+                      Sonarr
+                    </a>
+                  ) : (
+                    <TooltipProvider>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <span className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70">
+                            <img
+                              src="/icons/sonarr.svg"
+                              alt="Sonarr"
+                              width="16"
+                              height="16"
+                              className="h-4 w-4 opacity-50"
+                            />
+                            Sonarr
+                          </span>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Configure your Sonarr server URL in Settings to enable this.
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  )}
+                </div>
+              </div>
+            ) : null}
+            {movie?.kind !== "tv" ? (
+              <div className="mt-4 grid gap-2">
+                <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-muted-foreground">
+                  <IconPlus className="h-4 w-4" />
+                  Add to watchlist
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {radarrLink ? (
+                    <a
+                      href={radarrLink}
+                      target="_blank"
+                      rel="noreferrer"
+                      data-umami-event="Open Radarr"
+                      data-umami-event-title={movie.title}
+                      className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
+                    >
+                      <img
+                        src="/icons/radarr.svg"
+                        alt="Radarr"
+                        width="16"
+                        height="16"
+                        className="h-4 w-4"
+                      />
+                      Radarr
+                    </a>
+                  ) : (
+                    <TooltipProvider>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <span className="flex items-center gap-2 rounded-md bg-secondary/50 px-3 py-2 text-xs text-muted-foreground opacity-70">
+                            <img
+                              src="/icons/radarr.svg"
+                              alt="Radarr"
+                              width="16"
+                              height="16"
+                              className="h-4 w-4 opacity-50"
+                            />
+                            Radarr
+                          </span>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          Configure your Radarr server URL in Settings to enable this.
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  )}
                 </div>
               </div>
             ) : null}

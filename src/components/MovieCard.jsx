@@ -25,7 +25,7 @@ function getYouTubeEmbedUrl(url) {
   return null
 }
 
-export function MovieCard({ movie, isAboveFold = false }) {
+export function MovieCard({ movie, isAboveFold = false, radarrUrl = "", sonarrUrl = "" }) {
   const trailerEmbedUrl = getYouTubeEmbedUrl(movie.trailerUrl)
   const posterSrcSet = getPosterSrcSet(movie.posterPath, ["w185", "w342", "w500"])
   const dialogPosterSrcSet = getPosterSrcSet(movie.posterPath, ["w342", "w500", "w780"])
@@ -77,6 +77,8 @@ export function MovieCard({ movie, isAboveFold = false }) {
             movie={movie}
             trailerEmbedUrl={trailerEmbedUrl}
             dialogPosterSrcSet={dialogPosterSrcSet}
+            radarrUrl={radarrUrl}
+            sonarrUrl={sonarrUrl}
           />
         </Suspense>
       </Dialog>

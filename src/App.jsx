@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
+import { SettingsDialog } from "@/components/SettingsDialog"
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -18,6 +19,8 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(true)
   const [error, setError] = useState("")
   const [lastUpdated, setLastUpdated] = useState("")
+  const [radarrUrl, setRadarrUrl] = useState("")
+  const [sonarrUrl, setSonarrUrl] = useState("")
 
   const structuredData = useMemo(() => {
     const items = [...movies, ...tvSeasons].map((item, index) => ({
@@ -86,6 +89,14 @@ export default function App() {
     }
   }, [])
 
+  useEffect(() => {
+    if (typeof window === "undefined") return
+    const stored = localStorage.getItem("watchtonight-radarr-url") || ""
+    setRadarrUrl(stored)
+    const storedSonarr = localStorage.getItem("watchtonight-sonarr-url") || ""
+    setSonarrUrl(storedSonarr)
+  }, [])
+
   return (
     <div className="min-h-screen bg-background text-foreground">
       <header>
@@ -113,7 +124,15 @@ export default function App() {
               </p>
             </div>
           </div>
-          <ThemeToggle />
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <SettingsDialog
+              onSave={({ radarrUrl: next, sonarrUrl: nextSonarr }) => {
+                setRadarrUrl(next)
+                setSonarrUrl(nextSonarr)
+              }}
+            />
+          </div>
         </div>
       </header>
 
@@ -158,14 +177,26 @@ export default function App() {
               <TabsContent value="movies">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
                   {movies.map((movie, index) => (
-                    <MovieCard key={movie.id} movie={movie} isAboveFold={index < 5} />
+                    <MovieCard
+                      key={movie.id}
+                      movie={movie}
+                      isAboveFold={index < 5}
+                      radarrUrl={radarrUrl}
+                      sonarrUrl={sonarrUrl}
+                    />
                   ))}
                 </div>
               </TabsContent>
               <TabsContent value="tv">
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
                   {tvSeasons.map((season, index) => (
-                    <MovieCard key={season.id} movie={season} isAboveFold={index < 5} />
+                    <MovieCard
+                      key={season.id}
+                      movie={season}
+                      isAboveFold={index < 5}
+                      radarrUrl={radarrUrl}
+                      sonarrUrl={sonarrUrl}
+                    />
                   ))}
                 </div>
               </TabsContent>

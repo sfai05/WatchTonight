@@ -126,6 +126,7 @@ export function transformTvSeasonData(raw) {
     runtime: season.runtime,
     status: season.status,
     imdbRating: season?.ratings?.imdb?.rating ?? null,
+    tvdbId: season.tvdb_id || null,
   }))
 }
 
