@@ -2,7 +2,7 @@ import fs from "fs"
 import path from "path"
 
 const projectRoot = process.cwd()
-const dataPath = path.join(projectRoot, "public", "data", "movies.json")
+const dataPath = path.join(projectRoot, "public", "content", "movies.json")
 const sitemapPath = path.join(projectRoot, "public", "sitemap.xml")
 
 function getLastModifiedDate() {

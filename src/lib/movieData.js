@@ -27,7 +27,7 @@ export function getStreamingLink(movie) {
 }
 
 export async function fetchMoviesData() {
-  const response = await fetch("/data/movies.json")
+  const response = await fetch("/content/movies.json")
   if (!response.ok) {
     throw new Error("Unable to load movies data")
   }
@@ -35,7 +35,7 @@ export async function fetchMoviesData() {
 }
 
 export async function fetchTvSeasonsData() {
-  const response = await fetch("/data/tv_seasons.json")
+  const response = await fetch("/content/tv_seasons.json")
   if (!response.ok) {
     throw new Error("Unable to load TV seasons data")
   }
