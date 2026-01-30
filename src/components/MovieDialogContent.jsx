@@ -175,6 +175,23 @@ export default function MovieDialogContent({
                   Add to watchlist
                 </div>
                 <div className="flex flex-wrap gap-2">
+                  <a
+                    href={traktLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    data-umami-event="Open Trakt"
+                    data-umami-event-title={movie.title}
+                    className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
+                  >
+                    <img
+                      src="/icons/trakt.svg"
+                      alt="Trakt"
+                      width="16"
+                      height="16"
+                      className="h-4 w-4"
+                    />
+                    Trakt
+                  </a>
                   {sonarrLink ? (
                     <a
                       href={sonarrLink}
@@ -226,23 +243,6 @@ export default function MovieDialogContent({
                       </Tooltip>
                     </TooltipProvider>
                   )}
-                  <a
-                    href={traktLink}
-                    target="_blank"
-                    rel="noreferrer"
-                    data-umami-event="Open Trakt"
-                    data-umami-event-title={movie.title}
-                    className="flex items-center gap-2 rounded-md bg-secondary px-3 py-2 text-xs text-secondary-foreground"
-                  >
-                    <img
-                      src="/icons/trakt.svg"
-                      alt="Trakt"
-                      width="16"
-                      height="16"
-                      className="h-4 w-4"
-                    />
-                    Trakt
-                  </a>
                 </div>
               </div>
             ) : null}
