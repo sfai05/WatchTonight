@@ -1,7 +1,91 @@
 {
-  "generated_at": "2026-02-22T07:19:00.703418",
+  "generated_at": "2026-02-23T07:27:36.127455",
   "count": 30,
   "seasons": [
+    {
+      "series_id": 66732,
+      "series_name": "Stranger Things",
+      "series_imdb_id": "tt4574334",
+      "season_number": 5,
+      "season_id": 402292,
+      "air_date": "2025-11-26",
+      "age_days": 89,
+      "best_rank": 6,
+      "description": "The epic return to Hawkins, a fan-favorite cultural phenomenon!",
+      "overview": "The fall of 1987. Hawkins is scarred by rifts. Vecna has vanished and the government has placed the town under military quarantine, forcing Eleven back into hiding. To end this nightmare, they'll need everyone together, one last time.",
+      "episode_count": 8,
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Fantasy",
+        "Drama",
+        "Adventure",
+        "Suspense",
+        "Thriller",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Winona Ryder",
+        "David Harbour",
+        "Millie Bobby Brown"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=PssKpzB0Ah0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg",
+      "tvdb_id": 305288,
+      "tvdb_season_id": 2028943,
+      "network": "Netflix",
+      "runtime": 65,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 94.67,
+        "imdb": {
+          "rating": 8.466666666666667,
+          "votes": 1658013,
+          "season_rating": 8.466666666666667
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=AU"
+        }
+      },
+      "poster_path": "/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg",
+      "backdrop_path": null
+    },
     {
       "series_id": 224372,
       "series_name": "A Knight of the Seven Kingdoms",
@@ -9,9 +93,9 @@
       "season_number": 1,
       "season_id": 336816,
       "air_date": "2026-01-18",
-      "age_days": 35,
+      "age_days": 36,
       "best_rank": 1,
-      "description": "The highly anticipated Game of Thrones prequel is finally here!",
+      "description": "Westeros returns! A thrilling new fantasy epic in the Seven Kingdoms.",
       "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
       "episode_count": 6,
       "genres": [
@@ -70,15 +154,82 @@
       "backdrop_path": null
     },
     {
+      "series_id": 301507,
+      "series_name": "Heated Rivalry",
+      "series_imdb_id": "tt35495073",
+      "season_number": 1,
+      "season_id": 476908,
+      "air_date": "2025-11-28",
+      "age_days": 87,
+      "best_rank": 13,
+      "description": "This critically adored sports drama is a powerful, must-watch sensation.",
+      "overview": "Two hockey players must decide if there is room in their fiercely competitive world for real love.",
+      "episode_count": 6,
+      "genres": [
+        "Drama",
+        "Sport",
+        "Romance"
+      ],
+      "top_actors": [
+        "Hudson Williams",
+        "Connor Storrie",
+        "François Arnaud"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=ADi1iextoUM",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tSoFSTmHsTmK50HPYDj0jD1Qbi6.jpg",
+      "tvdb_id": 464461,
+      "tvdb_season_id": 2190307,
+      "network": "Crave",
+      "runtime": 47,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 99.83,
+        "imdb": {
+          "rating": 9.483333333333334,
+          "votes": 88996,
+          "season_rating": 9.483333333333334
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/301507-heated-rivalry/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/301507-heated-rivalry/watch?locale=AU"
+        }
+      },
+      "poster_path": "/tSoFSTmHsTmK50HPYDj0jD1Qbi6.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 129552,
       "series_name": "The Night Agent",
       "series_imdb_id": "tt13918776",
       "season_number": 3,
       "season_id": 441556,
       "air_date": "2026-02-19",
-      "age_days": 3,
+      "age_days": 4,
       "best_rank": 2,
-      "description": "New twists and turns in this high-octane thriller.",
+      "description": "Season 3 delivers more high-stakes action and political intrigue.",
       "overview": "Coming off the explosive events of Season Two, Night Agent Peter Sutherland is called in to track down a young Treasury Agent who fled to Istanbul with sensitive government intel after killing his boss. This kicks off a sequence of events where Peter investigates a dark money network while avoiding its paid assassins, while putting him on a collision course with a relentless journalist. Working together, they uncover buried secrets and old grudges that threaten to bring the government to its knees -- and get them both killed in the process.",
       "episode_count": 10,
       "genres": [
@@ -153,9 +304,9 @@
       "season_number": 2,
       "season_id": 471098,
       "air_date": "2026-01-08",
-      "age_days": 45,
-      "best_rank": 8,
-      "description": "Season 2 earns incredible critical acclaim. A must-watch drama.",
+      "age_days": 46,
+      "best_rank": 10,
+      "description": "Critics are raving; this drama just gets better and better.",
       "overview": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "episode_count": 15,
       "genres": [
@@ -234,342 +385,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 66732,
-      "series_name": "Stranger Things",
-      "series_imdb_id": "tt4574334",
-      "season_number": 5,
-      "season_id": 402292,
-      "air_date": "2025-11-26",
-      "age_days": 88,
-      "best_rank": 7,
-      "description": "The epic final season everyone's been waiting for.",
-      "overview": "The fall of 1987. Hawkins is scarred by rifts. Vecna has vanished and the government has placed the town under military quarantine, forcing Eleven back into hiding. To end this nightmare, they'll need everyone together, one last time.",
-      "episode_count": 8,
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Fantasy",
-        "Drama",
-        "Adventure",
-        "Suspense",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Winona Ryder",
-        "David Harbour",
-        "Millie Bobby Brown"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=PssKpzB0Ah0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg",
-      "tvdb_id": 305288,
-      "tvdb_season_id": 2028943,
-      "network": "Netflix",
-      "runtime": 65,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 94.67,
-        "imdb": {
-          "rating": 8.466666666666667,
-          "votes": 1658013,
-          "season_rating": 8.466666666666667
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/66732-stranger-things/watch?locale=AU"
-        }
-      },
-      "poster_path": "/5i5Fg549J27knMvhI5NRM2FT3Gn.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 60694,
-      "series_name": "Last Week Tonight with John Oliver",
-      "series_imdb_id": "tt3530232",
-      "season_number": 13,
-      "season_id": 494774,
-      "air_date": "2026-02-15",
-      "age_days": 7,
-      "best_rank": null,
-      "description": "John Oliver is back with more sharp, hilarious takes.",
-      "overview": "Last Week Tonight with John Oliver is an American late-night talk and news satire television program.  \r\nLWT draws its comedy and satire from recent news stories, political figures, media organizations, pop culture, and often aspects of the show itself.",
-      "episode_count": 6,
-      "genres": [
-        "News",
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "John Oliver"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=PawUmci7JuU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
-      "tvdb_id": 278518,
-      "tvdb_season_id": 2217594,
-      "network": "HBO",
-      "runtime": 33,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 98.0,
-        "imdb": {
-          "rating": 8.8,
-          "votes": 104748,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=AU"
-        }
-      },
-      "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 136311,
-      "series_name": "Shrinking",
-      "series_imdb_id": "tt15677150",
-      "season_number": 3,
-      "season_id": 480887,
-      "air_date": "2026-01-27",
-      "age_days": 26,
-      "best_rank": 25,
-      "description": "Critics are raving: this comedy delivers genuine heart and laughs.",
-      "overview": "Jimmy and his rag-tag crew pick up the pieces of last season, forcing them to reckon with grief, second chances, and the messy road toward healing. With old clients still reeling and a few new faces entering the fold",
-      "episode_count": 11,
-      "genres": [
-        "Comedy"
-      ],
-      "top_actors": [
-        "Jason Segel",
-        "Harrison Ford",
-        "Jessica Williams"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=vGWSq5mra-w",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
-      "tvdb_id": 411364,
-      "tvdb_season_id": 2212525,
-      "network": "Apple TV",
-      "runtime": 35,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 94.0,
-        "imdb": {
-          "rating": 8.9,
-          "votes": 114666,
-          "season_rating": 8.9
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/136311-shrinking/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/136311-shrinking/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/136311-shrinking/watch?locale=AU"
-        }
-      },
-      "poster_path": "/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 301507,
-      "series_name": "Heated Rivalry",
-      "series_imdb_id": "tt35495073",
-      "season_number": 1,
-      "season_id": 476908,
-      "air_date": "2025-11-28",
-      "age_days": 86,
-      "best_rank": 19,
-      "description": "High-stakes sport and romance collide in this new drama.",
-      "overview": "Two hockey players must decide if there is room in their fiercely competitive world for real love.",
-      "episode_count": 6,
-      "genres": [
-        "Drama",
-        "Sport",
-        "Romance"
-      ],
-      "top_actors": [
-        "Hudson Williams",
-        "Connor Storrie",
-        "François Arnaud"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=ADi1iextoUM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tSoFSTmHsTmK50HPYDj0jD1Qbi6.jpg",
-      "tvdb_id": 464461,
-      "tvdb_season_id": 2190307,
-      "network": "Crave",
-      "runtime": 47,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 99.83,
-        "imdb": {
-          "rating": 9.483333333333334,
-          "votes": 49585,
-          "season_rating": 9.483333333333334
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/301507-heated-rivalry/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/301507-heated-rivalry/watch?locale=AU"
-        }
-      },
-      "poster_path": "/tSoFSTmHsTmK50HPYDj0jD1Qbi6.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 106379,
       "series_name": "Fallout",
       "series_imdb_id": "tt12637874",
       "season_number": 2,
       "season_id": 455510,
       "air_date": "2025-12-16",
-      "age_days": 68,
-      "best_rank": 7,
-      "description": "Return to the wasteland in this fan-favorite game adaptation!",
+      "age_days": 69,
+      "best_rank": 8,
+      "description": "Return to the Wasteland; the post-apocalyptic hit is back.",
       "overview": "What say you Ms MacLean?",
       "episode_count": 8,
       "genres": [
@@ -617,15 +441,197 @@
       "backdrop_path": null
     },
     {
+      "series_id": 225171,
+      "series_name": "Pluribus",
+      "series_imdb_id": "tt22202452",
+      "season_number": 1,
+      "season_id": 338336,
+      "air_date": "2025-11-06",
+      "age_days": 109,
+      "best_rank": null,
+      "description": "A stunning, critically acclaimed new sci-fi series you can't miss.",
+      "overview": "Pluribus follows Albuquerque author Carol Sturka, who is one of only 13 people in the world immune to the effects of the \"Joining\", an event in which an extraterrestrial virus transformed the rest of humanity into a peaceful and content hive mind known as the \"Others\". The hive mind happily accommodates the wishes of those who remain unaffected, but admits that it will ultimately seek to assimilate them when it learns how to do so. Carol is adamantly against their efforts as she searches for a way to reverse the Joining.",
+      "episode_count": 9,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "top_actors": [
+        "Rhea Seehorn",
+        "Karolina Wydra",
+        "Carlos-Manuel Vesga"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=VJzI7fD1gmg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
+      "tvdb_id": 436457,
+      "tvdb_season_id": 2070034,
+      "network": "Apple TV",
+      "runtime": 50,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 80.5,
+        "imdb": {
+          "rating": 8.05,
+          "votes": 127774,
+          "season_rating": 8.05
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=AU"
+        }
+      },
+      "poster_path": "/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 90812,
+      "series_name": "Industry",
+      "series_imdb_id": "tt7671070",
+      "season_number": 4,
+      "season_id": 424529,
+      "air_date": "2026-01-11",
+      "age_days": 43,
+      "best_rank": 35,
+      "description": "Season 4 dives deeper into high-finance ruthlessness and ambition.",
+      "overview": "At the top of their game and living the lives they set out to have as Pierpoint grads, Harper and Yasmin are drawn into a high stakes, globetrotting cat-and-mouse game when a splashy fintech darling bursts onto the London scene. As Yasmin navigates her relationship with tech founder Sir Henry Muck and Harper is pulled into the orbit of enigmatic executive Whitney Halberstram, their twisted friendship begins to warp and ignite under the pressure of money, power, and the desire to be on top.",
+      "episode_count": 8,
+      "genres": [
+        "Drama"
+      ],
+      "top_actors": [
+        "Myha'la"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=J8RlPOz1uAY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mZ7YFEOxAKfjXJKWm0sYFXQ8n8A.jpg",
+      "tvdb_id": 371796,
+      "tvdb_season_id": 2218088,
+      "network": "HBO",
+      "runtime": 57,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 94.0,
+        "imdb": {
+          "rating": 9.2,
+          "votes": 21707,
+          "season_rating": 9.2
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/90812-industry/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/90812-industry/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/90812-industry/watch?locale=AU"
+        }
+      },
+      "poster_path": "/mZ7YFEOxAKfjXJKWm0sYFXQ8n8A.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 128904,
       "series_name": "Dark Winds",
       "series_imdb_id": "tt15017118",
       "season_number": 4,
       "season_id": 481370,
       "air_date": "2026-02-15",
-      "age_days": 7,
-      "best_rank": 24,
-      "description": "Critically acclaimed crime thriller returns with a new mystery.",
+      "age_days": 8,
+      "best_rank": 22,
+      "description": "Compelling mystery and atmospheric thrills return in this acclaimed drama.",
       "overview": "The fourth season focuses on the search for a missing Navajo girl, which takes Leaphorn, Chee and Manuelito from the safety of Navajo Nation to the gritty terrain of 1970s Los Angeles in a race against the clock to save her from an obsessive killer with ties to organized crime.",
       "episode_count": 8,
       "genres": [
@@ -740,120 +746,37 @@
       "backdrop_path": null
     },
     {
-      "series_id": 225171,
-      "series_name": "Pluribus",
-      "series_imdb_id": "tt22202452",
-      "season_number": 1,
-      "season_id": 338336,
-      "air_date": "2025-11-06",
-      "age_days": 108,
-      "best_rank": null,
-      "description": "Thought-provoking new sci-fi drama with rave reviews.",
-      "overview": "Pluribus follows Albuquerque author Carol Sturka, who is one of only 13 people in the world immune to the effects of the \"Joining\", an event in which an extraterrestrial virus transformed the rest of humanity into a peaceful and content hive mind known as the \"Others\". The hive mind happily accommodates the wishes of those who remain unaffected, but admits that it will ultimately seek to assimilate them when it learns how to do so. Carol is adamantly against their efforts as she searches for a way to reverse the Joining.",
-      "episode_count": 9,
+      "series_id": 245927,
+      "series_name": "Paradise",
+      "series_imdb_id": "tt27444205",
+      "season_number": 2,
+      "season_id": 486538,
+      "air_date": "2026-02-23",
+      "age_days": 0,
+      "best_rank": 5,
+      "description": "Dive into a compelling sci-fi thriller that just launched!",
+      "overview": "Xavier searches for Teri out in the world and learns how people survived the three years since The Day. Back in Paradise, the social fabric frays as the bunker deals with the aftermath of Season 1, and new secrets are uncovered about the city's origins.",
+      "episode_count": 8,
       "genres": [
         "Science Fiction",
-        "Drama"
-      ],
-      "top_actors": [
-        "Rhea Seehorn",
-        "Karolina Wydra",
-        "Carlos-Manuel Vesga"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=VJzI7fD1gmg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
-      "tvdb_id": 436457,
-      "tvdb_season_id": 2070034,
-      "network": "Apple TV",
-      "runtime": 50,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 80.5,
-        "imdb": {
-          "rating": 8.05,
-          "votes": 127774,
-          "season_rating": 8.05
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225171-pluribus/watch?locale=AU"
-        }
-      },
-      "poster_path": "/nrM2xFUfKJJEmZzd5d7kohT2G0C.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 79744,
-      "series_name": "The Rookie",
-      "series_imdb_id": "tt7587890",
-      "season_number": 8,
-      "season_id": 455290,
-      "air_date": "2026-01-06",
-      "age_days": 47,
-      "best_rank": 9,
-      "description": "Action-packed season with the fan-favorite police drama.",
-      "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries — including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
-      "episode_count": 18,
-      "genres": [
         "Drama",
-        "Crime",
-        "Action",
         "Thriller"
       ],
-      "top_actors": [
-        "Nathan Fillion",
-        "Melissa O'Neil",
-        "Eric Winter"
-      ],
+      "top_actors": [],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=8BPlx6eK1vc",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
-      "tvdb_id": 350665,
-      "tvdb_season_id": 2211390,
-      "network": "ABC (US)",
-      "runtime": 44,
+      "trailer_url": "https://www.youtube.com/watch?v=wQfqQ-oIXiA",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg",
+      "tvdb_id": 454565,
+      "tvdb_season_id": 2182615,
+      "network": "Hulu",
+      "runtime": 52,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 93.33,
+        "composite_score": 100.0,
         "imdb": {
-          "rating": 8.133333333333333,
-          "votes": 120183,
-          "season_rating": 8.133333333333333
+          "rating": 7.8,
+          "votes": 61556,
+          "season_rating": null
         }
       },
       "streaming_availability": {
@@ -865,60 +788,21 @@
                 "provider_name": "Hulu",
                 "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
               }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/245927-paradise/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              },
-              {
                 "provider_id": 337,
                 "provider_name": "Disney Plus",
                 "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/245927-paradise/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -927,68 +811,49 @@
                 "provider_id": 337,
                 "provider_name": "Disney Plus",
                 "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/245927-paradise/watch?locale=AU"
         }
       },
-      "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "poster_path": "/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg",
       "backdrop_path": null
     },
     {
-      "series_id": 116799,
-      "series_name": "The Lincoln Lawyer",
-      "series_imdb_id": "tt13833978",
-      "season_number": 4,
-      "season_id": 474694,
-      "air_date": "2026-02-05",
-      "age_days": 17,
-      "best_rank": 38,
-      "description": "Mickey Haller returns for more thrilling courtroom drama.",
-      "overview": "Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career — and his trademark Lincoln — when he takes on a murder case.",
-      "episode_count": 10,
+      "series_id": 60694,
+      "series_name": "Last Week Tonight with John Oliver",
+      "series_imdb_id": "tt3530232",
+      "season_number": 13,
+      "season_id": 494774,
+      "air_date": "2026-02-15",
+      "age_days": 8,
+      "best_rank": null,
+      "description": "John Oliver brings sharp wit and vital insights weekly.",
+      "overview": "Last Week Tonight with John Oliver is an American late-night talk and news satire television program.  \r\nLWT draws its comedy and satire from recent news stories, political figures, media organizations, pop culture, and often aspects of the show itself.",
+      "episode_count": 6,
       "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
+        "News",
+        "Comedy",
+        "Talk Show"
       ],
       "top_actors": [
-        "Manuel Garcia-Rulfo",
-        "Neve Campbell",
-        "Becki Newton"
+        "John Oliver"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=u-sLh8-ohzc",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fFAWn02ieRC7PhN3R4rrHcnM7mJ.jpg",
-      "tvdb_id": 399909,
-      "tvdb_season_id": 2200999,
-      "network": "Netflix",
-      "runtime": 50,
+      "trailer_url": "https://www.youtube.com/watch?v=PawUmci7JuU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
+      "tvdb_id": 278518,
+      "tvdb_season_id": 2217594,
+      "network": "HBO",
+      "runtime": 33,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 85.0,
+        "composite_score": 98.0,
         "imdb": {
-          "rating": 8.0,
-          "votes": 92443,
-          "season_rating": 8.0
+          "rating": 8.8,
+          "votes": 104748,
+          "season_rating": null
         }
       },
       "streaming_availability": {
@@ -996,9 +861,9 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
               }
             ],
             "buy": [
@@ -1016,42 +881,42 @@
                 "provider_id": 3,
                 "provider_name": "Google Play Movies",
                 "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/116799-the-lincoln-lawyer/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=US"
         },
         "CA": {
           "services": {
-            "subscription": [
+            "buy": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/116799-the-lincoln-lawyer/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=CA"
         },
         "AU": {
           "services": {
-            "subscription": [
+            "buy": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/116799-the-lincoln-lawyer/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/60694-last-week-tonight-with-john-oliver/watch?locale=AU"
         }
       },
-      "poster_path": "/fFAWn02ieRC7PhN3R4rrHcnM7mJ.jpg",
+      "poster_path": "/fuuEjEr69uvRtGaQw70JfvdrUwb.jpg",
       "backdrop_path": null
     },
     {
@@ -1061,9 +926,9 @@
       "season_number": 24,
       "season_id": 484484,
       "air_date": "2026-02-15",
-      "age_days": 7,
-      "best_rank": 17,
-      "description": "The Griffins return for another season of outrageous comedy.",
+      "age_days": 8,
+      "best_rank": 18,
+      "description": "More outrageous laughs and classic Quahog shenanigans. Still fresh!",
       "overview": "A sick, twisted, and politically incorrect animated series following the adventures of the dysfunctional Griffin family living in Quahog. Drunk goof Peter and long-suffering Lois are parents to three kids: sadistic Stewie, unpopular Meg, and not-so bright Chris, as well as talking dog Brian - who is much more than a pet. The Griffins navigate life's commodities and their selfish desires alongside the townspeople of Quahog.",
       "episode_count": 17,
       "genres": [
@@ -1169,122 +1034,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 61859,
-      "series_name": "The Night Manager",
-      "series_imdb_id": "tt1399664",
-      "season_number": 2,
-      "season_id": 483667,
-      "air_date": "2025-12-31",
-      "age_days": 53,
-      "best_rank": 20,
-      "description": "Tom Hiddleston returns in the gripping spy thriller!",
-      "overview": "Nine years have passed since Jonathan Pine tricked Richard Roper in Egypt and sent him into the hands of his Syrian captors. Now, Roper is dead, and Jonathan Pine has become Alex Goodwin, a low-level intelligence officer with MI6. Then, Pine sees an old Roper mercenary in London. And his new secure life begins to unravel.",
-      "episode_count": 6,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Tom Hiddleston",
-        "Hugh Laurie",
-        "Diego Calva"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=1LY1AJ48O0Y",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1MccRnw41qQjREuZkovqP2UX1i3.jpg",
-      "tvdb_id": 290508,
-      "tvdb_season_id": 2215289,
-      "network": "BBC One",
-      "runtime": 58,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 84.6,
-        "imdb": {
-          "rating": 7.76,
-          "votes": 131241,
-          "season_rating": 7.76
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/61859-the-night-manager/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/61859-the-night-manager/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/61859-the-night-manager/watch?locale=AU"
-        }
-      },
-      "poster_path": "/1MccRnw41qQjREuZkovqP2UX1i3.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 200875,
       "series_name": "IT: Welcome to Derry",
       "series_imdb_id": "tt19244304",
       "season_number": 1,
       "season_id": 291792,
       "air_date": "2025-10-26",
-      "age_days": 119,
+      "age_days": 120,
       "best_rank": null,
-      "description": "Step into the terrifying world before Pennywise's return.",
+      "description": "Step into Derry's chilling past; the horror prequel begins.",
       "overview": "In 1962, amid a spate of unexplained disappearances of local children, a group of misfit friends begin to suspect a long-buried evil lurking. As the kids set out to determine what's really going on, a rising unease prompts several townspeople to work together to restore peace – all while a U.S. military operation seeks to exploit Derry for its own objectives.",
       "episode_count": 8,
       "genres": [
@@ -1397,15 +1155,231 @@
       "backdrop_path": null
     },
     {
+      "series_id": 259731,
+      "series_name": "HIS & HERS",
+      "series_imdb_id": "tt33035373",
+      "season_number": 1,
+      "season_id": 403464,
+      "air_date": "2026-01-08",
+      "age_days": 46,
+      "best_rank": null,
+      "description": "A fresh drama-comedy exploring relationships with charm and wit.",
+      "overview": "Reclusive former news anchor Anna Andrews becomes obsessed with a murder case in her hometown. Her estranged husband, Detective Jack Harper, suspicious of her involvement, puts Anna in the crosshairs of his investigation.",
+      "episode_count": 12,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Sport",
+        "Romance"
+      ],
+      "top_actors": [
+        "Tessa Thompson",
+        "Jon Bernthal",
+        "Pablo Schreiber"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=8_szlvBLll0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "tvdb_id": 368269,
+      "tvdb_season_id": 822365,
+      "network": "WeTV",
+      "runtime": 30,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 83.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 65040,
+          "season_rating": 8.1
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=AU"
+        }
+      },
+      "poster_path": "/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 79744,
+      "series_name": "The Rookie",
+      "series_imdb_id": "tt7587890",
+      "season_number": 8,
+      "season_id": 455290,
+      "air_date": "2026-01-06",
+      "age_days": 48,
+      "best_rank": 12,
+      "description": "Your favorite police procedural returns with more thrilling cases.",
+      "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries — including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
+      "episode_count": 18,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Nathan Fillion",
+        "Melissa O'Neil",
+        "Eric Winter"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=8BPlx6eK1vc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "tvdb_id": 350665,
+      "tvdb_season_id": 2211390,
+      "network": "ABC (US)",
+      "runtime": 44,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 88.33,
+        "imdb": {
+          "rating": 8.133333333333333,
+          "votes": 120183,
+          "season_rating": 8.133333333333333
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/79744-the-rookie/watch?locale=AU"
+        }
+      },
+      "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 198178,
       "series_name": "Wonder Man",
       "series_imdb_id": "tt21066182",
       "season_number": 1,
       "season_id": 288697,
       "air_date": "2026-01-26",
-      "age_days": 27,
-      "best_rank": 37,
-      "description": "Marvel's newest hero arrives, blending action and comedy.",
+      "age_days": 28,
+      "best_rank": 34,
+      "description": "Meet Hollywood's newest hero in this fresh Marvel comedy-adventure.",
       "overview": "Aspiring Hollywood actor Simon Williams is struggling to get his career off the ground. During a chance meeting with Trevor Slattery, an actor whose biggest roles may be well behind him, Simon learns that legendary director Von Kovak is remaking the superhero film \"Wonder Man.\" These two actors at opposite ends of their careers doggedly pursue life-changing roles in this film as audiences get a peek behind the curtain of the entertainment industry.",
       "episode_count": 8,
       "genres": [
@@ -1483,9 +1457,9 @@
       "season_number": 1,
       "season_id": 326099,
       "air_date": "2025-11-19",
-      "age_days": 95,
+      "age_days": 96,
       "best_rank": null,
-      "description": "Critically acclaimed animated fantasy for D&D fans.",
+      "description": "Enter a vibrant, animated fantasy world filled with adventure.",
       "overview": "A group of outcasts, criminals and misfits stumble into saving the continent when an arcane relic capable of reshaping reality falls into the wrong hands.",
       "episode_count": 8,
       "genres": [
@@ -1533,40 +1507,42 @@
       "backdrop_path": null
     },
     {
-      "series_id": 202208,
-      "series_name": "The Artful Dodger",
-      "series_imdb_id": "tt20285780",
-      "season_number": 2,
-      "season_id": 486087,
-      "air_date": "2026-02-10",
-      "age_days": 12,
-      "best_rank": 40,
-      "description": "A charming, roguish return to Victorian crime.",
-      "overview": "Set in 1850s Australia, in the lively colony of Port Victory, Jack Dawkins aka The Artful Dodger, has transferred his fast fingers as a pickpocket to the nimble skilled fingers of a surgeon. Dodger's past returns to haunt him with the arrival of Fagin, luring him back into a world of crime. A greater threat – to Dodger's heart – is Lady Belle, the Governor's daughter, determined to become the colony's first female surgeon.",
+      "series_id": 130464,
+      "series_name": "Tell Me Lies",
+      "series_imdb_id": "tt13018148",
+      "season_number": 3,
+      "season_id": 484445,
+      "air_date": "2026-01-13",
+      "age_days": 41,
+      "best_rank": 28,
+      "description": "The intense romantic thriller continues its captivating, complicated story.",
+      "overview": "Lucy Albright and Stephen DeMarco have rekindled their tumultuous romance in time for spring semester at Baird College. While they promise things will be different this time, past indiscretions hinder their best intentions, and Lucy finds herself embroiled in a controversy she wants nothing to do with. Meanwhile, the disastrous repercussions from the previous year also force Lucy and Stephen's friends to face their own destructive behaviors. As scandalous secrets fester around campus, vicious consequences threaten Lucy and everyone in her circle.",
       "episode_count": 8,
       "genres": [
         "Drama",
-        "Crime"
+        "Thriller",
+        "Romance",
+        "Mystery"
       ],
       "top_actors": [
-        "Thomas Brodie-Sangster",
-        "David Thewlis",
-        "Maia Mitchell"
+        "Grace Van Patten",
+        "Jackson White",
+        "Catherine Missal"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=U3KlsQHnYCw",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fUr7vLytq9hiP0FevP5lDQHvP2F.jpg",
-      "tvdb_id": 429915,
-      "tvdb_season_id": 2156703,
-      "network": "Disney+",
-      "runtime": 46,
-      "status": "Continuing",
+      "trailer_url": "https://www.youtube.com/watch?v=NDTn-G9Ys1M",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pQGgNbBDn7PHhiw2uFX0jv0NJ1W.jpg",
+      "tvdb_id": 393269,
+      "tvdb_season_id": 2216364,
+      "network": "Hulu",
+      "runtime": 51,
+      "status": "Ended",
       "ratings": {
-        "composite_score": 90.0,
+        "composite_score": 85.0,
         "imdb": {
-          "rating": 8.0,
-          "votes": 16937,
-          "season_rating": null
+          "rating": 8.3,
+          "votes": 17771,
+          "season_rating": 8.3
         }
       },
       "streaming_availability": {
@@ -1574,13 +1550,18 @@
           "services": {
             "subscription": [
               {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
                 "provider_id": 15,
                 "provider_name": "Hulu",
                 "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/202208-the-artful-dodger/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -1592,7 +1573,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/202208-the-artful-dodger/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -1604,10 +1585,222 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/202208-the-artful-dodger/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=AU"
         }
       },
-      "poster_path": "/fUr7vLytq9hiP0FevP5lDQHvP2F.jpg",
+      "poster_path": "/pQGgNbBDn7PHhiw2uFX0jv0NJ1W.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 273977,
+      "series_name": "The Art of Sarah",
+      "series_imdb_id": "tt35149250",
+      "season_number": 1,
+      "season_id": 422792,
+      "air_date": "2026-02-13",
+      "age_days": 10,
+      "best_rank": 7,
+      "description": "Unravel a dark, intriguing crime mystery in this new series.",
+      "overview": "가짜일지라도 명품이 되고 싶었던 여자 사라킴. 어디서나 그녀의 이름을 들을 수 있지만 어디서도 진짜 그녀를 만날 수는 없다. 예리한 시선과 끈질긴 집념의 형사 무경이 그 미스터리한 정체를 추적한다.",
+      "episode_count": 8,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Shin Hye-sun",
+        "Lee Jun-hyuk",
+        "Park Bo-kyung"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=aPNZNcBIWNw",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/csQCr88KuzxKSnfQdv3jN5QuaF5.jpg",
+      "tvdb_id": 472689,
+      "tvdb_season_id": 2227400,
+      "network": "Netflix",
+      "runtime": 44,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 93.0,
+        "imdb": {
+          "rating": 7.3,
+          "votes": 1278,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/273977/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/273977/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/273977/watch?locale=AU"
+        }
+      },
+      "poster_path": "/csQCr88KuzxKSnfQdv3jN5QuaF5.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 213306,
+      "series_name": "Cross",
+      "series_imdb_id": "tt11794812",
+      "season_number": 2,
+      "season_id": 479152,
+      "air_date": "2026-02-11",
+      "age_days": 12,
+      "best_rank": 20,
+      "description": "More gripping crime and suspense from a popular thriller.",
+      "overview": "In Season Two, Cross is in pursuit of a ruthless vigilante who is hunting down corrupt billionaire magnates.",
+      "episode_count": 8,
+      "genres": [
+        "Crime",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Aldis Hodge",
+        "Isaiah Mustafa",
+        "Juanita Jennings"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=H1tFYjJ515M",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "tvdb_id": 426501,
+      "tvdb_season_id": 2176920,
+      "network": "Prime Video",
+      "runtime": 55,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 84.0,
+        "imdb": {
+          "rating": 6.9,
+          "votes": 31057,
+          "season_rating": 6.9
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213306-cross/watch?locale=US"
+        }
+      },
+      "poster_path": "/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 270444,
+      "series_name": "Lead Children",
+      "series_imdb_id": "tt33322230",
+      "season_number": 1,
+      "season_id": 416594,
+      "air_date": "2026-02-11",
+      "age_days": 12,
+      "best_rank": 32,
+      "description": "A powerful, emotional mini-series exploring challenging, timely themes.",
+      "overview": "Jolanty Wadowskiej-Król, która zauważa, że dzieci mieszkające w okolicy Huty Szopienice masowo zapadają na ołowicę, chorobę wywołaną zatruciem metalami ciężkimi. Po swoim odkryciu bohaterka podejmuje próby ratowania chorych dzieci i mierzy się z opresyjnym, komunistycznym aparatem państwowym. Produkcja przeniesie widownię do industrialnego klimatu Górnego Śląska lat 70. To tu, w realiach robotniczego regionu, splotą się niebezpieczne polityczne wpływy i społeczna misja dr Wadowskiej-Król.",
+      "episode_count": 6,
+      "genres": [
+        "Mini-Series",
+        "Drama"
+      ],
+      "top_actors": [
+        "Joanna Kulig",
+        "Agata Kulesza",
+        "Kinga Preis"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=phN7tqYaa08",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ous8IYSqDHNd8gOJDDQBL3kNqqW.jpg",
+      "tvdb_id": 460249,
+      "tvdb_season_id": 2171922,
+      "network": "Netflix",
+      "runtime": 57,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 86.0,
+        "imdb": {
+          "rating": 7.6,
+          "votes": 1097,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/270444-olowiane-dzieci/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/270444-olowiane-dzieci/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/270444-olowiane-dzieci/watch?locale=AU"
+        }
+      },
+      "poster_path": "/ous8IYSqDHNd8gOJDDQBL3kNqqW.jpg",
       "backdrop_path": null
     },
     {
@@ -1617,9 +1810,9 @@
       "season_number": 22,
       "season_id": 484485,
       "air_date": "2026-02-22",
-      "age_days": 0,
+      "age_days": 1,
       "best_rank": null,
-      "description": "Still hilariously absurd after all these years.",
+      "description": "America's favorite animated family delivers another season of satire.",
       "overview": "CIA Agent Stan Smith is constantly fighting off terrorists who threaten the safety of the USA (sometimes causing more harm than good). His wife Francine is an average housewife with two kids: Hayley, an average rebellious teenager and Steve, a geek who enjoys Dungeons and Dragons, gaming and comic book conventions. Then there’s Roger, the home’s illegal (space) alien who the Smith’s are keeping protected. Last but not least, there’s Klaus, the Smiths’ wisecracking talking fish (swapped from  his human body years ago by the CIA).",
       "episode_count": 10,
       "genres": [
@@ -1730,563 +1923,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 259731,
-      "series_name": "HIS & HERS",
-      "series_imdb_id": "tt33035373",
-      "season_number": 1,
-      "season_id": 403464,
-      "air_date": "2026-01-08",
-      "age_days": 45,
-      "best_rank": null,
-      "description": "A fresh take on sports, romance, and relationships.",
-      "overview": "Reclusive former news anchor Anna Andrews becomes obsessed with a murder case in her hometown. Her estranged husband, Detective Jack Harper, suspicious of her involvement, puts Anna in the crosshairs of his investigation.",
-      "episode_count": 12,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Sport",
-        "Romance"
-      ],
-      "top_actors": [
-        "Tessa Thompson",
-        "Jon Bernthal",
-        "Pablo Schreiber"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=8_szlvBLll0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
-      "tvdb_id": 368269,
-      "tvdb_season_id": 822365,
-      "network": "WeTV",
-      "runtime": 30,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 83.0,
-        "imdb": {
-          "rating": 8.1,
-          "votes": 65040,
-          "season_rating": 8.1
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/259731-his-hers/watch?locale=AU"
-        }
-      },
-      "poster_path": "/cDSXLVQLkCSBIpBx3UW04TsfZ5c.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 201289,
-      "series_name": "The Last Thing He Told Me",
-      "series_imdb_id": "tt13745850",
-      "season_number": 2,
-      "season_id": 483530,
-      "air_date": "2026-02-19",
-      "age_days": 3,
-      "best_rank": 27,
-      "description": "Jennifer Garner returns for more gripping mystery.",
-      "overview": "When Owen shows up after five years on the run, Hannah and her stepdaughter Bailey find themselves in a race to figure out how to reunite their family before the past catches up to them.",
-      "episode_count": 8,
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Jennifer Garner",
-        "Angourie Rice",
-        "Nikolaj Coster-Waldau"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=9r9DKzgHrRo",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2YrnX41J5dBsTVZfXqnFB8CuIIk.jpg",
-      "tvdb_id": 406686,
-      "tvdb_season_id": 2162540,
-      "network": "Apple TV",
-      "runtime": 43,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 87.0,
-        "imdb": {
-          "rating": 7.7,
-          "votes": 20775,
-          "season_rating": 7.7
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/201289-the-last-thing-he-told-me/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/201289-the-last-thing-he-told-me/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/201289-the-last-thing-he-told-me/watch?locale=AU"
-        }
-      },
-      "poster_path": "/2YrnX41J5dBsTVZfXqnFB8CuIIk.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 2224,
-      "series_name": "The Daily Show",
-      "series_imdb_id": "tt0115147",
-      "season_number": 31,
-      "season_id": 486161,
-      "air_date": "2026-01-05",
-      "age_days": 48,
-      "best_rank": null,
-      "description": "Stay informed and entertained with timely, sharp commentary.",
-      "overview": "The Daily Show's intrepid news team dives into the biggest headlines of the day, providing fearless coverage, expert analysis, and no-nonsense commentary.",
-      "episode_count": 31,
-      "genres": [
-        "News",
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [],
-      "production_companies": [],
-      "trailer_url": null,
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
-      "tvdb_id": 71256,
-      "tvdb_season_id": 2200637,
-      "network": "Comedy Central",
-      "runtime": 27,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 85.0,
-        "imdb": {
-          "rating": 8.3,
-          "votes": 49120,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2224-the-daily-show/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2224-the-daily-show/watch?locale=CA"
-        }
-      },
-      "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 130464,
-      "series_name": "Tell Me Lies",
-      "series_imdb_id": "tt13018148",
-      "season_number": 3,
-      "season_id": 484445,
-      "air_date": "2026-01-13",
-      "age_days": 40,
-      "best_rank": 36,
-      "description": "More complex relationships and thrilling secrets unfold.",
-      "overview": "Lucy Albright and Stephen DeMarco have rekindled their tumultuous romance in time for spring semester at Baird College. While they promise things will be different this time, past indiscretions hinder their best intentions, and Lucy finds herself embroiled in a controversy she wants nothing to do with. Meanwhile, the disastrous repercussions from the previous year also force Lucy and Stephen's friends to face their own destructive behaviors. As scandalous secrets fester around campus, vicious consequences threaten Lucy and everyone in her circle.",
-      "episode_count": 8,
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Romance",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Grace Van Patten",
-        "Jackson White",
-        "Catherine Missal"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=NDTn-G9Ys1M",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pQGgNbBDn7PHhiw2uFX0jv0NJ1W.jpg",
-      "tvdb_id": 393269,
-      "tvdb_season_id": 2216364,
-      "network": "Hulu",
-      "runtime": 51,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 85.0,
-        "imdb": {
-          "rating": 8.3,
-          "votes": 14275,
-          "season_rating": 8.3
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/130464-tell-me-lies/watch?locale=AU"
-        }
-      },
-      "poster_path": "/pQGgNbBDn7PHhiw2uFX0jv0NJ1W.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 41956,
-      "series_name": "Death in Paradise",
-      "series_imdb_id": "tt1888075",
-      "season_number": 15,
-      "season_id": 485215,
-      "air_date": "2026-01-30",
-      "age_days": 23,
-      "best_rank": null,
-      "description": "More tropical mysteries and charming detective work.",
-      "overview": "Murders and mojitos. Fresh off the plane, a British detective joins the police force on the luscious Caribbean island of Saint Marie.",
-      "episode_count": 8,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Comedy",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Don Warrington",
-        "Élisabeth Bourgine",
-        "Shantol Jackson"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=f9B6dljC7ag",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3hmRODHa9Wepw80iEE87BNCAu9L.jpg",
-      "tvdb_id": 252800,
-      "tvdb_season_id": 2227972,
-      "network": "BBC One",
-      "runtime": 58,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.0,
-        "imdb": {
-          "rating": 7.8,
-          "votes": 32172,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/41956-death-in-paradise/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/41956-death-in-paradise/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/41956-death-in-paradise/watch?locale=AU"
-        }
-      },
-      "poster_path": "/3hmRODHa9Wepw80iEE87BNCAu9L.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 213306,
-      "series_name": "Cross",
-      "series_imdb_id": "tt11794812",
-      "season_number": 2,
-      "season_id": 479152,
-      "air_date": "2026-02-11",
-      "age_days": 11,
-      "best_rank": 15,
-      "description": "Alex Cross is back solving complex, thrilling mysteries.",
-      "overview": "In Season Two, Cross is in pursuit of a ruthless vigilante who is hunting down corrupt billionaire magnates.",
-      "episode_count": 8,
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Aldis Hodge",
-        "Isaiah Mustafa",
-        "Juanita Jennings"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=H1tFYjJ515M",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "tvdb_id": 426501,
-      "tvdb_season_id": 2176920,
-      "network": "Prime Video",
-      "runtime": 55,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 84.0,
-        "imdb": {
-          "rating": 6.9,
-          "votes": 31057,
-          "season_rating": 6.9
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213306-cross/watch?locale=US"
-        }
-      },
-      "poster_path": "/6hhKdavCEZi8d584ZtIrQIrBvZI.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 90,
-      "series_name": "Mayday",
-      "series_imdb_id": "tt0386950",
-      "season_number": 26,
-      "season_id": 496427,
-      "air_date": "2026-02-02",
-      "age_days": 20,
-      "best_rank": null,
-      "description": "Gripping investigations into real-life aviation disasters.",
-      "overview": "Revealing the dark truth that aviation safety improves one crash at a time, Mayday  investigates legendary aviation disasters to find out what went wrong and why. Based on cockpit voice recorders, accident reports and eyewitness accounts, every episode also features interviews, state-of-the-art CGI and gripping reenactments.",
-      "episode_count": 10,
-      "genres": [
-        "Documentary"
-      ],
-      "top_actors": [
-        "Stephen Bogaert"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=D1PRxyN3qf0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sUfJxQarDfBMgmJgsgJqmVP16UU.jpg",
-      "tvdb_id": 79771,
-      "tvdb_season_id": 2221952,
-      "network": "USA Network (CA)",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 93.0,
-        "imdb": {
-          "rating": 8.8,
-          "votes": 6603,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              },
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=AU"
-        }
-      },
-      "poster_path": "/sUfJxQarDfBMgmJgsgJqmVP16UU.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 291339,
       "series_name": "Memory of a Killer",
       "series_imdb_id": "tt35707374",
       "season_number": 1,
       "season_id": 456152,
       "air_date": "2026-01-25",
-      "age_days": 28,
+      "age_days": 29,
       "best_rank": null,
-      "description": "A suspenseful new crime thriller to unravel tonight.",
+      "description": "A dark, suspenseful crime thriller with memory at its core.",
       "overview": "Angelo Ledda lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer’s.",
       "episode_count": 10,
       "genres": [
@@ -2368,15 +2013,251 @@
       "backdrop_path": null
     },
     {
+      "series_id": 90,
+      "series_name": "Mayday",
+      "series_imdb_id": "tt0386950",
+      "season_number": 26,
+      "season_id": 496427,
+      "air_date": "2026-02-02",
+      "age_days": 21,
+      "best_rank": null,
+      "description": "Uncover aviation disasters with gripping, real-life investigations.",
+      "overview": "Revealing the dark truth that aviation safety improves one crash at a time, Mayday  investigates legendary aviation disasters to find out what went wrong and why. Based on cockpit voice recorders, accident reports and eyewitness accounts, every episode also features interviews, state-of-the-art CGI and gripping reenactments.",
+      "episode_count": 10,
+      "genres": [
+        "Documentary"
+      ],
+      "top_actors": [
+        "Stephen Bogaert"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=D1PRxyN3qf0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sUfJxQarDfBMgmJgsgJqmVP16UU.jpg",
+      "tvdb_id": 79771,
+      "tvdb_season_id": 2221952,
+      "network": "USA Network (CA)",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 93.0,
+        "imdb": {
+          "rating": 8.8,
+          "votes": 6603,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              },
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/90-mayday/watch?locale=AU"
+        }
+      },
+      "poster_path": "/sUfJxQarDfBMgmJgsgJqmVP16UU.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 3562,
+      "series_name": "NOVA",
+      "series_imdb_id": "tt0206501",
+      "season_number": 53,
+      "season_id": 484204,
+      "air_date": "2026-01-21",
+      "age_days": 33,
+      "best_rank": null,
+      "description": "Explore scientific wonders and groundbreaking discoveries in this docu-series.",
+      "overview": "Helps viewers of all ages explore the science behind the headlines.",
+      "episode_count": 8,
+      "genres": [
+        "Documentary"
+      ],
+      "top_actors": [],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ddnZjJbdyzYtvgz4ECncsEtcbT.jpg",
+      "tvdb_id": 76119,
+      "tvdb_season_id": 2218111,
+      "network": "PBS",
+      "runtime": 60,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 89.0,
+        "imdb": {
+          "rating": 8.7,
+          "votes": 3422,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=AU"
+        }
+      },
+      "poster_path": "/ddnZjJbdyzYtvgz4ECncsEtcbT.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 258462,
+      "series_name": "In the Mud",
+      "series_imdb_id": "tt32874331",
+      "season_number": 2,
+      "season_id": 498666,
+      "air_date": "2026-02-13",
+      "age_days": 10,
+      "best_rank": 33,
+      "description": "Return to the gritty drama for another intense season.",
+      "overview": "",
+      "episode_count": null,
+      "genres": [],
+      "top_actors": [],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vQANo4LO7Hi57XxQqhRWeAZkD5h.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
+      "ratings": {
+        "composite_score": 91.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 1709,
+          "season_rating": 8.1
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/258462-en-el-barro/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/258462-en-el-barro/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/258462-en-el-barro/watch?locale=AU"
+        }
+      },
+      "poster_path": "/vQANo4LO7Hi57XxQqhRWeAZkD5h.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 258023,
       "series_name": "The American Revolution",
       "series_imdb_id": "tt35328184",
       "season_number": 1,
       "season_id": 400162,
       "air_date": "2025-11-16",
-      "age_days": 98,
+      "age_days": 99,
       "best_rank": null,
-      "description": "An acclaimed, in-depth look at a pivotal historical moment.",
+      "description": "A compelling historical documentary exploring America's foundational conflict.",
       "overview": "Ken Burns' six-part film on the American Revolution.",
       "episode_count": 6,
       "genres": [
@@ -2449,44 +2330,99 @@
       "backdrop_path": null
     },
     {
-      "series_id": 98123,
-      "series_name": "The Daily Life of the Immortal King",
-      "series_imdb_id": "tt11755260",
-      "season_number": 5,
-      "season_id": 434325,
-      "air_date": "2025-12-14",
-      "age_days": 70,
+      "series_id": 2224,
+      "series_name": "The Daily Show",
+      "series_imdb_id": "tt0115147",
+      "season_number": 31,
+      "season_id": 486161,
+      "air_date": "2026-01-05",
+      "age_days": 49,
       "best_rank": null,
-      "description": "The hilarious, action-packed anime continues its epic saga.",
-      "overview": "Wang Ling's family life is turned upside down with the arrival of a little sister, Wang Nuan. Immortal King Wang Ling vows to teach Wang Nuan to control her strength. In doing so, her strength catches the attention of Ye Kui, a sinister organization, and Bai Zhe, a high-level prisoner of the Mysterious Prison. Wang Ling decides to bring Wang Nuan along and teach these villains a lesson!",
-      "episode_count": 12,
+      "description": "Stay informed and entertained with daily satirical news commentary.",
+      "overview": "The Daily Show's intrepid news team dives into the biggest headlines of the day, providing fearless coverage, expert analysis, and no-nonsense commentary.",
+      "episode_count": 31,
       "genres": [
-        "Fantasy",
+        "News",
         "Comedy",
-        "Animation",
-        "Adventure",
-        "Action",
-        "Anime"
+        "Talk Show"
       ],
-      "top_actors": [
-        "Sun Lulu",
-        "Qian Chen",
-        "Yin Long"
-      ],
+      "top_actors": [],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=ugUm2Q0FNq8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/33OJV60ufA9XVsdG0zClbuTXqzA.jpg",
-      "tvdb_id": 376751,
-      "tvdb_season_id": 2215124,
-      "network": "Bilibili",
-      "runtime": 19,
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+      "tvdb_id": 71256,
+      "tvdb_season_id": 2200637,
+      "network": "Comedy Central",
+      "runtime": 27,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.33,
+        "composite_score": 85.0,
         "imdb": {
-          "rating": 8.633333333333333,
-          "votes": 3629,
-          "season_rating": 8.633333333333333
+          "rating": 8.3,
+          "votes": 49538,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/2224-the-daily-show/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/2224-the-daily-show/watch?locale=CA"
+        }
+      },
+      "poster_path": "/ixcfyK7it6FjRM36Te4OdblAq4X.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 4656,
+      "series_name": "Raw",
+      "series_imdb_id": "tt0185103",
+      "season_number": 34,
+      "season_id": 489198,
+      "air_date": "2026-01-05",
+      "age_days": 49,
+      "best_rank": null,
+      "description": "Witness the thrilling, action-packed spectacle of professional wrestling.",
+      "overview": "2026 season of WWE Raw",
+      "episode_count": 52,
+      "genres": [
+        "Action",
+        "Sport"
+      ],
+      "top_actors": [],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=FVO6mUQMon8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
+      "tvdb_id": 76779,
+      "tvdb_season_id": 2223552,
+      "network": "USA Network",
+      "runtime": 106,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.8,
+          "votes": 10796,
+          "season_rating": null
         }
       },
       "streaming_availability": {
@@ -2494,40 +2430,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 283,
-                "provider_name": "Crunchyroll",
-                "logo_path": "/fzN5Jok5Ig1eJ7gyNGoMhnLSCfh.jpg"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/98123/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/4656-raw/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 283,
-                "provider_name": "Crunchyroll",
-                "logo_path": "/fzN5Jok5Ig1eJ7gyNGoMhnLSCfh.jpg"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/98123/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/4656-raw/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 283,
-                "provider_name": "Crunchyroll",
-                "logo_path": "/fzN5Jok5Ig1eJ7gyNGoMhnLSCfh.jpg"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/98123/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/4656-raw/watch?locale=AU"
         }
       },
-      "poster_path": "/33OJV60ufA9XVsdG0zClbuTXqzA.jpg",
+      "poster_path": "/pv5WNnLUo7mpT8k901Lo8UovrqI.jpg",
       "backdrop_path": null
     },
     {
@@ -2537,9 +2473,9 @@
       "season_number": 1,
       "season_id": 369440,
       "air_date": "2026-02-18",
-      "age_days": 4,
+      "age_days": 5,
       "best_rank": 3,
-      "description": "New crime thriller for your latest binge-watch.",
+      "description": "A new crime thriller exploring a tense, time-sensitive mystery.",
       "overview": "After meeting randomly in a supermarket, Oliver and Ciara fall for each other fast, and dangerously hard. Fifty-six days later, homicide investigators arrive at Oliver's apartment to find an unidentified body — brutally murdered and intentionally decomposed.",
       "episode_count": 8,
       "genres": [
