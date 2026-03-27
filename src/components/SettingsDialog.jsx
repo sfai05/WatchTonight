@@ -64,7 +64,7 @@ export function SettingsDialog({ onSave }) {
               value={radarrUrl}
               onChange={(event) => setRadarrUrl(event.target.value)}
               placeholder="https://radarr.example.com"
-              className="h-10 rounded-md border border-input bg-background px-3 text-sm"
+              className="h-11 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             />
           </label>
           <label className="grid gap-2 text-sm">
@@ -73,12 +73,12 @@ export function SettingsDialog({ onSave }) {
               value={sonarrUrl}
               onChange={(event) => setSonarrUrl(event.target.value)}
               placeholder="https://sonarr.example.com"
-              className="h-10 rounded-md border border-input bg-background px-3 text-sm"
+              className="h-11 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             />
           </label>
         </div>
         <div className="flex justify-end gap-2">
-          <Button variant="secondary" type="button" onClick={handleSave}>
+          <Button type="button" onClick={handleSave}>
             Save
           </Button>
         </div>

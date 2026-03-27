@@ -17,6 +17,11 @@ export function getPosterSrcSet(posterPath, sizes = ["w185", "w342", "w500"]) {
     .join(", ")
 }
 
+export function getBackdropUrl(backdropPath, size = "w1280") {
+  if (!backdropPath) return null
+  return `${TMDB_IMAGE_BASE}${size}${backdropPath}`
+}
+
 export function getProviderLogoUrl(logoPath, size = "w45") {
   if (!logoPath) return null
   return `${TMDB_IMAGE_BASE}${size}${logoPath}`
@@ -56,6 +61,9 @@ export function transformMovieData(raw) {
     releaseDate: movie.release_date || null,
     posterPath: movie.poster_path || null,
     posterUrl: getPosterUrl(movie.poster_path, "w500"),
+    backdropPath: movie.backdrop_path || null,
+    backdropUrl: getBackdropUrl(movie.backdrop_path),
+    compositeScore: movie.ratings?.composite_score ?? null,
     trailerUrl: movie.trailer_url || null,
     streamingUrl: getStreamingLink(movie),
     rentalUrl: movie?.streaming_availability?.US?.services?.rent?.[0]
@@ -96,6 +104,9 @@ export function transformTvSeasonData(raw) {
     releaseDate: season.air_date || null,
     posterPath: season.poster_path || null,
     posterUrl: getPosterUrl(season.poster_path, "w500"),
+    backdropPath: season.backdrop_path || null,
+    backdropUrl: getBackdropUrl(season.backdrop_path),
+    compositeScore: season.ratings?.composite_score ?? null,
     trailerUrl: season.trailer_url || null,
     streamingUrl: getStreamingLink(season),
     rentalUrl: season?.streaming_availability?.US?.services?.rent?.[0]

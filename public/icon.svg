@@ -1,0 +1,21 @@
+<svg width="110" height="110" viewBox="0 0 110 110" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="body-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffdca1"/>
+      <stop offset="100%" stop-color="#ffb800"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="70%" y1="30%" x2="110%" y2="50%">
+      <stop offset="0%" stop-color="#ffdca1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffdca1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Light beam -->
+  <polygon points="74,34 110,14 110,68 74,50" fill="url(#beam)"/>
+  <!-- Projector body -->
+  <rect x="10" y="12" width="76" height="76" rx="19" ry="19" transform="rotate(-8, 48, 50)" fill="url(#body-grad)"/>
+  <!-- Lens rings -->
+  <circle cx="56" cy="42" r="18" fill="#0d1321" opacity="0.35" transform="rotate(-8, 48, 50)"/>
+  <circle cx="56" cy="42" r="12" fill="#0d1321" opacity="0.6" transform="rotate(-8, 48, 50)"/>
+  <!-- Bright lens core -->
+  <circle cx="56" cy="42" r="6.5" fill="#FFFFFF" opacity="0.92" transform="rotate(-8, 48, 50)"/>
+</svg>

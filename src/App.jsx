@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
 import { SettingsDialog } from "@/components/SettingsDialog"
-import { ThemeToggle } from "@/components/ThemeToggle"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import {
@@ -12,6 +11,27 @@ import {
   transformMovieData,
   transformTvSeasonData,
 } from "@/lib/movieData"
+
+
+function LoadingSkeleton() {
+  return (
+    <div>
+      <Skeleton className="mb-6 h-7 w-40" />
+      <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6">
+        {Array.from({ length: 10 }).map((_, i) => (
+          <div key={`sk-${i}`} className={`flex flex-col gap-2 ${i === 0 ? "col-span-2 row-span-2" : ""}`}>
+            <Skeleton className="aspect-[2/3] w-full rounded-2xl" />
+            <Skeleton className="h-4 w-3/4" />
+            <Skeleton className="h-3 w-1/2" />
+          </div>
+        ))}
+      </div>
+      <p className="mt-10 text-center text-sm text-muted-foreground/40 animate-pulse">
+        Queuing up tonight&apos;s picks&hellip;
+      </p>
+    </div>
+  )
+}
 
 export default function App() {
   const [movies, setMovies] = useState([])
@@ -48,7 +68,7 @@ export default function App() {
         },
         {
           "@type": "ItemList",
-          name: "Tonight’s picks",
+          name: "Tonight's picks",
           itemListOrder: "ItemListOrderAscending",
           numberOfItems: items.length,
           itemListElement: items,
@@ -71,9 +91,9 @@ export default function App() {
           setLastUpdated(getLatestGeneratedAt(moviesRaw?.generated_at, tvRaw?.generated_at))
           setError("")
         }
-      } catch (err) {
+      } catch {
         if (isMounted) {
-          setError("Could not load content data.")
+          setError("The projector\u2019s jammed \u2014 we couldn\u2019t load tonight\u2019s picks. Check your connection and refresh.")
         }
       } finally {
         if (isMounted) {
@@ -83,157 +103,205 @@ export default function App() {
     }
 
     loadTitles()
-
-    return () => {
-      isMounted = false
-    }
+    return () => { isMounted = false }
   }, [])
 
   useEffect(() => {
     if (typeof window === "undefined") return
-    const stored = localStorage.getItem("watchtonight-radarr-url") || ""
-    setRadarrUrl(stored)
-    const storedSonarr = localStorage.getItem("watchtonight-sonarr-url") || ""
-    setSonarrUrl(storedSonarr)
+    setRadarrUrl(localStorage.getItem("watchtonight-radarr-url") || "")
+    setSonarrUrl(localStorage.getItem("watchtonight-sonarr-url") || "")
   }, [])
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
-      <header>
-        <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-6">
-          <div className="flex items-center gap-3">
-            <picture>
-              <source srcSet="/icon-128.webp" type="image/webp" />
-              <img
-                src="/icon-128.png"
-                alt="WatchTonight logo"
-                width="64"
-                height="64"
-                className="h-16 w-16 rounded-2xl object-cover"
-              />
-            </picture>
-            <div>
-              <h1
-                className="text-3xl font-semibold"
-                style={{ fontFamily: "Archivo Black, sans-serif" }}
+    <Tabs defaultValue="movies">
+      <div className="min-h-screen bg-background text-foreground">
+        {/* Header */}
+        <header className="sticky top-0 z-30 border-b border-border/50 bg-background/80 backdrop-blur-md">
+          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
+            {/* Logo + wordmark */}
+            {/* Logo lockup — single SVG with icon, beam, and wordmark */}
+            <div className="flex flex-1 shrink-0">
+              <h1 className="sr-only">WatchTonight</h1>
+              {/* Desktop: full logo with beam */}
+              <svg
+                viewBox="0 0 390 80"
+                className="hidden h-10 w-auto sm:block"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
               >
-                WatchTonight
-              </h1>
-              <p className="text-sm text-muted-foreground">
-                Tonight’s picks — newly released, streaming at home.
-              </p>
+                <defs>
+                  <linearGradient id="hdr-beam" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="0%" stopColor="#ffdca1" stopOpacity="0.18" />
+                    <stop offset="100%" stopColor="#ffdca1" stopOpacity="0" />
+                  </linearGradient>
+                  <linearGradient id="hdr-body" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#ffdca1" />
+                    <stop offset="100%" stopColor="#ffb800" />
+                  </linearGradient>
+                </defs>
+                <polygon points="64,24 390,2 390,78 64,56" fill="url(#hdr-beam)" />
+                <g transform="translate(6,4)">
+                  <rect x="4" y="4" width="60" height="60" rx="15" ry="15" transform="rotate(-8,34,34)" fill="url(#hdr-body)" />
+                  <circle cx="40" cy="30" r="14" fill="#0d1321" opacity="0.35" transform="rotate(-8,34,34)" />
+                  <circle cx="40" cy="30" r="9"  fill="#0d1321" opacity="0.6"  transform="rotate(-8,34,34)" />
+                  <circle cx="40" cy="30" r="5"  fill="#ffffff" opacity="0.9"  transform="rotate(-8,34,34)" />
+                </g>
+                <text
+                  x="84" y="48"
+                  fontFamily="'Epilogue', sans-serif"
+                  fontWeight="700"
+                  fontSize="25"
+                  fill="#ffdca1"
+                  letterSpacing="-0.5"
+                >
+                  WatchTonight<tspan fontWeight="400" opacity="0.3">.app</tspan>
+                </text>
+              </svg>
+              {/* Mobile: icon + wordmark with short beam */}
+              <svg
+                viewBox="0 0 270 80"
+                className="h-9 w-auto sm:hidden"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <defs>
+                  <linearGradient id="mob-beam" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="0%" stopColor="#ffdca1" stopOpacity="0.18" />
+                    <stop offset="100%" stopColor="#ffdca1" stopOpacity="0" />
+                  </linearGradient>
+                  <linearGradient id="mob-body" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#ffdca1" />
+                    <stop offset="100%" stopColor="#ffb800" />
+                  </linearGradient>
+                </defs>
+                <polygon points="64,24 270,8 270,72 64,56" fill="url(#mob-beam)" />
+                <g transform="translate(6,4)">
+                  <rect x="4" y="4" width="60" height="60" rx="15" ry="15" transform="rotate(-8,34,34)" fill="url(#mob-body)" />
+                  <circle cx="40" cy="30" r="14" fill="#0d1321" opacity="0.35" transform="rotate(-8,34,34)" />
+                  <circle cx="40" cy="30" r="9"  fill="#0d1321" opacity="0.6"  transform="rotate(-8,34,34)" />
+                  <circle cx="40" cy="30" r="5"  fill="#ffffff" opacity="0.9"  transform="rotate(-8,34,34)" />
+                </g>
+                <text
+                  x="84" y="48"
+                  fontFamily="'Epilogue', sans-serif"
+                  fontWeight="700"
+                  fontSize="25"
+                  fill="#ffdca1"
+                  letterSpacing="-0.5"
+                >
+                  WatchTonight
+                </text>
+              </svg>
+            </div>
+
+            {/* Nav tabs */}
+            <TabsList className="h-auto gap-0.5 border-0 bg-transparent p-0 sm:gap-1">
+              <TabsTrigger
+                value="movies"
+                className="min-h-[44px] rounded-full px-3 py-2 text-xs font-medium transition-colors data-[state=active]:bg-secondary data-[state=active]:text-foreground data-[state=active]:shadow-none data-[state=inactive]:text-muted-foreground sm:px-4 sm:text-sm"
+                data-umami-event="Tab: Movies"
+              >
+                Movies
+              </TabsTrigger>
+              <TabsTrigger
+                value="tv"
+                className="min-h-[44px] rounded-full px-4 py-2 text-sm font-medium transition-colors data-[state=active]:bg-secondary data-[state=active]:text-foreground data-[state=active]:shadow-none data-[state=inactive]:text-muted-foreground"
+                data-umami-event="Tab: Series"
+              >
+                Series
+              </TabsTrigger>
+            </TabsList>
+
+            {/* Actions */}
+            <div className="flex flex-1 shrink-0 items-center justify-end gap-2">
+              <SettingsDialog
+                onSave={({ radarrUrl: next, sonarrUrl: nextSonarr }) => {
+                  setRadarrUrl(next)
+                  setSonarrUrl(nextSonarr)
+                }}
+              />
             </div>
           </div>
-          <div className="flex items-center gap-2">
-            <ThemeToggle />
-            <SettingsDialog
-              onSave={({ radarrUrl: next, sonarrUrl: nextSonarr }) => {
-                setRadarrUrl(next)
-                setSonarrUrl(nextSonarr)
-              }}
-            />
-          </div>
-        </div>
-      </header>
+        </header>
 
-      <main className="mx-auto max-w-7xl px-6 py-6">
-        {isLoading && (
-          <section className="space-y-6">
-            <h2 className="sr-only">Tonight’s picks</h2>
-            <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
-              {Array.from({ length: 10 }).map((_, index) => (
-                <div key={`skeleton-${index}`} className="flex h-full flex-col gap-3">
-                  <div className="overflow-hidden rounded-xl">
-                    <Skeleton className="aspect-[2/3] w-full" />
-                  </div>
-                  <div className="space-y-2">
-                    <Skeleton className="h-4 w-5/6" />
-                    <Skeleton className="h-4 w-2/3" />
-                  </div>
-                </div>
-              ))}
+        <main className="mx-auto max-w-7xl px-6 py-8">
+          {isLoading && <LoadingSkeleton />}
+
+          {error && (
+            <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-sm text-destructive">
+              {error}
             </div>
-          </section>
-        )}
+          )}
 
-        {error && (
-          <div className="rounded-xl border border-destructive/40 bg-destructive/10 p-6 text-sm text-destructive">
-            {error}
-          </div>
-        )}
-
-        {!isLoading && !error && (
-          <section className="space-y-4">
-            <h2 className="sr-only">Tonight’s picks</h2>
-            <Tabs defaultValue="movies">
-              <TabsList className="mb-2">
-                <TabsTrigger value="movies" data-umami-event="Tab: Movies">
-                  Movies
-                </TabsTrigger>
-                <TabsTrigger value="tv" data-umami-event="Tab: TV Shows">
-                  TV Shows
-                </TabsTrigger>
-              </TabsList>
-              <TabsContent value="movies">
-                <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+          {!isLoading && !error && (
+            <>
+              <TabsContent value="movies" className="mt-0">
+                <h2 className="mb-6 font-display text-xl font-bold">Tonight&apos;s Picks</h2>
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6">
                   {movies.map((movie, index) => (
                     <MovieCard
                       key={movie.id}
                       movie={movie}
-                      isAboveFold={index < 5}
+                      isAboveFold={index < 6}
+                      featured={index === 0}
+                      className={index === 0 ? "col-span-2 row-span-2" : ""}
                       radarrUrl={radarrUrl}
                       sonarrUrl={sonarrUrl}
                     />
                   ))}
                 </div>
               </TabsContent>
-              <TabsContent value="tv">
-                <div className="grid gap-8 grid-cols-1 md:grid-cols-3 xl:grid-cols-5">
+
+              <TabsContent value="tv" className="mt-0">
+                <h2 className="mb-6 font-display text-xl font-bold">Tonight&apos;s Picks</h2>
+                <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6">
                   {tvSeasons.map((season, index) => (
                     <MovieCard
                       key={season.id}
                       movie={season}
-                      isAboveFold={index < 5}
+                      isAboveFold={index < 6}
+                      featured={index === 0}
+                      className={index === 0 ? "col-span-2 row-span-2" : ""}
                       radarrUrl={radarrUrl}
                       sonarrUrl={sonarrUrl}
                     />
                   ))}
                 </div>
               </TabsContent>
-            </Tabs>
-          </section>
-        )}
-      </main>
+            </>
+          )}
+        </main>
 
-      <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-6 pb-10 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-        <span>
-          Last updated:{" "}
-          {lastUpdated
-            ? new Date(lastUpdated).toLocaleDateString(undefined, {
-                day: "2-digit",
-                month: "short",
-                year: "numeric",
-              })
-            : "Unknown"}
-        </span>
-        <div className="flex flex-wrap items-center gap-2">
-          <span>Powered by TMDB + OMDb + Gemini</span>
-          <span aria-hidden="true">•</span>
-          <a
-            href="https://x.com/timesfai"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-foreground"
-          >
-            @timesfai
-          </a>
-        </div>
-      </footer>
+        <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-6 pb-10 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
+          <span>
+            Last updated:{" "}
+            {lastUpdated
+              ? new Date(lastUpdated).toLocaleDateString(undefined, {
+                  day: "2-digit",
+                  month: "short",
+                  year: "numeric",
+                })
+              : "Unknown"}
+          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span>Powered by TMDB + OMDb + Gemini</span>
+            <span aria-hidden="true">·</span>
+            <a
+              href="https://x.com/timesfai"
+              target="_blank"
+              rel="noreferrer"
+              className="transition-colors hover:text-foreground"
+            >
+              @timesfai
+            </a>
+          </div>
+        </footer>
 
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
-      />
-    </div>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
+      </div>
+    </Tabs>
   )
 }
