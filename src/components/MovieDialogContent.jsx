@@ -111,7 +111,7 @@ export default function MovieDialogContent({
         </div>
 
         {/* ── Right: content panel ── */}
-        <div className="flex flex-col overflow-y-auto" style={{ scrollbarGutter: "stable" }}>
+        <div className="flex flex-col overflow-x-hidden overflow-y-auto">
           {/* Mobile: full-bleed poster panel */}
           <div className="relative sm:hidden" style={{ height: "55vw", minHeight: "220px", maxHeight: "340px" }}>
             {heroBg && (
@@ -139,7 +139,7 @@ export default function MovieDialogContent({
           </div>
 
           {/* Main text content */}
-          <div className="flex flex-1 flex-col gap-5 p-7">
+          <div className="flex flex-1 flex-col gap-5 p-5 sm:p-7">
 
             {/* Title block */}
             <div>
@@ -177,7 +177,7 @@ export default function MovieDialogContent({
             </div>
 
             {/* Synopsis + Streaming */}
-            <div className="grid gap-5 sm:grid-cols-[1fr_auto]">
+            <div className="grid gap-5 lg:grid-cols-[1fr_auto]">
               {/* Synopsis */}
               <div className="min-w-0">
                 <h3 className="mb-2 text-[11px] font-semibold uppercase tracking-widest text-white/35">

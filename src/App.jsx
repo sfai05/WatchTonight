@@ -1,16 +1,38 @@
-import { useEffect, useMemo, useState } from "react"
+import { lazy, Suspense, useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
 import { SettingsDialog } from "@/components/SettingsDialog"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Dialog } from "@/components/ui/dialog"
 import {
   fetchMoviesData,
   fetchTvSeasonsData,
   getLatestGeneratedAt,
+  getPosterSrcSet,
   transformMovieData,
   transformTvSeasonData,
 } from "@/lib/movieData"
+
+const MovieDialogContent = lazy(() => import("@/components/MovieDialogContent"))
+
+function getYouTubeEmbedUrl(url) {
+  if (!url) return null
+  try {
+    const parsed = new URL(url)
+    if (parsed.hostname.includes("youtu.be")) {
+      const id = parsed.pathname.replace("/", "")
+      return id ? `https://www.youtube.com/embed/${id}` : null
+    }
+    if (parsed.hostname.includes("youtube.com")) {
+      const id = parsed.searchParams.get("v")
+      return id ? `https://www.youtube.com/embed/${id}` : null
+    }
+  } catch {
+    return null
+  }
+  return null
+}
 
 
 function LoadingSkeleton() {
@@ -41,6 +63,9 @@ export default function App() {
   const [lastUpdated, setLastUpdated] = useState("")
   const [radarrUrl, setRadarrUrl] = useState("")
   const [sonarrUrl, setSonarrUrl] = useState("")
+  const [activeTab, setActiveTab] = useState("movies")
+  const [luckyMovie, setLuckyMovie] = useState(null)
+  const [luckyOpen, setLuckyOpen] = useState(false)
 
   const structuredData = useMemo(() => {
     const items = [...movies, ...tvSeasons].map((item, index) => ({
@@ -113,7 +138,7 @@ export default function App() {
   }, [])
 
   return (
-    <Tabs defaultValue="movies">
+    <Tabs defaultValue="movies" onValueChange={setActiveTab}>
       <div className="min-h-screen bg-background text-foreground">
         {/* Header */}
         <header className="sticky top-0 z-30 border-b border-border/50 bg-background/80 backdrop-blur-md">
@@ -270,6 +295,44 @@ export default function App() {
               </TabsContent>
             </>
           )}
+
+          {/* Feeling lucky */}
+          {!isLoading && !error && (
+            <>
+              <div className="mt-12 flex justify-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    const pool = activeTab === "tv" ? tvSeasons : movies
+                    if (!pool.length) return
+                    const pick = pool[Math.floor(Math.random() * pool.length)]
+                    setLuckyMovie(pick)
+                    setLuckyOpen(true)
+                  }}
+                  className="flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-5 py-2.5 text-sm font-medium text-primary/80 transition hover:bg-primary/20 hover:text-primary hover:scale-[1.03] active:scale-[0.97]"
+                  data-umami-event="Feeling lucky"
+                  data-umami-event-tab={activeTab}
+                >
+                  <span aria-hidden="true">🎲</span>
+                  Feeling lucky?
+                </button>
+              </div>
+              <Dialog open={luckyOpen} onOpenChange={setLuckyOpen}>
+                <Suspense fallback={null}>
+                  {luckyMovie && (
+                    <MovieDialogContent
+                      movie={luckyMovie}
+                      trailerEmbedUrl={getYouTubeEmbedUrl(luckyMovie.trailerUrl)}
+                      dialogPosterSrcSet={getPosterSrcSet(luckyMovie.posterPath, ["w342", "w500", "w780"])}
+                      radarrUrl={radarrUrl}
+                      sonarrUrl={sonarrUrl}
+                    />
+                  )}
+                </Suspense>
+              </Dialog>
+            </>
+          )}
+
         </main>
 
         <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-6 pb-10 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
