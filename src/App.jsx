@@ -1,6 +1,7 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from "react"
 
 import { MovieCard } from "@/components/MovieCard"
+import { AboutDialog } from "@/components/AboutDialog"
 import { SettingsDialog } from "@/components/SettingsDialog"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -239,6 +240,7 @@ export default function App() {
 
             {/* Actions */}
             <div className="flex flex-1 shrink-0 items-center justify-end gap-2">
+              <AboutDialog lastUpdated={lastUpdated} />
               <SettingsDialog
                 onSave={({ radarrUrl: next, sonarrUrl: nextSonarr }) => {
                   setRadarrUrl(next)
@@ -335,29 +337,14 @@ export default function App() {
 
         </main>
 
-        <footer className="mx-auto flex max-w-7xl flex-col gap-2 px-6 pb-10 pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <span>
-            Last updated:{" "}
-            {lastUpdated
-              ? new Date(lastUpdated).toLocaleDateString(undefined, {
-                  day: "2-digit",
-                  month: "short",
-                  year: "numeric",
-                })
-              : "Unknown"}
-          </span>
-          <div className="flex flex-wrap items-center gap-2">
-            <span>Powered by TMDB + OMDb + Gemini</span>
-            <span aria-hidden="true">·</span>
-            <a
-              href="https://x.com/timesfai"
-              target="_blank"
-              rel="noreferrer"
-              className="transition-colors hover:text-foreground"
-            >
-              @timesfai
-            </a>
-          </div>
+        <footer className="mx-auto flex max-w-7xl items-center gap-1.5 px-6 pb-10 pt-6 text-xs text-muted-foreground">
+          <span>Got feedback or a suggestion?</span>
+          <a
+            href="mailto:contact@watchtonight.app"
+            className="transition-colors hover:text-foreground"
+          >
+            contact@watchtonight.app
+          </a>
         </footer>
 
         <script
