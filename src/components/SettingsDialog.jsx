@@ -57,6 +57,14 @@ export function SettingsDialog({ onSave }) {
             Add your Radarr and Sonarr base URLs to enable quick add buttons.
           </DialogDescription>
         </DialogHeader>
+        <p className="text-xs text-muted-foreground leading-relaxed">
+          <a href="https://radarr.video" target="_blank" rel="noreferrer" className="font-medium text-foreground/70 underline underline-offset-2 hover:text-foreground">Radarr</a>{" "}
+          and{" "}
+          <a href="https://sonarr.tv" target="_blank" rel="noreferrer" className="font-medium text-foreground/70 underline underline-offset-2 hover:text-foreground">Sonarr</a>{" "}
+          are self-hosted media collection managers. Radarr handles movies; Sonarr handles TV series.
+          If you run either on your home server or NAS, entering your base URL here adds a quick
+          &ldquo;Add to Radarr / Sonarr&rdquo; button on every title so you can queue it up without leaving the page.
+        </p>
         <div className="grid gap-4">
           <label className="grid gap-2 text-sm">
             <span className="text-foreground">Radarr base URL</span>
