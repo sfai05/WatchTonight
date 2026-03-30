@@ -5,9 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Epilogue", "system-ui", "sans-serif"],
-        serif: ["Lora", "Georgia", "serif"],
-        sans: ["Nunito", "system-ui", "sans-serif"],
+        display: ["Dela Gothic One", "Impact", "sans-serif"],
+        sans: ["DM Sans", "system-ui", "sans-serif"],
+        mono: ["DM Mono", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -43,11 +43,25 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Named brand tokens for direct use
+        brand: {
+          midnight:     "#1A2744",
+          "deep-navy":  "#1E3050",
+          "dark-navy":  "#243B5C",
+          "slate-blue": "#3A5070",
+          sienna:       "#B8522A",
+          amber:        "#D4832E",
+          gold:         "#E8A840",
+          "soft-gold":  "#EFC564",
+          cream:        "#F5E6C8",
+          ivory:        "#FAF0DC",
+          grey:         "#7A8BA0",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        md: "calc(var(--radius) - 8px)",
+        sm: "calc(var(--radius) - 12px)",
       },
     },
   },

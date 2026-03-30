@@ -143,85 +143,33 @@ export default function App() {
       <div className="min-h-screen bg-background text-foreground">
         {/* Header */}
         <header className="sticky top-0 z-30 border-b border-border/50 bg-background/80 backdrop-blur-md">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 sm:py-4">
-            {/* Logo + wordmark */}
-            {/* Logo lockup — single SVG with icon, beam, and wordmark */}
-            <div className="flex flex-1 shrink-0">
-              <h1 className="sr-only">WatchTonight</h1>
-              {/* Desktop: full logo with beam */}
-              <svg
-                viewBox="0 0 390 80"
-                className="hidden h-10 w-auto sm:block"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <defs>
-                  <linearGradient id="hdr-beam" x1="0%" y1="50%" x2="100%" y2="50%">
-                    <stop offset="0%" stopColor="#ffdca1" stopOpacity="0.18" />
-                    <stop offset="100%" stopColor="#ffdca1" stopOpacity="0" />
-                  </linearGradient>
-                  <linearGradient id="hdr-body" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#ffdca1" />
-                    <stop offset="100%" stopColor="#ffb800" />
-                  </linearGradient>
-                </defs>
-                <polygon points="64,24 390,2 390,78 64,56" fill="url(#hdr-beam)" />
-                <g transform="translate(6,4)">
-                  <rect x="4" y="4" width="60" height="60" rx="15" ry="15" transform="rotate(-8,34,34)" fill="url(#hdr-body)" />
-                  <circle cx="40" cy="30" r="14" fill="#0d1321" opacity="0.35" transform="rotate(-8,34,34)" />
-                  <circle cx="40" cy="30" r="9"  fill="#0d1321" opacity="0.6"  transform="rotate(-8,34,34)" />
-                  <circle cx="40" cy="30" r="5"  fill="#ffffff" opacity="0.9"  transform="rotate(-8,34,34)" />
-                </g>
-                <text
-                  x="84" y="48"
-                  fontFamily="'Epilogue', sans-serif"
-                  fontWeight="700"
-                  fontSize="25"
-                  fill="#ffdca1"
-                  letterSpacing="-0.5"
-                >
-                  WatchTonight<tspan fontWeight="400" opacity="0.3">.app</tspan>
-                </text>
-              </svg>
-              {/* Mobile: icon + wordmark with short beam */}
-              <svg
-                viewBox="0 0 270 80"
-                className="h-9 w-auto sm:hidden"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-              >
-                <defs>
-                  <linearGradient id="mob-beam" x1="0%" y1="50%" x2="100%" y2="50%">
-                    <stop offset="0%" stopColor="#ffdca1" stopOpacity="0.18" />
-                    <stop offset="100%" stopColor="#ffdca1" stopOpacity="0" />
-                  </linearGradient>
-                  <linearGradient id="mob-body" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stopColor="#ffdca1" />
-                    <stop offset="100%" stopColor="#ffb800" />
-                  </linearGradient>
-                </defs>
-                <polygon points="64,24 270,8 270,72 64,56" fill="url(#mob-beam)" />
-                <g transform="translate(6,4)">
-                  <rect x="4" y="4" width="60" height="60" rx="15" ry="15" transform="rotate(-8,34,34)" fill="url(#mob-body)" />
-                  <circle cx="40" cy="30" r="14" fill="#0d1321" opacity="0.35" transform="rotate(-8,34,34)" />
-                  <circle cx="40" cy="30" r="9"  fill="#0d1321" opacity="0.6"  transform="rotate(-8,34,34)" />
-                  <circle cx="40" cy="30" r="5"  fill="#ffffff" opacity="0.9"  transform="rotate(-8,34,34)" />
-                </g>
-                <text
-                  x="84" y="48"
-                  fontFamily="'Epilogue', sans-serif"
-                  fontWeight="700"
-                  fontSize="25"
-                  fill="#ffdca1"
-                  letterSpacing="-0.5"
-                >
-                  WatchTonight
-                </text>
-              </svg>
+          <div className="mx-auto flex max-w-7xl items-stretch justify-between gap-4 pl-0 pr-4 sm:px-6 min-h-[56px] sm:min-h-[64px] sm:pl-6">
+            <div className="flex flex-1 shrink-0 items-stretch">
+              <h1 className="sr-only">WatchTonight.app</h1>
+              {/* Mobile: icon only */}
+              <div className="flex items-center sm:hidden" aria-hidden="true">
+                <img
+                  src="/icon.png"
+                  alt=""
+                  className="h-14 w-auto object-cover shadow-[0_0_16px_rgba(232,168,64,0.2)]"
+                />
+              </div>
+              {/* Desktop: banner with fade + overlay textmark */}
+              <div className="relative hidden items-center sm:flex" aria-hidden="true">
+                <img
+                  src="/watchtonight-banner.png"
+                  alt=""
+                  className="h-16 w-auto object-contain"
+                  style={{ maskImage: "linear-gradient(to right, transparent, black 8%, black 88%, transparent), linear-gradient(to bottom, transparent, black 25%, black 75%, transparent)", maskComposite: "intersect" }}
+                />
+                <span className="absolute right-3 top-1/2 -translate-y-1/2 font-display text-base leading-none tracking-[-0.02em]">
+                  <span className="text-brand-ivory">Watch</span><span className="text-brand-gold">Tonight</span><span className="text-brand-amber text-[0.75em]">.app</span>
+                </span>
+              </div>
             </div>
 
             {/* Nav tabs */}
-            <TabsList className="h-auto gap-0.5 border-0 bg-transparent p-0 sm:gap-1">
+            <TabsList className="self-center h-auto gap-0.5 border-0 bg-transparent p-0 sm:gap-1">
               <TabsTrigger
                 value="movies"
                 className="min-h-[44px] rounded-full px-3 py-2 text-xs font-medium transition-colors data-[state=active]:bg-secondary data-[state=active]:text-foreground data-[state=active]:shadow-none data-[state=inactive]:text-muted-foreground sm:px-4 sm:text-sm"
@@ -239,7 +187,7 @@ export default function App() {
             </TabsList>
 
             {/* Actions */}
-            <div className="flex flex-1 shrink-0 items-center justify-end gap-2">
+            <div className="flex flex-1 shrink-0 self-center items-center justify-end gap-2">
               <AboutDialog lastUpdated={lastUpdated} />
               <SettingsDialog
                 onSave={({ radarrUrl: next, sonarrUrl: nextSonarr }) => {
