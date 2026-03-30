@@ -2,34 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Dark-only theme — Stitch Discovery Wall palette */
+/* WatchTonight brand palette — warm cinematic Risograph */
 :root {
-  --background: 222 17% 8%;
-  --foreground: 240 7% 90%;
-  --card: 225 9% 13%;
-  --card-foreground: 240 7% 90%;
-  --popover: 225 9% 13%;
-  --popover-foreground: 240 7% 90%;
-  --primary: 33 100% 73%;
-  --primary-foreground: 222 17% 8%;
-  --secondary: 225 8% 17%;
-  --secondary-foreground: 213 33% 80%;
-  --muted: 225 8% 17%;
-  --muted-foreground: 213 33% 80%;
-  --accent: 33 100% 73%;
-  --accent-foreground: 222 17% 8%;
-  --destructive: 0 62.8% 35.6%;
-  --destructive-foreground: 210 40% 98%;
-  --border: 225 8% 20%;
-  --input: 225 8% 20%;
-  --ring: 33 100% 73%;
-  --radius: 1rem;
+  --background: 222 45% 18%;
+  --foreground: 40 75% 92%;
+  --card: 219 45% 22%;
+  --card-foreground: 40 75% 92%;
+  --popover: 219 45% 22%;
+  --popover-foreground: 40 75% 92%;
+  --primary: 37 79% 58%;
+  --primary-foreground: 222 45% 18%;
+  --secondary: 216 44% 25%;
+  --secondary-foreground: 40 70% 87%;
+  --muted: 216 44% 25%;
+  --muted-foreground: 213 17% 55%;
+  --accent: 37 79% 58%;
+  --accent-foreground: 222 45% 18%;
+  --destructive: 17 63% 44%;
+  --destructive-foreground: 40 75% 92%;
+  --border: 215 32% 33%;
+  --input: 215 32% 33%;
+  --ring: 37 79% 58%;
+  --radius: 1.25rem;
 }
 
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
-  font-family: "Nunito", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Risograph grain overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
 }
 
 @media (prefers-reduced-motion: reduce) {
