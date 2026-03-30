@@ -156,12 +156,15 @@ export default function App() {
               </div>
               {/* Desktop: banner with fade + overlay textmark */}
               <div className="relative hidden items-center sm:flex" aria-hidden="true">
-                <img
-                  src="/watchtonight-banner.png"
-                  alt=""
-                  className="h-16 w-auto object-contain"
-                  style={{ maskImage: "linear-gradient(to right, transparent, black 8%, black 88%, transparent), linear-gradient(to bottom, transparent, black 25%, black 75%, transparent)", maskComposite: "intersect" }}
-                />
+                <picture>
+                  <source srcSet="/watchtonight-banner.webp" type="image/webp" />
+                  <img
+                    src="/watchtonight-banner.png"
+                    alt=""
+                    className="h-16 w-auto object-contain"
+                    style={{ maskImage: "linear-gradient(to right, transparent, black 8%, black 88%, transparent), linear-gradient(to bottom, transparent, black 25%, black 75%, transparent)", maskComposite: "intersect" }}
+                  />
+                </picture>
                 <span className="absolute right-3 top-1/2 -translate-y-1/2 font-display text-base leading-none tracking-[-0.02em]">
                   <span className="text-brand-ivory">Watch</span><span className="text-brand-gold">Tonight</span><span className="text-brand-amber text-[0.75em]">.app</span>
                 </span>
