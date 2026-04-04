@@ -46,18 +46,18 @@ export function SettingsDialog({ onSave }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" size="icon" aria-label="Settings" title="Settings">
+        <Button variant="outline" size="icon" className="h-8 w-8 sm:h-10 sm:w-10" aria-label="Settings" title="Settings">
           <IconSettings className="h-4 w-4" />
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-lg">
+      <DialogContent className="sm:max-w-lg brand-surface">
         <DialogHeader>
           <DialogTitle>Settings</DialogTitle>
           <DialogDescription>
             Add your Radarr and Sonarr base URLs to enable quick add buttons.
           </DialogDescription>
         </DialogHeader>
-        <p className="text-xs text-muted-foreground leading-relaxed">
+        <p className="text-xs leading-relaxed text-brand-text-soft">
           <a href="https://radarr.video" target="_blank" rel="noreferrer" className="font-medium text-foreground/70 underline underline-offset-2 hover:text-foreground">Radarr</a>{" "}
           and{" "}
           <a href="https://sonarr.tv" target="_blank" rel="noreferrer" className="font-medium text-foreground/70 underline underline-offset-2 hover:text-foreground">Sonarr</a>{" "}
@@ -67,21 +67,21 @@ export function SettingsDialog({ onSave }) {
         </p>
         <div className="grid gap-4">
           <label className="grid gap-2 text-sm">
-            <span className="text-foreground">Radarr base URL</span>
+            <span className="brand-kicker text-brand-gold/80">Radarr base URL</span>
             <input
               value={radarrUrl}
               onChange={(event) => setRadarrUrl(event.target.value)}
               placeholder="https://radarr.example.com"
-              className="h-11 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="h-11 rounded-2xl border border-[#e4d8ab]/10 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream outline-none placeholder:text-brand-text-muted focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             />
           </label>
           <label className="grid gap-2 text-sm">
-            <span className="text-foreground">Sonarr base URL</span>
+            <span className="brand-kicker text-brand-gold/80">Sonarr base URL</span>
             <input
               value={sonarrUrl}
               onChange={(event) => setSonarrUrl(event.target.value)}
               placeholder="https://sonarr.example.com"
-              className="h-11 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="h-11 rounded-2xl border border-[#e4d8ab]/10 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream outline-none placeholder:text-brand-text-muted focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
             />
           </label>
         </div>

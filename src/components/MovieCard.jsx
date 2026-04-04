@@ -49,12 +49,12 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
     : null
 
   return (
-    <div className={`flex flex-col gap-2 ${className}`}>
+    <div className={`brand-surface flex flex-col gap-3 rounded-[1.55rem] p-2 ${className}`}>
       <Dialog>
         <DialogTrigger asChild>
           <button
             type="button"
-            className="group relative block w-full cursor-pointer overflow-hidden rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="group relative block w-full cursor-pointer overflow-hidden rounded-[1.2rem] border border-[#e4d8ab]/8 bg-[rgba(10,20,18,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
             aria-label={`View details for ${movie.title}`}
             data-umami-event="Open details"
             data-umami-event-title={movie.title}
@@ -84,8 +84,8 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
                   onLoad={() => setIsPosterLoaded(true)}
                   onError={() => setIsPosterLoaded(true)}
                 />
-                {/* Composited hover darkening — replaces brightness() filter */}
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors duration-500 rounded" aria-hidden="true" />
+                {/* Darken the poster more aggressively on hover so the synopsis stays readable. */}
+                <div className="absolute inset-0 rounded-[1.2rem] bg-black/0 transition-colors duration-500 group-hover:bg-[rgba(4,10,10,0.4)]" aria-hidden="true" />
               </>
             ) : (
               <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-muted text-muted-foreground text-sm">
@@ -96,7 +96,7 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
             {/* Score badge — top right, always visible */}
             {score && (
               <div
-                className="absolute right-2 top-2 flex items-center gap-1 rounded-full bg-black/55 px-2 py-0.5 text-[11px] font-semibold text-amber-300 backdrop-blur-sm transition-transform duration-300 group-hover:scale-110"
+                className="absolute right-2 top-2 flex items-center gap-1 rounded-full border border-[#e4d8ab]/20 bg-[rgba(10,20,18,0.72)] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-brand-cream backdrop-blur-sm transition-transform duration-300 group-hover:scale-105"
                 aria-label={`Rating: ${score} out of 10`}
               >
                 <StarIcon />
@@ -107,8 +107,8 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
             {/* AI description — slides up from bottom on hover */}
             {movie.description && (
               <div className="absolute bottom-0 left-0 right-0 translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-                <div className="bg-gradient-to-t from-black/95 via-black/80 to-transparent px-3 pb-3 pt-8">
-                  <p className="text-[11px] italic leading-relaxed text-white/90 line-clamp-4">
+                <div className="bg-gradient-to-t from-[rgba(6,12,12,0.98)] via-[rgba(6,12,12,0.9)] via-55% to-[rgba(6,12,12,0.16)] px-3 pb-3 pt-10 backdrop-blur-[2px]">
+                  <p className="text-[12px] leading-6 text-brand-cream line-clamp-4 [text-shadow:0_1px_2px_rgba(0,0,0,0.55)]">
                     &ldquo;{movie.description}&rdquo;
                   </p>
                 </div>
@@ -127,10 +127,15 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
         </Suspense>
       </Dialog>
 
-      <div className="px-0.5">
-        <h3 className="font-semibold text-sm leading-tight line-clamp-2">{movie.title}</h3>
+      <div className="px-1 pb-1.5">
+        <div className="mb-1 flex items-start justify-between gap-2">
+          <h3 className="font-semibold text-sm leading-tight text-brand-cream line-clamp-2">{movie.title}</h3>
+          <span className="brand-kicker shrink-0 text-[0.55rem] text-brand-text-muted">
+            {movie.kind === "tv" ? "Series" : "Movie"}
+          </span>
+        </div>
         {movie.genres?.length > 0 && (
-          <p className="mt-0.5 text-xs text-muted-foreground line-clamp-1">
+          <p className="mt-0.5 text-xs text-brand-text-soft line-clamp-1">
             {movie.genres.slice(0, 2).join(" · ")}
           </p>
         )}
