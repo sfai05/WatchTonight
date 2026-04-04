@@ -16,21 +16,21 @@ export function AboutDialog({ lastUpdated }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" size="icon" aria-label="About WatchTonight" title="About">
+        <Button variant="outline" size="icon" className="h-8 w-8 sm:h-10 sm:w-10" aria-label="About WatchTonight" title="About">
           <IconInfo className="h-4 w-4" />
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="sm:max-w-lg max-h-[85vh] overflow-y-auto">
+      <DialogContent className="sm:max-w-2xl lg:max-w-3xl max-h-[85vh] overflow-y-auto brand-surface">
         <DialogHeader>
-          <DialogTitle className="text-lg font-bold">About WatchTonight</DialogTitle>
+          <DialogTitle className="text-xl">About WatchTonight</DialogTitle>
         </DialogHeader>
 
-        <div className="space-y-6 text-sm leading-relaxed text-muted-foreground">
+        <div className="space-y-6 text-sm leading-relaxed text-brand-text-soft">
 
           {/* Origin story */}
           <section className="space-y-3">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground/60">The problem</h3>
+            <h3 className="brand-kicker text-brand-gold/80">The problem</h3>
             <p>
               I came across a post on Instagram claiming that{" "}
               <span className="italic text-foreground/80">
@@ -51,7 +51,7 @@ export function AboutDialog({ lastUpdated }) {
 
           {/* What I built */}
           <section className="space-y-3">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground/60">What I built</h3>
+            <h3 className="brand-kicker text-brand-gold/80">What I built</h3>
             <p>
               I made WatchTonight for ourselves, first. A single curated list of movies and TV seasons
               that are <span className="text-foreground/80 font-medium">recently released to stream at home</span> and
@@ -66,7 +66,7 @@ export function AboutDialog({ lastUpdated }) {
 
           {/* How it works */}
           <section className="space-y-3">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground/60">How it works</h3>
+            <h3 className="brand-kicker text-brand-gold/80">How it works</h3>
             <p>
               Each item carries a composite score (0–10) aggregated from four sources:
               TMDB vote average, IMDb rating weighted by vote count, Rotten Tomatoes %, and Metacritic score.
@@ -91,7 +91,7 @@ export function AboutDialog({ lastUpdated }) {
 
           {/* Data sources */}
           <section className="space-y-2">
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-foreground/60">Data sources</h3>
+            <h3 className="brand-kicker text-brand-gold/80">Data sources</h3>
             <ul className="space-y-1.5">
               <li className="flex items-start gap-2">
                 <span className="mt-0.5 shrink-0 text-primary/60">·</span>

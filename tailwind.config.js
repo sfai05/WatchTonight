@@ -5,9 +5,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Dela Gothic One", "Impact", "sans-serif"],
+        display: ["Syne", "sans-serif"],
         sans: ["DM Sans", "system-ui", "sans-serif"],
-        mono: ["DM Mono", "monospace"],
+        mono: ["Space Mono", "monospace"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -45,17 +45,21 @@ export default {
         },
         // Named brand tokens for direct use
         brand: {
-          midnight:     "#1A2744",
-          "deep-navy":  "#1E3050",
-          "dark-navy":  "#243B5C",
-          "slate-blue": "#3A5070",
-          sienna:       "#B8522A",
-          amber:        "#D4832E",
-          gold:         "#E8A840",
-          "soft-gold":  "#EFC564",
-          cream:        "#F5E6C8",
-          ivory:        "#FAF0DC",
-          grey:         "#7A8BA0",
+          bg:            "#0E1A18",
+          section:       "#0A1412",
+          card:          "#132220",
+          teal:          "#174F4A",
+          "teal-mid":   "#1D5650",
+          "teal-light": "#236E6A",
+          "teal-bright": "#1A6873",
+          gold:          "#D68E25",
+          "gold-warm":  "#D69629",
+          "gold-muted": "#BD9D43",
+          cream:         "#E4D8AB",
+          "cream-light": "#ECE1B9",
+          pale:          "#F2ECD4",
+          "text-soft":  "#8DA8A4",
+          "text-muted": "#5A7874",
         },
       },
       borderRadius: {
