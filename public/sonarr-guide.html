@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Import WatchTonight into Sonarr — Guide</title>
+<meta name="description" content="Step-by-step guide to import the WatchTonight TV series list into Sonarr using a custom import list.">
+<link rel="canonical" href="https://watchtonight.app/sonarr-guide.html">
+<link rel="icon" type="image/svg+xml" href="/brand-mark.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+<link rel="icon" type="image/png" sizes="128x128" href="/icon-128.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal-deep: #174F4A;
+    --teal-mid: #1D5650;
+    --teal-light: #236E6A;
+    --gold-primary: #D68E25;
+    --gold-warm: #D69629;
+    --gold-muted: #BD9D43;
+    --cream: #E4D8AB;
+    --cream-light: #ECE1B9;
+    --cream-pale: #F2ECD4;
+    --bg: #0E1A18;
+    --bg-card: #132220;
+    --bg-section: #0A1412;
+    --text-primary: #E4D8AB;
+    --text-secondary: #8DA8A4;
+    --text-muted: #5A7874;
+    --white: #F8F5EB;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(14, 26, 24, 0.92);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(228, 216, 171, 0.08);
+    padding: 0 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  nav .nav-logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    color: var(--cream);
+    letter-spacing: -0.02em;
+    text-decoration: none;
+  }
+  nav .nav-logo span { color: var(--gold-primary); }
+  nav .nav-back {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  nav .nav-back:hover { color: var(--gold-primary); }
+
+  .hero {
+    padding: 140px 48px 80px;
+    max-width: 860px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .hero-badge {
+    display: inline-block;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+    border: 1px solid rgba(214, 142, 37, 0.3);
+    padding: 7px 18px;
+    border-radius: 100px;
+    margin-bottom: 32px;
+  }
+  .hero h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(32px, 5vw, 56px);
+    font-weight: 800;
+    line-height: 1.05;
+    color: var(--cream);
+    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+  }
+  .hero h1 span { color: var(--gold-primary); }
+  .hero p {
+    color: var(--text-secondary);
+    font-size: 17px;
+    line-height: 1.75;
+    max-width: 640px;
+  }
+
+  .content {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 0 48px 120px;
+  }
+
+  .divider {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(228, 216, 171, 0.1), transparent);
+    margin: 48px 0;
+  }
+
+  .section-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(20px, 3vw, 28px);
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 24px;
+    letter-spacing: -0.02em;
+  }
+
+  /* ── URL callout ── */
+  .url-callout {
+    background: rgba(214, 142, 37, 0.07);
+    border: 1px solid rgba(214, 142, 37, 0.2);
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+  .url-callout .label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold-primary);
+    white-space: nowrap;
+  }
+  .url-callout a {
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    color: var(--cream);
+    word-break: break-all;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(228, 216, 171, 0.3);
+    transition: color 0.2s, border-color 0.2s;
+  }
+  .url-callout a:hover { color: var(--gold-primary); border-color: var(--gold-primary); }
+
+  /* ── Steps ── */
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  .step-number {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(214, 142, 37, 0.1);
+    border: 1px solid rgba(214, 142, 37, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gold-primary);
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .step-body h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .step-body p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .step-body p + p { margin-top: 8px; }
+
+  code {
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    background: rgba(228, 216, 171, 0.07);
+    border: 1px solid rgba(228, 216, 171, 0.1);
+    padding: 2px 7px;
+    border-radius: 6px;
+    color: var(--cream-light);
+    white-space: nowrap;
+  }
+
+  /* ── Info card ── */
+  .info-card {
+    background: var(--bg-card);
+    border: 1px solid rgba(228, 216, 171, 0.06);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-top: 40px;
+  }
+  .info-card h3 {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 10px;
+  }
+  .info-card p {
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .info-card a {
+    color: var(--gold-primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+  }
+  .info-card a:hover { border-color: var(--gold-primary); }
+
+  footer {
+    border-top: 1px solid rgba(228, 216, 171, 0.06);
+    padding: 40px 48px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  footer a { color: var(--text-secondary); text-decoration: none; }
+  footer a:hover { color: var(--gold-primary); }
+
+  @media (max-width: 640px) {
+    nav { padding: 0 20px; }
+    .hero { padding: 110px 20px 60px; }
+    .content { padding: 0 20px 80px; }
+    footer { padding: 32px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">Watch<span>Tonight</span></a>
+  <a href="/" class="nav-back">← Back to app</a>
+</nav>
+
+<div class="hero">
+  <div class="hero-badge">Sonarr Integration</div>
+  <h1>Import our list<br>into <span>Sonarr</span></h1>
+  <p>
+    WatchTonight publishes a curated TV series list in a TVDB-based JSON format that works with Sonarr's
+    custom import list feature. Follow the steps below to automatically track tonight's picks in your
+    Sonarr library.
+  </p>
+</div>
+
+<div class="content">
+
+  <!-- List URL -->
+  <div class="section-label">The list URL</div>
+  <div class="url-callout">
+    <span class="label">JSON feed</span>
+    <a href="https://watchtonight.app/sonarr.json" target="_blank" rel="noreferrer">
+      https://watchtonight.app/sonarr.json
+    </a>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- Steps -->
+  <div class="section-label">Step-by-step guide</div>
+  <div class="section-title">Adding the list in Sonarr</div>
+
+  <div class="steps">
+
+    <div class="step">
+      <div class="step-number">1</div>
+      <div class="step-body">
+        <h3>Open Sonarr and go to Settings</h3>
+        <p>In your Sonarr instance, click <strong>Settings</strong> in the left sidebar.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">2</div>
+      <div class="step-body">
+        <h3>Navigate to Import Lists</h3>
+        <p>Select the <strong>Import Lists</strong> tab inside Settings.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">3</div>
+      <div class="step-body">
+        <h3>Add a new import list</h3>
+        <p>Click the <strong>+</strong> button to add a new list source.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">4</div>
+      <div class="step-body">
+        <h3>Choose "Custom List"</h3>
+        <p>
+          From the list type picker, select <strong>Custom List</strong>. This type accepts a
+          JSON feed containing TVDB IDs — the same format WatchTonight exports.
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">5</div>
+      <div class="step-body">
+        <h3>Paste the WatchTonight feed URL</h3>
+        <p>In the <strong>URL</strong> field, enter:</p>
+        <p><code>https://watchtonight.app/sonarr.json</code></p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">6</div>
+      <div class="step-body">
+        <h3>Configure quality &amp; folder settings</h3>
+        <p>
+          Set your preferred <strong>Quality Profile</strong>, <strong>Root Folder</strong>,
+          <strong>Series Type</strong> (Standard / Anime / Daily), and monitoring options
+          (e.g. <em>Monitor: All Episodes</em> or <em>Future</em>).
+        </p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="step-number">7</div>
+      <div class="step-body">
+        <h3>Save and sync</h3>
+        <p>
+          Click <strong>Save</strong>. Sonarr will import the list on its next scheduled sync, or you
+          can trigger a manual sync from <strong>Series → Add New</strong> → search for a title from
+          the list, or via <strong>System → Tasks → Refresh Import Lists</strong>.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Info card -->
+  <div class="info-card">
+    <h3>About the list format</h3>
+    <p>
+      Our Sonarr feed is a JSON array of objects, each containing a <code>tvdbId</code> — the unique
+      identifier used by <a href="https://thetvdb.com" target="_blank" rel="noreferrer">TheTVDB</a> and
+      Sonarr to match series. The list is refreshed daily alongside the WatchTonight curated picks.
+      <br><br>
+      For full details on Sonarr's import list feature, see the official docs:
+      <a href="https://wiki.servarr.com/sonarr/settings#import-lists" target="_blank" rel="noreferrer">
+        wiki.servarr.com → Sonarr Settings → Import Lists
+      </a>
+    </p>
+  </div>
+
+</div>
+
+<footer>
+  <p>
+    <a href="/">WatchTonight.app</a> &mdash; Curated movies &amp; TV worth watching tonight.
+  </p>
+</footer>
+
+</body>
+</html>
