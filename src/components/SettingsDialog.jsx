@@ -67,7 +67,17 @@ export function SettingsDialog({ onSave }) {
         </p>
         <div className="grid gap-4">
           <label className="grid gap-2 text-sm">
-            <span className="brand-kicker text-brand-gold/80">Radarr base URL</span>
+            <span className="brand-kicker text-brand-gold/80 flex items-center justify-between">
+              <span>Radarr base URL</span>
+              <a
+                href="/radarr-guide.html"
+                target="_blank"
+                rel="noreferrer"
+                className="font-sans normal-case font-normal text-[11px] tracking-normal text-brand-text-muted hover:text-brand-gold/80 transition-colors"
+              >
+                Import our list →
+              </a>
+            </span>
             <input
               value={radarrUrl}
               onChange={(event) => setRadarrUrl(event.target.value)}
@@ -76,7 +86,17 @@ export function SettingsDialog({ onSave }) {
             />
           </label>
           <label className="grid gap-2 text-sm">
-            <span className="brand-kicker text-brand-gold/80">Sonarr base URL</span>
+            <span className="brand-kicker text-brand-gold/80 flex items-center justify-between">
+              <span>Sonarr base URL</span>
+              <a
+                href="/sonarr-guide.html"
+                target="_blank"
+                rel="noreferrer"
+                className="font-sans normal-case font-normal text-[11px] tracking-normal text-brand-text-muted hover:text-brand-gold/80 transition-colors"
+              >
+                Import our list →
+              </a>
+            </span>
             <input
               value={sonarrUrl}
               onChange={(event) => setSonarrUrl(event.target.value)}
