@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — WatchTonight</title>
+<meta name="description" content="Privacy Policy for WatchTonight — how we handle your data.">
+<link rel="icon" type="image/svg+xml" href="/brand-mark.svg">
+<link rel="canonical" href="https://watchtonight.app/privacy.html">
+<meta name="robots" content="index, follow">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal-deep:   #174F4A;
+    --teal-mid:    #1D5650;
+    --teal-light:  #236E6A;
+    --gold:        #D68E25;
+    --gold-warm:   #D69629;
+    --gold-muted:  #BD9D43;
+    --cream:       #E4D8AB;
+    --cream-light: #ECE1B9;
+    --bg:          #0E1A18;
+    --bg-card:     #132220;
+    --bg-section:  #0A1412;
+    --text:        #E4D8AB;
+    --text-sub:    #8DA8A4;
+    --text-muted:  #5A7874;
+    --border:      rgba(228, 216, 171, 0.1);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Noise overlay */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* Top glow */
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 400px;
+    background: radial-gradient(ellipse at top, rgba(214,142,37,0.10) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── Nav ── */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    height: 60px;
+    background: rgba(14, 26, 24, 0.92);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+  }
+
+  .nav-logo {
+    font-family: 'Syne', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    text-decoration: none;
+  }
+  .nav-logo span { color: var(--gold); }
+
+  .nav-back {
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-sub);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .nav-back:hover { color: var(--gold); }
+
+  /* ── Page layout ── */
+  main {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 120px 32px 100px;
+  }
+
+  /* ── Header ── */
+  .page-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold-muted);
+    margin-bottom: 16px;
+  }
+
+  h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: clamp(32px, 5vw, 48px);
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    color: var(--cream-light);
+    margin-bottom: 12px;
+  }
+
+  .page-meta {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 56px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  /* ── Divider ── */
+  .divider {
+    width: 48px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--gold) 0%, transparent 100%);
+    margin-bottom: 56px;
+    border-radius: 2px;
+  }
+
+  /* ── Sections ── */
+  section {
+    margin-bottom: 48px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid var(--border);
+  }
+  section:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-family: 'Syne', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--cream-light);
+    margin-bottom: 16px;
+  }
+
+  p {
+    font-size: 15px;
+    color: var(--text-sub);
+    margin-bottom: 14px;
+  }
+  p:last-child { margin-bottom: 0; }
+
+  ul, ol {
+    padding-left: 20px;
+    margin-bottom: 14px;
+  }
+
+  li {
+    font-size: 15px;
+    color: var(--text-sub);
+    margin-bottom: 8px;
+  }
+
+  a {
+    color: var(--gold);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(214,142,37,0.3);
+    transition: border-color 0.2s, color 0.2s;
+  }
+  a:hover {
+    color: var(--gold-warm);
+    border-color: var(--gold-warm);
+  }
+
+  /* ── Highlight card ── */
+  .highlight {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin: 20px 0;
+  }
+  .highlight p { margin-bottom: 0; font-size: 14px; }
+
+  /* ── Footer ── */
+  footer {
+    text-align: center;
+    padding: 40px 32px;
+    border-top: 1px solid var(--border);
+    position: relative;
+    z-index: 1;
+  }
+  footer p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 0;
+    font-family: 'Space Mono', monospace;
+  }
+  footer a { font-size: 13px; }
+
+  @media (max-width: 600px) {
+    nav { padding: 0 20px; }
+    main { padding: 100px 20px 80px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="https://watchtonight.app/" class="nav-logo">Watch<span>Tonight</span></a>
+  <a href="https://watchtonight.app/" class="nav-back">← Back to app</a>
+</nav>
+
+<main>
+  <p class="page-eyebrow">Legal</p>
+  <h1>Privacy Policy</h1>
+  <p class="page-meta">Effective date: April 7, 2026 &nbsp;·&nbsp; Last updated: April 7, 2026</p>
+  <div class="divider"></div>
+
+  <section>
+    <h2>Overview</h2>
+    <p>
+      WatchTonight ("we", "us", or "our") operates the website
+      <a href="https://watchtonight.app/">watchtonight.app</a>.
+      This Privacy Policy explains what information we collect when you visit the site,
+      how we use it, and your rights regarding that information.
+    </p>
+    <p>
+      WatchTonight is a read-only content discovery tool. We do not offer user accounts,
+      user-generated content, or social features. We do not sell or share your personal
+      data with third parties for marketing purposes.
+    </p>
+  </section>
+
+  <section>
+    <h2>Information We Collect</h2>
+
+    <h2 style="font-size:15px; font-weight:600; color:var(--text-sub); margin-top:0; margin-bottom:10px;">1. Information you provide</h2>
+    <p>We do not ask you to create an account or submit personal information. No forms, logins, or sign-ups are offered on this site.</p>
+
+    <h2 style="font-size:15px; font-weight:600; color:var(--text-sub); margin-top:20px; margin-bottom:10px;">2. Automatically collected information</h2>
+    <p>When you visit WatchTonight, standard web server and analytics infrastructure may automatically collect:</p>
+    <ul>
+      <li>Your browser type and version</li>
+      <li>Operating system and device type</li>
+      <li>Pages visited and time spent on the site</li>
+      <li>Referring URL (the page you came from)</li>
+      <li>IP address (anonymised where possible)</li>
+    </ul>
+    <p>This information is used solely to understand how visitors use the site and to improve performance and content relevance.</p>
+
+    <h2 style="font-size:15px; font-weight:600; color:var(--text-sub); margin-top:20px; margin-bottom:10px;">3. Cookies and local storage</h2>
+    <p>
+      We use small cookies and browser storage to remember your preferences across visits,
+      such as your preferred colour theme and whether you have dismissed the hero banner.
+      These are first-party, functional cookies — they are not used for advertising or tracking.
+    </p>
+    <div class="highlight">
+      <p>You can clear these preferences at any time by clearing your browser cookies and site data for watchtonight.app.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>How We Use Information</h2>
+    <p>We use collected information only to:</p>
+    <ul>
+      <li>Operate and improve the WatchTonight website</li>
+      <li>Understand aggregate usage patterns (e.g. which content is popular)</li>
+      <li>Remember your display preferences between visits</li>
+      <li>Investigate and fix technical issues</li>
+    </ul>
+    <p>We do <strong>not</strong> use your information to build advertising profiles, sell to data brokers, or target you with marketing.</p>
+  </section>
+
+  <section>
+    <h2>Third-Party Services</h2>
+    <p>WatchTonight may embed or load content from the following third-party services:</p>
+    <ul>
+      <li><strong>YouTube</strong> — movie and TV trailers may be streamed via YouTube's embed player. YouTube's <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> applies to video playback.</li>
+      <li><strong>TMDB (The Movie Database)</strong> — poster images and metadata are sourced from TMDB's API. TMDB's <a href="https://www.themoviedb.org/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> applies.</li>
+      <li><strong>Google Fonts</strong> — typefaces are loaded from Google's CDN. Google's <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a> applies.</li>
+    </ul>
+    <p>We are not responsible for the privacy practices of these third-party services. We encourage you to review their respective privacy policies.</p>
+  </section>
+
+  <section>
+    <h2>Facebook Platform</h2>
+    <p>
+      WatchTonight may be listed on the Facebook App Directory or shared via Facebook's developer
+      platform as a web application. We do <strong>not</strong> use Facebook Login, and we do not
+      request access to your Facebook profile, friends list, or any Facebook account data.
+    </p>
+    <p>
+      If you reach WatchTonight by clicking a link shared on Facebook, Facebook's own data
+      collection practices (e.g. referrer data) apply to that click. Please refer to
+      <a href="https://www.facebook.com/privacy/policy/" target="_blank" rel="noopener noreferrer">Meta's Privacy Policy</a>
+      for details.
+    </p>
+  </section>
+
+  <section>
+    <h2>Data Retention</h2>
+    <p>
+      Server access logs, if retained, are kept for no longer than 90 days and are then
+      automatically purged. Preference cookies stored in your browser persist until you
+      clear them or they expire (up to 1 year).
+    </p>
+  </section>
+
+  <section>
+    <h2>Children's Privacy</h2>
+    <p>
+      WatchTonight is not directed at children under the age of 13. We do not knowingly
+      collect personal information from children. If you believe a child has submitted
+      personal information to us, please contact us and we will promptly delete it.
+    </p>
+  </section>
+
+  <section>
+    <h2>Your Rights</h2>
+    <p>Depending on where you live, you may have the right to:</p>
+    <ul>
+      <li>Request access to any personal data we hold about you</li>
+      <li>Request correction or deletion of that data</li>
+      <li>Object to or restrict certain processing</li>
+      <li>Lodge a complaint with your local data protection authority</li>
+    </ul>
+    <p>
+      Because we collect minimal data and do not maintain user accounts, most requests
+      can be fulfilled simply by clearing your browser's cookies and site data.
+      For any other requests, contact us at the address below.
+    </p>
+  </section>
+
+  <section>
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. When we do, we will revise the
+      "Last updated" date at the top of this page. Continued use of WatchTonight after
+      any changes constitutes acceptance of the revised policy.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>
+      If you have questions or concerns about this Privacy Policy, or wish to exercise
+      your data rights, please reach out:
+    </p>
+    <div class="highlight">
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:contact@watchtonight.app">contact@watchtonight.app</a><br>
+        <strong>Website:</strong>
+        <a href="https://watchtonight.app/">watchtonight.app</a>
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 WatchTonight &nbsp;·&nbsp; <a href="/privacy.html">Privacy Policy</a> &nbsp;·&nbsp; <a href="https://watchtonight.app/">Home</a></p>
+</footer>
+
+</body>
+</html>
