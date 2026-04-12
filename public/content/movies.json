@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T06:34:58.212477",
+  "generated_at": "2026-04-12T06:45:40.446007",
   "count": 60,
   "movies": [
     {
@@ -7,8 +7,8 @@
       "title": "The Bride!",
       "release_date": "2026-04-07",
       "digital_release_date": "2026-04-07",
-      "age_days": 4,
-      "description": "The internet is completely divided — a furious, feminist reimagining that has everyone talking.",
+      "age_days": 5,
+      "description": "Christian Bale as Frankenstein is the wildest thing online right now — unmissable",
       "overview": "A lonely Frankenstein travels to 1930s Chicago to ask groundbreaking scientist Dr. Euphronious to create a companion for him. The two revive a murdered young woman and The Bride is born. But what ensues is beyond what either of them imagined.",
       "genres": [
         "Science Fiction",
@@ -37,10 +37,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=QyLhkoGeSl4",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lV8YHwGkYZsm6EfIqnhaSz2avKt.jpg",
       "ratings": {
-        "composite_score": 69.3,
+        "composite_score": 68.88,
         "tmdb": {
-          "rating": 6.3,
-          "votes": 266
+          "rating": 6.262,
+          "votes": 286
         },
         "imdb": {
           "rating": null,
@@ -182,8 +182,8 @@
       "title": "\"Wuthering Heights\"",
       "release_date": "2026-03-31",
       "digital_release_date": "2026-03-31",
-      "age_days": 11,
-      "description": "Affair rumors, historic inaccuracies, and Saltburn-levels of depravity — see what the fuss is about.",
+      "age_days": 12,
+      "description": "Emerald Fennell's latest has the entire internet picking sides — see it and judge",
       "overview": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
       "genres": [
         "Romance",
@@ -213,10 +213,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=3fLCdIYShEQ",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
       "ratings": {
-        "composite_score": 71.81,
+        "composite_score": 71.87,
         "tmdb": {
-          "rating": 6.528,
-          "votes": 725
+          "rating": 6.534,
+          "votes": 731
         },
         "imdb": {
           "rating": null,
@@ -364,12 +364,130 @@
       "imdb_id": "tt32897959"
     },
     {
+      "id": 83533,
+      "title": "Avatar: Fire and Ash",
+      "release_date": "2026-03-31",
+      "digital_release_date": "2026-03-31",
+      "age_days": 12,
+      "description": "James Cameron does it again — a visual masterpiece just dropped and it's spectacular",
+      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "genres": [
+        "Science Fiction",
+        "Adventure",
+        "Fantasy"
+      ],
+      "director": "James Cameron",
+      "top_actors": [
+        "Sam Worthington",
+        "Zoe Saldaña",
+        "Sigourney Weaver"
+      ],
+      "production_companies": [
+        "20th Century Studios",
+        "Lightstorm Entertainment",
+        "TSG Entertainment"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "US"
+      ],
+      "budget": 350000000,
+      "revenue": 1485966646,
+      "runtime": 198,
+      "trailer_url": "https://www.youtube.com/watch?v=Ma1x7ikpid8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "ratings": {
+        "composite_score": 75.62,
+        "tmdb": {
+          "rating": 7.4,
+          "votes": 2508
+        },
+        "imdb": {
+          "rating": 7.4,
+          "votes": 134356
+        },
+        "rotten_tomatoes": 66.0,
+        "metacritic": 61.0
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=AU"
+        }
+      },
+      "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
+      "imdb_id": "tt1757678"
+    },
+    {
       "id": 1159559,
       "title": "Scream 7",
       "release_date": "2026-03-31",
       "digital_release_date": "2026-03-31",
-      "age_days": 11,
-      "description": "Neve Campbell's explosive return is breaking the internet — nostalgia mixed with brutal new rules.",
+      "age_days": 12,
+      "description": "Neve Campbell is back and horror TikTok is completely losing its mind",
       "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
       "genres": [
         "Horror",
@@ -397,10 +515,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=4g8OciWNJn4",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
       "ratings": {
-        "composite_score": 66.44,
+        "composite_score": 66.36,
         "tmdb": {
-          "rating": 6.04,
-          "votes": 708
+          "rating": 6.033,
+          "votes": 713
         },
         "imdb": {
           "rating": null,
@@ -526,54 +644,90 @@
       "imdb_id": "tt27047903"
     },
     {
-      "id": 83533,
-      "title": "Avatar: Fire and Ash",
+      "id": 1287141,
+      "title": "Pillion",
       "release_date": "2026-03-31",
       "digital_release_date": "2026-03-31",
-      "age_days": 11,
-      "description": "The ultimate cinematic spectacle — Twitter can't agree on the plot, but visuals are epic.",
-      "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
+      "age_days": 12,
+      "description": "Incredible reviews. The freshest and highest-rated indie out right now",
+      "overview": "Colin, a timid gay man, is swept off his feet when Ray, an enigmatic and impossibly handsome biker, takes him on as his submissive in a crazy and erotic BDSM-focused relationship.",
       "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Fantasy"
+        "Romance",
+        "Drama",
+        "Comedy"
       ],
-      "director": "James Cameron",
+      "director": "Harry Lighton",
       "top_actors": [
-        "Sam Worthington",
-        "Zoe Saldaña",
-        "Sigourney Weaver"
+        "Harry Melling",
+        "Alexander Skarsgård",
+        "Lesley Sharp"
       ],
       "production_companies": [
-        "20th Century Studios",
-        "Lightstorm Entertainment",
-        "TSG Entertainment"
+        "BBC Film",
+        "BFI",
+        "Element Pictures",
+        "Fremantle",
+        "September Film"
       ],
       "original_language": "en",
       "production_countries": [
-        "US"
+        "GB",
+        "IE",
+        "NL"
       ],
-      "budget": 350000000,
-      "revenue": 1485966646,
-      "runtime": 198,
-      "trailer_url": "https://www.youtube.com/watch?v=Ma1x7ikpid8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
+      "budget": 1000000,
+      "revenue": 6439655,
+      "runtime": 107,
+      "trailer_url": "https://www.youtube.com/watch?v=Gl8n5I-IIHU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
       "ratings": {
-        "composite_score": 75.55,
+        "composite_score": 87.18,
         "tmdb": {
-          "rating": 7.366,
-          "votes": 2487
+          "rating": 6.3,
+          "votes": 156
         },
         "imdb": {
-          "rating": 7.4,
-          "votes": 134356
+          "rating": 6.8,
+          "votes": 9550
         },
-        "rotten_tomatoes": 66.0,
-        "metacritic": 61.0
+        "rotten_tomatoes": 100.0,
+        "metacritic": 85.0
       },
       "streaming_availability": {
         "US": {
           "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
             "buy": [
               {
                 "provider_id": 10,
@@ -602,27 +756,22 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=CA"
+          "link": "https://www.themoviedb.org/movie/1287141-pillion/watch?locale=US"
         },
         "AU": {
           "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ],
             "buy": [
               {
                 "provider_id": 2,
@@ -636,20 +785,20 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/83533-avatar-fire-and-ash/watch?locale=AU"
+          "link": "https://www.themoviedb.org/movie/1287141-pillion/watch?locale=AU"
         }
       },
-      "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-      "backdrop_path": "/iN41Ccw4DctL8npfmYg1j5Tr1eb.jpg",
-      "imdb_id": "tt1757678"
+      "poster_path": "/7Pd6ChSQjSXy4snJiorSdzg2cG3.jpg",
+      "backdrop_path": "/rBYrtkAy9YtRuFpX1g6JbcjRT8h.jpg",
+      "imdb_id": "tt32321317"
     },
     {
       "id": 1171145,
       "title": "Crime 101",
       "release_date": "2026-04-01",
       "digital_release_date": "2026-04-01",
-      "age_days": 10,
-      "description": "Chris Hemsworth in a slick, Michael Mann-style heist — the perfect new dad movie.",
+      "age_days": 11,
+      "description": "Hemsworth and Ruffalo face off in this tense, highly discussed new thriller",
       "overview": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
       "genres": [
         "Crime",
@@ -682,7 +831,7 @@
         "composite_score": 77.24,
         "tmdb": {
           "rating": 7.032,
-          "votes": 595
+          "votes": 631
         },
         "imdb": {
           "rating": 7.2,
@@ -710,47 +859,42 @@
       "imdb_id": "tt32430579"
     },
     {
-      "id": 1084187,
-      "title": "Pretty Lethal",
-      "release_date": "2026-03-25",
-      "digital_release_date": "2026-03-25",
-      "age_days": 17,
-      "description": "Gen Z ballerinas taking out bad guys in tutus — TikTok's new aesthetic obsession.",
-      "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
+      "id": 875828,
+      "title": "Peaky Blinders: The Immortal Man",
+      "release_date": "2026-03-20",
+      "digital_release_date": "2026-03-20",
+      "age_days": 23,
+      "description": "Tommy Shelby returns in the cinematic event fans have been begging for",
+      "overview": "After his estranged son gets embroiled in a Nazi plot, self-exiled gangster Tommy Shelby must return to Birmingham to save his family — and his nation.",
       "genres": [
-        "Music",
-        "Thriller",
-        "Action",
-        "Horror"
+        "Crime",
+        "Drama"
       ],
-      "director": "Vicky Jewson",
+      "director": "Tom Harper",
       "top_actors": [
-        "Maddie Ziegler",
-        "Lana Condor",
-        "Iris Apatow"
+        "Cillian Murphy",
+        "Barry Keoghan",
+        "Rebecca Ferguson"
       ],
       "production_companies": [
-        "87North Productions",
-        "GulfStream Pictures",
-        "Pioneer Stillking",
-        "Amazon MGM Studios"
+        "BBC Film",
+        "Garrison Drama",
+        "Nebulastar"
       ],
       "original_language": "en",
       "production_countries": [
-        "US",
-        "HU",
         "GB"
       ],
       "budget": null,
       "revenue": null,
-      "runtime": 89,
-      "trailer_url": "https://www.youtube.com/watch?v=MpNobYCw0mg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
+      "runtime": 112,
+      "trailer_url": "https://www.youtube.com/watch?v=lcvUGs3xaDM",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
       "ratings": {
-        "composite_score": 72.04,
+        "composite_score": 75.93,
         "tmdb": {
-          "rating": 6.861,
-          "votes": 241
+          "rating": 7.231,
+          "votes": 735
         },
         "imdb": {
           "rating": null,
@@ -764,26 +908,137 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/1084187-pretty-lethal/watch?locale=US"
+          "link": "https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/875828-peaky-blinders-the-immortal-man/watch?locale=AU"
         }
       },
-      "poster_path": "/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
-      "backdrop_path": "/z3bzhmC0CPikWeerUkLO73YvGrC.jpg",
-      "imdb_id": "tt26678938"
+      "poster_path": "/gRMalasZEzsZi4w2VFuYusfSfqf.jpg",
+      "backdrop_path": "/61BiigHOW0ReOZvV039UfeFM2gW.jpg",
+      "imdb_id": "tt15574124"
+    },
+    {
+      "id": 1115544,
+      "title": "Mike & Nick & Nick & Alice",
+      "release_date": "2026-03-27",
+      "digital_release_date": "2026-03-27",
+      "age_days": 16,
+      "description": "Vince Vaughn's chaotic new sci-fi comedy is an absolute trip",
+      "overview": "Two gangsters and the woman they love try to survive the most dangerous night of their lives. As if that wasn’t enough, there’s one wild ingredient added to the mix: a time machine.",
+      "genres": [
+        "Comedy",
+        "Science Fiction",
+        "Crime"
+      ],
+      "director": "BenDavid Grabinski",
+      "top_actors": [
+        "James Marsden",
+        "Vince Vaughn",
+        "Eiza González"
+      ],
+      "production_companies": [
+        "20th Century Studios",
+        "Mad Chance"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "US"
+      ],
+      "budget": null,
+      "revenue": null,
+      "runtime": 107,
+      "trailer_url": "https://www.youtube.com/watch?v=pI-2t18TXqs",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+      "ratings": {
+        "composite_score": 71.57,
+        "tmdb": {
+          "rating": 6.816,
+          "votes": 212
+        },
+        "imdb": {
+          "rating": null,
+          "votes": null
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1115544-mike-nick-nick-alice/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1115544-mike-nick-nick-alice/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1115544-mike-nick-nick-alice/watch?locale=AU"
+        }
+      },
+      "poster_path": "/7F0jc75HrSkLVcvOXR2FXAIwuEv.jpg",
+      "backdrop_path": "/uNToXatdunyvWXyXMrTI1nLvh6r.jpg",
+      "imdb_id": "tt27552099"
     },
     {
       "id": 1198994,
       "title": "Send Help",
       "release_date": "2026-03-23",
       "digital_release_date": "2026-03-23",
-      "age_days": 19,
-      "description": "Sam Raimi is back! A shockingly gory, hilarious survival thriller the internet loves.",
+      "age_days": 20,
+      "description": "Sam Raimi's latest is pure nightmare fuel that actually delivers on the hype",
       "overview": "Two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's a battle of wills and wits to make it out alive.",
       "genres": [
         "Horror",
@@ -811,10 +1066,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=cOmnmFz_Uzs",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg",
       "ratings": {
-        "composite_score": 76.55,
+        "composite_score": 76.5,
         "tmdb": {
-          "rating": 7.04,
-          "votes": 914
+          "rating": 7.023,
+          "votes": 925
         },
         "imdb": {
           "rating": 7.2,
@@ -936,8 +1191,8 @@
       "title": "How to Make a Killing",
       "release_date": "2026-03-24",
       "digital_release_date": "2026-03-24",
-      "age_days": 18,
-      "description": "Glen Powell brings his absolute A-game to this dark and hilarious recent thriller.",
+      "age_days": 19,
+      "description": "Glen Powell's charm anchors this slick, highly talked-about new thriller",
       "overview": "Disowned at birth by his obscenely wealthy family, blue-collar Becket Redfellow will stop at nothing to reclaim his inheritance, no matter how many relatives stand in his way.",
       "genres": [
         "Comedy",
@@ -967,10 +1222,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=B7RslMKZ2Yc",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/yQ7OP2HYxl9YmkWNMkuUA2YaF5.jpg",
       "ratings": {
-        "composite_score": 65.94,
+        "composite_score": 66.03,
         "tmdb": {
-          "rating": 7.0,
-          "votes": 234
+          "rating": 7.031,
+          "votes": 241
         },
         "imdb": {
           "rating": 6.7,
@@ -1088,8 +1343,8 @@
       "title": "Sirāt",
       "release_date": "2026-03-24",
       "digital_release_date": "2026-03-24",
-      "age_days": 18,
-      "description": "A tense, beautifully shot Spanish thriller that is slowly gaining serious word-of-mouth buzz.",
+      "age_days": 19,
+      "description": "Critically acclaimed and fresh — a slow-burn thriller absolutely worth your time tonight",
       "overview": "A man and his son arrive at a rave lost in the mountains of Morocco. They are looking for Marina, their daughter and sister, who disappeared months ago at another rave. Driven by fate, they decide to follow a group of ravers in search of one last party, in hopes Marina will be there.",
       "genres": [
         "Drama",
@@ -1219,12 +1474,223 @@
       "imdb_id": "tt32298285"
     },
     {
+      "id": 1084187,
+      "title": "Pretty Lethal",
+      "release_date": "2026-03-25",
+      "digital_release_date": "2026-03-25",
+      "age_days": 18,
+      "description": "Maddie Ziegler shines in this crazy stylish horror action flick",
+      "overview": "A troupe of ballerinas find themselves fighting for survival as they attempt to escape from a remote inn after their bus breaks down on the way to a dance competition.",
+      "genres": [
+        "Music",
+        "Thriller",
+        "Action",
+        "Horror"
+      ],
+      "director": "Vicky Jewson",
+      "top_actors": [
+        "Maddie Ziegler",
+        "Lana Condor",
+        "Iris Apatow"
+      ],
+      "production_companies": [
+        "87North Productions",
+        "GulfStream Pictures",
+        "Pioneer Stillking",
+        "Amazon MGM Studios"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "US",
+        "HU",
+        "GB"
+      ],
+      "budget": null,
+      "revenue": null,
+      "runtime": 89,
+      "trailer_url": "https://www.youtube.com/watch?v=MpNobYCw0mg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
+      "ratings": {
+        "composite_score": 72.15,
+        "tmdb": {
+          "rating": 6.871,
+          "votes": 249
+        },
+        "imdb": {
+          "rating": null,
+          "votes": null
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1084187-pretty-lethal/watch?locale=US"
+        }
+      },
+      "poster_path": "/znTPnXCK3lEQJgqXCvP7e5FUz6f.jpg",
+      "backdrop_path": "/z3bzhmC0CPikWeerUkLO73YvGrC.jpg",
+      "imdb_id": "tt26678938"
+    },
+    {
+      "id": 1297842,
+      "title": "GOAT",
+      "release_date": "2026-03-24",
+      "digital_release_date": "2026-03-24",
+      "age_days": 19,
+      "description": "Stephen Curry's animated family comedy is a massive slam dunk for movie night",
+      "overview": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "director": "Tyree Dillihay",
+      "top_actors": [
+        "Caleb McLaughlin",
+        "Gabrielle Union",
+        "Stephen Curry"
+      ],
+      "production_companies": [
+        "Sony Pictures Animation",
+        "Unanimous Media",
+        "Modern Magic",
+        "Columbia Pictures",
+        "MACRO",
+        "TSG Entertainment"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "US"
+      ],
+      "budget": 90000000,
+      "revenue": 185575707,
+      "runtime": 100,
+      "trailer_url": "https://www.youtube.com/watch?v=kmY-rYS7yng",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "ratings": {
+        "composite_score": 72.06,
+        "tmdb": {
+          "rating": 7.886,
+          "votes": 374
+        },
+        "imdb": {
+          "rating": 6.9,
+          "votes": 3226
+        },
+        "rotten_tomatoes": null,
+        "metacritic": 60.0
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1297842-goat/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1297842-goat/watch?locale=CA"
+        }
+      },
+      "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+      "backdrop_path": "/tq3h43fZy0H80vzf47MAY7R9Mxo.jpg",
+      "imdb_id": "tt27613895"
+    },
+    {
       "id": 1314786,
       "title": "Agent Zeta",
       "release_date": "2026-03-20",
       "digital_release_date": "2026-03-20",
-      "age_days": 22,
-      "description": "Mario Casas delivers pure adrenaline in this freshly released, high-stakes international action flick.",
+      "age_days": 23,
+      "description": "A pulse-pounding Spanish spy thriller that just hit digital — pure adrenaline",
       "overview": "Four Spanish ex-intelligence officers are assassinated simultaneously worldwide. The CNI discovers all participated in the covert \"Operation Ciénaga\" decades ago in Colombia. Zeta, the CNI's best operative, must hunt and protect the sole survivor, facing his deadliest global mission yet. Top Colombian agent Alfa will join Zeta, seemingly knowing more about \"Ciénaga\"'s secrets than him.",
       "genres": [
         "Drama",
@@ -1250,10 +1716,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=d56tjzLzYZM",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1cKLG9KMoCjsgFB8Nw1EuglteVi.jpg",
       "ratings": {
-        "composite_score": 66.83,
+        "composite_score": 66.55,
         "tmdb": {
-          "rating": 6.7,
-          "votes": 111
+          "rating": 6.672,
+          "votes": 116
         },
         "imdb": {
           "rating": null,
@@ -1281,12 +1747,157 @@
       "imdb_id": "tt32880540"
     },
     {
+      "id": 1127674,
+      "title": "The Forbidden City",
+      "release_date": "2026-03-17",
+      "digital_release_date": "2026-03-17",
+      "age_days": 26,
+      "description": "Epic historical action that demands to be seen on the biggest screen possible",
+      "overview": "The son of an indebted restaurant owner joins a foreign girl in search of her sister. Together, they’ll have to fight side by side against the most ruthless members of the Roman criminal underworld.",
+      "genres": [
+        "Action",
+        "Drama",
+        "Romance"
+      ],
+      "director": "Gabriele Mainetti",
+      "top_actors": [
+        "Liu Yaxi",
+        "Enrico Borello",
+        "Marco Giallini"
+      ],
+      "production_companies": [
+        "Wildside",
+        "Goon Films",
+        "PiperFilm"
+      ],
+      "original_language": "it",
+      "production_countries": [
+        "IT"
+      ],
+      "budget": 18218260,
+      "revenue": 1457292,
+      "runtime": 138,
+      "trailer_url": "https://www.youtube.com/watch?v=E02CbJ9dCQY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eSwDbpNHm19QVfX2Da6jdvaPWTh.jpg",
+      "ratings": {
+        "composite_score": 69.11,
+        "tmdb": {
+          "rating": 6.971,
+          "votes": 313
+        },
+        "imdb": {
+          "rating": 6.9,
+          "votes": 2413
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1127674-la-citta-proibita/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1127674-la-citta-proibita/watch?locale=CA"
+        }
+      },
+      "poster_path": "/eSwDbpNHm19QVfX2Da6jdvaPWTh.jpg",
+      "backdrop_path": "/7ZiQSnYYzv5gdmW6flGOm7mZX1M.jpg",
+      "imdb_id": "tt27766538"
+    },
+    {
       "id": 1401281,
       "title": "The Testament of Ann Lee",
       "release_date": "2026-03-10",
       "digital_release_date": "2026-03-10",
-      "age_days": 32,
-      "description": "Amanda Seyfried anchors this gorgeous, haunting historical drama that just dropped on streaming.",
+      "age_days": 33,
+      "description": "Amanda Seyfried is devastating in this buzzy historical music drama",
       "overview": "The extraordinary true legend of Ann Lee, founder of the devotional sect known as the Shakers, who preached gender and social equality and was revered by her followers as the female Christ.",
       "genres": [
         "History",
@@ -1327,10 +1938,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=Rb0ZhiDD9J0",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hBGg3IGRM7LM6ydMmDrl8mEx33Y.jpg",
       "ratings": {
-        "composite_score": 76.55,
+        "composite_score": 76.48,
         "tmdb": {
-          "rating": 6.5,
-          "votes": 105
+          "rating": 6.467,
+          "votes": 107
         },
         "imdb": {
           "rating": 7.1,
@@ -1439,8 +2050,8 @@
       "title": "Good Luck, Have Fun, Don't Die",
       "release_date": "2026-03-10",
       "digital_release_date": "2026-03-10",
-      "age_days": 32,
-      "description": "Sam Rockwell in a wildly entertaining sci-fi action-comedy from director Gore Verbinski.",
+      "age_days": 33,
+      "description": "Sam Rockwell elevates Gore Verbinski's completely unhinged and wild sci-fi ride",
       "overview": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
       "genres": [
         "Science Fiction",
@@ -1470,10 +2081,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=Nm4WbapDzDQ",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
       "ratings": {
-        "composite_score": 70.76,
+        "composite_score": 70.79,
         "tmdb": {
-          "rating": 6.909,
-          "votes": 314
+          "rating": 6.921,
+          "votes": 318
         },
         "imdb": {
           "rating": 7.5,
@@ -1577,12 +2188,102 @@
       "imdb_id": "tt1341338"
     },
     {
+      "id": 1265609,
+      "title": "War Machine",
+      "release_date": "2026-03-06",
+      "digital_release_date": "2026-03-06",
+      "age_days": 37,
+      "description": "Alan Ritchson brings explosive action in this critically acclaimed powerhouse",
+      "overview": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
+      "genres": [
+        "Action",
+        "Science Fiction",
+        "Thriller"
+      ],
+      "director": "Patrick Hughes",
+      "top_actors": [
+        "Alan Ritchson",
+        "Dennis Quaid",
+        "Stephan James"
+      ],
+      "production_companies": [
+        "Lionsgate",
+        "Hidden Pictures",
+        "Huge Film",
+        "Range Media Partners"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "AU",
+        "US"
+      ],
+      "budget": 73000000,
+      "revenue": null,
+      "runtime": 110,
+      "trailer_url": "https://www.youtube.com/watch?v=AFuE1LRxm80",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
+      "ratings": {
+        "composite_score": 81.76,
+        "tmdb": {
+          "rating": 7.24,
+          "votes": 1396
+        },
+        "imdb": {
+          "rating": 8.8,
+          "votes": 113
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=AU"
+        }
+      },
+      "poster_path": "/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
+      "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
+      "imdb_id": "tt15940132"
+    },
+    {
       "id": 1291335,
       "title": "Solo Mio",
       "release_date": "2026-03-10",
       "digital_release_date": "2026-03-10",
-      "age_days": 32,
-      "description": "Kevin James brings the laughs in this brand-new, lighthearted romantic comedy.",
+      "age_days": 33,
+      "description": "A fresh romantic comedy that actually provides the big laughs you need",
       "overview": "After Matt's dreams of a picturesque Italian wedding are shattered when his fiancée leaves him at the altar, he embarks on his planned honeymoon across Italy alone, immersing himself in the country's vibrant culture, food, and beauty, meeting Gia along the way.",
       "genres": [
         "Romance",
@@ -1698,102 +2399,12 @@
       "imdb_id": "tt32306991"
     },
     {
-      "id": 1265609,
-      "title": "War Machine",
-      "release_date": "2026-03-06",
-      "digital_release_date": "2026-03-06",
-      "age_days": 36,
-      "description": "Alan Ritchson fighting mechs in the woods — purely awesome, turn-your-brain-off sci-fi action.",
-      "overview": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
-      "genres": [
-        "Action",
-        "Science Fiction",
-        "Thriller"
-      ],
-      "director": "Patrick Hughes",
-      "top_actors": [
-        "Alan Ritchson",
-        "Dennis Quaid",
-        "Stephan James"
-      ],
-      "production_companies": [
-        "Lionsgate",
-        "Hidden Pictures",
-        "Huge Film",
-        "Range Media Partners"
-      ],
-      "original_language": "en",
-      "production_countries": [
-        "AU",
-        "US"
-      ],
-      "budget": 73000000,
-      "revenue": null,
-      "runtime": 110,
-      "trailer_url": "https://www.youtube.com/watch?v=AFuE1LRxm80",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
-      "ratings": {
-        "composite_score": 81.77,
-        "tmdb": {
-          "rating": 7.242,
-          "votes": 1385
-        },
-        "imdb": {
-          "rating": 8.8,
-          "votes": 113
-        },
-        "rotten_tomatoes": null,
-        "metacritic": null
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1265609-war-machine/watch?locale=AU"
-        }
-      },
-      "poster_path": "/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
-      "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
-      "imdb_id": "tt15940132"
-    },
-    {
       "id": 696393,
       "title": "Cold Storage",
       "release_date": "2026-03-06",
       "digital_release_date": "2026-03-06",
-      "age_days": 36,
-      "description": "Joe Keery stars in this bizarre, funny, and frighteningly fresh sci-fi horror ride.",
+      "age_days": 37,
+      "description": "Joe Keery battles a deadly fungus in this wild sci-fi horror ride",
       "overview": "When a mutating, highly contagious fungus escapes a sealed facility, two employees – joined by a grizzled bioterror operative – must survive the wildest night shift ever to save humanity from extinction.",
       "genres": [
         "Horror",
@@ -1933,8 +2544,8 @@
       "title": "Whistle",
       "release_date": "2026-03-03",
       "digital_release_date": "2026-03-03",
-      "age_days": 39,
-      "description": "Dafne Keen leads this creepy, atmospheric new horror film that will keep you guessing.",
+      "age_days": 40,
+      "description": "Dafne Keen leads a creepy, atmospheric mystery that stays with you",
       "overview": "A misfit group of unwitting high school students stumble upon a cursed object, an ancient Aztec Death Whistle. They discover that blowing the whistle and the terrifying sound it emits will summon their future deaths to hunt them down.",
       "genres": [
         "Horror",
@@ -1956,15 +2567,15 @@
         "US"
       ],
       "budget": 2000000,
-      "revenue": 2568027,
+      "revenue": 4633854,
       "runtime": 100,
       "trailer_url": "https://www.youtube.com/watch?v=-O5DgGQJeks",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eGxPyseSnEZBMJaopGfRUO9HSYx.jpg",
       "ratings": {
-        "composite_score": 56.71,
+        "composite_score": 56.69,
         "tmdb": {
-          "rating": 5.991,
-          "votes": 229
+          "rating": 5.983,
+          "votes": 233
         },
         "imdb": {
           "rating": 5.6,
@@ -2112,12 +2723,296 @@
       "imdb_id": "tt29550683"
     },
     {
+      "id": 1159206,
+      "title": "Father Mother Sister Brother",
+      "release_date": "2026-02-27",
+      "digital_release_date": "2026-02-27",
+      "age_days": 44,
+      "description": "Adam Driver stars in Jim Jarmusch's brilliant new deadpan comedy",
+      "overview": "Estranged siblings reunite after years apart, forced to confront unresolved tensions and reevaluate their strained relationships with their emotionally distant parents.",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "director": "Jim Jarmusch",
+      "top_actors": [
+        "Tom Waits",
+        "Adam Driver",
+        "Mayim Bialik"
+      ],
+      "production_companies": [
+        "Badjetlag",
+        "Hail Mary Pictures",
+        "Saint Laurent Productions",
+        "MUBI",
+        "The Apartment Pictures",
+        "Les Films du Losange",
+        "Weltkino",
+        "Cinema Inutile",
+        "Fís Éireann/Screen Ireland",
+        "Vague Notion",
+        "CG Cinéma",
+        "Saint Laurent"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "US",
+        "FR",
+        "IE",
+        "IT",
+        "DE",
+        "GB"
+      ],
+      "budget": null,
+      "revenue": 2000000,
+      "runtime": 110,
+      "trailer_url": "https://www.youtube.com/watch?v=PA07EmbZ0b0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/96O3Ol3f2veMxAxYqsML8rOumB9.jpg",
+      "ratings": {
+        "composite_score": 72.96,
+        "tmdb": {
+          "rating": 6.528,
+          "votes": 215
+        },
+        "imdb": {
+          "rating": 6.8,
+          "votes": 2348
+        },
+        "rotten_tomatoes": 82.0,
+        "metacritic": 76.0
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1159206-father-mother-sister-brother/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1159206-father-mother-sister-brother/watch?locale=CA"
+        }
+      },
+      "poster_path": "/96O3Ol3f2veMxAxYqsML8rOumB9.jpg",
+      "backdrop_path": "/n36zycrAqHn2uzx65IeAdnsZcMj.jpg",
+      "imdb_id": "tt31189315"
+    },
+    {
+      "id": 804370,
+      "title": "Arco",
+      "release_date": "2026-02-24",
+      "digital_release_date": "2026-02-24",
+      "age_days": 47,
+      "description": "A visually stunning animated sci-fi fantasy that critics are absolutely loving",
+      "overview": "10-year-old Arco lives in a far future. During his first flight in his rainbow suit, he loses control and falls into the past. Iris, a girl his age from 2075, comes to his rescue and tries by all means to help send him back to his era.",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Family",
+        "Science Fiction"
+      ],
+      "director": "Ugo Bienvenu",
+      "top_actors": [
+        "Margot Ringard Oldra",
+        "Oscar Tresanini",
+        "Nathanaël Perrot"
+      ],
+      "production_companies": [
+        "Remembers",
+        "MountainA",
+        "France 3 Cinéma",
+        "Fit Via Vi",
+        "Sons of Rigor Films"
+      ],
+      "original_language": "fr",
+      "production_countries": [
+        "FR",
+        "GB",
+        "US"
+      ],
+      "budget": 10000000,
+      "revenue": 4570178,
+      "runtime": 89,
+      "trailer_url": "https://www.youtube.com/watch?v=j7Tpaj-Iet8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
+      "ratings": {
+        "composite_score": 74.38,
+        "tmdb": {
+          "rating": 7.4,
+          "votes": 162
+        },
+        "imdb": {
+          "rating": 7.5,
+          "votes": 2251
+        },
+        "rotten_tomatoes": 91.0,
+        "metacritic": 73.0
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/804370-arco/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/804370-arco/watch?locale=CA"
+        }
+      },
+      "poster_path": "/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
+      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
+      "imdb_id": "tt14883538"
+    },
+    {
       "id": 1290821,
       "title": "Shelter",
       "release_date": "2026-02-24",
       "digital_release_date": "2026-02-24",
-      "age_days": 46,
-      "description": "Jason Statham does what he does best in this gritty, brand-new action thriller.",
+      "age_days": 47,
+      "description": "Jason Statham does what he does best in this gritty crime thriller",
       "overview": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
       "genres": [
         "Action",
@@ -2147,10 +3042,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=auHiLFjaIc0",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
       "ratings": {
-        "composite_score": 60.36,
+        "composite_score": 60.37,
         "tmdb": {
-          "rating": 6.786,
-          "votes": 512
+          "rating": 6.788,
+          "votes": 521
         },
         "imdb": {
           "rating": 6.4,
@@ -2293,48 +3188,59 @@
       "imdb_id": "tt32357218"
     },
     {
-      "id": 1317288,
-      "title": "Marty Supreme",
-      "release_date": "2026-02-10",
-      "digital_release_date": "2026-02-10",
-      "age_days": 60,
-      "description": "Timothée Chalamet shines in this critically acclaimed A24 thriller that demands your attention.",
-      "overview": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
+      "id": 680493,
+      "title": "Return to Silent Hill",
+      "release_date": "2026-02-24",
+      "digital_release_date": "2026-02-24",
+      "age_days": 47,
+      "description": "The game adaptation everyone is debating — brave the fog tonight and decide",
+      "overview": "When James receives a mysterious letter from his lost love Mary, he is drawn to Silent Hill—a once-familiar town now consumed by darkness. As he searches for her, James faces monstrous creatures and unravels a terrifying truth that will push him to the edge of his sanity.",
       "genres": [
+        "Mystery",
         "Drama",
-        "Thriller"
+        "Horror"
       ],
-      "director": "Josh Safdie",
+      "director": "Christophe Gans",
       "top_actors": [
-        "Timothée Chalamet",
-        "Gwyneth Paltrow",
-        "Odessa A'zion"
+        "Jeremy Irvine",
+        "Hannah Emily Anderson",
+        "Evie Templeton"
       ],
       "production_companies": [
-        "A24",
-        "Central Pictures"
+        "Konami",
+        "Davis Films",
+        "Ashland Hill Media Finance",
+        "Supernix",
+        "WIP",
+        "Richmond Pictures",
+        "Lipsync Productions",
+        "Electric Shadow Company"
       ],
       "original_language": "en",
       "production_countries": [
-        "US"
+        "FR",
+        "JP",
+        "US",
+        "GB",
+        "DE"
       ],
-      "budget": 65000000,
-      "revenue": 274459312,
-      "runtime": 150,
-      "trailer_url": "https://www.youtube.com/watch?v=s9gSuKaKcqM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+      "budget": 23000000,
+      "revenue": 47372051,
+      "runtime": 106,
+      "trailer_url": "https://www.youtube.com/watch?v=z10cMFhKbW8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fqAGFN2K2kDL0EHxvJaXzaMUkkt.jpg",
       "ratings": {
-        "composite_score": 84.88,
+        "composite_score": 41.14,
         "tmdb": {
-          "rating": 7.413,
-          "votes": 1545
+          "rating": 5.028,
+          "votes": 325
         },
         "imdb": {
-          "rating": 8.1,
-          "votes": 60529
+          "rating": 4.1,
+          "votes": 10544
         },
-        "rotten_tomatoes": 94.0,
-        "metacritic": 89.0
+        "rotten_tomatoes": null,
+        "metacritic": 34.0
       },
       "streaming_availability": {
         "US": {
@@ -2366,11 +3272,6 @@
                 "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
               },
               {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
-              },
-              {
                 "provider_id": 538,
                 "provider_name": "Plex",
                 "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
@@ -2404,7 +3305,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=US"
+          "link": "https://www.themoviedb.org/movie/680493-return-to-silent-hill/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -2413,11 +3314,6 @@
                 "provider_id": 2,
                 "provider_name": "Apple TV Store",
                 "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
               },
               {
                 "provider_id": 10,
@@ -2443,7 +3339,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=CA"
+          "link": "https://www.themoviedb.org/movie/680493-return-to-silent-hill/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -2482,171 +3378,20 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=AU"
+          "link": "https://www.themoviedb.org/movie/680493-return-to-silent-hill/watch?locale=AU"
         }
       },
-      "poster_path": "/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
-      "backdrop_path": "/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
-      "imdb_id": "tt32916440"
-    },
-    {
-      "id": 804370,
-      "title": "Arco",
-      "release_date": "2026-02-24",
-      "digital_release_date": "2026-02-24",
-      "age_days": 46,
-      "description": "Breathtaking animation and a deeply imaginative sci-fi world make this a hidden gem.",
-      "overview": "10-year-old Arco lives in a far future. During his first flight in his rainbow suit, he loses control and falls into the past. Iris, a girl his age from 2075, comes to his rescue and tries by all means to help send him back to his era.",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Fantasy",
-        "Family",
-        "Science Fiction"
-      ],
-      "director": "Ugo Bienvenu",
-      "top_actors": [
-        "Margot Ringard Oldra",
-        "Oscar Tresanini",
-        "Nathanaël Perrot"
-      ],
-      "production_companies": [
-        "Remembers",
-        "MountainA",
-        "France 3 Cinéma",
-        "Fit Via Vi",
-        "Sons of Rigor Films"
-      ],
-      "original_language": "fr",
-      "production_countries": [
-        "FR",
-        "GB",
-        "US"
-      ],
-      "budget": 10000000,
-      "revenue": 4570178,
-      "runtime": 89,
-      "trailer_url": "https://www.youtube.com/watch?v=j7Tpaj-Iet8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
-      "ratings": {
-        "composite_score": 74.38,
-        "tmdb": {
-          "rating": 7.4,
-          "votes": 159
-        },
-        "imdb": {
-          "rating": 7.5,
-          "votes": 2251
-        },
-        "rotten_tomatoes": 91.0,
-        "metacritic": 73.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/804370-arco/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/804370-arco/watch?locale=CA"
-        }
-      },
-      "poster_path": "/mWlvHFxTDhq9O5WSOHywa32QIez.jpg",
-      "backdrop_path": "/reQELo8rDiLIOoYIA7M6q7KGRW0.jpg",
-      "imdb_id": "tt14883538"
+      "poster_path": "/fqAGFN2K2kDL0EHxvJaXzaMUkkt.jpg",
+      "backdrop_path": "/v0NEB75SZjxY8GS3ho8WeEvjIT3.jpg",
+      "imdb_id": "tt22868010"
     },
     {
       "id": 1480382,
       "title": "The Voice of Hind Rajab",
       "release_date": "2026-02-23",
       "digital_release_date": "2026-02-23",
-      "age_days": 47,
-      "description": "Devastating and necessary. Critics are calling it one of the year's most powerful films.",
+      "age_days": 48,
+      "description": "A powerful, essential historical drama with universal critical acclaim",
       "overview": "January 29, 2024. Red Crescent volunteers receive an emergency call. A five-year old girl is trapped in a car under fire in Gaza, pleading for rescue. While trying to keep her on the line, they do everything they can to get an ambulance to her. Her name was Hind Rajab.",
       "genres": [
         "Drama",
@@ -2701,7 +3446,7 @@
         "composite_score": 81.01,
         "tmdb": {
           "rating": 8.039,
-          "votes": 257
+          "votes": 258
         },
         "imdb": {
           "rating": 8.4,
@@ -2816,8 +3561,8 @@
       "title": "Firebreak",
       "release_date": "2026-02-20",
       "digital_release_date": "2026-02-20",
-      "age_days": 50,
-      "description": "A pulse-pounding Spanish thriller that grabs you in the first minute and never lets go.",
+      "age_days": 51,
+      "description": "Tense Spanish thriller that keeps you guessing until the very end",
       "overview": "Little Lide disappears in the forest while her family packs up their home. As a fire breaks out, her mother must race to reach her before the flames do.",
       "genres": [
         "Thriller",
@@ -2897,163 +3642,12 @@
       "imdb_id": "tt33474179"
     },
     {
-      "id": 639988,
-      "title": "No Other Choice",
-      "release_date": "2026-02-17",
-      "digital_release_date": "2026-02-17",
-      "age_days": 53,
-      "description": "A masterful, twisty Korean thriller from Park Chan-wook that critics are universally praising.",
-      "overview": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Thriller"
-      ],
-      "director": "Park Chan-wook",
-      "top_actors": [
-        "Lee Byung-hun",
-        "Son Ye-jin",
-        "Park Hee-soon"
-      ],
-      "production_companies": [
-        "CJ ENM Studios",
-        "Moho Film",
-        "KG Productions"
-      ],
-      "original_language": "ko",
-      "production_countries": [
-        "KR",
-        "FR"
-      ],
-      "budget": 12200000,
-      "revenue": 37154602,
-      "runtime": 140,
-      "trailer_url": "https://www.youtube.com/watch?v=SK_DEabMNVg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
-      "ratings": {
-        "composite_score": 83.9,
-        "tmdb": {
-          "rating": 7.548,
-          "votes": 913
-        },
-        "imdb": {
-          "rating": 7.6,
-          "votes": 45085
-        },
-        "rotten_tomatoes": 98.0,
-        "metacritic": 86.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/639988/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/639988/watch?locale=CA"
-        }
-      },
-      "poster_path": "/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
-      "backdrop_path": "/s6aB9kjxNg0mu2361IkCUSpyHJV.jpg",
-      "imdb_id": "tt1527793"
-    },
-    {
       "id": 1272837,
       "title": "28 Years Later: The Bone Temple",
       "release_date": "2026-02-17",
       "digital_release_date": "2026-02-17",
-      "age_days": 53,
-      "description": "Nia DaCosta breathes terrifying new life into this legendary, intense zombie franchise.",
+      "age_days": 54,
+      "description": "The zombie franchise returns with terrifying, blood-pumping energy you can't miss",
       "overview": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
       "genres": [
         "Horror",
@@ -3082,10 +3676,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=rl_DJZCyEH4",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
       "ratings": {
-        "composite_score": 76.51,
+        "composite_score": 76.53,
         "tmdb": {
-          "rating": 7.167,
-          "votes": 988
+          "rating": 7.172,
+          "votes": 995
         },
         "imdb": {
           "rating": 7.6,
@@ -3260,12 +3854,163 @@
       "imdb_id": "tt32141377"
     },
     {
+      "id": 639988,
+      "title": "No Other Choice",
+      "release_date": "2026-02-17",
+      "digital_release_date": "2026-02-17",
+      "age_days": 54,
+      "description": "Park Chan-wook delivers another dark, twisted, and visually flawless cinematic masterpiece",
+      "overview": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity.",
+      "genres": [
+        "Comedy",
+        "Crime",
+        "Thriller"
+      ],
+      "director": "Park Chan-wook",
+      "top_actors": [
+        "Lee Byung-hun",
+        "Son Ye-jin",
+        "Park Hee-soon"
+      ],
+      "production_companies": [
+        "CJ ENM Studios",
+        "Moho Film",
+        "KG Productions"
+      ],
+      "original_language": "ko",
+      "production_countries": [
+        "KR",
+        "FR"
+      ],
+      "budget": 12200000,
+      "revenue": 37154602,
+      "runtime": 140,
+      "trailer_url": "https://www.youtube.com/watch?v=SK_DEabMNVg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
+      "ratings": {
+        "composite_score": 83.89,
+        "tmdb": {
+          "rating": 7.543,
+          "votes": 919
+        },
+        "imdb": {
+          "rating": 7.6,
+          "votes": 45085
+        },
+        "rotten_tomatoes": 98.0,
+        "metacritic": 86.0
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/639988/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/639988/watch?locale=CA"
+        }
+      },
+      "poster_path": "/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg",
+      "backdrop_path": "/s6aB9kjxNg0mu2361IkCUSpyHJV.jpg",
+      "imdb_id": "tt1527793"
+    },
+    {
       "id": 1236153,
       "title": "Mercy",
       "release_date": "2026-02-17",
       "digital_release_date": "2026-02-17",
-      "age_days": 53,
-      "description": "Chris Pratt leads a relentless, action-packed sci-fi battle that just hit digital.",
+      "age_days": 54,
+      "description": "Chris Pratt stars in a slick sci-fi crime caper",
       "overview": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
       "genres": [
         "Science Fiction",
@@ -3294,10 +4039,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=JUADqWkJiiE",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
       "ratings": {
-        "composite_score": 54.78,
+        "composite_score": 54.8,
         "tmdb": {
-          "rating": 6.991,
-          "votes": 1056
+          "rating": 7.0,
+          "votes": 1066
         },
         "imdb": {
           "rating": 6.2,
@@ -3447,76 +4192,209 @@
       "imdb_id": "tt31050594"
     },
     {
-      "id": 1317672,
-      "title": "Love Me Love Me",
-      "release_date": "2026-02-12",
-      "digital_release_date": "2026-02-12",
-      "age_days": 58,
-      "description": "A freshly released, intensely emotional romantic drama guaranteed to tug at your heartstrings.",
-      "overview": "After her brother's death, June moves to Milan for a fresh start, finding comfort in Will, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction, June must choose between safety and a love that upends everything she thought she wanted.",
+      "id": 1317288,
+      "title": "Marty Supreme",
+      "release_date": "2026-02-10",
+      "digital_release_date": "2026-02-10",
+      "age_days": 61,
+      "description": "Timothée Chalamet and A24 deliver the ping-pong thriller of the year",
+      "overview": "Marty Mauser, a young man with a dream no one respects, goes to hell and back in pursuit of greatness.",
       "genres": [
-        "Romance",
-        "Drama"
+        "Drama",
+        "Thriller"
       ],
-      "director": "Roger Kumble",
+      "director": "Josh Safdie",
       "top_actors": [
-        "Pepe Barroso",
-        "Mia Jenkins",
-        "Luca Melucci"
+        "Timothée Chalamet",
+        "Gwyneth Paltrow",
+        "Odessa A'zion"
       ],
       "production_companies": [
-        "Lotus Production",
-        "Amazon MGM Studios",
-        "Leone Film Group"
+        "A24",
+        "Central Pictures"
       ],
       "original_language": "en",
       "production_countries": [
-        "IT",
         "US"
       ],
-      "budget": null,
-      "revenue": null,
-      "runtime": 99,
-      "trailer_url": "https://www.youtube.com/watch?v=B7prWpweShU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jfwHKRHRE2X4NTexdzblaioHH51.jpg",
+      "budget": 65000000,
+      "revenue": 274459312,
+      "runtime": 150,
+      "trailer_url": "https://www.youtube.com/watch?v=s9gSuKaKcqM",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
       "ratings": {
-        "composite_score": 47.9,
+        "composite_score": 84.85,
         "tmdb": {
-          "rating": 5.675,
-          "votes": 214
+          "rating": 7.4,
+          "votes": 1549
         },
         "imdb": {
-          "rating": 4.2,
-          "votes": 2971
+          "rating": 8.1,
+          "votes": 60529
         },
-        "rotten_tomatoes": null,
-        "metacritic": null
+        "rotten_tomatoes": 94.0,
+        "metacritic": 89.0
       },
       "streaming_availability": {
         "US": {
           "services": {
-            "subscription": [
+            "rent": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              },
+              {
+                "provider_id": 331,
+                "provider_name": "FlixFling",
+                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 192,
+                "provider_name": "YouTube",
+                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/movie/1317672-love-me-love-me/watch?locale=US"
+          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 331,
+                "provider_name": "FlixFling",
+                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 538,
+                "provider_name": "Plex",
+                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "rent": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1317288-marty-supreme/watch?locale=AU"
         }
       },
-      "poster_path": "/jfwHKRHRE2X4NTexdzblaioHH51.jpg",
-      "backdrop_path": "/ohUhHOqW8cM59Ay5UjqplLzJbH3.jpg",
-      "imdb_id": "tt36331860"
+      "poster_path": "/lYWEXbQgRTR4ZQleSXAgRbxAjvq.jpg",
+      "backdrop_path": "/3iMoYSbI72Nwsvi7uSpqReLJVa6.jpg",
+      "imdb_id": "tt32916440"
     },
     {
       "id": 1140498,
       "title": "Is This Thing On?",
       "release_date": "2026-02-10",
       "digital_release_date": "2026-02-10",
-      "age_days": 60,
-      "description": "Bradley Cooper and Laura Dern shine in this sharply written, fresh dramatic comedy.",
+      "age_days": 61,
+      "description": "Bradley Cooper's newest drama is a quiet, profound character study",
       "overview": "As their marriage quietly unravels, Alex faces middle age and an impending divorce, seeking new purpose in the New York comedy scene while Tess confronts the sacrifices she made for their family—forcing them to navigate co-parenting, identity, and whether love can take a new form.",
       "genres": [
         "Comedy",
@@ -3545,10 +4423,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=dr14-Ebwcns",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/YD6QzcokTMe3EViM0hLbNCxf4y.jpg",
       "ratings": {
-        "composite_score": 73.13,
+        "composite_score": 73.12,
         "tmdb": {
-          "rating": 6.491,
-          "votes": 112
+          "rating": 6.487,
+          "votes": 114
         },
         "imdb": {
           "rating": 6.8,
@@ -3704,8 +4582,8 @@
       "title": "Primate",
       "release_date": "2026-02-10",
       "digital_release_date": "2026-02-10",
-      "age_days": 60,
-      "description": "A tense, fast-paced horror flick that will genuinely make you jump out of your seat.",
+      "age_days": 61,
+      "description": "A claustrophobic creature feature that guarantees late-night jump scares",
       "overview": "Lucy, a college student, along with her friends, spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp.",
       "genres": [
         "Horror",
@@ -3732,10 +4610,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=wo87F-va410",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/z97hrgI5wbGbZvSVkBfAeBnFKAg.jpg",
       "ratings": {
-        "composite_score": 60.27,
+        "composite_score": 60.22,
         "tmdb": {
-          "rating": 6.5,
-          "votes": 548
+          "rating": 6.481,
+          "votes": 551
         },
         "imdb": {
           "rating": 5.9,
@@ -3915,12 +4793,76 @@
       "imdb_id": "tt33028778"
     },
     {
+      "id": 1317672,
+      "title": "Love Me Love Me",
+      "release_date": "2026-02-12",
+      "digital_release_date": "2026-02-12",
+      "age_days": 59,
+      "description": "The steamy romantic drama that TikTok simply cannot stop discussing",
+      "overview": "After her brother's death, June moves to Milan for a fresh start, finding comfort in Will, the perfect honor student at her new international school. But when his troubled best friend James—hiding a dangerous life in clandestine MMA fights—sparks a rivalry that quickly turns into irresistible attraction, June must choose between safety and a love that upends everything she thought she wanted.",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "director": "Roger Kumble",
+      "top_actors": [
+        "Pepe Barroso",
+        "Mia Jenkins",
+        "Luca Melucci"
+      ],
+      "production_companies": [
+        "Lotus Production",
+        "Amazon MGM Studios",
+        "Leone Film Group"
+      ],
+      "original_language": "en",
+      "production_countries": [
+        "IT",
+        "US"
+      ],
+      "budget": null,
+      "revenue": null,
+      "runtime": 99,
+      "trailer_url": "https://www.youtube.com/watch?v=B7prWpweShU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jfwHKRHRE2X4NTexdzblaioHH51.jpg",
+      "ratings": {
+        "composite_score": 48.06,
+        "tmdb": {
+          "rating": 5.715,
+          "votes": 216
+        },
+        "imdb": {
+          "rating": 4.2,
+          "votes": 2971
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1317672-love-me-love-me/watch?locale=US"
+        }
+      },
+      "poster_path": "/jfwHKRHRE2X4NTexdzblaioHH51.jpg",
+      "backdrop_path": "/ohUhHOqW8cM59Ay5UjqplLzJbH3.jpg",
+      "imdb_id": "tt36331860"
+    },
+    {
       "id": 858024,
       "title": "Hamnet",
       "release_date": "2026-02-03",
       "digital_release_date": "2026-02-03",
-      "age_days": 67,
-      "description": "Paul Mescal and Jessie Buckley are devastatingly good in this Oscar-worthy historical drama.",
+      "age_days": 68,
+      "description": "Paul Mescal shines in this gorgeous, emotionally devastating historical romance",
       "overview": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
       "genres": [
         "Drama",
@@ -3950,10 +4892,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=xYcgQMxQwmk",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
       "ratings": {
-        "composite_score": 82.45,
+        "composite_score": 82.5,
         "tmdb": {
-          "rating": 7.7,
-          "votes": 1203
+          "rating": 7.724,
+          "votes": 1206
         },
         "imdb": {
           "rating": 8.1,
@@ -4103,12 +5045,99 @@
       "imdb_id": "tt14905854"
     },
     {
+      "id": 1466115,
+      "title": "Even If This Love Disappears Tonight",
+      "release_date": "2026-02-03",
+      "digital_release_date": "2026-02-03",
+      "age_days": 68,
+      "description": "A deeply moving romance that will absolutely wreck you",
+      "overview": "A high school girl wakes up each day with no memory of yesterday. When she agrees to date a shy classmate, can their love grow with every new beginning?",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "director": "Kim Hye-young",
+      "top_actors": [
+        "Choo Young-woo",
+        "Shin Sia",
+        "Cho Yu-jung"
+      ],
+      "production_companies": [
+        "BLUEFIRESTUDIO",
+        "O'FAN HOUSE",
+        "BY4M Studio"
+      ],
+      "original_language": "ko",
+      "production_countries": [
+        "KR"
+      ],
+      "budget": null,
+      "revenue": 5516015,
+      "runtime": 106,
+      "trailer_url": "https://www.youtube.com/watch?v=rjAs9Ks-3V0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5eNN8KLDPUXDqIkTdCbmn1gx5P7.jpg",
+      "ratings": {
+        "composite_score": 78.6,
+        "tmdb": {
+          "rating": 8.4,
+          "votes": 129
+        },
+        "imdb": {
+          "rating": 7.5,
+          "votes": 1757
+        },
+        "rotten_tomatoes": null,
+        "metacritic": null
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1466115/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1466115/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/movie/1466115/watch?locale=AU"
+        }
+      },
+      "poster_path": "/5eNN8KLDPUXDqIkTdCbmn1gx5P7.jpg",
+      "backdrop_path": "/iL5eGI9ctHdUOV4yG6dyGKctSEX.jpg",
+      "imdb_id": "tt39049192"
+    },
+    {
       "id": 1220564,
       "title": "The Secret Agent",
       "release_date": "2026-02-03",
       "digital_release_date": "2026-02-03",
-      "age_days": 67,
-      "description": "Wagner Moura is electrifying in this slick, highly acclaimed Brazilian crime thriller.",
+      "age_days": 68,
+      "description": "Wagner Moura is electrifying in this tense international crime drama",
       "overview": "Brazil, 1977. Marcelo, a technology expert in his early 40s, is on the run. Hoping to reunite with his son, he travels to Recife during Carnival but soon realizes that the city is not the safe haven he was expecting.",
       "genres": [
         "Crime",
@@ -4148,8 +5177,8 @@
       "ratings": {
         "composite_score": 75.4,
         "tmdb": {
-          "rating": 7.313,
-          "votes": 595
+          "rating": 7.315,
+          "votes": 597
         },
         "imdb": {
           "rating": 7.3,
@@ -4313,8 +5342,8 @@
       "title": "The Housemaid",
       "release_date": "2026-02-03",
       "digital_release_date": "2026-02-03",
-      "age_days": 67,
-      "description": "Sydney Sweeney stars in this incredibly twisted, dark psychological thriller everyone is whispering about.",
+      "age_days": 68,
+      "description": "Sydney Sweeney stars in the twisty psychological thriller everyone's spoiling online",
       "overview": "Trying to escape her past, Millie Calloway accepts a job as a live-in housemaid for the wealthy Nina and Andrew Winchester. But what begins as a dream job quickly unravels into something far more dangerous—a sexy, seductive game of secrets, scandal, and power.",
       "genres": [
         "Mystery",
@@ -4342,10 +5371,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=BqWH0KDqm3U",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/cWsBscZzwu5brg9YjNkGewRUvJX.jpg",
       "ratings": {
-        "composite_score": 69.28,
+        "composite_score": 69.29,
         "tmdb": {
-          "rating": 7.189,
-          "votes": 1757
+          "rating": 7.193,
+          "votes": 1774
         },
         "imdb": {
           "rating": 6.8,
@@ -4519,8 +5548,8 @@
       "title": "We Bury the Dead",
       "release_date": "2026-02-03",
       "digital_release_date": "2026-02-03",
-      "age_days": 67,
-      "description": "Daisy Ridley brings incredible depth to this moody, apocalyptic horror-thriller.",
+      "age_days": 68,
+      "description": "Daisy Ridley carries this chilling horror with a strong emotional core",
       "overview": "After a catastrophic military disaster, the dead don't just rise - they hunt. Ava searches for her missing husband, but what she finds is far more terrifying.",
       "genres": [
         "Horror",
@@ -4553,8 +5582,8 @@
       "ratings": {
         "composite_score": 67.3,
         "tmdb": {
-          "rating": 6.124,
-          "votes": 153
+          "rating": 6.123,
+          "votes": 154
         },
         "imdb": {
           "rating": 5.6,
@@ -4708,8 +5737,8 @@
       "title": "Dhurandhar",
       "release_date": "2026-01-29",
       "digital_release_date": "2026-01-29",
-      "age_days": 72,
-      "description": "An epic, sprawling Indian action-thriller with jaw-dropping set pieces and massive scale.",
+      "age_days": 73,
+      "description": "A massive Bollywood action spectacle with relentless, epic set pieces",
       "overview": "A mysterious traveler slips into the heart of Karachi's underbelly and rises through its ranks with lethal precision, only to tear the notorious ISI-Underworld nexus apart from within.",
       "genres": [
         "Action",
@@ -4736,10 +5765,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=o--C7AH5SuI",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/snBOuXDdhmTvlzMUvP9Em3Pp1u1.jpg",
       "ratings": {
-        "composite_score": 66.08,
+        "composite_score": 66.13,
         "tmdb": {
-          "rating": 6.984,
-          "votes": 243
+          "rating": 7.0,
+          "votes": 247
         },
         "imdb": {
           "rating": 8.3,
@@ -4795,8 +5824,8 @@
       "title": "The Wrecking Crew",
       "release_date": "2026-01-28",
       "digital_release_date": "2026-01-28",
-      "age_days": 73,
-      "description": "Dave Bautista and Jason Momoa team up for explosive, hilarious buddy-cop action.",
+      "age_days": 74,
+      "description": "Bautista and Momoa are hilarious in this surprisingly fun buddy comedy",
       "overview": "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
       "genres": [
         "Action",
@@ -4831,8 +5860,8 @@
       "ratings": {
         "composite_score": 66.34,
         "tmdb": {
-          "rating": 6.901,
-          "votes": 880
+          "rating": 6.903,
+          "votes": 884
         },
         "imdb": {
           "rating": 6.4,
@@ -4864,8 +5893,8 @@
       "title": "David",
       "release_date": "2026-01-27",
       "digital_release_date": "2026-01-27",
-      "age_days": 74,
-      "description": "A beautifully animated, inspiring family film with a fantastic voice cast and big heart.",
+      "age_days": 75,
+      "description": "A beautifully animated family drama with incredible music and heart",
       "overview": "From the songs of his mother’s heart to the whispers of a faithful God, David’s story begins in quiet devotion. When the giant Goliath rises to terrorize a nation, a young shepherd armed with only a sling, a few stones, and unshakable faith steps forward. Pursued by power and driven by purpose, his journey tests the limits of loyalty, love, and courage—culminating in a battle not just for a crown, but for the soul of a kingdom.",
       "genres": [
         "Animation",
@@ -4896,10 +5925,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=gWgyI6_lR0A",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bESlrLOrsQ9gKzaGQGHXKOyIUtX.jpg",
       "ratings": {
-        "composite_score": 69.92,
+        "composite_score": 69.95,
         "tmdb": {
-          "rating": 8.085,
-          "votes": 123
+          "rating": 8.101,
+          "votes": 124
         },
         "imdb": {
           "rating": 7.0,
@@ -4994,8 +6023,8 @@
       "title": "Silent Night, Deadly Night",
       "release_date": "2026-01-27",
       "digital_release_date": "2026-01-27",
-      "age_days": 74,
-      "description": "A brutal, unforgiving slasher reboot perfect for a late-night horror marathon.",
+      "age_days": 75,
+      "description": "A brutal horror remake that holds absolutely nothing back",
       "overview": "After witnessing his parents' brutal murder on Christmas Eve, Billy transforms into a Killer Santa, delivering a yearly spree of calculated, chilling violence. This year, his blood-soaked mission collides with love, as a young woman challenges him to confront his darkness.",
       "genres": [
         "Horror",
@@ -5178,8 +6207,8 @@
       "title": "Greenland 2: Migration",
       "release_date": "2026-01-27",
       "digital_release_date": "2026-01-27",
-      "age_days": 74,
-      "description": "Gerard Butler returns for more intense, apocalyptic survival action.",
+      "age_days": 75,
+      "description": "Gerard Butler survives again in this intense apocalyptic disaster sequel",
       "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
       "genres": [
         "Adventure",
@@ -5211,10 +6240,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=hiD3zk0ZRFg",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
       "ratings": {
-        "composite_score": 54.85,
+        "composite_score": 54.87,
         "tmdb": {
-          "rating": 6.495,
-          "votes": 836
+          "rating": 6.5,
+          "votes": 842
         },
         "imdb": {
           "rating": 5.3,
@@ -5315,8 +6344,8 @@
       "title": "Anaconda",
       "release_date": "2026-01-27",
       "digital_release_date": "2026-01-27",
-      "age_days": 74,
-      "description": "Jack Black and Paul Rudd deliver hilarious, campy fun in this creature-feature reboot.",
+      "age_days": 75,
+      "description": "Jack Black and Paul Rudd make this giant snake reboot hilarious",
       "overview": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals.",
       "genres": [
         "Adventure",
@@ -5339,15 +6368,15 @@
         "US"
       ],
       "budget": 45000000,
-      "revenue": 134996951,
+      "revenue": 135148320,
       "runtime": 100,
       "trailer_url": "https://www.youtube.com/watch?v=LFLyvzIZjK4",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hBxN6dwrANN1ic3a4G9x6JZcR3C.jpg",
       "ratings": {
-        "composite_score": 52.8,
+        "composite_score": 52.81,
         "tmdb": {
-          "rating": 5.875,
-          "votes": 973
+          "rating": 5.88,
+          "votes": 984
         },
         "imdb": {
           "rating": 5.7,
@@ -5526,8 +6555,8 @@
       "title": "Ella McCay",
       "release_date": "2026-01-27",
       "digital_release_date": "2026-01-27",
-      "age_days": 74,
-      "description": "Emma Mackey and Jamie Lee Curtis charm in this delightful, easy-to-watch comedy.",
+      "age_days": 75,
+      "description": "Emma Mackey charms in a sweet, traditional family comedy",
       "overview": "An idealistic young politician juggles familial issues and a challenging work life while preparing to take over the job of her mentor, the state’s longtime incumbent governor.",
       "genres": [
         "Comedy",
@@ -5708,16 +6737,15 @@
       "title": "Zootopia 2",
       "release_date": "2026-01-26",
       "digital_release_date": "2026-01-26",
-      "age_days": 75,
-      "description": "Disney magic strikes again — a stunningly animated adventure the whole family will love.",
+      "age_days": 76,
+      "description": "The massive Disney sequel that's perfect for a fun family movie night",
       "overview": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before.",
       "genres": [
         "Animation",
         "Family",
         "Mystery",
         "Adventure",
-        "Comedy",
-        "Action"
+        "Comedy"
       ],
       "director": "Jared Bush",
       "top_actors": [
@@ -5742,8 +6770,8 @@
       "ratings": {
         "composite_score": 78.4,
         "tmdb": {
-          "rating": 7.601,
-          "votes": 2523
+          "rating": 7.602,
+          "votes": 2528
         },
         "imdb": {
           "rating": 7.4,
@@ -5894,8 +6922,8 @@
       "title": "The Big Fake",
       "release_date": "2026-01-23",
       "digital_release_date": "2026-01-23",
-      "age_days": 78,
-      "description": "An engaging, twist-filled Italian crime drama that will keep you guessing until the end.",
+      "age_days": 79,
+      "description": "A tense, fast-paced Italian crime thriller with great twists",
       "overview": "Toni Chichiarelli arrives in Rome with the dream of becoming a painter, but his talent leads him elsewhere — from art galleries to state secrets. Between art, crime, and power, his signature ends up everywhere — even in the history of Italy.",
       "genres": [
         "Thriller",
@@ -5921,10 +6949,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=OMeOauwYjRs",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/A188B94iDLdB6499QBYbz74WgOF.jpg",
       "ratings": {
-        "composite_score": 62.7,
+        "composite_score": 62.54,
         "tmdb": {
-          "rating": 6.6,
-          "votes": 196
+          "rating": 6.558,
+          "votes": 197
         },
         "imdb": {
           "rating": 6.6,
@@ -5980,8 +7008,8 @@
       "title": "The SpongeBob Movie: Search for SquarePants",
       "release_date": "2026-01-20",
       "digital_release_date": "2026-01-20",
-      "age_days": 81,
-      "description": "Pure, chaotic nostalgia — underwater animated silliness that hits exactly the right spot.",
+      "age_days": 82,
+      "description": "SpongeBob returns in a crazy new animated underwater adventure",
       "overview": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before.",
       "genres": [
         "Animation",
@@ -6013,8 +7041,8 @@
       "ratings": {
         "composite_score": 68.57,
         "tmdb": {
-          "rating": 6.735,
-          "votes": 260
+          "rating": 6.736,
+          "votes": 261
         },
         "imdb": {
           "rating": 5.7,
@@ -6198,8 +7226,8 @@
       "title": "The Rip",
       "release_date": "2026-01-16",
       "digital_release_date": "2026-01-16",
-      "age_days": 85,
-      "description": "Matt Damon and Ben Affleck reunite for a gritty, high-octane crime thriller.",
+      "age_days": 86,
+      "description": "Matt Damon and Ben Affleck reunite for an explosive, high-stakes thriller",
       "overview": "Trust frays when a team of Miami cops discovers millions in cash inside a run-down stash house, calling everyone — and everything — into question.",
       "genres": [
         "Action",
@@ -6225,10 +7253,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=yeR5bcbRPak",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eZo31Dhl5BQ6GfbMNf3oU0tUvPZ.jpg",
       "ratings": {
-        "composite_score": 67.0,
+        "composite_score": 67.01,
         "tmdb": {
-          "rating": 7.051,
-          "votes": 1483
+          "rating": 7.053,
+          "votes": 1486
         },
         "imdb": {
           "rating": 6.8,
@@ -6284,8 +7312,8 @@
       "title": "Rental Family",
       "release_date": "2026-01-13",
       "digital_release_date": "2026-01-13",
-      "age_days": 88,
-      "description": "Brendan Fraser delivers a deeply touching, funny performance in this heartwarming indie drama.",
+      "age_days": 89,
+      "description": "Brendan Fraser will break your heart in this beautiful drama",
       "overview": "An American actor in Tokyo struggles to find purpose until he lands an unusual gig: working for a Japanese 'rental family' agency, playing stand-in roles for strangers. As he immerses himself in his clients' worlds, he begins to form genuine bonds that blur the lines between performance and reality.",
       "genres": [
         "Drama",
@@ -6313,8 +7341,8 @@
       "ratings": {
         "composite_score": 76.1,
         "tmdb": {
-          "rating": 7.777,
-          "votes": 684
+          "rating": 7.775,
+          "votes": 686
         },
         "imdb": {
           "rating": 7.6,
@@ -6465,8 +7493,8 @@
       "title": "Song Sung Blue",
       "release_date": "2026-01-13",
       "digital_release_date": "2026-01-13",
-      "age_days": 88,
-      "description": "Hugh Jackman and Kate Hudson dazzle in this touching, music-filled romantic drama.",
+      "age_days": 89,
+      "description": "Hugh Jackman dazzles in a Neil Diamond tribute band romance",
       "overview": "Based on a true story, two down-on-their-luck musicians form a joyous Neil Diamond tribute band, proving it's never too late to find love and follow your dreams.",
       "genres": [
         "Music",
@@ -6615,11 +7643,6 @@
           "services": {
             "rent": [
               {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
                 "provider_id": 10,
                 "provider_name": "Amazon Video",
                 "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
@@ -6655,8 +7678,8 @@
       "title": "Dust Bunny",
       "release_date": "2026-01-13",
       "digital_release_date": "2026-01-13",
-      "age_days": 88,
-      "description": "Mads Mikkelsen is terrifyingly good in this dark, twisted fantasy-horror ride.",
+      "age_days": 89,
+      "description": "Mads Mikkelsen is terrifyingly perfect in this inventive fantasy horror",
       "overview": "Ten-year-old Aurora asks her hitman neighbor to kill the monster under her bed that she claims ate her family. To protect her, he must battle an onslaught of assassins while accepting that some monsters are real.",
       "genres": [
         "Fantasy",
@@ -6687,10 +7710,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=lQqmOjPDlWg",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qa5aZpO8tQqhlDaE0flalS1TuIS.jpg",
       "ratings": {
-        "composite_score": 69.76,
+        "composite_score": 69.73,
         "tmdb": {
-          "rating": 6.571,
-          "votes": 220
+          "rating": 6.564,
+          "votes": 222
         },
         "imdb": {
           "rating": null,
@@ -6852,8 +7875,8 @@
       "title": "People We Meet on Vacation",
       "release_date": "2026-01-09",
       "digital_release_date": "2026-01-09",
-      "age_days": 92,
-      "description": "A charming, breezy romantic comedy perfect for a cozy movie night in.",
+      "age_days": 93,
+      "description": "The hit novel adaptation that romance fans have been waiting for",
       "overview": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match.",
       "genres": [
         "Comedy",
@@ -6881,10 +7904,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=m1C9DTOUH5s",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/peG6482ALJQ9Tbvv2P38BquVk0f.jpg",
       "ratings": {
-        "composite_score": 70.23,
+        "composite_score": 70.17,
         "tmdb": {
-          "rating": 7.023,
-          "votes": 543
+          "rating": 7.017,
+          "votes": 545
         },
         "imdb": {
           "rating": null,
@@ -6940,8 +7963,8 @@
       "title": "Predator: Badlands",
       "release_date": "2026-01-06",
       "digital_release_date": "2026-01-06",
-      "age_days": 95,
-      "description": "Elle Fanning faces the ultimate hunter in this beautifully shot, intense sci-fi survival flick.",
+      "age_days": 96,
+      "description": "Elle Fanning faces the ultimate hunter in this phenomenal sci-fi sequel",
       "overview": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary.",
       "genres": [
         "Action",
@@ -6971,10 +7994,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=LkBqjfg8TGM",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/erTRAi241eYF4K8KoGGOI8kFPox.jpg",
       "ratings": {
-        "composite_score": 76.54,
+        "composite_score": 76.55,
         "tmdb": {
-          "rating": 7.697,
-          "votes": 2588
+          "rating": 7.698,
+          "votes": 2591
         },
         "imdb": {
           "rating": 7.3,
@@ -7125,8 +8148,8 @@
       "title": "The Tank",
       "release_date": "2026-01-02",
       "digital_release_date": "2026-01-02",
-      "age_days": 99,
-      "description": "A gripping, tense war drama that feels incredibly immersive and harrowing.",
+      "age_days": 100,
+      "description": "Gritty, claustrophobic war drama with relentless tension and action",
       "overview": "A German Tiger tank crew is sent on a dangerous mission to rescue the missing officer Paul von Hardenburg from a top-secret bunker behind enemy lines. As they make their way through the lethal no-man's land, they must confront not only the enemy, but also their own fears and inner demons. Fueled by the Wehrmacht's methamphetamine, their mission increasingly becomes a journey into the heart of darkness.",
       "genres": [
         "War",
@@ -7187,8 +8210,8 @@
       "title": "Wicked: For Good",
       "release_date": "2025-12-30",
       "digital_release_date": "2025-12-30",
-      "age_days": 102,
-      "description": "The spectacular, gravity-defying musical conclusion that you absolutely have to see to believe.",
+      "age_days": 103,
+      "description": "The spectacular musical conclusion that everyone was singing along to",
       "overview": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good.",
       "genres": [
         "Fantasy",
@@ -7218,7 +8241,7 @@
         "composite_score": 64.39,
         "tmdb": {
           "rating": 6.645,
-          "votes": 919
+          "votes": 921
         },
         "imdb": {
           "rating": 6.7,
@@ -7372,8 +8395,8 @@
       "title": "Goodbye June",
       "release_date": "2025-12-24",
       "digital_release_date": "2025-12-24",
-      "age_days": 108,
-      "description": "Kate Winslet gives a powerhouse, tear-jerking performance in this heavy emotional drama.",
+      "age_days": 109,
+      "description": "Helen Mirren anchors this moving, quietly devastating character study",
       "overview": "Four siblings' lives change drastically when their ailing mother takes a turn for the worse over the holiday season.",
       "genres": [
         "Drama"
@@ -7457,8 +8480,8 @@
       "title": "Sentimental Value",
       "release_date": "2025-12-23",
       "digital_release_date": "2025-12-23",
-      "age_days": 109,
-      "description": "Renate Reinsve is flawless in this complex, critically adored Scandinavian family drama.",
+      "age_days": 110,
+      "description": "Joachim Trier's exquisite drama remains one of the year's very best",
       "overview": "Sisters Nora and Agnes reunite with their estranged father, the charismatic Gustav, a once-renowned director who offers stage actress Nora a role in what he hopes will be his comeback film. When Nora turns it down, she soon discovers he has given her part to an eager young Hollywood star.",
       "genres": [
         "Drama"
@@ -7503,10 +8526,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=zBFstFXdk90",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pz9NCWxxOk3o0W3v1Zkhawrwb4i.jpg",
       "ratings": {
-        "composite_score": 79.94,
+        "composite_score": 79.93,
         "tmdb": {
-          "rating": 7.5,
-          "votes": 807
+          "rating": 7.491,
+          "votes": 809
         },
         "imdb": {
           "rating": 7.8,
@@ -7675,8 +8698,8 @@
       "title": "Nuremberg",
       "release_date": "2025-12-23",
       "digital_release_date": "2025-12-23",
-      "age_days": 109,
-      "description": "Russell Crowe and Rami Malek anchor this gripping, historically vital courtroom drama.",
+      "age_days": 110,
+      "description": "Russell Crowe delivers a towering performance in this historical drama",
       "overview": "In postwar Germany, an American psychiatrist must determine whether Nazi prisoners are fit to go on trial for war crimes, and finds himself in a complex battle of intellect and ethics with Hermann Göring, Hitler's right-hand man.",
       "genres": [
         "History",
@@ -7706,10 +8729,10 @@
       "trailer_url": "https://www.youtube.com/watch?v=YWlCCVnZ4bo",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
       "ratings": {
-        "composite_score": 70.19,
+        "composite_score": 70.2,
         "tmdb": {
-          "rating": 7.372,
-          "votes": 825
+          "rating": 7.374,
+          "votes": 828
         },
         "imdb": {
           "rating": 7.4,
@@ -7872,1234 +8895,6 @@
       "poster_path": "/7cWTGH2svfNHWVRjsfKIBob9pDj.jpg",
       "backdrop_path": "/bf5TG9RODkPXmtJSgf8Iymof1wl.jpg",
       "imdb_id": "tt29567915"
-    },
-    {
-      "id": 1259102,
-      "title": "Eternity",
-      "release_date": "2025-12-23",
-      "digital_release_date": "2025-12-23",
-      "age_days": 109,
-      "description": "Elizabeth Olsen shines in this sweet, time-bending romantic comedy.",
-      "overview": "In an afterlife where souls have one week to decide where to spend eternity, Joan is faced with the impossible choice between the man she spent her life with and her first love, who died young and has waited decades for her to arrive.",
-      "genres": [
-        "Romance",
-        "Comedy",
-        "Drama"
-      ],
-      "director": "David Freyne",
-      "top_actors": [
-        "Elizabeth Olsen",
-        "Miles Teller",
-        "Callum Turner"
-      ],
-      "production_companies": [
-        "A24",
-        "Star Thrower Entertainment"
-      ],
-      "original_language": "en",
-      "production_countries": [
-        "US"
-      ],
-      "budget": 12000000,
-      "revenue": 32867848,
-      "runtime": 114,
-      "trailer_url": "https://www.youtube.com/watch?v=GzkoY6hUvQQ",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/o8pg20G67BGmQvRkXwstNre062J.jpg",
-      "ratings": {
-        "composite_score": 68.42,
-        "tmdb": {
-          "rating": 6.985,
-          "votes": 589
-        },
-        "imdb": {
-          "rating": 6.9,
-          "votes": 44776
-        },
-        "rotten_tomatoes": 77.0,
-        "metacritic": 58.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1259102-eternity/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1259102-eternity/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1259102-eternity/watch?locale=AU"
-        }
-      },
-      "poster_path": "/o8pg20G67BGmQvRkXwstNre062J.jpg",
-      "backdrop_path": "/fuacZLpnohQtLD0AhtCErcPVL98.jpg",
-      "imdb_id": "tt24950660"
-    },
-    {
-      "id": 1230368,
-      "title": "Springsteen: Deliver Me from Nowhere",
-      "release_date": "2025-12-23",
-      "digital_release_date": "2025-12-23",
-      "age_days": 109,
-      "description": "Jeremy Allen White completely transforms into The Boss in this stunning musical biopic.",
-      "overview": "Bruce Springsteen, a young musician on the cusp of global superstardom, struggles to reconcile the pressures of success with the ghosts of his past.",
-      "genres": [
-        "Drama",
-        "Music"
-      ],
-      "director": "Scott Cooper",
-      "top_actors": [
-        "Jeremy Allen White",
-        "Jeremy Strong",
-        "Paul Walter Hauser"
-      ],
-      "production_companies": [
-        "20th Century Studios",
-        "The Gotham Group",
-        "TSG Entertainment",
-        "Night Exterior",
-        "Bluegrass 7"
-      ],
-      "original_language": "en",
-      "production_countries": [
-        "US"
-      ],
-      "budget": 55000000,
-      "revenue": 45195389,
-      "runtime": 120,
-      "trailer_url": "https://www.youtube.com/watch?v=dH9NgXGVgK4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/csBV3eq4RDjNg1acNQ8kwOZyPlZ.jpg",
-      "ratings": {
-        "composite_score": 63.28,
-        "tmdb": {
-          "rating": 6.713,
-          "votes": 267
-        },
-        "imdb": {
-          "rating": 6.7,
-          "votes": 15855
-        },
-        "rotten_tomatoes": 60.0,
-        "metacritic": 59.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1230368-springsteen-deliver-me-from-nowhere/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1230368-springsteen-deliver-me-from-nowhere/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1230368-springsteen-deliver-me-from-nowhere/watch?locale=AU"
-        }
-      },
-      "poster_path": "/csBV3eq4RDjNg1acNQ8kwOZyPlZ.jpg",
-      "backdrop_path": "/oOczvrnhpXUmqCbyKYFj4FQExAo.jpg",
-      "imdb_id": "tt31923069"
-    },
-    {
-      "id": 982843,
-      "title": "The Great Flood",
-      "release_date": "2025-12-19",
-      "digital_release_date": "2025-12-19",
-      "age_days": 113,
-      "description": "A massive, visually spectacular Korean disaster epic that demands the biggest screen possible.",
-      "overview": "When a raging flood traps a researcher and her young son, a call to a crucial mission puts their escape — and the future of humanity — on the line.",
-      "genres": [
-        "Science Fiction",
-        "Adventure",
-        "Drama"
-      ],
-      "director": "Kim Byung-woo",
-      "top_actors": [
-        "Kim Da-mi",
-        "Park Hae-soo",
-        "Kwon Eun-seong"
-      ],
-      "production_companies": [
-        "Hwansang Studio Seoul"
-      ],
-      "original_language": "ko",
-      "production_countries": [
-        "KR"
-      ],
-      "budget": null,
-      "revenue": null,
-      "runtime": 107,
-      "trailer_url": "https://www.youtube.com/watch?v=SYF0MxHVAR0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1tUOZQDgZaGqZtrB21MieiXARL2.jpg",
-      "ratings": {
-        "composite_score": 56.38,
-        "tmdb": {
-          "rating": 5.995,
-          "votes": 660
-        },
-        "imdb": {
-          "rating": 5.4,
-          "votes": 16621
-        },
-        "rotten_tomatoes": null,
-        "metacritic": null
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/982843/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/982843/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/982843/watch?locale=AU"
-        }
-      },
-      "poster_path": "/1tUOZQDgZaGqZtrB21MieiXARL2.jpg",
-      "backdrop_path": "/218MafWtM9XpPRuNdh0uhrNezi5.jpg",
-      "imdb_id": "tt29927663"
-    },
-    {
-      "id": 1456349,
-      "title": "It Was Just an Accident",
-      "release_date": "2025-12-16",
-      "digital_release_date": "2025-12-16",
-      "age_days": 116,
-      "description": "A masterfully crafted Iranian mystery-thriller that is as tense as it is intelligent.",
-      "overview": "An unassuming mechanic is reminded of his time in an Iranian prison when he encounters a man he suspects to be his sadistic jailhouse captor.",
-      "genres": [
-        "Drama",
-        "Thriller",
-        "Crime",
-        "Mystery"
-      ],
-      "director": "Jafar Panahi",
-      "top_actors": [
-        "Vahid Mobasseri",
-        "Mariam Afshari",
-        "Ebrahim Azizi"
-      ],
-      "production_companies": [
-        "Jafar Panahi Productions",
-        "Les Films Pelléas",
-        "Bidibul Productions",
-        "Pio & Co",
-        "ARTE France Cinéma"
-      ],
-      "original_language": "fr",
-      "production_countries": [
-        "IR",
-        "FR",
-        "LU"
-      ],
-      "budget": 6000000,
-      "revenue": 9602793,
-      "runtime": 103,
-      "trailer_url": "https://www.youtube.com/watch?v=9oHw2ubyWE4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
-      "ratings": {
-        "composite_score": 79.84,
-        "tmdb": {
-          "rating": 7.148,
-          "votes": 509
-        },
-        "imdb": {
-          "rating": 7.5,
-          "votes": 25219
-        },
-        "rotten_tomatoes": 98.0,
-        "metacritic": 91.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1456349-un-simple-accident/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1456349-un-simple-accident/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2285,
-                "provider_name": "JustWatch TV",
-                "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1456349-un-simple-accident/watch?locale=AU"
-        }
-      },
-      "poster_path": "/eNYGj2DG3n8OrVPTfYunpPW9uas.jpg",
-      "backdrop_path": "/zhoMwQofjgVec5Sin05hWECJtVQ.jpg",
-      "imdb_id": "tt36491653"
-    },
-    {
-      "id": 1223601,
-      "title": "Sisu: Road to Revenge",
-      "release_date": "2025-12-16",
-      "digital_release_date": "2025-12-16",
-      "age_days": 116,
-      "description": "Pure, unadulterated, bloody revenge action — brutal, efficient, and incredibly satisfying.",
-      "overview": "Returning to the house where his family was brutally murdered during the war, \"the man who refuses to die\" dismantles it, loads it on a truck, and is determined to rebuild it somewhere safe in their honor. When the commander who killed his family comes back hellbent on finishing the job, a relentless, eye-popping cross-country chase ensues.",
-      "genres": [
-        "Action",
-        "War"
-      ],
-      "director": "Jalmari Helander",
-      "top_actors": [
-        "Jorma Tommila",
-        "Stephen Lang",
-        "Richard Brake"
-      ],
-      "production_companies": [
-        "Cosmic Snowball",
-        "Good Chaos",
-        "Subzero Film Entertainment"
-      ],
-      "original_language": "fi",
-      "production_countries": [
-        "FI",
-        "GB"
-      ],
-      "budget": 12200000,
-      "revenue": 9724644,
-      "runtime": 89,
-      "trailer_url": "https://www.youtube.com/watch?v=VmStqCXIgio",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jNsttCWZyPtW66MjhUozBzVsRb7.jpg",
-      "ratings": {
-        "composite_score": 73.94,
-        "tmdb": {
-          "rating": 7.34,
-          "votes": 653
-        },
-        "imdb": {
-          "rating": 6.8,
-          "votes": 25076
-        },
-        "rotten_tomatoes": 95.0,
-        "metacritic": 76.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              },
-              {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1223601-sisu-2/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1223601-sisu-2/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2285,
-                "provider_name": "JustWatch TV",
-                "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1223601-sisu-2/watch?locale=AU"
-        }
-      },
-      "poster_path": "/jNsttCWZyPtW66MjhUozBzVsRb7.jpg",
-      "backdrop_path": "/yCatt8lmp3oRFEcOZF8KHhsiASQ.jpg",
-      "imdb_id": "tt31844586"
-    },
-    {
-      "id": 425274,
-      "title": "Now You See Me: Now You Don't",
-      "release_date": "2025-12-16",
-      "digital_release_date": "2025-12-16",
-      "age_days": 116,
-      "description": "Jesse Eisenberg returns for more slick, fast-paced heist magic and illusions.",
-      "overview": "The original Four Horsemen reunite with a new generation of illusionists to take on powerful diamond heiress Veronika Vanderberg, who leads a criminal empire built on money laundering and trafficking. The new and old magicians must overcome their differences to work together on their most ambitious heist yet.",
-      "genres": [
-        "Crime",
-        "Thriller"
-      ],
-      "director": "Ruben Fleischer",
-      "top_actors": [
-        "Jesse Eisenberg",
-        "Dominic Sessa",
-        "Ariana Greenblatt"
-      ],
-      "production_companies": [
-        "Lionsgate",
-        "Cohen Pictures",
-        "Media Capital Technologies",
-        "Summit Entertainment"
-      ],
-      "original_language": "en",
-      "production_countries": [
-        "US"
-      ],
-      "budget": 90000000,
-      "revenue": 242431024,
-      "runtime": 113,
-      "trailer_url": "https://www.youtube.com/watch?v=lLWESUfW-0A",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg",
-      "ratings": {
-        "composite_score": 57.63,
-        "tmdb": {
-          "rating": 6.513,
-          "votes": 1348
-        },
-        "imdb": {
-          "rating": 5.9,
-          "votes": 56015
-        },
-        "rotten_tomatoes": null,
-        "metacritic": 50.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 43,
-                "provider_name": "Starz",
-                "logo_path": "/yIKwylTLP1u8gl84Is7FItpYLGL.jpg"
-              }
-            ],
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              },
-              {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 192,
-                "provider_name": "YouTube",
-                "logo_path": "/pTnn5JwWr4p3pG8H6VrpiQo7Vs0.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/425274-now-you-see-me-now-you-don-t/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 331,
-                "provider_name": "FlixFling",
-                "logo_path": "/yFGu4sSzwUMfhwmSsZgez8QhaVl.jpg"
-              },
-              {
-                "provider_id": 538,
-                "provider_name": "Plex",
-                "logo_path": "/vLZKlXUNDcZR7ilvfY9Wr9k80FZ.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/425274-now-you-see-me-now-you-don-t/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2285,
-                "provider_name": "JustWatch TV",
-                "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/425274-now-you-see-me-now-you-don-t/watch?locale=AU"
-        }
-      },
-      "poster_path": "/oD3Eey4e4Z259XLm3eD3WGcoJAh.jpg",
-      "backdrop_path": "/ufqytAlziHq5pljKByGJ8IKhtEZ.jpg",
-      "imdb_id": "tt4712810"
-    },
-    {
-      "id": 1352624,
-      "title": "The Mastermind",
-      "release_date": "2025-12-12",
-      "digital_release_date": "2025-12-12",
-      "age_days": 120,
-      "description": "Josh O'Connor leads this methodical, sharply directed indie crime drama.",
-      "overview": "In a sedate Massachusetts suburb circa 1970, unemployed family man and amateur art thief J.B. Mooney sets out on his first heist. With the museum cased and accomplices recruited, he has an airtight plan. Or so he thinks.",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "director": "Kelly Reichardt",
-      "top_actors": [
-        "Josh O'Connor",
-        "Alana Haim",
-        "Hope Davis"
-      ],
-      "production_companies": [
-        "filmscience",
-        "MUBI"
-      ],
-      "original_language": "en",
-      "production_countries": [
-        "GB",
-        "US"
-      ],
-      "budget": null,
-      "revenue": null,
-      "runtime": 110,
-      "trailer_url": "https://www.youtube.com/watch?v=ASH5vXpi3xA",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oPaEQ3m4zHOzIAstgXCZZtzcHTL.jpg",
-      "ratings": {
-        "composite_score": 73.0,
-        "tmdb": {
-          "rating": 5.8,
-          "votes": 168
-        },
-        "imdb": {
-          "rating": 6.3,
-          "votes": 11079
-        },
-        "rotten_tomatoes": 90.0,
-        "metacritic": 80.0
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1352624-the-mastermind/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1352624-the-mastermind/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "rent": [
-              {
-                "provider_id": 2285,
-                "provider_name": "JustWatch TV",
-                "logo_path": "/g2IaWyo6jCY0rIFjb4qgZ0bSmm3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1352624-the-mastermind/watch?locale=AU"
-        }
-      },
-      "poster_path": "/oPaEQ3m4zHOzIAstgXCZZtzcHTL.jpg",
-      "backdrop_path": "/zFK6Abddsh9FE8GAH61uO2Oq0St.jpg",
-      "imdb_id": "tt33455099"
-    },
-    {
-      "id": 1379963,
-      "title": "Tell Me Softly",
-      "release_date": "2025-12-12",
-      "digital_release_date": "2025-12-12",
-      "age_days": 120,
-      "description": "A slow-burn, beautifully romantic Spanish drama that lingers long after the credits.",
-      "overview": "Kamila has everything under control: studies, social life, her image... Everything except the unexpected return of her neighbors, the Di Bianco brothers, after seven years of absence. Thiago stole her first kiss, and Taylor was her best friend, but now their return will turn Kami's world upside down. Can the three overcome the past that binds them? Or will everything explode into pieces once again?",
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "director": "Denis Rovira van Boekholt",
-      "top_actors": [
-        "Alícia Falcó",
-        "Fernando Lindez",
-        "Diego Vidales"
-      ],
-      "production_companies": [
-        "Vaca Films",
-        "Amazon MGM Studios"
-      ],
-      "original_language": "es",
-      "production_countries": [
-        "ES"
-      ],
-      "budget": null,
-      "revenue": null,
-      "runtime": 119,
-      "trailer_url": "https://www.youtube.com/watch?v=maaZ6St22b8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/6Z37lW0JfLdeFcgH9yaTyg6B9A6.jpg",
-      "ratings": {
-        "composite_score": 49.97,
-        "tmdb": {
-          "rating": 6.1,
-          "votes": 149
-        },
-        "imdb": {
-          "rating": 4.7,
-          "votes": 1398
-        },
-        "rotten_tomatoes": null,
-        "metacritic": null
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/movie/1379963-dimelo-bajito/watch?locale=US"
-        }
-      },
-      "poster_path": "/6Z37lW0JfLdeFcgH9yaTyg6B9A6.jpg",
-      "backdrop_path": "/rtv6da2U8poERiAZSAbCOePXzql.jpg",
-      "imdb_id": "tt34434461"
     }
   ]
 }
