@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T07:38:40.177646",
+  "generated_at": "2026-04-14T07:38:40.938153",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 3,
       "season_id": 487853,
       "air_date": "2026-04-12",
-      "age_days": 1,
+      "age_days": 2,
       "best_rank": 2,
-      "description": "Twitter is exploding over this — an absolute must-watch pop culture event.",
+      "description": "The show everyone's arguing about on Reddit right now — a polarizing must-watch",
       "overview": "Five years have passed for the former students of East Highland High.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -118,15 +118,94 @@
       "backdrop_path": null
     },
     {
+      "series_id": 279471,
+      "series_name": "Malcolm in the Middle: Life's Still Unfair",
+      "series_imdb_id": "tt35466672",
+      "season_number": 1,
+      "season_id": 433067,
+      "air_date": "2026-04-10",
+      "age_days": 4,
+      "best_rank": 3,
+      "description": "A record-breaking, miraculous revival with Bryan Cranston at his comedic peak",
+      "overview": "Twenty years have gone by since we last saw Malcolm and his family — and after all that time, they've learned absolutely nothing.",
+      "episode_count": 4,
+      "total_episodes": 4,
+      "genres": [
+        "Mini-Series",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Bryan Cranston",
+        "Justin Berfield",
+        "Christopher Masterson"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=ABol0H2n_rc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9HFdIHWzlnF5BAF7BP4o27FPbTd.jpg",
+      "tvdb_id": 457779,
+      "tvdb_season_id": 2160377,
+      "network": "Hulu",
+      "runtime": 28,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": null,
+          "votes": null,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=AU"
+        }
+      },
+      "poster_path": "/9HFdIHWzlnF5BAF7BP4o27FPbTd.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 124101,
       "series_name": "Hacks",
       "series_imdb_id": "tt11815682",
       "season_number": 5,
       "season_id": 506657,
       "air_date": "2026-04-09",
-      "age_days": 4,
-      "best_rank": null,
-      "description": "Emmy buzz is real — the sharpest, funniest comedy on TV delivers again.",
+      "age_days": 5,
+      "best_rank": 37,
+      "description": "A flawless final season that secures its comedy legacy",
       "overview": "In the aftermath of mistaken and unflattering news reports that she passed away, Deborah Vance and Ava return to Las Vegas more determined than ever to secure Deborah’s legacy as a comedian.",
       "episode_count": 10,
       "total_episodes": 47,
@@ -230,9 +309,9 @@
       "season_number": 5,
       "season_id": 393831,
       "air_date": "2026-04-08",
-      "age_days": 5,
+      "age_days": 6,
       "best_rank": 1,
-      "description": "The internet's favorite obsession returns bloodier, darker, and more hilarious than ever.",
+      "description": "The bloody, shocking final season everyone is talking about",
       "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
       "episode_count": 8,
       "total_episodes": 40,
@@ -329,15 +408,92 @@
       "backdrop_path": null
     },
     {
+      "series_id": 289219,
+      "series_name": "Star Wars: Maul - Shadow Lord",
+      "series_imdb_id": "tt36594331",
+      "season_number": 1,
+      "season_id": 452209,
+      "air_date": "2026-04-06",
+      "age_days": 8,
+      "best_rank": 5,
+      "description": "Dark, brilliant animation — the best Star Wars series since Andor just dropped",
+      "overview": "Set after the events of \"The Clone Wars,\" Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire. There, he crosses paths with a disillusioned young Jedi Padawan, who could be the apprentice he is seeking, that will aid him in his relentless pursuit for revenge.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Science Fiction",
+        "Animation"
+      ],
+      "top_actors": [
+        "Sam Witwer"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=DkVepshZhGc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/60pcJ0Exode1HXW0t0pOfxL679z.jpg",
+      "tvdb_id": 462715,
+      "tvdb_season_id": 2182639,
+      "network": "Disney+",
+      "runtime": 24,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": null,
+          "votes": null,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=AU"
+        }
+      },
+      "poster_path": "/60pcJ0Exode1HXW0t0pOfxL679z.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 127529,
       "series_name": "Bloodhounds",
       "series_imdb_id": "tt26315487",
       "season_number": 2,
       "season_id": 397184,
       "air_date": "2026-04-03",
-      "age_days": 10,
-      "best_rank": 8,
-      "description": "Just dropped and already tearing up the Netflix charts — incredible action sequences.",
+      "age_days": 11,
+      "best_rank": 9,
+      "description": "Sharper action and brutal underground boxing — an absolute knockout",
       "overview": "Alberto (Salva Reina) has dreamed since childhood of being the next Sherlock Holmes, but along the way he has remained a security guard at a shopping center. It has everything you need for it, except for the detective license you just suspended for the fifth time. After a series of personal misfortunes, he will have to move to live with his sister-in-law Marta (María Esteve) and his two nephews. But everything changes when he meets Max (Ramses), a new companion capable of successfully carrying out any mission that is proposed. All great if it were not for a small detail that makes it unique: it is an adorable Jack Russell dog with the ability to speak. Max and Alberto will not only have to face the most complex cases, but they will also have to figure out how to do it in such a way that neither his family nor the police will discover Max's secret abilities. The only ones who know them are their colleagues in the criminal organization for which they worked, and therefore they will try to eliminate him. But Max has other qualities besides being a talking dog. He is intelligent, deductive, professional and, above all, capable of upsetting Alberto in any situation. In spite of everything, Holmes already has found his Watson, and together they will create 'Hounds', the agency of detectives with which he will be able to fulfill the dream of his life.",
       "episode_count": null,
       "total_episodes": 15,
@@ -409,95 +565,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 195670,
-      "series_name": "XO, Kitty",
-      "series_imdb_id": "tt14490706",
-      "season_number": 3,
-      "season_id": 500063,
-      "air_date": "2026-04-02",
-      "age_days": 11,
-      "best_rank": 38,
-      "description": "TikTok's obsessed and for good reason — binge the latest YA drama tonight.",
-      "overview": "Kitty returns for her final year at KISS with her perfect senior year mapped out. She’s going to make meaningful memories with her friends, grow closer to her relatives in Korea, and make big decisions about her future. And, she’s going to define her relationship with Min Ho. For real this time. But when surprise revelations derail her plans and relationships, Kitty will have to learn to embrace the unexpected.",
-      "episode_count": 8,
-      "total_episodes": 26,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "top_actors": [
-        "Anna Cathcart",
-        "Choi Min-yeong",
-        "Gia Kim"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=vPMcEabBQEU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uRwD19oDM02G2N4dBLJ99mPWDOR.jpg",
-      "tvdb_id": 412285,
-      "tvdb_season_id": 2232938,
-      "network": "Netflix",
-      "runtime": 31,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 75.0,
-        "imdb": {
-          "rating": 6.5,
-          "votes": 22644,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/195670-xo-kitty/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/195670-xo-kitty/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/195670-xo-kitty/watch?locale=AU"
-        }
-      },
-      "poster_path": "/uRwD19oDM02G2N4dBLJ99mPWDOR.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 241609,
       "series_name": "Your Friends & Neighbors",
       "series_imdb_id": "tt30459041",
       "season_number": 2,
       "season_id": 487796,
       "air_date": "2026-04-02",
-      "age_days": 11,
-      "best_rank": 31,
-      "description": "A gripping Apple TV drama that will keep you guessing all weekend.",
+      "age_days": 12,
+      "best_rank": 35,
+      "description": "Apple TV's gripping crime drama is perfect for a weekend binge",
       "overview": "In season two, Andrew Cooper doubles down on his life as an unlikely suburban thief, until the arrival of a new neighbor threatens to expose his secrets and place his family at risk.",
       "episode_count": 10,
       "total_episodes": 19,
@@ -574,9 +650,9 @@
       "season_number": 5,
       "season_id": 496413,
       "air_date": "2026-03-26",
-      "age_days": 18,
-      "best_rank": 28,
-      "description": "Best sci-fi on TV right now — the Reddit fan theories are wild.",
+      "age_days": 19,
+      "best_rank": 36,
+      "description": "Best sci-fi on TV right now — binge it this weekend",
       "overview": "Season five of picks up in the 2010s, years since the Goldilocks asteroid heist. Happy Valley has grown into a thriving colony with thousands of residents and a base for new missions that will take us even further into the solar system. But with the nations of Earth now demanding law and order on the Red Planet, friction continues to build between the people who live on Mars and their former home.",
       "episode_count": 10,
       "total_episodes": 50,
@@ -653,9 +729,9 @@
       "season_number": 2,
       "season_id": 484164,
       "air_date": "2026-03-24",
-      "age_days": 20,
+      "age_days": 21,
       "best_rank": 7,
-      "description": "The gritty, action-packed Marvel return fans have been begging for.",
+      "description": "Charlie Cox returns in a thrilling, action-packed second season",
       "overview": "Mayor Wilson Fisk crushes New York City underfoot as he hunts down public enemy number one, the Hell's Kitchen vigilante known as Daredevil. But, beneath the horned mask, Matt Murdock will try to fight back from the shadows to tear down the Kingpin's corrupt empire and redeem his home. Resist. Rebel. Rebuild.",
       "episode_count": 8,
       "total_episodes": 17,
@@ -737,9 +813,9 @@
       "season_number": 4,
       "season_id": 480006,
       "air_date": "2026-03-18",
-      "age_days": 26,
-      "best_rank": 8,
-      "description": "Stunning animation and superhero drama that perfectly balances heart and brutality.",
+      "age_days": 27,
+      "best_rank": 6,
+      "description": "Stunning animation and brutal stakes — an absolute must-watch",
       "overview": "While the world recovers from the global catastrophe of last season, a changed Mark struggles with guilt as he fights to protect his home and the people he loves, setting him on a collision course with a powerful new threat that could alter the fate of humanity forever.",
       "episode_count": 8,
       "total_episodes": 32,
@@ -794,9 +870,9 @@
       "season_number": 2,
       "season_id": 400466,
       "air_date": "2026-03-10",
-      "age_days": 34,
-      "best_rank": 22,
-      "description": "The live-action anime adaptation that actually gets it right — a joyous ride.",
+      "age_days": 35,
+      "best_rank": 19,
+      "description": "The grand adventure continues with even bigger stakes",
       "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
       "episode_count": 8,
       "total_episodes": 17,
@@ -820,7 +896,7 @@
       "runtime": 59,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 85.0,
+        "composite_score": 90.0,
         "imdb": {
           "rating": 8.3,
           "votes": 180939,
@@ -875,9 +951,9 @@
       "season_number": 8,
       "season_id": 325144,
       "air_date": "2026-03-06",
-      "age_days": 38,
+      "age_days": 39,
       "best_rank": null,
-      "description": "The sweeping romantic epic everyone's been waiting for continues in top form.",
+      "description": "The epic romance returns to sweep you off your feet",
       "overview": "In Season Eight, Jamie and Claire soon find the war has followed them home to Fraser's Ridge, now a thriving settlement that has grown and flourished in their absence. With new arrivals and changes made during their years away, the Frasers are confronted with the question of what they are willing to sacrifice for the place they call home and, more importantly, what they would sacrifice to stay together. While the Frasers keep a united front against outside intruders, family secrets finally coming to light threaten to tear them apart from the inside. Although they've left the war for America's freedom behind, their fight for Fraser's Ridge has only just begun.",
       "episode_count": 10,
       "total_episodes": 101,
@@ -1011,9 +1087,9 @@
       "season_number": 2,
       "season_id": 484723,
       "air_date": "2026-02-26",
-      "age_days": 46,
-      "best_rank": 16,
-      "description": "Massive monster action meets gripping human drama — a fantastic weekend binge.",
+      "age_days": 47,
+      "best_rank": 21,
+      "description": "Monster-sized action and drama you simply cannot miss",
       "overview": "Season two picks up with the fate of Monarch — and the world — hanging in the balance. Buried secrets are revealed that reunite our heroes (and villains) on Kong's Skull Island, and a new, mysterious village where a mythical Titan rises from the sea. The ripple effects of the past make waves in the present day, blurring the bonds between family, friend and foe — all with the threat of a Titan event on the horizon.",
       "episode_count": 10,
       "total_episodes": 20,
@@ -1037,7 +1113,7 @@
       "runtime": 46,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.0,
+        "composite_score": 81.0,
         "imdb": {
           "rating": 7.9,
           "votes": 54000,
@@ -1092,9 +1168,9 @@
       "season_number": 1,
       "season_id": 369440,
       "air_date": "2026-02-18",
-      "age_days": 54,
+      "age_days": 55,
       "best_rank": null,
-      "description": "A tightly wound Prime Video thriller that will keep you glued to the screen.",
+      "description": "A tense, fast-paced thriller perfect for your next mystery obsession",
       "overview": "After meeting randomly in a supermarket, Oliver and Ciara fall for each other fast, and dangerously hard. Fifty-six days later, homicide investigators arrive at Oliver's apartment to find an unidentified body — brutally murdered and intentionally decomposed.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1142,231 +1218,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 131142,
-      "series_name": "Love Story",
-      "series_imdb_id": "tt15232564",
-      "season_number": 1,
-      "season_id": 205791,
-      "air_date": "2026-02-12",
-      "age_days": 60,
-      "best_rank": null,
-      "description": "A beautifully crafted romance that serves as the perfect entry point.",
-      "overview": "Season 1 depicts the whirlwind courtship and marriage of John F. Kennedy Jr. and Carolyn Bessette. What started out as a beautiful union for the young couple, widely regarded as American royalty, began to fray under the stress of the relentless microscope and navel gaze of tabloid media.",
-      "episode_count": 9,
-      "total_episodes": 9,
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "top_actors": [
-        "Sarah Pidgeon",
-        "Paul Anthony Kelly",
-        "Grace Gummer"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=lBgns2ny41M",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mF3NqZ9F51A7T2mPDWuaMsjuK2z.jpg",
-      "tvdb_id": 408694,
-      "tvdb_season_id": 1949986,
-      "network": "FX",
-      "runtime": 51,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 79.0,
-        "imdb": {
-          "rating": 7.7,
-          "votes": 1962,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=AU"
-        }
-      },
-      "poster_path": "/mF3NqZ9F51A7T2mPDWuaMsjuK2z.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 1433,
-      "series_name": "American Dad!",
-      "series_imdb_id": "tt0397306",
-      "season_number": 22,
-      "season_id": 484485,
-      "air_date": "2026-02-22",
-      "age_days": 50,
-      "best_rank": null,
-      "description": "Decades in, this animated staple remains reliably hilarious and wonderfully weird.",
-      "overview": "CIA Agent Stan Smith is constantly fighting off terrorists who threaten the safety of the USA (sometimes causing more harm than good). His wife Francine is an average housewife with two kids: Hayley, an average rebellious teenager and Steve, a geek who enjoys Dungeons and Dragons, gaming and comic book conventions. Then there’s Roger, the home’s illegal (space) alien who the Smith’s are keeping protected. Last but not least, there’s Klaus, the Smiths’ wisecracking talking fish (swapped from  his human body years ago by the CIA).",
-      "episode_count": 10,
-      "total_episodes": 397,
-      "genres": [
-        "Comedy",
-        "Animation"
-      ],
-      "top_actors": [
-        "Seth MacFarlane",
-        "Wendy Schaal",
-        "Rachael MacFarlane"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=apr31MFjg08",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
-      "tvdb_id": 73141,
-      "tvdb_season_id": 2229268,
-      "network": "FOX",
-      "runtime": 24,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 76.0,
-        "imdb": {
-          "rating": 7.4,
-          "votes": 143645,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1433-american-dad/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1433-american-dad/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1433-american-dad/watch?locale=AU"
-        }
-      },
-      "poster_path": "/eb9sH2am9IUSQ8GhXTNAVoujk8W.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 1434,
       "series_name": "Family Guy",
       "series_imdb_id": "tt0182576",
       "season_number": 24,
       "season_id": 484484,
       "air_date": "2026-02-15",
-      "age_days": 57,
-      "best_rank": null,
-      "description": "The long-running comedy titan continues to serve up its signature irreverent humor.",
+      "age_days": 58,
+      "best_rank": 23,
+      "description": "The long-running animated hit still delivers the laughs",
       "overview": "A sick, twisted, and politically incorrect animated series following the adventures of the dysfunctional Griffin family living in Quahog. Drunk goof Peter and long-suffering Lois are parents to three kids: sadistic Stewie, unpopular Meg, and not-so bright Chris, as well as talking dog Brian - who is much more than a pet. The Griffins navigate life's oddities and their selfish desires alongside the townspeople of Quahog.",
       "episode_count": 15,
       "total_episodes": 455,
@@ -1459,15 +1319,123 @@
       "backdrop_path": null
     },
     {
+      "series_id": 131142,
+      "series_name": "Love Story",
+      "series_imdb_id": "tt15232564",
+      "season_number": 1,
+      "season_id": 205791,
+      "air_date": "2026-02-12",
+      "age_days": 61,
+      "best_rank": null,
+      "description": "A beautifully crafted romance that will steal your heart",
+      "overview": "Season 1 depicts the whirlwind courtship and marriage of John F. Kennedy Jr. and Carolyn Bessette. What started out as a beautiful union for the young couple, widely regarded as American royalty, began to fray under the stress of the relentless microscope and navel gaze of tabloid media.",
+      "episode_count": 9,
+      "total_episodes": 9,
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "top_actors": [
+        "Sarah Pidgeon",
+        "Paul Anthony Kelly",
+        "Grace Gummer"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=lBgns2ny41M",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mF3NqZ9F51A7T2mPDWuaMsjuK2z.jpg",
+      "tvdb_id": 408694,
+      "tvdb_season_id": 1949986,
+      "network": "FX",
+      "runtime": 51,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 77.0,
+        "imdb": {
+          "rating": 7.7,
+          "votes": 1962,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/131142-love-story/watch?locale=AU"
+        }
+      },
+      "poster_path": "/mF3NqZ9F51A7T2mPDWuaMsjuK2z.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 270600,
       "series_name": "The 'Burbs",
       "series_imdb_id": "tt33336202",
       "season_number": 1,
       "season_id": 416911,
       "air_date": "2026-02-08",
-      "age_days": 64,
+      "age_days": 65,
       "best_rank": null,
-      "description": "A delightfully unhinged mystery comedy that deserves your immediate attention.",
+      "description": "A quirky suburban mystery with plenty of weird neighbors",
       "overview": "When a mysterious man moves in across the street, a young couple and their quirky neighbors uncover dark secrets about their quiet suburban town.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1555,9 +1523,9 @@
       "season_number": 3,
       "season_id": 480887,
       "air_date": "2026-01-27",
-      "age_days": 76,
-      "best_rank": 27,
-      "description": "Heartfelt, hilarious, and featuring an ensemble cast at the top of their game.",
+      "age_days": 77,
+      "best_rank": 16,
+      "description": "Heartfelt and hilarious — a perfect comfort binge",
       "overview": "Jimmy and his rag-tag crew pick up the pieces of last season, forcing them to reckon with grief, second chances, and the messy road toward healing. With old clients still reeling and a few new faces entering the fold",
       "episode_count": 11,
       "total_episodes": 33,
@@ -1578,7 +1546,7 @@
       "runtime": 35,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 89.0,
+        "composite_score": 94.0,
         "imdb": {
           "rating": 8.9,
           "votes": 114666,
@@ -1633,9 +1601,9 @@
       "season_number": 1,
       "season_id": 288697,
       "air_date": "2026-01-26",
-      "age_days": 77,
+      "age_days": 78,
       "best_rank": null,
-      "description": "A surprisingly fresh, comedic take on the superhero formula that demands a watch.",
+      "description": "A fun, fresh entry into the Marvel Cinematic Universe",
       "overview": "Aspiring Hollywood actor Simon Williams is struggling to get his career off the ground. During a chance meeting with Trevor Slattery, an actor whose biggest roles may be well behind him, Simon learns that legendary director Von Kovak is remaking the superhero film \"Wonder Man.\" These two actors at opposite ends of their careers doggedly pursue life-changing roles in this film as audiences get a peek behind the curtain of the entertainment industry.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1719,9 +1687,9 @@
       "season_number": 1,
       "season_id": 456152,
       "air_date": "2026-01-25",
-      "age_days": 78,
+      "age_days": 79,
       "best_rank": null,
-      "description": "A dark crime thriller that's flying under the radar but completely deserves a watch.",
+      "description": "A twisty crime drama that keeps you guessing",
       "overview": "Angelo Ledda lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer’s.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1804,15 +1772,99 @@
       "backdrop_path": null
     },
     {
+      "series_id": 3562,
+      "series_name": "NOVA",
+      "series_imdb_id": "tt0206501",
+      "season_number": 53,
+      "season_id": 484204,
+      "air_date": "2026-01-21",
+      "age_days": 83,
+      "best_rank": null,
+      "description": "Fascinating documentary storytelling at its very best",
+      "overview": "Helps viewers of all ages explore the science behind the headlines.",
+      "episode_count": 8,
+      "total_episodes": 1020,
+      "genres": [
+        "Documentary"
+      ],
+      "top_actors": [],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aQBdBwHninUVm0Roh0mu3Epz1GI.jpg",
+      "tvdb_id": 76119,
+      "tvdb_season_id": 2218111,
+      "network": "PBS",
+      "runtime": 60,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 87.0,
+        "imdb": {
+          "rating": 8.7,
+          "votes": 3422,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=AU"
+        }
+      },
+      "poster_path": "/aQBdBwHninUVm0Roh0mu3Epz1GI.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 273160,
       "series_name": "The Beauty",
       "series_imdb_id": "tt33517752",
       "season_number": 1,
       "season_id": 421345,
       "air_date": "2026-01-21",
-      "age_days": 82,
+      "age_days": 83,
       "best_rank": null,
-      "description": "Ryan Murphy's latest horror-mystery is as stylish and unsettling as you'd expect.",
+      "description": "A stylish and unsettling dive into sci-fi horror",
       "overview": "In season 1, their investigation leads FBI Agents Cooper Madsen and Jordan Bennett directly into the crosshairs of \"The Corporation,\" a shadowy tech billionaire who has secretly engineered a miracle drug dubbed \"The Beauty,\" who will do anything to protect his trillion-dollar empire—including unleashing his lethal enforcer, \"The Assassin.\" As the epidemic spreads, Jeremy, a desperate outsider, is caught in the chaos, searching for purpose as the agents race across Paris, Venice, Rome and New York to stop a threat that could alter the future of humanity.",
       "episode_count": 11,
       "total_episodes": 11,
@@ -1890,9 +1942,9 @@
       "season_number": 1,
       "season_id": 336816,
       "air_date": "2026-01-18",
-      "age_days": 85,
-      "best_rank": 26,
-      "description": "The fantasy epic everyone's been waiting for — HBO strikes gold again.",
+      "age_days": 86,
+      "best_rank": null,
+      "description": "The fantasy epic everyone's been waiting for",
       "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros, a young knight, Ser Duncan the Tall, and his squire, Egg, set in an age when the Targaryen line still holds the Iron Throne.",
       "episode_count": 6,
       "total_episodes": 6,
@@ -2014,9 +2066,9 @@
       "season_number": 1,
       "season_id": 334969,
       "air_date": "2026-01-15",
-      "age_days": 88,
+      "age_days": 89,
       "best_rank": null,
-      "description": "The show everyone's arguing about on Reddit right now — decide for yourself.",
+      "description": "Return to the final frontier with a fresh young crew",
       "overview": "A young group of Starfleet cadets navigating friendships and rivalries, as well as first loves and a new enemy that poses a threat not to just the Academy, but to the Federation. And, in between all that drama, they strive to meet the standards of their exacting instructors.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2080,9 +2132,9 @@
       "season_number": 2,
       "season_id": 471098,
       "air_date": "2026-01-08",
-      "age_days": 95,
-      "best_rank": 11,
-      "description": "A rock-solid medical drama that anchors the HBO Max lineup perfectly.",
+      "age_days": 96,
+      "best_rank": 12,
+      "description": "Top-tier drama with powerful performances you shouldn't miss",
       "overview": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "episode_count": 15,
       "total_episodes": 30,
@@ -2168,9 +2220,9 @@
       "season_number": 1,
       "season_id": 403464,
       "air_date": "2026-01-08",
-      "age_days": 95,
+      "age_days": 96,
       "best_rank": null,
-      "description": "A tense, psychological puzzle box that consistently rewards careful attention.",
+      "description": "A twisting relationship drama full of unexpected surprises",
       "overview": "Reclusive former news anchor Anna Andrews becomes obsessed with a murder case in her hometown. Her estranged husband, Detective Jack Harper, suspicious of her involvement, puts Anna in the crosshairs of his investigation.",
       "episode_count": 12,
       "total_episodes": 6,
@@ -2249,9 +2301,9 @@
       "season_number": 8,
       "season_id": 455290,
       "air_date": "2026-01-06",
-      "age_days": 97,
-      "best_rank": 29,
-      "description": "Consistently entertaining police procedural with characters you can't help but root for.",
+      "age_days": 98,
+      "best_rank": 18,
+      "description": "Action-packed procedural drama that never slows down",
       "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries — including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
       "episode_count": 18,
       "total_episodes": 144,
@@ -2275,7 +2327,7 @@
       "runtime": 44,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 81.33,
+        "composite_score": 86.33,
         "imdb": {
           "rating": 8.133333333333333,
           "votes": 120183,
@@ -2380,99 +2432,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 3562,
-      "series_name": "NOVA",
-      "series_imdb_id": "tt0206501",
-      "season_number": 53,
-      "season_id": 484204,
-      "air_date": "2026-01-21",
-      "age_days": 82,
-      "best_rank": null,
-      "description": "Fascinating, top-tier documentary programming that never fails to educate and astound.",
-      "overview": "Helps viewers of all ages explore the science behind the headlines.",
-      "episode_count": 8,
-      "total_episodes": 1020,
-      "genres": [
-        "Documentary"
-      ],
-      "top_actors": [],
-      "production_companies": [],
-      "trailer_url": null,
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aQBdBwHninUVm0Roh0mu3Epz1GI.jpg",
-      "tvdb_id": 76119,
-      "tvdb_season_id": 2218111,
-      "network": "PBS",
-      "runtime": 60,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 87.0,
-        "imdb": {
-          "rating": 8.7,
-          "votes": 3422,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/3562-nova/watch?locale=AU"
-        }
-      },
-      "poster_path": "/aQBdBwHninUVm0Roh0mu3Epz1GI.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 244244,
       "series_name": "Run Away",
       "series_imdb_id": "tt9169516",
       "season_number": 1,
       "season_id": 375336,
       "air_date": "2026-01-01",
-      "age_days": 102,
+      "age_days": 103,
       "best_rank": null,
-      "description": "Another highly addictive Harlan Coben thriller on Netflix to devour in one sitting.",
+      "description": "A dark and gripping mystery from start to finish",
       "overview": "A desperate father searching for his runaway daughter gets caught up in a murder case — and stumbles upon secrets which could destroy his family for good.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2551,12 +2519,12 @@
       "season_number": 57,
       "season_id": 485811,
       "air_date": "2026-01-01",
-      "age_days": 102,
+      "age_days": 103,
       "best_rank": null,
-      "description": "True crime fans will devour this long-running, meticulously detailed investigative series.",
+      "description": "Chilling true crime investigations for documentary fans",
       "overview": "Investigative filmmaker Tony Harris ventures deep into small-town America to pull back the curtain on the often-nefarious players and foreboding places at the center of crimes that happened there.",
       "episode_count": null,
-      "total_episodes": 1337,
+      "total_episodes": 1338,
       "genres": [
         "Documentary",
         "Crime",
@@ -2603,9 +2571,9 @@
       "season_number": 24,
       "season_id": 366708,
       "air_date": "2025-12-29",
-      "age_days": 105,
+      "age_days": 106,
       "best_rank": 33,
-      "description": "A wonderfully cozy mystery classic perfect for a rainy Sunday afternoon.",
+      "description": "Cozy, classic British murder mysteries at their finest",
       "overview": "The peacefulness of the Midsomer community is shattered by violent crimes, suspects are placed under suspicion, and it is up to a veteran DCI and his young sergeant to calmly and diligently eliminate the innocent and ruthlessly pursue the guilty.",
       "episode_count": 4,
       "total_episodes": 144,
