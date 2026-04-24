@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T07:38:39.865784",
+  "generated_at": "2026-04-24T07:40:32.601969",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 3,
       "season_id": 487853,
       "air_date": "2026-04-12",
-      "age_days": 11,
+      "age_days": 12,
       "best_rank": 3,
-      "description": "The most controversial, endlessly debated show on the internet right now — absolutely unmissable",
+      "description": "The polarizing return everyone is arguing about on Twitter right now — absolute must-watch chaos.",
       "overview": "Five years have passed for the former students of East Highland High, and life for them has underwent serious changes.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -118,15 +118,135 @@
       "backdrop_path": null
     },
     {
+      "series_id": 244623,
+      "series_name": "Running Point",
+      "series_imdb_id": "tt14879018",
+      "season_number": 2,
+      "season_id": 448083,
+      "air_date": "2026-04-23",
+      "age_days": 1,
+      "best_rank": 20,
+      "description": "Just dropped yesterday and already dominating Netflix — a hilarious, binge-worthy sports comedy return.",
+      "overview": "A reformed party girl must prove herself as a businesswoman when she's unexpectedly put in charge of her family's pro basketball team.",
+      "episode_count": 10,
+      "total_episodes": 20,
+      "genres": [
+        "Comedy",
+        "Sport"
+      ],
+      "top_actors": [
+        "Kate Hudson",
+        "Brenda Song",
+        "Scott MacArthur"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=PMWh8evLLT0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eqd3l06xvKYV2hWMWluExzBGCsx.jpg",
+      "tvdb_id": 450102,
+      "tvdb_season_id": 2182432,
+      "network": "Netflix",
+      "runtime": 29,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 88.0,
+        "imdb": {
+          "rating": 7.3,
+          "votes": 23456,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244623-running-point/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244623-running-point/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244623-running-point/watch?locale=AU"
+        }
+      },
+      "poster_path": "/eqd3l06xvKYV2hWMWluExzBGCsx.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 76479,
       "series_name": "The Boys",
       "series_imdb_id": "tt1190634",
       "season_number": 5,
       "season_id": 393831,
       "air_date": "2026-04-08",
-      "age_days": 15,
+      "age_days": 16,
       "best_rank": 1,
-      "description": "A dark, deeply divisive final season that has Reddit completely losing its mind",
+      "description": "The gory, epic final season is dropping weekly and delivering massive viral moments.",
       "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
       "episode_count": 8,
       "total_episodes": 40,
@@ -223,94 +343,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 154385,
-      "series_name": "BEEF",
-      "series_imdb_id": "tt14403178",
-      "season_number": 2,
-      "season_id": 493393,
-      "air_date": "2026-04-16",
-      "age_days": 7,
-      "best_rank": 8,
-      "description": "Oscar Isaac shines in a tense, chaotic, and polarizing follow-up to the Emmy-winning masterpiece",
-      "overview": "A young couple witnesses an alarming fight between their boss and his wife, triggering chess moves of favors and coercion in the elitist world of a country club and its Korean billionaire owner.",
-      "episode_count": 8,
-      "total_episodes": 18,
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "top_actors": [
-        "Oscar Isaac",
-        "Carey Mulligan",
-        "Cailee Spaeny"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=ZtQoofDhJOM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/DBkfHZ6BYJTjhNfyW2CL1dk1Y8.jpg",
-      "tvdb_id": 399838,
-      "tvdb_season_id": 2225512,
-      "network": "Netflix",
-      "runtime": 39,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 97.75,
-        "imdb": {
-          "rating": 7.775,
-          "votes": 163497,
-          "season_rating": 7.775
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=AU"
-        }
-      },
-      "poster_path": "/DBkfHZ6BYJTjhNfyW2CL1dk1Y8.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 124364,
       "series_name": "FROM",
       "series_imdb_id": "tt9813792",
       "season_number": 4,
       "season_id": 430163,
       "air_date": "2026-04-19",
-      "age_days": 4,
+      "age_days": 5,
       "best_rank": 2,
-      "description": "Sci-fi horror's best kept secret is now a massive hit — start binging it tonight",
+      "description": "Sci-fi horror at its peak — fan theories are exploding online over this terrifying new season.",
       "overview": "The closer the town residents get to the answers they seek, the more terrifying their search becomes. Who is the Man in Yellow, and what does he want? Will Jade and Tabitha’s revelation be the key to finally going home? How much longer can Boyd hold the town together, even as his body and mind are falling apart? And what role will the town’s most recent arrival play in the events to come? Season Four will open doors that some in town will end up wishing had remained closed.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -332,7 +373,7 @@
       "tvdb_id": 401003,
       "tvdb_season_id": 2157431,
       "network": "EPIX",
-      "runtime": 50,
+      "runtime": 51,
       "status": "Continuing",
       "ratings": {
         "composite_score": 100.0,
@@ -428,15 +469,94 @@
       "backdrop_path": null
     },
     {
+      "series_id": 154385,
+      "series_name": "BEEF",
+      "series_imdb_id": "tt14403178",
+      "season_number": 2,
+      "season_id": 493393,
+      "air_date": "2026-04-16",
+      "age_days": 8,
+      "best_rank": 10,
+      "description": "A brilliant new anthology cast takes the dark tension to entirely fresh, stressful heights.",
+      "overview": "A young couple witnesses an alarming fight between their boss and his wife, triggering chess moves of favors and coercion in the elitist world of a country club and its Korean billionaire owner.",
+      "episode_count": 8,
+      "total_episodes": 18,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Oscar Isaac",
+        "Carey Mulligan",
+        "Cailee Spaeny"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=ZtQoofDhJOM",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/DBkfHZ6BYJTjhNfyW2CL1dk1Y8.jpg",
+      "tvdb_id": 399838,
+      "tvdb_season_id": 2225512,
+      "network": "Netflix",
+      "runtime": 39,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 97.75,
+        "imdb": {
+          "rating": 7.775,
+          "votes": 163497,
+          "season_rating": 7.775
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/154385-beef/watch?locale=AU"
+        }
+      },
+      "poster_path": "/DBkfHZ6BYJTjhNfyW2CL1dk1Y8.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 204490,
       "series_name": "Criminal Record",
       "series_imdb_id": "tt21088136",
       "season_number": 2,
       "season_id": 497607,
       "air_date": "2026-04-22",
-      "age_days": 1,
-      "best_rank": 19,
-      "description": "Just dropped yesterday — a gripping, masterfully acted crime thriller that demands your attention",
+      "age_days": 2,
+      "best_rank": 22,
+      "description": "Brand new on Apple TV and boasting a flawless critical score — a gripping crime thriller.",
       "overview": "In season two, when a young man is stabbed to death at a political rally, rival police officers June Lenker and Daniel Hegarty are forced into an uneasy alliance. But what starts as a hunt for a murderer escalates into an undercover operation to foil a far-right bomb plot in the heart of London.",
       "episode_count": 8,
       "total_episodes": 16,
@@ -460,7 +580,7 @@
       "runtime": 46,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.0,
+        "composite_score": 81.0,
         "imdb": {
           "rating": 7.1,
           "votes": 13056,
@@ -515,9 +635,9 @@
       "season_number": 5,
       "season_id": 506657,
       "air_date": "2026-04-09",
-      "age_days": 14,
+      "age_days": 15,
       "best_rank": null,
-      "description": "Emmy buzz is real — this comedy masterclass somehow just keeps getting better",
+      "description": "The perfect sendoff season for a beloved comedy — expect huge Emmy buzz this year.",
       "overview": "In the aftermath of mistaken and unflattering news reports that she passed away, Deborah Vance and Ava return to Las Vegas more determined than ever to secure Deborah’s legacy as a comedian.",
       "episode_count": 10,
       "total_episodes": 47,
@@ -539,7 +659,7 @@
       "runtime": 32,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 92.0,
+        "composite_score": 87.0,
         "imdb": {
           "rating": 8.2,
           "votes": 61822,
@@ -621,9 +741,9 @@
       "season_number": 1,
       "season_id": 433067,
       "air_date": "2026-04-10",
-      "age_days": 13,
-      "best_rank": 22,
-      "description": "A wildly nostalgic, pitch-perfect revival that actually captures the magic of the original",
+      "age_days": 14,
+      "best_rank": 33,
+      "description": "Nostalgia done right — the surprise reboot fans have been waiting years to finally stream.",
       "overview": "Twenty years have gone by since we last saw Malcolm and his family — and after all that time, they've learned absolutely nothing.",
       "episode_count": 4,
       "total_episodes": 4,
@@ -700,9 +820,9 @@
       "season_number": 1,
       "season_id": 448600,
       "air_date": "2026-04-08",
-      "age_days": 15,
-      "best_rank": 23,
-      "description": "The dark, highly anticipated dystopian sequel that fans have been waiting years for",
+      "age_days": 16,
+      "best_rank": 34,
+      "description": "The highly anticipated continuation of a dystopian masterpiece — utterly compelling from the first frame.",
       "overview": "Four years after the events of The Handmaid's Tale, a new generation of young women in Gilead grapple with the bleak future that awaits them. For these young women, growing up in Gilead is all they have ever known, having no tangible memories of the outside world prior to their indoctrination into this life. Facing the prospect of being married off and living a life of servitude, they will be forced to search for allies, both new and old, to help in their fight for freedom and the life they deserve.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -778,9 +898,9 @@
       "season_number": 1,
       "season_id": 505814,
       "air_date": "2026-04-08",
-      "age_days": 15,
+      "age_days": 16,
       "best_rank": null,
-      "description": "TikTok's obsessed with this wild new true-crime documentary — prepare to be shocked",
+      "description": "Your next true crime obsession — this wild documentary will keep you hooked all weekend.",
       "overview": "In this true-crime documentary, a cult expert and filmmaker infiltrate a polygamist sect to expose a self-proclaimed prophet and bring him to justice.",
       "episode_count": 4,
       "total_episodes": 4,
@@ -849,94 +969,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 291506,
-      "series_name": "Big Mistakes",
-      "series_imdb_id": "tt36957934",
-      "season_number": 1,
-      "season_id": 456457,
-      "air_date": "2026-04-09",
-      "age_days": 14,
-      "best_rank": null,
-      "description": "Netflix's newest dark comedy is the perfect chaotic, binge-worthy weekend watch",
-      "overview": "Blackmailed into working for gangsters, two deeply incapable siblings become the most disorganized duo in organized crime.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Crime",
-        "Comedy"
-      ],
-      "top_actors": [
-        "Dan Levy",
-        "Laurie Metcalf",
-        "Taylor Ortega"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=tTGeLuCs97Q",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lhYFCM8dwz22skNS1m3usrqaR4g.jpg",
-      "tvdb_id": 466852,
-      "tvdb_season_id": 2200686,
-      "network": "Netflix",
-      "runtime": 33,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 81.0,
-        "imdb": {
-          "rating": 7.1,
-          "votes": 4448,
-          "season_rating": 7.1
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=AU"
-        }
-      },
-      "poster_path": "/lhYFCM8dwz22skNS1m3usrqaR4g.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 289219,
       "series_name": "Star Wars: Maul - Shadow Lord",
       "series_imdb_id": "tt36594331",
       "season_number": 1,
       "season_id": 452209,
       "air_date": "2026-04-06",
-      "age_days": 17,
-      "best_rank": 13,
-      "description": "The brutal, thrilling Star Wars animated epic fans have been begging for",
+      "age_days": 18,
+      "best_rank": 17,
+      "description": "Stunning animated action expanding the galactic lore — a must-watch for dedicated sci-fi fans.",
       "overview": "Set after the events of \"The Clone Wars,\" Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire. There, he crosses paths with a disillusioned young Jedi Padawan, who could be the apprentice he is seeking, that will aid him in his relentless pursuit for revenge.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -948,7 +989,7 @@
         "Sam Witwer"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=y1xGGquVWOA",
+      "trailer_url": "https://www.youtube.com/watch?v=AGHbkcEk4Y0",
       "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/60pcJ0Exode1HXW0t0pOfxL679z.jpg",
       "tvdb_id": 462715,
       "tvdb_season_id": 2182639,
@@ -1011,9 +1052,9 @@
       "season_number": 2,
       "season_id": 397184,
       "air_date": "2026-04-02",
-      "age_days": 21,
-      "best_rank": 23,
-      "description": "Jaw-dropping action and insane fighting choreography make this an absolute adrenaline rush",
+      "age_days": 22,
+      "best_rank": 24,
+      "description": "Bone-crunching action and incredible fight choreography make this global hit totally unmissable right now.",
       "overview": "Alberto (Salva Reina) has dreamed since childhood of being the next Sherlock Holmes, but along the way he has remained a security guard at a shopping center. It has everything you need for it, except for the detective license you just suspended for the fifth time. After a series of personal misfortunes, he will have to move to live with his sister-in-law Marta (María Esteve) and his two nephews. But everything changes when he meets Max (Ramses), a new companion capable of successfully carrying out any mission that is proposed. All great if it were not for a small detail that makes it unique: it is an adorable Jack Russell dog with the ability to speak. Max and Alberto will not only have to face the most complex cases, but they will also have to figure out how to do it in such a way that neither his family nor the police will discover Max's secret abilities. The only ones who know them are their colleagues in the criminal organization for which they worked, and therefore they will try to eliminate him. But Max has other qualities besides being a talking dog. He is intelligent, deductive, professional and, above all, capable of upsetting Alberto in any situation. In spite of everything, Holmes already has found his Watson, and together they will create 'Hounds', the agency of detectives with which he will be able to fulfill the dream of his life.",
       "episode_count": null,
       "total_episodes": 15,
@@ -1091,9 +1132,9 @@
       "season_number": 2,
       "season_id": 487796,
       "air_date": "2026-04-02",
-      "age_days": 21,
-      "best_rank": 34,
-      "description": "A stylish, twisty Apple TV drama that will keep you guessing until the end",
+      "age_days": 22,
+      "best_rank": 28,
+      "description": "Slick, compelling crime drama that easily earns its dedicated and growing Apple TV fanbase.",
       "overview": "In season two, Andrew Cooper doubles down on his life as an unlikely suburban thief, until the arrival of a new neighbor threatens to expose his secrets and place his family at risk.",
       "episode_count": 10,
       "total_episodes": 19,
@@ -1112,7 +1153,7 @@
       "tvdb_id": 443433,
       "tvdb_season_id": 2157056,
       "network": "Apple TV",
-      "runtime": 53,
+      "runtime": 54,
       "status": "Continuing",
       "ratings": {
         "composite_score": 82.0,
@@ -1170,9 +1211,9 @@
       "season_number": 1,
       "season_id": 384558,
       "air_date": "2026-03-26",
-      "age_days": 28,
+      "age_days": 29,
       "best_rank": null,
-      "description": "A gritty, atmospheric Nordic noir adaptation perfect for true crime and mystery fans",
+      "description": "A moody, atmospheric thriller adaptation that easily hooks you from the very first episode.",
       "overview": "In season one, Harry Hole goes head-to-head with his long time adversary and corrupt detective Tom Waaler. Harry is a brilliant but tormented homicide detective who struggles with his demons. As the two navigate the blurred ethical lines of the criminal justice system, Harry must do all he can to catch a serial killer and bring Waaler to justice before it is too late.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -1249,9 +1290,9 @@
       "season_number": 5,
       "season_id": 496413,
       "air_date": "2026-03-26",
-      "age_days": 28,
-      "best_rank": 27,
-      "description": "Simply the best sci-fi on television right now — an absolute must-watch",
+      "age_days": 29,
+      "best_rank": 26,
+      "description": "Still the smartest sci-fi on television — expect breathtaking stakes in this gripping continuation.",
       "overview": "Season five of picks up in the 2010s, years since the Goldilocks asteroid heist. Happy Valley has grown into a thriving colony with thousands of residents and a base for new missions that will take us even further into the solar system. But with the nations of Earth now demanding law and order on the Red Planet, friction continues to build between the people who live on Mars and their former home.",
       "episode_count": 10,
       "total_episodes": 50,
@@ -1328,9 +1369,9 @@
       "season_number": 2,
       "season_id": 484164,
       "air_date": "2026-03-24",
-      "age_days": 30,
-      "best_rank": 6,
-      "description": "The gritty, action-packed Marvel return that fans have been eagerly waiting for",
+      "age_days": 31,
+      "best_rank": 8,
+      "description": "Gritty, action-packed street-level heroics return in a season that truly honors the character's legacy.",
       "overview": "Mayor Wilson Fisk crushes New York City underfoot as he hunts down public enemy number one, the Hell's Kitchen vigilante known as Daredevil. But, beneath the horned mask, Matt Murdock will try to fight back from the shadows to tear down the Kingpin's corrupt empire and redeem his home. Resist. Rebel. Rebuild.",
       "episode_count": 8,
       "total_episodes": 17,
@@ -1352,7 +1393,7 @@
       "runtime": 48,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 96.0,
+        "composite_score": 93.0,
         "imdb": {
           "rating": 8.1,
           "votes": 96028,
@@ -1412,9 +1453,9 @@
       "season_number": 4,
       "season_id": 480006,
       "air_date": "2026-03-18",
-      "age_days": 36,
+      "age_days": 37,
       "best_rank": 4,
-      "description": "Violent, brilliant, and still the single best superhero show on television",
+      "description": "Incredible animation meets brutal superhero drama in a phenomenal season that demands your attention.",
       "overview": "While the world recovers from the global catastrophe of last season, a changed Mark struggles with guilt as he fights to protect his home and the people he loves, setting him on a collision course with a powerful new threat that could alter the fate of humanity forever.",
       "episode_count": 8,
       "total_episodes": 32,
@@ -1469,9 +1510,9 @@
       "season_number": 1,
       "season_id": 339729,
       "air_date": "2026-03-14",
-      "age_days": 40,
+      "age_days": 41,
       "best_rank": null,
-      "description": "The next great Western saga has arrived — a perfect binge for Yellowstone fans",
+      "description": "A sweeping, high-stakes family drama that perfectly expands a legendary modern western television universe.",
       "overview": "Wealthy matriarch Stacy Clyburn and her family  leave New York City and head to Montana in the wake of her husband and brother-in-law’s tragic deaths.",
       "episode_count": 6,
       "total_episodes": 12,
@@ -1537,9 +1578,9 @@
       "season_number": 2,
       "season_id": 400466,
       "air_date": "2026-03-10",
-      "age_days": 44,
-      "best_rank": 24,
-      "description": "The global live-action anime phenomenon continues to completely defy all expectations",
+      "age_days": 45,
+      "best_rank": 23,
+      "description": "A remarkably fun live-action adventure that faithfully captures the magic of the beloved anime.",
       "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
       "episode_count": 8,
       "total_episodes": 17,
@@ -1618,9 +1659,9 @@
       "season_number": 8,
       "season_id": 325144,
       "air_date": "2026-03-06",
-      "age_days": 48,
-      "best_rank": 25,
-      "description": "An epic, emotional farewell to a beloved, sweeping historical romance",
+      "age_days": 49,
+      "best_rank": 30,
+      "description": "Sweeping romance and dramatic historical stakes make this an incredibly satisfying treat for fans.",
       "overview": "In Season Eight, Jamie and Claire soon find the war has followed them home to Fraser's Ridge, now a thriving settlement that has grown and flourished in their absence. With new arrivals and changes made during their years away, the Frasers are confronted with the question of what they are willing to sacrifice for the place they call home and, more importantly, what they would sacrifice to stay together. While the Frasers keep a united front against outside intruders, family secrets finally coming to light threaten to tear them apart from the inside. Although they've left the war for America's freedom behind, their fight for Fraser's Ridge has only just begun.",
       "episode_count": 10,
       "total_episodes": 101,
@@ -1754,9 +1795,9 @@
       "season_number": 1,
       "season_id": 396168,
       "air_date": "2026-03-04",
-      "age_days": 50,
+      "age_days": 51,
       "best_rank": null,
-      "description": "A fun, fast-paced origin story filled with incredible wit and signature style",
+      "description": "A clever, action-packed origin story breathing thrilling new life into the iconic detective mythos.",
       "overview": "At age 19, Sherlock Holmes is disgraced, raw, unfiltered, and unformed, when he finds himself caught up in a murder mystery at Oxford University which threatens his freedom. Diving into his first-ever case with a wild lack of discipline, Sherlock manages to unravel a globe-trotting conspiracy that will change his life forever.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1809,9 +1850,9 @@
       "season_number": 1,
       "season_id": 302382,
       "air_date": "2026-03-01",
-      "age_days": 53,
+      "age_days": 54,
       "best_rank": null,
-      "description": "A razor-sharp, hilarious dark comedy featuring an absolutely incredible lead duo",
+      "description": "A sharply written limited series blending dark comedy and crime with a fantastic cast.",
       "overview": "A darkly comedic tale of three middle-aged individuals entangled in a love triangle, leading to one's untimely demise.",
       "episode_count": 7,
       "total_episodes": 7,
@@ -1924,9 +1965,9 @@
       "season_number": 2,
       "season_id": 484723,
       "air_date": "2026-02-26",
-      "age_days": 56,
-      "best_rank": 12,
-      "description": "Epic monster action meets compelling human drama in this massive sci-fi spectacle",
+      "age_days": 57,
+      "best_rank": 9,
+      "description": "Epic monster action meets engaging character drama in a visually spectacular streaming blockbuster.",
       "overview": "Season two picks up with the fate of Monarch — and the world — hanging in the balance. Buried secrets are revealed that reunite our heroes (and villains) on Kong's Skull Island, and a new, mysterious village where a mythical Titan rises from the sea. The ripple effects of the past make waves in the present day, blurring the bonds between family, friend and foe — all with the threat of a Titan event on the horizon.",
       "episode_count": 10,
       "total_episodes": 20,
@@ -1950,7 +1991,7 @@
       "runtime": 46,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.0,
+        "composite_score": 91.0,
         "imdb": {
           "rating": 7.9,
           "votes": 58717,
@@ -2005,9 +2046,9 @@
       "season_number": 1,
       "season_id": 464820,
       "air_date": "2026-02-24",
-      "age_days": 58,
-      "best_rank": 20,
-      "description": "The doctors are back — a heartwarming and hilarious return to Sacred Heart Hospital",
+      "age_days": 59,
+      "best_rank": 25,
+      "description": "A nostalgic return full of heart, humor, and the quirky charm you remember fondly.",
       "overview": "Scrubs focuses on the lives of several people working at Sacred Heart, a teaching hospital. It features fast-paced dialogue, slapstick, and surreal vignettes presented mostly as the daydreams of the central character, Dr. John Michael \"J.D.\" Dorian.",
       "episode_count": 24,
       "total_episodes": 9,
@@ -2029,7 +2070,7 @@
       "runtime": 25,
       "status": "Ended",
       "ratings": {
-        "composite_score": 88.0,
+        "composite_score": 83.0,
         "imdb": {
           "rating": 8.100000000000001,
           "votes": 6705,
@@ -2108,9 +2149,9 @@
       "season_number": 1,
       "season_id": 205791,
       "air_date": "2026-02-12",
-      "age_days": 70,
+      "age_days": 71,
       "best_rank": null,
-      "description": "A sweeping, scandalous romance that will absolutely break your heart",
+      "description": "A stylish, engrossing romantic drama that delivers big emotions and excellent lead performances.",
       "overview": "Season 1 depicts the whirlwind courtship and marriage of John F. Kennedy Jr. and Carolyn Bessette. What started out as a beautiful union for the young couple, widely regarded as American royalty, began to fray under the stress of the relentless microscope and navel gaze of tabloid media.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -2210,106 +2251,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 291339,
-      "series_name": "Memory of a Killer",
-      "series_imdb_id": "tt35707374",
-      "season_number": 1,
-      "season_id": 456152,
-      "air_date": "2026-01-25",
-      "age_days": 88,
-      "best_rank": null,
-      "description": "A relentless, edge-of-your-seat thriller that never takes its foot off the gas",
-      "overview": "Angelo Ledda lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer’s.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Suspense",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Patrick Dempsey",
-        "Richard Harmon",
-        "Odeya Rush"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=TdenhFzKenM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
-      "tvdb_id": 463592,
-      "tvdb_season_id": 2186589,
-      "network": "FOX",
-      "runtime": 42,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 76.0,
-        "imdb": {
-          "rating": 7.6,
-          "votes": 1859,
-          "season_rating": 7.6
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291339-memory-of-a-killer/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291339-memory-of-a-killer/watch?locale=CA"
-        }
-      },
-      "poster_path": "/3kpXrWW6gmlngwgSa52IhBpjPuz.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 224372,
       "series_name": "A Knight of the Seven Kingdoms",
       "series_imdb_id": "tt27497448",
       "season_number": 1,
       "season_id": 336816,
       "air_date": "2026-01-18",
-      "age_days": 95,
+      "age_days": 96,
       "best_rank": null,
-      "description": "A character-driven return to Westeros that captures the magic of early Game of Thrones",
+      "description": "A brilliant, intimate fantasy adventure that breathed spectacular new life into a legendary franchise.",
       "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros, a young knight, Ser Duncan the Tall, and his squire, Egg, set in an age when the Targaryen line still holds the Iron Throne.",
       "episode_count": 6,
       "total_episodes": 6,
@@ -2431,9 +2381,9 @@
       "season_number": 2,
       "season_id": 471098,
       "air_date": "2026-01-08",
-      "age_days": 105,
+      "age_days": 106,
       "best_rank": 7,
-      "description": "A gripping, high-stakes medical drama anchored by a phenomenal, powerhouse lead performance",
+      "description": "Intense, character-driven medical drama that brings raw emotional weight to its high-stakes environment.",
       "overview": "The staff of Pittsburgh's Trauma Medical Center work around the clock to save lives in an overcrowded and underfunded emergency department.",
       "episode_count": 15,
       "total_episodes": 30,
@@ -2519,9 +2469,9 @@
       "season_number": 1,
       "season_id": 403464,
       "air_date": "2026-01-08",
-      "age_days": 105,
+      "age_days": 106,
       "best_rank": null,
-      "description": "A twisty, addictive psychological thriller where you literally cannot trust anyone",
+      "description": "An engaging mix of comedy and drama that offers a fun, lighthearted weekend binge.",
       "overview": "Reclusive former news anchor Anna Andrews becomes obsessed with a murder case in her hometown. Her estranged husband, Detective Jack Harper, suspicious of her involvement, puts Anna in the crosshairs of his investigation.",
       "episode_count": 12,
       "total_episodes": 6,
@@ -2600,9 +2550,9 @@
       "season_number": 8,
       "season_id": 455290,
       "air_date": "2026-01-06",
-      "age_days": 107,
-      "best_rank": 17,
-      "description": "Network TV's most reliable, wildly entertaining cop drama returns for another great season",
+      "age_days": 108,
+      "best_rank": 16,
+      "description": "Reliably entertaining police procedural action backed by tremendous chemistry from its veteran ensemble cast.",
       "overview": "In Season 8, John Nolan and the team are sent on a high-stakes international assignment in Prague before pulling them back into the evolving dangers of life in the LAPD. At home, the unit faces a shifting landscape of political pressure, unresolved threats, and returning adversaries — including hints that corrupt lawyer Monica Stevens may not be out of the picture for long.",
       "episode_count": 18,
       "total_episodes": 144,
@@ -2728,6 +2678,119 @@
         }
       },
       "poster_path": "/70kTz0OmjjZe7zHvIDrq2iKW7PJ.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 208569,
+      "series_name": "Will Trent",
+      "series_imdb_id": "tt17543592",
+      "season_number": 4,
+      "season_id": 482203,
+      "air_date": "2026-01-06",
+      "age_days": 108,
+      "best_rank": null,
+      "description": "A tightly plotted crime procedural driven by an eccentric, thoroughly compelling lead performance.",
+      "overview": "Special Agent Will Trent of the Georgia Bureau of Investigations was abandoned at birth and endured a harsh coming of age in Atlanta’s overwhelmed foster care system. Now, he's determined to use his unique point of view to make sure no one feels as abandoned as he was.",
+      "episode_count": 18,
+      "total_episodes": 57,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "top_actors": [
+        "Ramón Rodríguez",
+        "Erika Christensen",
+        "Iantha Richardson"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=JesV7gIdpyQ",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qG5O46gUxxYGImld03tl2zLhvrg.jpg",
+      "tvdb_id": 419879,
+      "tvdb_season_id": 2207410,
+      "network": "ABC (US)",
+      "runtime": 42,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 77.0,
+        "imdb": {
+          "rating": 7.7,
+          "votes": 28123,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/208569-will-trent/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/208569-will-trent/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/208569-will-trent/watch?locale=AU"
+        }
+      },
+      "poster_path": "/qG5O46gUxxYGImld03tl2zLhvrg.jpg",
       "backdrop_path": null
     }
   ]
