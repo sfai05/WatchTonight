@@ -1,17 +1,71 @@
 {
-  "generated_at": "2026-05-12T08:00:50.635963",
+  "generated_at": "2026-05-13T08:02:31.945026",
   "count": 30,
   "seasons": [
+    {
+      "series_id": 71915,
+      "series_name": "Good Omens",
+      "series_imdb_id": "tt1869454",
+      "season_number": 3,
+      "season_id": 501051,
+      "air_date": "2026-05-13",
+      "age_days": 0,
+      "best_rank": 14,
+      "description": "The final chapter fans are already crying about on social media today.",
+      "overview": "Aziraphale, now Supreme Archangel, seeks Crowley's help as plans for the Second Coming take a surprising yet dangerous turn. Can the angel and demon reconcile their differences before it's too late?",
+      "episode_count": 1,
+      "total_episodes": 13,
+      "genres": [
+        "Fantasy",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Michael Sheen",
+        "David Tennant"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=kpKkh64jgPI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xeesNuPr10zKleeBFozlzJCedFx.jpg",
+      "tvdb_id": 359569,
+      "tvdb_season_id": 2233297,
+      "network": "Prime Video",
+      "runtime": 57,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 95.0,
+        "imdb": {
+          "rating": 8.0,
+          "votes": 122739,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/71915-good-omens/watch?locale=US"
+        }
+      },
+      "poster_path": "/xeesNuPr10zKleeBFozlzJCedFx.jpg",
+      "backdrop_path": null
+    },
     {
       "series_id": 235930,
       "series_name": "Devil May Cry",
       "series_imdb_id": "tt15716776",
       "season_number": 2,
       "season_id": 450842,
-      "air_date": "2026-05-10",
-      "age_days": 0,
+      "air_date": "2026-05-12",
+      "age_days": 1,
       "best_rank": 8,
-      "description": "Just dropped and already the most-watched on Netflix — Vergil's return is absolute fire",
+      "description": "Slick, bloody, and dominating the Netflix top charts since dropping yesterday.",
       "overview": "A war between worlds ignites as Dante must battle the only force that mirrors his own: his estranged twin brother Vergil. In Season 2, Dante must confront his own devils and the feeling of family he lost as a child. With the reemergence of Vergil, will Dante lay to rest old demons or fall victim to them?",
       "episode_count": 8,
       "total_episodes": 16,
@@ -23,11 +77,11 @@
       "top_actors": [],
       "production_companies": [],
       "trailer_url": "https://www.youtube.com/watch?v=Jpie-fec5qY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3aGkj1Kq0DUeN8xpryQsACBSDgR.jpg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f5WJUhhJfqEOEjbeX14Zqf2BXKB.jpg",
       "tvdb_id": 440193,
       "tvdb_season_id": 2220941,
       "network": "Netflix",
-      "runtime": 29,
+      "runtime": 32,
       "status": "Continuing",
       "ratings": {
         "composite_score": 94.0,
@@ -75,7 +129,7 @@
           "link": "https://www.themoviedb.org/tv/235930-devil-may-cry/watch?locale=AU"
         }
       },
-      "poster_path": "/3aGkj1Kq0DUeN8xpryQsACBSDgR.jpg",
+      "poster_path": "/f5WJUhhJfqEOEjbeX14Zqf2BXKB.jpg",
       "backdrop_path": null
     },
     {
@@ -85,9 +139,9 @@
       "season_number": 2,
       "season_id": 502443,
       "air_date": "2026-05-07",
-      "age_days": 5,
-      "best_rank": 13,
-      "description": "The show everyone's arguing about on Reddit right now — that mid-season twist is polarizing",
+      "age_days": 6,
+      "best_rank": 11,
+      "description": "Nordic noir at its absolute finest — the perfect weekend binge.",
       "overview": "Detective Hess and Thulin reunite as they race against time to catch a perpetrator playing a disturbing game of hide and seek in the gloomy mists of Copenhagen's suburbs. As more victims are drawn into the deadly game and the body count rises, the duo must stop the killer before more lives are lost.",
       "episode_count": 6,
       "total_episodes": 12,
@@ -166,9 +220,9 @@
       "season_number": 3,
       "season_id": 506032,
       "air_date": "2026-05-07",
-      "age_days": 5,
-      "best_rank": 30,
-      "description": "Best horror on TV right now — Dan Stevens is incredible in this chilling return",
+      "age_days": 6,
+      "best_rank": 28,
+      "description": "Atmospheric horror that has Reddit spinning wild new theories.",
       "overview": "Devil in Silver is Pepper's story, a man from Queens, wrongfully committed to New Hyde Psychiatric Hospital. He faces grim secrets and maybe the Devil himself. Freedom means facing what thrives on New Hyde's pain-but are the worst demons inside him?",
       "episode_count": 6,
       "total_episodes": 26,
@@ -278,9 +332,9 @@
       "season_number": 2,
       "season_id": 432158,
       "air_date": "2026-05-06",
-      "age_days": 6,
-      "best_rank": 4,
-      "description": "High-octane spy thriller that’s trending globally right now — bigger and better than before",
+      "age_days": 7,
+      "best_rank": 6,
+      "description": "High-octane spy thrills that prove the first season was just the beginning.",
       "overview": "One month after the events of the first season, Citadel spies are underground and being hunted by Manticore agents around the world. They're pulled out of hiding to join forces with a new team of unconventional spies when Manticore's Brazilian billionaire Paulo Braga threatens to unleash a cataclysmic piece of technology, built by Citadel's own Bernard Orlick, into the world.",
       "episode_count": 7,
       "total_episodes": 13,
@@ -301,9 +355,9 @@
       "tvdb_season_id": 2065644,
       "network": "Prime Video",
       "runtime": 43,
-      "status": "Ended",
+      "status": "Continuing",
       "ratings": {
-        "composite_score": 87.0,
+        "composite_score": 82.0,
         "imdb": {
           "rating": 6.2,
           "votes": 37316,
@@ -328,93 +382,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 318880,
-      "series_name": "Hulk Hogan: Real American",
-      "series_imdb_id": "tt41508977",
-      "season_number": 1,
-      "season_id": 509402,
-      "air_date": "2026-04-22",
-      "age_days": 20,
-      "best_rank": null,
-      "description": "TikTok's obsessed with this raw, polarizing look at a legend — mandatory watercooler talk",
-      "overview": "Before he was Hulk Hogan, he was Terry Bollea. Uncover the man behind the legend in this unfiltered documentary featuring his very last interview.",
-      "episode_count": 4,
-      "total_episodes": 4,
-      "genres": [
-        "Documentary"
-      ],
-      "top_actors": [
-        "Hulk Hogan",
-        "James Ray Hart",
-        "Linda Hogan"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=OpfhIXAv7CE",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w8OTsirSM3xsoGmEBC6sUvNdvr.jpg",
-      "tvdb_id": 476473,
-      "tvdb_season_id": 2243792,
-      "network": "Netflix",
-      "runtime": 61,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 80.0,
-        "imdb": {
-          "rating": 7.5,
-          "votes": 1406,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=AU"
-        }
-      },
-      "poster_path": "/w8OTsirSM3xsoGmEBC6sUvNdvr.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 124364,
       "series_name": "FROM",
       "series_imdb_id": "tt9813792",
       "season_number": 4,
       "season_id": 430163,
       "air_date": "2026-04-19",
-      "age_days": 23,
-      "best_rank": 2,
-      "description": "Reddit is spiraling over new theories this week — the mystery box hit delivers again",
+      "age_days": 24,
+      "best_rank": 5,
+      "description": "The internet’s favorite puzzle-box horror returns with terrifying new questions.",
       "overview": "The closer the town residents get to the answers they seek, the more terrifying their search becomes. Who is the Man in Yellow, and what does he want? Will Jade and Tabitha’s revelation be the key to finally going home? How much longer can Boyd hold the town together, even as his body and mind are falling apart? And what role will the town’s most recent arrival play in the events to come? Season Four will open doors that some in town will end up wishing had remained closed.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -525,15 +501,93 @@
       "backdrop_path": null
     },
     {
+      "series_id": 318880,
+      "series_name": "Hulk Hogan: Real American",
+      "series_imdb_id": "tt41508977",
+      "season_number": 1,
+      "season_id": 509402,
+      "air_date": "2026-04-22",
+      "age_days": 21,
+      "best_rank": null,
+      "description": "The most talked-about documentary on Netflix right now — purely controversial.",
+      "overview": "Before he was Hulk Hogan, he was Terry Bollea. Uncover the man behind the legend in this unfiltered documentary featuring his very last interview.",
+      "episode_count": 4,
+      "total_episodes": 4,
+      "genres": [
+        "Documentary"
+      ],
+      "top_actors": [
+        "Hulk Hogan",
+        "James Ray Hart",
+        "Linda Hogan"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=OpfhIXAv7CE",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w8OTsirSM3xsoGmEBC6sUvNdvr.jpg",
+      "tvdb_id": 476473,
+      "tvdb_season_id": 2243792,
+      "network": "Netflix",
+      "runtime": 61,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.5,
+          "votes": 1406,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/318880-hulk-hogan-real-american/watch?locale=AU"
+        }
+      },
+      "poster_path": "/w8OTsirSM3xsoGmEBC6sUvNdvr.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 85552,
       "series_name": "Euphoria",
       "series_imdb_id": "tt8772296",
       "season_number": 3,
       "season_id": 487853,
       "air_date": "2026-04-12",
-      "age_days": 30,
-      "best_rank": 5,
-      "description": "Social media's most divisive show is back and messier than ever — unmissable HBO drama",
+      "age_days": 31,
+      "best_rank": 2,
+      "description": "TikTok’s aesthetic obsession is back and more divisive than ever.",
       "overview": "Five years have passed for the former students of East Highland High, and life for them has underwent serious changes.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -554,7 +608,7 @@
       "runtime": 60,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 87.0,
+        "composite_score": 84.0,
         "imdb": {
           "rating": 6.7,
           "votes": 297928,
@@ -647,15 +701,186 @@
       "backdrop_path": null
     },
     {
+      "series_id": 76479,
+      "series_name": "The Boys",
+      "series_imdb_id": "tt1190634",
+      "season_number": 5,
+      "season_id": 393831,
+      "air_date": "2026-04-07",
+      "age_days": 36,
+      "best_rank": 1,
+      "description": "Still TV’s most shocking satire — every single episode is a viral moment.",
+      "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
+      "episode_count": 8,
+      "total_episodes": 40,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Drama",
+        "Crime",
+        "Comedy",
+        "Action"
+      ],
+      "top_actors": [
+        "Karl Urban",
+        "Jack Quaid",
+        "Antony Starr"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=XNQbH1SDPRk",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+      "tvdb_id": 355567,
+      "tvdb_season_id": 2157561,
+      "network": "Prime Video",
+      "runtime": 64,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 100.0,
+        "imdb": {
+          "rating": 8.700000000000001,
+          "votes": 853757,
+          "season_rating": 8.700000000000001
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=AU"
+        }
+      },
+      "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 287527,
+      "series_name": "The Testaments",
+      "series_imdb_id": "tt10970762",
+      "season_number": 1,
+      "season_id": 448600,
+      "air_date": "2026-04-08",
+      "age_days": 35,
+      "best_rank": null,
+      "description": "The chilling sequel everyone has been waiting for — unmissable prestige drama.",
+      "overview": "Four years after the events of The Handmaid's Tale, a new generation of young women in Gilead grapple with the bleak future that awaits them. For these young women, growing up in Gilead is all they have ever known, having no tangible memories of the outside world prior to their indoctrination into this life. Facing the prospect of being married off and living a life of servitude, they will be forced to search for allies, both new and old, to help in their fight for freedom and the life they deserve.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Drama"
+      ],
+      "top_actors": [
+        "Ann Dowd",
+        "Chase Infiniti",
+        "Lucy Halliday"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=KpWyxrPqkeA",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+      "tvdb_id": 460241,
+      "tvdb_season_id": 2171876,
+      "network": "Hulu",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 83.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 1757,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/287527-the-testaments/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/287527-the-testaments/watch?locale=AU"
+        }
+      },
+      "poster_path": "/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 124101,
       "series_name": "Hacks",
       "series_imdb_id": "tt11815682",
       "season_number": 5,
       "season_id": 506657,
       "air_date": "2026-04-09",
-      "age_days": 33,
+      "age_days": 34,
       "best_rank": null,
-      "description": "Emmy buzz is real — this season delivers pure comedy gold and emotional depth",
+      "description": "Emmy buzz is deafening for Jean Smart’s best season yet.",
       "overview": "In the aftermath of mistaken and unflattering news reports that she passed away, Deborah Vance and Ava return to Las Vegas more determined than ever to secure Deborah’s legacy as a comedian.",
       "episode_count": 10,
       "total_episodes": 47,
@@ -758,81 +983,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 287527,
-      "series_name": "The Testaments",
-      "series_imdb_id": "tt10970762",
-      "season_number": 1,
-      "season_id": 448600,
-      "air_date": "2026-04-08",
-      "age_days": 34,
-      "best_rank": null,
-      "description": "The prestige sequel everyone’s talking about — a haunting, timely expansion of a classic",
-      "overview": "Four years after the events of The Handmaid's Tale, a new generation of young women in Gilead grapple with the bleak future that awaits them. For these young women, growing up in Gilead is all they have ever known, having no tangible memories of the outside world prior to their indoctrination into this life. Facing the prospect of being married off and living a life of servitude, they will be forced to search for allies, both new and old, to help in their fight for freedom and the life they deserve.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Drama"
-      ],
-      "top_actors": [
-        "Ann Dowd",
-        "Chase Infiniti",
-        "Lucy Halliday"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=KpWyxrPqkeA",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-      "tvdb_id": 460241,
-      "tvdb_season_id": 2171876,
-      "network": "Hulu",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.0,
-        "imdb": {
-          "rating": 8.1,
-          "votes": 1757,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287527-the-testaments/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287527-the-testaments/watch?locale=AU"
-        }
-      },
-      "poster_path": "/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 316898,
       "series_name": "Trust Me: The False Prophet",
       "series_imdb_id": "tt40826311",
       "season_number": 1,
       "season_id": 505814,
       "air_date": "2026-04-07",
-      "age_days": 35,
+      "age_days": 36,
       "best_rank": null,
-      "description": "Chilling true crime that just hit Netflix — the documentary everyone is streaming tonight",
+      "description": "A true-crime rabbit hole that’s currently trending across all social media.",
       "overview": "In this true-crime documentary, a cult expert and filmmaker infiltrate a polygamist sect to expose a self-proclaimed prophet and bring him to justice.",
       "episode_count": 4,
       "total_episodes": 4,
@@ -901,120 +1060,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 76479,
-      "series_name": "The Boys",
-      "series_imdb_id": "tt1190634",
-      "season_number": 5,
-      "season_id": 393831,
-      "air_date": "2026-04-07",
-      "age_days": 35,
-      "best_rank": 1,
-      "description": "The final season everyone's talking about — bloody, satirical, and more controversial than ever",
-      "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
-      "episode_count": 8,
-      "total_episodes": 40,
-      "genres": [
-        "Science Fiction",
-        "Fantasy",
-        "Drama",
-        "Crime",
-        "Comedy",
-        "Action"
-      ],
-      "top_actors": [
-        "Karl Urban",
-        "Jack Quaid",
-        "Antony Starr"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=XNQbH1SDPRk",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-      "tvdb_id": 355567,
-      "tvdb_season_id": 2157561,
-      "network": "Prime Video",
-      "runtime": 64,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 100.0,
-        "imdb": {
-          "rating": 8.700000000000001,
-          "votes": 853757,
-          "season_rating": 8.700000000000001
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/76479-the-boys/watch?locale=AU"
-        }
-      },
-      "poster_path": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 289219,
       "series_name": "Star Wars: Maul - Shadow Lord",
       "series_imdb_id": "tt36594331",
       "season_number": 1,
       "season_id": 452209,
       "air_date": "2026-04-06",
-      "age_days": 36,
-      "best_rank": 9,
-      "description": "The Star Wars epic fans have been demanding — viral action moments galore",
+      "age_days": 37,
+      "best_rank": 16,
+      "description": "The dark Star Wars epic that die-hard fans are calling a masterpiece.",
       "overview": "Set after the events of \"The Clone Wars,\" Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire. There, he crosses paths with a disillusioned young Jedi Padawan, who could be the apprentice he is seeking, that will aid him in his relentless pursuit for revenge.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1034,7 +1088,7 @@
       "runtime": 24,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 95.5,
+        "composite_score": 90.5,
         "imdb": {
           "rating": 8.35,
           "votes": 4817,
@@ -1065,9 +1119,9 @@
       "season_number": 2,
       "season_id": 487796,
       "air_date": "2026-04-02",
-      "age_days": 40,
+      "age_days": 41,
       "best_rank": null,
-      "description": "Jon Hamm is phenomenal — this dark crime thriller is a must-binge this weekend",
+      "description": "Jon Hamm brings the charm in this gripping and stylish neighborhood thriller.",
       "overview": "In season two, Andrew Cooper doubles down on his life as an unlikely suburban thief, until the arrival of a new neighbor threatens to expose his secrets and place his family at risk.",
       "episode_count": 10,
       "total_episodes": 19,
@@ -1138,15 +1192,82 @@
       "backdrop_path": null
     },
     {
+      "series_id": 202555,
+      "series_name": "Daredevil: Born Again",
+      "series_imdb_id": "tt18923754",
+      "season_number": 2,
+      "season_id": 484164,
+      "air_date": "2026-03-24",
+      "age_days": 50,
+      "best_rank": 3,
+      "description": "Charlie Cox is back and the hallway fights are already legendary.",
+      "overview": "Mayor Wilson Fisk crushes New York City underfoot as he hunts down public enemy number one, the Hell's Kitchen vigilante known as Daredevil. But beneath the horned mask, Matt Murdock will try to fight back from the shadows to tear down the Kingpin's corrupt empire and redeem his home. Resist. Rebel. Rebuild.",
+      "episode_count": 8,
+      "total_episodes": 17,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "top_actors": [
+        "Charlie Cox",
+        "Vincent D'Onofrio",
+        "Wilson Bethel"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=U1MqJBVn8Rk",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/timvsedxh5ce795tsv6EDTZmmXW.jpg",
+      "tvdb_id": 422712,
+      "tvdb_season_id": 2211562,
+      "network": "Disney+",
+      "runtime": 48,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 98.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 96028,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/202555-daredevil-born-again/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/202555-daredevil-born-again/watch?locale=AU"
+        }
+      },
+      "poster_path": "/timvsedxh5ce795tsv6EDTZmmXW.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 87917,
       "series_name": "For All Mankind",
       "series_imdb_id": "tt7772588",
       "season_number": 5,
       "season_id": 496413,
       "air_date": "2026-03-26",
-      "age_days": 47,
-      "best_rank": 37,
-      "description": "The best sci-fi you aren't watching — space drama at its absolute peak",
+      "age_days": 48,
+      "best_rank": null,
+      "description": "The best sci-fi on TV continues its ambitious, mind-bending alternate history.",
       "overview": "Season five of picks up in the 2010s, years since the Goldilocks asteroid heist. Happy Valley has grown into a thriving colony with thousands of residents and a base for new missions that will take us even further into the solar system. But with the nations of Earth now demanding law and order on the Red Planet, friction continues to build between the people who live on Mars and their former home.",
       "episode_count": 10,
       "total_episodes": 50,
@@ -1223,9 +1344,9 @@
       "season_number": 1,
       "season_id": 384558,
       "air_date": "2026-03-26",
-      "age_days": 47,
+      "age_days": 48,
       "best_rank": null,
-      "description": "Gritty, atmospheric, and highly addictive — Netflix's newest must-watch for crime fans",
+      "description": "Norway’s favorite detective finally gets the gritty, high-stakes adaptation he deserves.",
       "overview": "In season one, Harry Hole goes head-to-head with his long time adversary and corrupt detective Tom Waaler. Harry is a brilliant but tormented homicide detective who struggles with his demons. As the two navigate the blurred ethical lines of the criminal justice system, Harry must do all he can to catch a serial killer and bring Waaler to justice before it is too late.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -1296,82 +1417,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 202555,
-      "series_name": "Daredevil: Born Again",
-      "series_imdb_id": "tt18923754",
-      "season_number": 2,
-      "season_id": 484164,
-      "air_date": "2026-03-24",
-      "age_days": 49,
-      "best_rank": 3,
-      "description": "Dark, gritty, and exactly what Marvel fans needed — the buzz is 100% justified",
-      "overview": "Mayor Wilson Fisk crushes New York City underfoot as he hunts down public enemy number one, the Hell's Kitchen vigilante known as Daredevil. But beneath the horned mask, Matt Murdock will try to fight back from the shadows to tear down the Kingpin's corrupt empire and redeem his home. Resist. Rebel. Rebuild.",
-      "episode_count": 8,
-      "total_episodes": 17,
-      "genres": [
-        "Drama",
-        "Action"
-      ],
-      "top_actors": [
-        "Charlie Cox",
-        "Vincent D'Onofrio",
-        "Wilson Bethel"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=U1MqJBVn8Rk",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/timvsedxh5ce795tsv6EDTZmmXW.jpg",
-      "tvdb_id": 422712,
-      "tvdb_season_id": 2211562,
-      "network": "Disney+",
-      "runtime": 48,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 98.0,
-        "imdb": {
-          "rating": 8.1,
-          "votes": 96028,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/202555-daredevil-born-again/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/202555-daredevil-born-again/watch?locale=AU"
-        }
-      },
-      "poster_path": "/timvsedxh5ce795tsv6EDTZmmXW.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 95557,
       "series_name": "INVINCIBLE",
       "series_imdb_id": "tt6741278",
       "season_number": 4,
       "season_id": 480006,
       "air_date": "2026-03-18",
-      "age_days": 55,
-      "best_rank": 20,
-      "description": "Amazon's animated powerhouse returns with a shocking new storyline everyone’s discussing",
+      "age_days": 56,
+      "best_rank": 23,
+      "description": "The most brutal superhero show on television just keeps getting better.",
       "overview": "While the world recovers from the global catastrophe of last season, a changed Mark struggles with guilt as he fights to protect his home and the people he loves, setting him on a collision course with a powerful new threat that could alter the fate of humanity forever.",
       "episode_count": 8,
       "total_episodes": 32,
@@ -1395,7 +1449,7 @@
       "runtime": 50,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 94.0,
+        "composite_score": 89.0,
         "imdb": {
           "rating": 8.7,
           "votes": 325720,
@@ -1426,9 +1480,9 @@
       "season_number": 1,
       "season_id": 339729,
       "air_date": "2026-03-14",
-      "age_days": 59,
+      "age_days": 60,
       "best_rank": null,
-      "description": "The Yellowstone-verse expansion fans are obsessed with — Michelle Pfeiffer leads with power",
+      "description": "Michelle Pfeiffer shines in this star-studded extension of the Yellowstone universe.",
       "overview": "Wealthy matriarch Stacy Clyburn and her family  leave New York City and head to Montana in the wake of her husband and brother-in-law’s tragic deaths.",
       "episode_count": 6,
       "total_episodes": 6,
@@ -1488,18 +1542,18 @@
       "backdrop_path": null
     },
     {
-      "series_id": 111110,
-      "series_name": "ONE PIECE",
-      "series_imdb_id": "tt11737520",
-      "season_number": 2,
-      "season_id": 400466,
-      "air_date": "2026-03-10",
-      "age_days": 63,
-      "best_rank": 32,
-      "description": "The live-action miracle continues — stunning visuals and perfect adventure for tonight",
-      "overview": "In ONE PIECE: Into the Grand Line, Luffy and the Straw Hats set sail for the extraordinary Grand Line - a legendary stretch of sea where danger and wonder await at every turn. As they journey through this unpredictable realm in search of the world's greatest treasure, they'll encounter bizarre islands and a host of formidable new enemies.",
-      "episode_count": 8,
-      "total_episodes": 17,
+      "series_id": 224372,
+      "series_name": "A Knight of the Seven Kingdoms",
+      "series_imdb_id": "tt27497448",
+      "season_number": 1,
+      "season_id": 336816,
+      "air_date": "2026-01-18",
+      "age_days": 115,
+      "best_rank": null,
+      "description": "Game of Thrones perfection — the highest rated season of the year.",
+      "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros, a young knight, Ser Duncan the Tall, and his squire, Egg, set in an age when the Targaryen line still holds the Iron Throne.",
+      "episode_count": 6,
+      "total_episodes": 6,
       "genres": [
         "Fantasy",
         "Drama",
@@ -1507,24 +1561,23 @@
         "Action"
       ],
       "top_actors": [
-        "Iñaki Godoy",
-        "Emily Rudd",
-        "Mackenyu"
+        "Peter Claffey",
+        "Dexter Sol Ansell"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=-sKjdYceH04",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dT16hxnY0FJ5rHV1cPR74vHS8wN.jpg",
-      "tvdb_id": 392276,
-      "tvdb_season_id": 2135347,
-      "network": "Netflix",
-      "runtime": 59,
+      "trailer_url": "https://www.youtube.com/watch?v=IvGDPA9SbFE",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3jXrxH6E7Znw2CU2DGzZCAYlpPV.jpg",
+      "tvdb_id": 433631,
+      "tvdb_season_id": 2058240,
+      "network": "HBO",
+      "runtime": 33,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 83.0,
+        "composite_score": 92.25,
         "imdb": {
-          "rating": 8.3,
-          "votes": 204416,
-          "season_rating": null
+          "rating": 9.225,
+          "votes": 230733,
+          "season_rating": 9.225
         }
       },
       "streaming_availability": {
@@ -1532,40 +1585,84 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/111110-one-piece/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=US"
         },
         "CA": {
           "services": {
-            "subscription": [
+            "buy": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/111110-one-piece/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/111110-one-piece/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=AU"
         }
       },
-      "poster_path": "/dT16hxnY0FJ5rHV1cPR74vHS8wN.jpg",
+      "poster_path": "/3jXrxH6E7Znw2CU2DGzZCAYlpPV.jpg",
       "backdrop_path": null
     },
     {
@@ -1575,9 +1672,9 @@
       "season_number": 1,
       "season_id": 394796,
       "air_date": "2026-03-08",
-      "age_days": 65,
-      "best_rank": 28,
-      "description": "HBO’s latest comedy gem — sharp, funny, and generating huge buzz on social",
+      "age_days": 66,
+      "best_rank": 29,
+      "description": "HBO's latest comedy hit is the dry, witty humor you need tonight.",
       "overview": "A comedy set on a college campus, centering on an author’s complicated relationship with his daughter.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1641,9 +1738,9 @@
       "season_number": 8,
       "season_id": 325144,
       "air_date": "2026-03-06",
-      "age_days": 67,
-      "best_rank": 31,
-      "description": "The epic conclusion fans have waited years for — emotional, grand, and unmissable",
+      "age_days": 68,
+      "best_rank": 30,
+      "description": "The epic romance begins its grand farewell — better bring the tissues.",
       "overview": "In Season Eight, Jamie and Claire soon find the war has followed them home to Fraser's Ridge, now a thriving settlement that has grown and flourished in their absence. With new arrivals and changes made during their years away, the Frasers are confronted with the question of what they are willing to sacrifice for the place they call home and, more importantly, what they would sacrifice to stay together. While the Frasers keep a united front against outside intruders, family secrets finally coming to light threaten to tear them apart from the inside. Although they've left the war for America's freedom behind, their fight for Fraser's Ridge has only just begun.",
       "episode_count": 10,
       "total_episodes": 101,
@@ -1777,9 +1874,9 @@
       "season_number": 1,
       "season_id": 396168,
       "air_date": "2026-03-04",
-      "age_days": 69,
+      "age_days": 70,
       "best_rank": null,
-      "description": "Guy Ritchie’s stylish take on a legend — fast-paced mystery that's trending now",
+      "description": "A fresh, kinetic, and highly stylish take on the world's greatest detective.",
       "overview": "At age 19, Sherlock Holmes is disgraced, raw, unfiltered, and unformed, when he finds himself caught up in a murder mystery at Oxford University which threatens his freedom. Diving into his first-ever case with a wild lack of discipline, Sherlock manages to unravel a globe-trotting conspiracy that will change his life forever.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1832,9 +1929,9 @@
       "season_number": 1,
       "season_id": 302382,
       "air_date": "2026-03-01",
-      "age_days": 72,
+      "age_days": 73,
       "best_rank": null,
-      "description": "Darkly funny and deeply weird — the HBO sleeper hit Reddit loves",
+      "description": "Dark, funny, and uniquely weird — HBO’s secret weapon this season.",
       "overview": "A darkly comedic tale of three middle-aged individuals entangled in a love triangle, leading to one's untimely demise.",
       "episode_count": 7,
       "total_episodes": 7,
@@ -1947,9 +2044,9 @@
       "season_number": 1,
       "season_id": 464820,
       "air_date": "2026-02-25",
-      "age_days": 76,
+      "age_days": 77,
       "best_rank": null,
-      "description": "The nostalgia trip we all needed — a surprisingly heartfelt and funny reboot",
+      "description": "The medical comedy you loved is back with incredible new energy.",
       "overview": "Scrubs focuses on the lives of several people working at Sacred Heart, a teaching hospital. It features fast-paced dialogue, slapstick, and surreal vignettes presented mostly as the daydreams of the central character, Dr. John Michael \"J.D.\" Dorian.",
       "episode_count": 24,
       "total_episodes": 9,
@@ -2043,9 +2140,9 @@
       "season_number": 22,
       "season_id": 484485,
       "air_date": "2026-02-22",
-      "age_days": 79,
+      "age_days": 80,
       "best_rank": null,
-      "description": "Twenty-two seasons in and still sharper than ever — perfect late-night comfort watch",
+      "description": "Twenty-two seasons in and still the consistently funniest animation on TV.",
       "overview": "CIA Agent Stan Smith is constantly fighting off terrorists who threaten the safety of the USA (sometimes causing more harm than good). His wife Francine is an average housewife with two kids: Hayley, an average rebellious teenager and Steve, a geek who enjoys Dungeons and Dragons, gaming and comic book conventions. Then there’s Roger, the home’s illegal (space) alien who the Smith’s are keeping protected. Last but not least, there’s Klaus, the Smiths’ wisecracking talking fish (swapped from  his human body years ago by the CIA).",
       "episode_count": 11,
       "total_episodes": 399,
@@ -2156,9 +2253,9 @@
       "season_number": 1,
       "season_id": 205791,
       "air_date": "2026-02-12",
-      "age_days": 89,
+      "age_days": 90,
       "best_rank": null,
-      "description": "Ryan Murphy does it again — a lush, tragic, and highly discussed romance",
+      "description": "Prestige romance that’s a beautiful, slow-burn watch for your night in.",
       "overview": "Season 1 depicts the whirlwind courtship and marriage of John F. Kennedy Jr. and Carolyn Bessette. What started out as a beautiful union for the young couple, widely regarded as American royalty, began to fray under the stress of the relentless microscope and navel gaze of tabloid media.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -2257,9 +2354,9 @@
       "season_number": 1,
       "season_id": 288697,
       "air_date": "2026-01-26",
-      "age_days": 106,
+      "age_days": 107,
       "best_rank": null,
-      "description": "A meta, hilarious superhero skewering that’s making waves across Disney+",
+      "description": "Marvel's most creative and meta Hollywood-centric experiment yet.",
       "overview": "Aspiring Hollywood actor Simon Williams is struggling to get his career off the ground. During a chance meeting with Trevor Slattery, an actor whose biggest roles may be well behind him, Simon learns that legendary director Von Kovak is remaking the superhero film \"Wonder Man.\" These two actors at opposite ends of their careers doggedly pursue life-changing roles in this film as audiences get a peek behind the curtain of the entertainment industry.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2326,9 +2423,9 @@
       "season_number": 1,
       "season_id": 456152,
       "air_date": "2026-01-25",
-      "age_days": 107,
+      "age_days": 108,
       "best_rank": null,
-      "description": "A relentless, edge-of-your-seat thriller that demands a full weekend binge",
+      "description": "A twisty, high-stakes suspense thriller that keeps you guessing until the end.",
       "overview": "Angelo Ledda lives two totally separate lives — fearsome NYC hitman and sleepy upstate Cooperstown photocopier salesman and father. Both of them are threatened when he is diagnosed with Alzheimer’s.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2417,9 +2514,9 @@
       "season_number": 24,
       "season_id": 486521,
       "air_date": "2026-01-23",
-      "age_days": 109,
+      "age_days": 110,
       "best_rank": null,
-      "description": "Still the most talked-about late night show — biting political commentary for tonight",
+      "description": "The cultural conversation-starter returns for more sharp and polarizing political commentary.",
       "overview": "Each week Bill Maher surrounds himself with a panel of guests which include politicians, actors, comedians, musicians and the like to discuss what's going on in the world.",
       "episode_count": 15,
       "total_episodes": 726,
@@ -2520,130 +2617,6 @@
         }
       },
       "poster_path": "/yl9FCRrMSZ7WbynONaBgHkAQaiX.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 224372,
-      "series_name": "A Knight of the Seven Kingdoms",
-      "series_imdb_id": "tt27497448",
-      "season_number": 1,
-      "season_id": 336816,
-      "air_date": "2026-01-18",
-      "age_days": 114,
-      "best_rank": null,
-      "description": "Stunning Westeros return — easily one of the best-reviewed shows of the year",
-      "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros, a young knight, Ser Duncan the Tall, and his squire, Egg, set in an age when the Targaryen line still holds the Iron Throne.",
-      "episode_count": 6,
-      "total_episodes": 6,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Adventure",
-        "Action"
-      ],
-      "top_actors": [
-        "Peter Claffey",
-        "Dexter Sol Ansell"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=IvGDPA9SbFE",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3jXrxH6E7Znw2CU2DGzZCAYlpPV.jpg",
-      "tvdb_id": 433631,
-      "tvdb_season_id": 2058240,
-      "network": "HBO",
-      "runtime": 33,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 92.25,
-        "imdb": {
-          "rating": 9.225,
-          "votes": 230733,
-          "season_rating": 9.225
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/19fkcOz0xeUgCVW8tO85uOYnYK9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224372-a-knight-of-the-seven-kingdoms/watch?locale=AU"
-        }
-      },
-      "poster_path": "/3jXrxH6E7Znw2CU2DGzZCAYlpPV.jpg",
       "backdrop_path": null
     }
   ]
