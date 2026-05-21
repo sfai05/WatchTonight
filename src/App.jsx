@@ -3,7 +3,7 @@ import { lazy, Suspense, useEffect, useMemo, useState } from "react"
 import { MovieCard } from "@/components/MovieCard"
 import { AboutDialog } from "@/components/AboutDialog"
 import { SettingsDialog } from "@/components/SettingsDialog"
-import { IconPanelToggle } from "@/components/icons"
+import { IconPanelToggle, IconInstagram, IconThreads, IconTwitterX } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -458,11 +458,42 @@ export default function App() {
                 <p className="brand-kicker text-[0.58rem] text-brand-text-soft">Honest lists for evenings at home</p>
               </div>
             </div>
-            <div className="text-sm text-brand-text-soft">
-              Got feedback or a suggestion?{" "}
-              <a href="mailto:contact@watchtonight.app" className="text-brand-cream transition-colors hover:text-brand-gold">
-                contact@watchtonight.app
-              </a>
+            <div className="flex flex-col gap-3 sm:items-end">
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://www.instagram.com/watchtonight.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WatchTonight on Instagram"
+                  className="text-brand-text-soft transition-colors hover:text-brand-cream"
+                >
+                  <IconInstagram className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://www.threads.com/@watchtonight.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WatchTonight on Threads"
+                  className="text-brand-text-soft transition-colors hover:text-brand-cream"
+                >
+                  <IconThreads className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://x.com/WatchTonightApp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WatchTonight on X"
+                  className="text-brand-text-soft transition-colors hover:text-brand-cream"
+                >
+                  <IconTwitterX className="h-5 w-5" />
+                </a>
+              </div>
+              <div className="text-sm text-brand-text-soft">
+                Got feedback?{" "}
+                <a href="mailto:contact@watchtonight.app" className="text-brand-cream transition-colors hover:text-brand-gold">
+                  contact@watchtonight.app
+                </a>
+              </div>
             </div>
           </div>
         </footer>
