@@ -49,7 +49,7 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
     : null
 
   return (
-    <div className={`brand-surface flex flex-col gap-3 rounded-[1.55rem] p-2 ${className}`}>
+    <div className={`brand-surface flex flex-col gap-3 rounded-[1.55rem] p-2 transition-[transform,box-shadow] duration-500 ease-out hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${className}`}>
       <Dialog>
         <DialogTrigger asChild>
           <button
@@ -75,7 +75,7 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
                   alt={`${movie.title} poster`}
                   width="500"
                   height="750"
-                  className={`aspect-[2/3] w-full object-cover transition-[transform,opacity] duration-500 group-hover:scale-[1.04] ${
+                  className={`aspect-[2/3] w-full object-cover will-change-transform transition-[transform,opacity] duration-500 ease-out group-hover:scale-[1.04] ${
                     isPosterLoaded ? "opacity-100" : "opacity-0"
                   }`}
                   loading={isAboveFold ? "eager" : "lazy"}
@@ -84,8 +84,6 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
                   onLoad={() => setIsPosterLoaded(true)}
                   onError={() => setIsPosterLoaded(true)}
                 />
-                {/* Darken the poster more aggressively on hover so the synopsis stays readable. */}
-                <div className="absolute inset-0 rounded-[1.2rem] bg-black/0 transition-colors duration-500 group-hover:bg-[rgba(4,10,10,0.4)]" aria-hidden="true" />
               </>
             ) : (
               <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-muted text-muted-foreground text-sm">
@@ -104,11 +102,11 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
               </div>
             )}
 
-            {/* AI description — slides up from bottom on hover */}
+            {/* AI description — fades in with a gentle upward drift on hover */}
             {movie.description && (
-              <div className="absolute bottom-0 left-0 right-0 translate-y-full transition-transform duration-300 group-hover:translate-y-0">
-                <div className="bg-gradient-to-t from-[rgba(6,12,12,0.98)] via-[rgba(6,12,12,0.9)] via-55% to-[rgba(6,12,12,0.16)] px-3 pb-3 pt-10 backdrop-blur-[2px]">
-                  <p className="text-[12px] leading-6 text-brand-cream line-clamp-4 [text-shadow:0_1px_2px_rgba(0,0,0,0.55)]">
+              <div className="absolute bottom-0 left-0 right-0 translate-y-2 opacity-0 transition-[opacity,transform] duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+                <div className="bg-gradient-to-t from-[rgba(6,12,12,0.98)] via-[rgba(6,12,12,0.85)] via-45% to-transparent px-3 pb-3 pt-20">
+                  <p className="text-sm leading-5 text-brand-cream line-clamp-4 [text-shadow:0_1px_3px_rgba(0,0,0,0.7)]">
                     &ldquo;{movie.description}&rdquo;
                   </p>
                 </div>
