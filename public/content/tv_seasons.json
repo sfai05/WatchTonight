@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T10:41:50.900365",
+  "generated_at": "2026-07-28T09:35:49.682370",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 3,
       "season_id": 449260,
       "air_date": "2026-06-21",
-      "age_days": 36,
+      "age_days": 37,
       "best_rank": 1,
-      "description": "The massive fantasy epic dominating everyone's watchlists right now",
+      "description": "The fantasy epic everyone is talking about this week.",
       "overview": "The Black and Green factions lock into an all-out, relentless struggle for the Iron Throne. As dragons and armies clash across the realm, Westeros witnesses the devastating consequences of total war.",
       "episode_count": 8,
       "total_episodes": 26,
@@ -120,9 +120,9 @@
       "season_number": 3,
       "season_id": 516724,
       "air_date": "2026-07-26",
-      "age_days": 1,
-      "best_rank": 7,
-      "description": "Just premiered last night and already reviving the fan frenzy",
+      "age_days": 2,
+      "best_rank": 12,
+      "description": "Just premiered and already dominating horror fan discussions.",
       "overview": "In season three, Maggie and Negan finally put aside their differences to build the first thriving community in Manhattan since the apocalypse, but when chaos in the city begins to arise, they are forced to question: have they learned from their old wounds or will their dark past spell doom for the entire city?",
       "episode_count": 8,
       "total_episodes": 22,
@@ -146,7 +146,7 @@
       "runtime": 49,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 90.0,
+        "composite_score": 85.0,
         "imdb": {
           "rating": 7.0,
           "votes": 33114,
@@ -243,9 +243,9 @@
       "season_number": 4,
       "season_id": 472809,
       "air_date": "2026-07-23",
-      "age_days": 4,
+      "age_days": 5,
       "best_rank": 11,
-      "description": "The best episodic sci-fi on TV right now — hit it tonight",
+      "description": "The spectacular sci-fi return fans are already raving about.",
       "overview": "In the fourth season, the crew of the U.S.S. Enterprise—led by Captain Christopher Pike—embarks on a series of thrilling and emotional adventures across the stars. As they journey to strange new worlds, they battle inner demons and external threats, encounter colorful new characters, reunite with familiar faces and confront terrifying aliens. Through it all, they strive to embrace a bright, hopeful future.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -362,15 +362,101 @@
       "backdrop_path": null
     },
     {
+      "series_id": 215072,
+      "series_name": "A Shop for Killers",
+      "series_imdb_id": "tt26450613",
+      "season_number": 2,
+      "season_id": 481757,
+      "air_date": "2026-07-22",
+      "age_days": 6,
+      "best_rank": 7,
+      "description": "High-octane action and killer twists that will keep you hooked.",
+      "overview": "Season 2 returns with Jian in control of the weapons shop, Jinman returned from the dead, and BABYLON well and truly on the backfoot. Working to keep Jian safe, Jinman will take the fight to BABYLON's door, but the mercenary organization won't go down easily. Humiliated, BABYLON will bring in help from overseas and unleash a new wave of deadly assassins to rebuild their ranks and exact their revenge.",
+      "episode_count": 8,
+      "total_episodes": 16,
+      "genres": [
+        "Drama",
+        "Action",
+        "Thriller",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Lee Dong-wook",
+        "Kim Hye-jun",
+        "Geum Hannah"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=F6cFGfwPvC0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lLwE6AEGUqpDGkNe1y923Siz3PK.jpg",
+      "tvdb_id": 426952,
+      "tvdb_season_id": 2252003,
+      "network": "Disney+",
+      "runtime": 55,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 100.0,
+        "imdb": {
+          "rating": 8.0,
+          "votes": 9128,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/215072/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/215072/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/215072/watch?locale=AU"
+        }
+      },
+      "poster_path": "/lLwE6AEGUqpDGkNe1y923Siz3PK.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 240993,
       "series_name": "Ransom Canyon",
       "series_imdb_id": "tt28088031",
       "season_number": 2,
       "season_id": 513740,
       "air_date": "2026-07-23",
-      "age_days": 4,
-      "best_rank": 18,
-      "description": "This sizzling neo-Western soap is currently Netflix’s massive number-one hit",
+      "age_days": 5,
+      "best_rank": 15,
+      "description": "Already the number-one trending romance drama on Netflix.",
       "overview": "Passions run deep in a small Texas town, as three ranching dynasties fight for their land, their legacies and the people they love.",
       "episode_count": 8,
       "total_episodes": 18,
@@ -443,181 +529,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 215072,
-      "series_name": "A Shop for Killers",
-      "series_imdb_id": "tt26450613",
-      "season_number": 2,
-      "season_id": 481757,
-      "air_date": "2026-07-22",
-      "age_days": 5,
-      "best_rank": 13,
-      "description": "Mind-blowing K-drama action that has social media absolutely losing its mind",
-      "overview": "Season 2 returns with Jian in control of the weapons shop, Jinman returned from the dead, and BABYLON well and truly on the backfoot. Working to keep Jian safe, Jinman will take the fight to BABYLON's door, but the mercenary organization won't go down easily. Humiliated, BABYLON will bring in help from overseas and unleash a new wave of deadly assassins to rebuild their ranks and exact their revenge.",
-      "episode_count": 8,
-      "total_episodes": 16,
-      "genres": [
-        "Drama",
-        "Action",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Lee Dong-wook",
-        "Kim Hye-jun",
-        "Geum Hannah"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=F6cFGfwPvC0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lLwE6AEGUqpDGkNe1y923Siz3PK.jpg",
-      "tvdb_id": 426952,
-      "tvdb_season_id": 2252003,
-      "network": "Disney+",
-      "runtime": 55,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 95.0,
-        "imdb": {
-          "rating": 8.0,
-          "votes": 9128,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/215072/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/215072/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/215072/watch?locale=AU"
-        }
-      },
-      "poster_path": "/lLwE6AEGUqpDGkNe1y923Siz3PK.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 2122,
-      "series_name": "King of the Hill",
-      "series_imdb_id": "tt0118375",
-      "season_number": 15,
-      "season_id": 493435,
-      "air_date": "2026-07-20",
-      "age_days": 7,
-      "best_rank": 36,
-      "description": "A stunning revival season that critics are hailing as an animated masterpiece",
-      "overview": "In season 15, Hank and Peggy settle into retirement life on Rainey Street while attempting to keep their neighbors from going off the rails. Bobby navigates old friendships while dealing with the stresses of being an entrepreneur.",
-      "episode_count": 10,
-      "total_episodes": 275,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Animation"
-      ],
-      "top_actors": [
-        "Mike Judge",
-        "Kathy Najimy",
-        "Pamela Adlon"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=g2JXuQ3nKPU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tPwajBwavcyvKvWlJwHeDJ9nbZx.jpg",
-      "tvdb_id": 73903,
-      "tvdb_season_id": 2248688,
-      "network": "FOX",
-      "runtime": 25,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 93.0,
-        "imdb": {
-          "rating": 8.3,
-          "votes": 66251,
-          "season_rating": 8.3
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2122-king-of-the-hill/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2122-king-of-the-hill/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2122-king-of-the-hill/watch?locale=AU"
-        }
-      },
-      "poster_path": "/tPwajBwavcyvKvWlJwHeDJ9nbZx.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 296206,
       "series_name": "Agent Kim Reactivated",
       "series_imdb_id": "tt42127457",
       "season_number": 1,
       "season_id": 465802,
       "air_date": "2026-06-26",
-      "age_days": 31,
-      "best_rank": 4,
-      "description": "The global K-action smash that just shattered ratings records",
+      "age_days": 32,
+      "best_rank": 3,
+      "description": "An absolute adrenaline rush with some of the year's best fights.",
       "overview": "오직 자신의 딸 '민지'를 위해 특수요원직을 관두고 평범함을 선택한 가장 김부장.\r\n그러던 어느 날 민지가 소리소문 없이 사라지고, 김부장은 자신을 감시하는 국가를 적으로 돌리면서까지 딸을 찾아나서기 시작하는데...",
       "episode_count": 10,
       "total_episodes": 10,
@@ -690,42 +610,39 @@
       "backdrop_path": null
     },
     {
-      "series_id": 273240,
-      "series_name": "Off Campus",
-      "series_imdb_id": "tt33546863",
-      "season_number": 1,
-      "season_id": 421523,
-      "air_date": "2026-05-13",
-      "age_days": 75,
-      "best_rank": null,
-      "description": "A steamy breakout sensation that completely conquered BookTok and Prime Video",
-      "overview": "The series depicts the elite ice hockey team, and the women in their lives, as they grapple with love, heartbreak, and self-discovery — forging deep friendships and enduring bonds while navigating the complexities that come with transitioning into adulthood.",
-      "episode_count": 8,
-      "total_episodes": 8,
+      "series_id": 138502,
+      "series_name": "X-Men '97",
+      "series_imdb_id": "tt16026746",
+      "season_number": 2,
+      "season_id": 518984,
+      "air_date": "2026-07-01",
+      "age_days": 27,
+      "best_rank": 17,
+      "description": "The spectacular '90s animated revival continues its legendary run.",
+      "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
+      "episode_count": 9,
+      "total_episodes": 19,
       "genres": [
-        "Drama",
-        "Sport",
-        "Romance"
+        "Science Fiction",
+        "Animation",
+        "Adventure",
+        "Action"
       ],
-      "top_actors": [
-        "Ella Bright",
-        "Belmont Cameli",
-        "Mika Abdalla"
-      ],
+      "top_actors": [],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=wAozjf2frxw",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
-      "tvdb_id": 455086,
-      "tvdb_season_id": 2149213,
-      "network": "Prime Video",
-      "runtime": 52,
+      "trailer_url": "https://www.youtube.com/watch?v=mfUtseK27pc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+      "tvdb_id": 412432,
+      "tvdb_season_id": 2246652,
+      "network": "Disney+",
+      "runtime": 31,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 82.25,
+        "composite_score": 95.0,
         "imdb": {
-          "rating": 8.225,
-          "votes": 41672,
-          "season_rating": 8.225
+          "rating": 8.5,
+          "votes": 54746,
+          "season_rating": 8.5
         }
       },
       "streaming_availability": {
@@ -733,80 +650,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/273240-off-campus/watch?locale=US"
-        }
-      },
-      "poster_path": "/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 295780,
-      "series_name": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
-      "series_imdb_id": "tt37543147",
-      "season_number": 1,
-      "season_id": 464822,
-      "air_date": "2026-06-26",
-      "age_days": 31,
-      "best_rank": null,
-      "description": "The divisive, star-studded historical comedy that has everyone arguing on Reddit",
-      "overview": "",
-      "episode_count": null,
-      "total_episodes": 7,
-      "genres": [
-        "Comedy"
-      ],
-      "top_actors": [
-        "Larry David"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=Sp7P5JmKvLI",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
-      "tvdb_id": null,
-      "tvdb_season_id": null,
-      "network": null,
-      "runtime": null,
-      "status": null,
-      "ratings": {
-        "composite_score": 76.0,
-        "imdb": {
-          "rating": 7.4,
-          "votes": 1533,
-          "season_rating": 7.4
-        }
-      },
-      "streaming_availability": {
-        "US": {
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=US"
+        },
+        "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/295780-life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/295780-life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=AU"
         }
       },
-      "poster_path": "/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
       "backdrop_path": null
     },
     {
@@ -816,9 +693,9 @@
       "season_number": 3,
       "season_id": 512220,
       "air_date": "2026-07-02",
-      "age_days": 25,
-      "best_rank": 5,
-      "description": "The hit dystopian thriller returns to reveal how it all began",
+      "age_days": 26,
+      "best_rank": 4,
+      "description": "The gripping, dark sci-fi thriller you need to binge this weekend.",
       "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
       "episode_count": 10,
       "total_episodes": 30,
@@ -894,92 +771,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 138502,
-      "series_name": "X-Men '97",
-      "series_imdb_id": "tt16026746",
-      "season_number": 2,
-      "season_id": 518984,
-      "air_date": "2026-07-01",
-      "age_days": 26,
-      "best_rank": 22,
-      "description": "The phenomenal animated revival is back and somehow even better",
-      "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
-      "episode_count": 9,
-      "total_episodes": 19,
-      "genres": [
-        "Science Fiction",
-        "Animation",
-        "Adventure",
-        "Action"
-      ],
-      "top_actors": [],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=mfUtseK27pc",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-      "tvdb_id": 412432,
-      "tvdb_season_id": 2246652,
-      "network": "Disney+",
-      "runtime": 31,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 90.0,
-        "imdb": {
-          "rating": 8.5,
-          "votes": 54746,
-          "season_rating": 8.5
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=AU"
-        }
-      },
-      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 254420,
       "series_name": "Elle",
       "series_imdb_id": "tt32020831",
       "season_number": 1,
       "season_id": 393740,
       "air_date": "2026-07-01",
-      "age_days": 26,
+      "age_days": 27,
       "best_rank": null,
-      "description": "TikTok is obsessed with this ultra-stylish, pink-filled prequel to a classic",
+      "description": "The prequel everyone's arguing about on social media right now.",
       "overview": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1026,679 +826,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 82452,
-      "series_name": "Avatar: The Last Airbender",
-      "series_imdb_id": "tt9018736",
-      "season_number": 2,
-      "season_id": 419520,
-      "air_date": "2026-06-25",
-      "age_days": 32,
-      "best_rank": 31,
-      "description": "The live-action blockbuster is back with bigger bending battles and legendary allies",
-      "overview": "With the Fire Nation on the brink of global domination, a young boy reawakens after a hundred-year absence. To save his war-torn world he must accept his destiny as the Avatar before it's too late.",
-      "episode_count": 20,
-      "total_episodes": 15,
-      "genres": [
-        "Fantasy",
-        "Comedy",
-        "Animation",
-        "Adventure",
-        "Action",
-        "Martial Arts"
-      ],
-      "top_actors": [
-        "Gordon Cormier",
-        "Kiawentiio",
-        "Ian Ousley"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=M_Las484swM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/i18qgDSOTxZ1QFWBBg0GdDffLGj.jpg",
-      "tvdb_id": 74852,
-      "tvdb_season_id": 8114,
-      "network": "Nickelodeon",
-      "runtime": 24,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 73.0,
-        "imdb": {
-          "rating": 7.1000000000000005,
-          "votes": 88733,
-          "season_rating": 7.1000000000000005
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/82452-avatar-the-last-airbender/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/82452-avatar-the-last-airbender/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/82452-avatar-the-last-airbender/watch?locale=AU"
-        }
-      },
-      "poster_path": "/i18qgDSOTxZ1QFWBBg0GdDffLGj.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 277439,
-      "series_name": "Cape Fear",
-      "series_imdb_id": "tt34675596",
-      "season_number": 1,
-      "season_id": 429041,
-      "air_date": "2026-06-04",
-      "age_days": 53,
-      "best_rank": 25,
-      "description": "A star-studded, slow-burn thriller that is stirring up intense debate online",
-      "overview": "A storm is coming for two happily married attorneys when a notorious killer from their past gets out of prison.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Mini-Series",
-        "Drama",
-        "Crime",
-        "Suspense",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Amy Adams",
-        "Javier Bardem",
-        "Patrick Wilson"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=FZ3sN5E-mBU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xmwpXYZCjc9VkIEzFhpQcwDH1cJ.jpg",
-      "tvdb_id": 456813,
-      "tvdb_season_id": 2156324,
-      "network": "Apple TV",
-      "runtime": 51,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 75.0,
-        "imdb": {
-          "rating": 7.3,
-          "votes": 6719,
-          "season_rating": 7.3
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=AU"
-        }
-      },
-      "poster_path": "/xmwpXYZCjc9VkIEzFhpQcwDH1cJ.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 203744,
-      "series_name": "Sugar",
-      "series_imdb_id": "tt16418808",
-      "season_number": 2,
-      "season_id": 497924,
-      "air_date": "2026-06-18",
-      "age_days": 39,
-      "best_rank": 39,
-      "description": "Colin Farrell is incredible in this uniquely weird detective thriller",
-      "overview": "Season two ushers in the return of Los Angeles' iconic private detective and film connoisseur, John Sugar, in a new case, tracking the troubled older brother of an up-and-coming local boxer, as his search for his beloved missing sister continues. As the investigation expands into a citywide conspiracy with sinister intentions, Sugar must reckon with himself to answer the question — how far will he go to do what's right?",
-      "episode_count": null,
-      "total_episodes": 16,
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Colin Farrell",
-        "Jin Ha",
-        "Tony Dalton"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=WJMbHySi5eQ",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
-      "tvdb_id": null,
-      "tvdb_season_id": null,
-      "network": null,
-      "runtime": null,
-      "status": null,
-      "ratings": {
-        "composite_score": 77.0,
-        "imdb": {
-          "rating": 7.5,
-          "votes": 45169,
-          "season_rating": 7.5
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=AU"
-        }
-      },
-      "poster_path": "/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 278178,
-      "series_name": "I Will Find You",
-      "series_imdb_id": "tt34771210",
-      "season_number": 1,
-      "season_id": 430534,
-      "air_date": "2026-06-18",
-      "age_days": 39,
-      "best_rank": null,
-      "description": "A relentless, twist-heavy mystery thriller that you will binge in one sitting",
-      "overview": "An innocent father serves a life sentence for the murder of his own son. When he receives evidence that his son my still be alive, he is determined to break out of prison to discover the truth.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Mini-Series",
-        "Drama",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Sam Worthington",
-        "Britt Lower",
-        "Chi McBride"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=mObRUsA7dPY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "tvdb_id": 457173,
-      "tvdb_season_id": 2157794,
-      "network": "Netflix",
-      "runtime": 41,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 78.62,
-        "imdb": {
-          "rating": 7.6625,
-          "votes": 31186,
-          "season_rating": 7.6625
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=AU"
-        }
-      },
-      "poster_path": "/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 60625,
-      "series_name": "Rick and Morty",
-      "series_imdb_id": "tt2861424",
-      "season_number": 9,
-      "season_id": 498800,
-      "air_date": "2026-05-24",
-      "age_days": 64,
-      "best_rank": 2,
-      "description": "The mind-bending animated favorite just wrapped its most hilarious run yet",
-      "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
-      "episode_count": 10,
-      "total_episodes": 91,
-      "genres": [
-        "Science Fiction",
-        "Comedy",
-        "Animation",
-        "Adventure"
-      ],
-      "top_actors": [
-        "Chris Parnell",
-        "Spencer Grammer",
-        "Sarah Chalke"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=wEEIUYnmXBM",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
-      "tvdb_id": 275274,
-      "tvdb_season_id": 2246924,
-      "network": "Adult Swim",
-      "runtime": 22,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 96.71,
-        "imdb": {
-          "rating": 8.171428571428573,
-          "votes": 700885,
-          "season_rating": 8.171428571428573
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              },
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 140,
-                "provider_name": "CosmoGo",
-                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              },
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=AU"
-        }
-      },
-      "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 220102,
-      "series_name": "Spider-Noir",
-      "series_imdb_id": "tt30460310",
-      "season_number": 1,
-      "season_id": 328217,
-      "air_date": "2026-05-25",
-      "age_days": 63,
-      "best_rank": null,
-      "description": "Nicolas Cage leads a stylized, stunning comic book mystery like no other",
-      "overview": "Private investigator Ben Reilly is hired on a couple of straightforward cases... until mobsters, monsters, and a mysterious femme fatale spin a web that brings him face to face with his former life as New York's only superhero: The Spider.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Crime",
-        "Adventure",
-        "Action",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Nicolas Cage",
-        "Lamorne Morris",
-        "Li Jun Li"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=E291YdLYCnI",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "tvdb_id": 450033,
-      "tvdb_season_id": 2127710,
-      "network": "MGM+",
-      "runtime": 44,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 82.0,
-        "imdb": {
-          "rating": 8.2,
-          "votes": 53686,
-          "season_rating": 8.2
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/220102-spider-noir/watch?locale=US"
-        }
-      },
-      "poster_path": "/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 4057,
-      "series_name": "Criminal Minds",
-      "series_imdb_id": "tt0452046",
-      "season_number": 19,
-      "season_id": 506824,
-      "air_date": "2026-05-28",
-      "age_days": 60,
-      "best_rank": 20,
-      "description": "The long-running procedural hit wraps up its most intense case to date",
-      "overview": "As the BAU investigates a string of chilling new cases, Elias Voit embarks on a path to atone for his past. His newfound infamy inadvertently awakens their most formidable nemesis yet, The Fan. Precise, calculating, and relentlessly dangerous, this UnSub pushes the BAU to the brink and back under the shadow of Elias Voit. But how far will The Fan go to prove his superiority over his idol?",
-      "episode_count": 10,
-      "total_episodes": 364,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Suspense",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Joe Mantegna",
-        "Paget Brewster",
-        "Adam Rodriguez"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=NTYxiJBbEZk",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
-      "tvdb_id": 75710,
-      "tvdb_season_id": 2241318,
-      "network": "CBS",
-      "runtime": 46,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.86,
-        "imdb": {
-          "rating": 7.685714285714285,
-          "votes": 237882,
-          "season_rating": 7.685714285714285
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              },
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=AU"
-        }
-      },
-      "poster_path": "/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 299167,
       "series_name": "Dutton Ranch",
       "series_imdb_id": "tt34991493",
       "season_number": 1,
       "season_id": 471596,
       "air_date": "2026-05-15",
-      "age_days": 73,
+      "age_days": 74,
       "best_rank": null,
-      "description": "A high-stakes Yellowstone spinoff that serves up pure Texas-sized drama",
+      "description": "A record-breaking ratings giant that delivers pure western drama.",
       "overview": "Beth Dutton and Rip Wheeler are striking out on their own, and relocating for a new adventure. Their ward, Carter, is along for the ride, and – despite serious distractions – Beth and Rip work hard to ensure he becomes the man he’s meant to be. Just after the events of the Yellowstone series finale, follow Beth and Rip as they take on a 7,000-acre ranch in South Texas. Even with all of its beautiful landscapes and peaceful lifestyle, the pair run into hiccups trying to survive in the area, including a ruthless rival ranch run by a wealthy owner.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -1784,15 +920,377 @@
       "backdrop_path": null
     },
     {
+      "series_id": 277439,
+      "series_name": "Cape Fear",
+      "series_imdb_id": "tt34675596",
+      "season_number": 1,
+      "season_id": 429041,
+      "air_date": "2026-06-04",
+      "age_days": 54,
+      "best_rank": 18,
+      "description": "Emmy-worthy performances in a dark, atmospheric psychological masterclass.",
+      "overview": "A storm is coming for two happily married attorneys when a notorious killer from their past gets out of prison.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Mini-Series",
+        "Drama",
+        "Crime",
+        "Suspense",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Amy Adams",
+        "Javier Bardem",
+        "Patrick Wilson"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=FZ3sN5E-mBU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xmwpXYZCjc9VkIEzFhpQcwDH1cJ.jpg",
+      "tvdb_id": 456813,
+      "tvdb_season_id": 2156324,
+      "network": "Apple TV",
+      "runtime": 51,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.3,
+          "votes": 6719,
+          "season_rating": 7.3
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/277439-cape-fear/watch?locale=AU"
+        }
+      },
+      "poster_path": "/xmwpXYZCjc9VkIEzFhpQcwDH1cJ.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 220102,
+      "series_name": "Spider-Noir",
+      "series_imdb_id": "tt30460310",
+      "season_number": 1,
+      "season_id": 328217,
+      "air_date": "2026-05-25",
+      "age_days": 64,
+      "best_rank": null,
+      "description": "Nicolas Cage at his absolute best in a stunning detective thriller.",
+      "overview": "Private investigator Ben Reilly is hired on a couple of straightforward cases... until mobsters, monsters, and a mysterious femme fatale spin a web that brings him face to face with his former life as New York's only superhero: The Spider.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Crime",
+        "Adventure",
+        "Action",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Nicolas Cage",
+        "Lamorne Morris",
+        "Li Jun Li"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=E291YdLYCnI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
+      "tvdb_id": 450033,
+      "tvdb_season_id": 2127710,
+      "network": "MGM+",
+      "runtime": 44,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 82.0,
+        "imdb": {
+          "rating": 8.2,
+          "votes": 53686,
+          "season_rating": 8.2
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/220102-spider-noir/watch?locale=US"
+        }
+      },
+      "poster_path": "/oD8WSVqz84ZRfelkr7JPeJwR9Iv.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 278178,
+      "series_name": "I Will Find You",
+      "series_imdb_id": "tt34771210",
+      "season_number": 1,
+      "season_id": 430534,
+      "air_date": "2026-06-18",
+      "age_days": 40,
+      "best_rank": null,
+      "description": "A fast-paced, twist-filled mystery you'll binge in a single sitting.",
+      "overview": "An innocent father serves a life sentence for the murder of his own son. When he receives evidence that his son my still be alive, he is determined to break out of prison to discover the truth.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Mini-Series",
+        "Drama",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Sam Worthington",
+        "Britt Lower",
+        "Chi McBride"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=mObRUsA7dPY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "tvdb_id": 457173,
+      "tvdb_season_id": 2157794,
+      "network": "Netflix",
+      "runtime": 41,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 78.62,
+        "imdb": {
+          "rating": 7.6625,
+          "votes": 31186,
+          "season_rating": 7.6625
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/278178-i-will-find-you/watch?locale=AU"
+        }
+      },
+      "poster_path": "/pb9oYHHNzauiCQZT03MpDAg46GI.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 203744,
+      "series_name": "Sugar",
+      "series_imdb_id": "tt16418808",
+      "season_number": 2,
+      "season_id": 497924,
+      "air_date": "2026-06-18",
+      "age_days": 40,
+      "best_rank": 40,
+      "description": "Colin Farrell shines in this trippy, stylish detective series.",
+      "overview": "Season two ushers in the return of Los Angeles' iconic private detective and film connoisseur, John Sugar, in a new case, tracking the troubled older brother of an up-and-coming local boxer, as his search for his beloved missing sister continues. As the investigation expands into a citywide conspiracy with sinister intentions, Sugar must reckon with himself to answer the question — how far will he go to do what's right?",
+      "episode_count": null,
+      "total_episodes": 16,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Colin Farrell",
+        "Jin Ha",
+        "Tony Dalton"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=WJMbHySi5eQ",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
+      "ratings": {
+        "composite_score": 77.0,
+        "imdb": {
+          "rating": 7.5,
+          "votes": 45169,
+          "season_rating": 7.5
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/203744-sugar/watch?locale=AU"
+        }
+      },
+      "poster_path": "/tLmwLYiI7EpPbhgmdeivNGY0xw7.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 295780,
+      "series_name": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
+      "series_imdb_id": "tt37543147",
+      "season_number": 1,
+      "season_id": 464822,
+      "air_date": "2026-06-26",
+      "age_days": 32,
+      "best_rank": null,
+      "description": "Larry David's polarizing new comedy causing massive debates online.",
+      "overview": "",
+      "episode_count": null,
+      "total_episodes": 7,
+      "genres": [
+        "Comedy"
+      ],
+      "top_actors": [
+        "Larry David"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=Sp7P5JmKvLI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
+      "ratings": {
+        "composite_score": 76.0,
+        "imdb": {
+          "rating": 7.4,
+          "votes": 1533,
+          "season_rating": 7.4
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/295780-life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/295780-life-larry-and-the-pursuit-of-unhappiness-an-almost-history-of-america/watch?locale=AU"
+        }
+      },
+      "poster_path": "/eA8lwlHAuFQrZzek25xgGZCgImu.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 285404,
       "series_name": "Maximum Pleasure Guaranteed",
       "series_imdb_id": "tt35946742",
       "season_number": 1,
       "season_id": 444447,
       "air_date": "2026-05-19",
-      "age_days": 69,
+      "age_days": 70,
       "best_rank": null,
-      "description": "A stressful, compulsively watchable crime comedy anchored by Tatiana Maslany",
+      "description": "Tatiana Maslany is phenomenal in a thriller with a jaw-dropping finale.",
       "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder and youth soccer.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1863,15 +1361,71 @@
       "backdrop_path": null
     },
     {
+      "series_id": 273240,
+      "series_name": "Off Campus",
+      "series_imdb_id": "tt33546863",
+      "season_number": 1,
+      "season_id": 421523,
+      "air_date": "2026-05-13",
+      "age_days": 76,
+      "best_rank": null,
+      "description": "The hit romantic college drama book fans are completely obsessed with.",
+      "overview": "The series depicts the elite ice hockey team, and the women in their lives, as they grapple with love, heartbreak, and self-discovery — forging deep friendships and enduring bonds while navigating the complexities that come with transitioning into adulthood.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Drama",
+        "Sport",
+        "Romance"
+      ],
+      "top_actors": [
+        "Ella Bright",
+        "Belmont Cameli",
+        "Mika Abdalla"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=wAozjf2frxw",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
+      "tvdb_id": 455086,
+      "tvdb_season_id": 2149213,
+      "network": "Prime Video",
+      "runtime": 52,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 82.25,
+        "imdb": {
+          "rating": 8.225,
+          "votes": 41672,
+          "season_rating": 8.225
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/273240-off-campus/watch?locale=US"
+        }
+      },
+      "poster_path": "/gtoV2udbEnUgkMuCNX8zJrEwm7N.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 76479,
       "series_name": "The Boys",
       "series_imdb_id": "tt1190634",
       "season_number": 5,
       "season_id": 393831,
       "air_date": "2026-04-08",
-      "age_days": 110,
-      "best_rank": 33,
-      "description": "The chaotic, blood-soaked finale that has fans reeling on social media",
+      "age_days": 111,
+      "best_rank": 27,
+      "description": "The epic final season of TV's most unhinged superhero satire.",
       "overview": "Homelander controls America through fascist terror, imprisoning dissenters in Freedom Camps. Butcher, Hughie, Annie and The Boys mount a desperate resistance against insurmountable odds to stop his tyrannical rule.",
       "episode_count": 8,
       "total_episodes": 40,
@@ -1968,15 +1522,94 @@
       "backdrop_path": null
     },
     {
+      "series_id": 279471,
+      "series_name": "Malcolm in the Middle: Life's Still Unfair",
+      "series_imdb_id": "tt35466672",
+      "season_number": 1,
+      "season_id": 433067,
+      "air_date": "2026-04-10",
+      "age_days": 109,
+      "best_rank": null,
+      "description": "The nostalgic sitcom reunion of the year that fans are loving.",
+      "overview": "Twenty years have gone by since we last saw Malcolm and his family — and after all that time, they've learned absolutely nothing.",
+      "episode_count": 4,
+      "total_episodes": 4,
+      "genres": [
+        "Mini-Series",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Bryan Cranston",
+        "Justin Berfield",
+        "Christopher Masterson"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=ABol0H2n_rc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9858jJxp4PlIwE7rxKyc196UiXg.jpg",
+      "tvdb_id": 457779,
+      "tvdb_season_id": 2160377,
+      "network": "Hulu",
+      "runtime": 28,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 70.0,
+        "imdb": {
+          "rating": 7.0,
+          "votes": 11360,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279471-malcolm-in-the-middle-life-s-still-unfair/watch?locale=AU"
+        }
+      },
+      "poster_path": "/9858jJxp4PlIwE7rxKyc196UiXg.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 287527,
       "series_name": "The Testaments",
       "series_imdb_id": "tt10970762",
       "season_number": 1,
       "season_id": 448600,
       "air_date": "2026-04-08",
-      "age_days": 110,
+      "age_days": 111,
       "best_rank": null,
-      "description": "Emmy buzz is real for this gripping, dystopian coming-of-age sequel",
+      "description": "Agnes and Daisy lead a stellar, chilling coming-of-age continuation.",
       "overview": "Four years after the events of The Handmaid's Tale, a new generation of young women in Gilead grapple with the bleak future that awaits them. For these young women, growing up in Gilead is all they have ever known, having no tangible memories of the outside world prior to their indoctrination into this life. Facing the prospect of being married off and living a life of servitude, they will be forced to search for allies, both new and old, to help in their fight for freedom and the life they deserve.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2046,15 +1679,169 @@
       "backdrop_path": null
     },
     {
+      "series_id": 289219,
+      "series_name": "Star Wars: Maul - Shadow Lord",
+      "series_imdb_id": "tt36594331",
+      "season_number": 1,
+      "season_id": 452209,
+      "air_date": "2026-04-06",
+      "age_days": 113,
+      "best_rank": null,
+      "description": "The pulpy animated Star Wars epic that's taking over fan forums.",
+      "overview": "Set after the events of \"The Clone Wars,\" Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire. There, he crosses paths with a disillusioned young Jedi Padawan, who could be the apprentice he is seeking, that will aid him in his relentless pursuit for revenge.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Science Fiction",
+        "Animation"
+      ],
+      "top_actors": [
+        "Sam Witwer"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=AGHbkcEk4Y0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+      "tvdb_id": 462715,
+      "tvdb_season_id": 2182639,
+      "network": "Disney+",
+      "runtime": 24,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 83.5,
+        "imdb": {
+          "rating": 8.35,
+          "votes": 4817,
+          "season_rating": 8.35
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=AU"
+        }
+      },
+      "poster_path": "/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 316898,
+      "series_name": "Trust Me: The False Prophet",
+      "series_imdb_id": "tt40826311",
+      "season_number": 1,
+      "season_id": 505814,
+      "air_date": "2026-04-08",
+      "age_days": 111,
+      "best_rank": null,
+      "description": "A fascinating, bone-chilling true-crime documentary that was a massive hit.",
+      "overview": "In this true-crime documentary, a cult expert and filmmaker infiltrate a polygamist sect to expose a self-proclaimed prophet and bring him to justice.",
+      "episode_count": 4,
+      "total_episodes": 4,
+      "genres": [
+        "Documentary",
+        "Crime"
+      ],
+      "top_actors": [
+        "Warren Jeffs"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=7iPaXgUN0-U",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/88O8ZU86M6CkvhBuPH4gK6afw46.jpg",
+      "tvdb_id": 475706,
+      "tvdb_season_id": 2240530,
+      "network": "Netflix",
+      "runtime": 49,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 77.0,
+        "imdb": {
+          "rating": 7.7,
+          "votes": 2874,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=AU"
+        }
+      },
+      "poster_path": "/88O8ZU86M6CkvhBuPH4gK6afw46.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 270476,
       "series_name": "Widow's Bay",
       "series_imdb_id": "tt33332385",
       "season_number": 1,
       "season_id": 416679,
       "air_date": "2026-04-28",
-      "age_days": 90,
+      "age_days": 91,
       "best_rank": null,
-      "description": "Matthew Rhys shines in Apple’s creepiest and funniest new folk-horror",
+      "description": "Perfect blend of coastal mystery, spooky horror, and sharp comedy.",
       "overview": "Widow's Bay is a quaint island town 40 miles off the coast of New England. But something lurks beneath the surface. Mayor Tom Loftis is desperate to revive his struggling community. There's no Wi-Fi, spotty cellular reception and he must contend with superstitious locals who believe their island is cursed. He wants these people to respect him. They don't. They think he is soft and cowardly. And he is. But Loftis is determined to build a better future for his teenage son and turn the island into a tourist destination. Miraculously, he succeeds: tourists are finally coming. Unfortunately, the locals were right. After decades of calm, the old stories that seemed too ludicrous to be true start happening again.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2131,9 +1918,9 @@
       "season_number": 4,
       "season_id": 430163,
       "air_date": "2026-04-19",
-      "age_days": 99,
-      "best_rank": 13,
-      "description": "The most terrifying mystery on TV with a Reddit theory for everyone",
+      "age_days": 100,
+      "best_rank": 19,
+      "description": "This addictive supernatural horror remains one of TV's best-kept secrets.",
       "overview": "The closer the town residents get to the answers they seek, the more terrifying their search becomes. Who is the Man in Yellow, and what does he want? Will Jade and Tabitha’s revelation be the key to finally going home? How much longer can Boyd hold the town together, even as his body and mind are falling apart? And what role will the town’s most recent arrival play in the events to come? Season Four will open doors that some in town will end up wishing had remained closed.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -2244,116 +2031,42 @@
       "backdrop_path": null
     },
     {
-      "series_id": 316898,
-      "series_name": "Trust Me: The False Prophet",
-      "series_imdb_id": "tt40826311",
+      "series_id": 250220,
+      "series_name": "The Miniature Wife",
+      "series_imdb_id": "tt31909098",
       "season_number": 1,
-      "season_id": 505814,
-      "air_date": "2026-04-08",
+      "season_id": 385528,
+      "air_date": "2026-04-09",
       "age_days": 110,
       "best_rank": null,
-      "description": "The shocking, top-trending true-crime docuseries that is almost too crazy to believe",
-      "overview": "In this true-crime documentary, a cult expert and filmmaker infiltrate a polygamist sect to expose a self-proclaimed prophet and bring him to justice.",
-      "episode_count": 4,
-      "total_episodes": 4,
-      "genres": [
-        "Documentary",
-        "Crime"
-      ],
-      "top_actors": [
-        "Warren Jeffs"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=7iPaXgUN0-U",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/88O8ZU86M6CkvhBuPH4gK6afw46.jpg",
-      "tvdb_id": 475706,
-      "tvdb_season_id": 2240530,
-      "network": "Netflix",
-      "runtime": 49,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 77.0,
-        "imdb": {
-          "rating": 7.7,
-          "votes": 2874,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/316898-trust-me-the-false-prophet/watch?locale=AU"
-        }
-      },
-      "poster_path": "/88O8ZU86M6CkvhBuPH4gK6afw46.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 289219,
-      "series_name": "Star Wars: Maul - Shadow Lord",
-      "series_imdb_id": "tt36594331",
-      "season_number": 1,
-      "season_id": 452209,
-      "air_date": "2026-04-06",
-      "age_days": 112,
-      "best_rank": null,
-      "description": "An incredibly dark animated journey that Star Wars fans cannot stop analyzing",
-      "overview": "Set after the events of \"The Clone Wars,\" Maul plots to rebuild his criminal syndicate on a planet untouched by the Empire. There, he crosses paths with a disillusioned young Jedi Padawan, who could be the apprentice he is seeking, that will aid him in his relentless pursuit for revenge.",
+      "description": "A witty, high-concept marital comedy featuring two phenomenal leads.",
+      "overview": "A married couple battle for power within their relationship which is complicated when an accident shrinks the wife to six inches tall.",
       "episode_count": 10,
       "total_episodes": 10,
       "genres": [
-        "Science Fiction",
-        "Animation"
+        "Drama",
+        "Comedy",
+        "Romance"
       ],
       "top_actors": [
-        "Sam Witwer"
+        "Elizabeth Banks",
+        "Matthew Macfadyen",
+        "Zoe Lister-Jones"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=AGHbkcEk4Y0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
-      "tvdb_id": 462715,
-      "tvdb_season_id": 2182639,
-      "network": "Disney+",
-      "runtime": 24,
+      "trailer_url": "https://www.youtube.com/watch?v=6BnQ7WqkkmE",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/99SkFAS3S3iOtnplwH0byFUMiHK.jpg",
+      "tvdb_id": 448132,
+      "tvdb_season_id": 2119780,
+      "network": "Peacock",
+      "runtime": 43,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 83.5,
+        "composite_score": 73.0,
         "imdb": {
-          "rating": 8.35,
-          "votes": 4817,
-          "season_rating": 8.35
+          "rating": 7.3,
+          "votes": 1230,
+          "season_rating": 7.3
         }
       },
       "streaming_availability": {
@@ -2361,13 +2074,269 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/250220-the-miniature-wife/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/250220-the-miniature-wife/watch?locale=CA"
+        }
+      },
+      "poster_path": "/99SkFAS3S3iOtnplwH0byFUMiHK.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 291506,
+      "series_name": "Big Mistakes",
+      "series_imdb_id": "tt36957934",
+      "season_number": 1,
+      "season_id": 456457,
+      "air_date": "2026-04-09",
+      "age_days": 110,
+      "best_rank": null,
+      "description": "Dan Levy brings his signature whiny charm to a chaotic crime-comedy.",
+      "overview": "Blackmailed into working for gangsters, two deeply incapable siblings become the most disorganized duo in organized crime.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Crime",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Dan Levy",
+        "Laurie Metcalf",
+        "Taylor Ortega"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=tTGeLuCs97Q",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lhYFCM8dwz22skNS1m3usrqaR4g.jpg",
+      "tvdb_id": 466852,
+      "tvdb_season_id": 2200686,
+      "network": "Netflix",
+      "runtime": 33,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 71.0,
+        "imdb": {
+          "rating": 7.1,
+          "votes": 4448,
+          "season_rating": 7.1
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291506-big-mistakes/watch?locale=AU"
+        }
+      },
+      "poster_path": "/lhYFCM8dwz22skNS1m3usrqaR4g.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 285807,
+      "series_name": "Nemesis",
+      "series_imdb_id": "tt36022742",
+      "season_number": 1,
+      "season_id": 445238,
+      "air_date": "2026-05-14",
+      "age_days": 75,
+      "best_rank": null,
+      "description": "A gripping Dutch conspiracy thriller about high-level financial corruption.",
+      "overview": "Sylvia van Maele, officier van justitie in Den Haag, bundelt haar krachten met Lars van de FIOD in de strijd tegen financiële misdaad: een schaduwwereld vol brievenbusfirma's, doodlopende paper trails en internationale belastingregels die gebogen en gebroken worden. Wanneer de grens tussen haar persoonlijke en professionele leven vervaagt, moet Sylvia op haar intuïtie vertrouwen om te overleven.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Matthew Law",
+        "Y'lan Noel",
+        "Cleopatra Coleman"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=M9nc3simqAE",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7AS4WGGA8COAPgES3arizDOtfWf.jpg",
+      "tvdb_id": 440566,
+      "tvdb_season_id": 2087513,
+      "network": "Disney+",
+      "runtime": 49,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 80.25,
+        "imdb": {
+          "rating": 8.025,
+          "votes": 1575,
+          "season_rating": 8.025
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=AU"
+        }
+      },
+      "poster_path": "/7AS4WGGA8COAPgES3arizDOtfWf.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 4057,
+      "series_name": "Criminal Minds",
+      "series_imdb_id": "tt0452046",
+      "season_number": 19,
+      "season_id": 506824,
+      "air_date": "2026-05-28",
+      "age_days": 61,
+      "best_rank": 34,
+      "description": "This long-running procedural is still delivering highly satisfying thrills.",
+      "overview": "As the BAU investigates a string of chilling new cases, Elias Voit embarks on a path to atone for his past. His newfound infamy inadvertently awakens their most formidable nemesis yet, The Fan. Precise, calculating, and relentlessly dangerous, this UnSub pushes the BAU to the brink and back under the shadow of Elias Voit. But how far will The Fan go to prove his superiority over his idol?",
+      "episode_count": 10,
+      "total_episodes": 364,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Suspense",
+        "Thriller",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Joe Mantegna",
+        "Paget Brewster",
+        "Adam Rodriguez"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=NTYxiJBbEZk",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
+      "tvdb_id": 75710,
+      "tvdb_season_id": 2241318,
+      "network": "CBS",
+      "runtime": 46,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 76.86,
+        "imdb": {
+          "rating": 7.685714285714285,
+          "votes": 237882,
+          "season_rating": 7.685714285714285
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -2376,10 +2345,22 @@
                 "provider_id": 337,
                 "provider_name": "Disney Plus",
                 "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -2388,13 +2369,35 @@
                 "provider_id": 337,
                 "provider_name": "Disney Plus",
                 "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              },
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/289219-star-wars-maul-shadow-lord/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/4057-criminal-minds/watch?locale=AU"
         }
       },
-      "poster_path": "/fTfLd3s9yBNOzbFHD2aXvwEs93H.jpg",
+      "poster_path": "/hWSb4UnIjlTvnvrP98NbFSO60HA.jpg",
       "backdrop_path": null
     },
     {
@@ -2404,9 +2407,9 @@
       "season_number": 1,
       "season_id": 400179,
       "air_date": "2026-04-05",
-      "age_days": 113,
+      "age_days": 114,
       "best_rank": null,
-      "description": "A sharp, bite-sized tech industry satire from a brilliant Succession writer",
+      "description": "A sharp, cynical satire about Silicon Valley's unhinged tech elites.",
       "overview": "A scandal is sparked by the exploitation of personal data which unravels out of a rift between a self-appointed \"inventor of the future\" tech CEO and his self-serving \"performance psychologist.\" This act of corruption quickly spirals out of control for all involved, exposing the absurdities of ambition, corporate ethics, and the fallibility of the people who are shaping the future of our world.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2503,42 +2506,43 @@
       "backdrop_path": null
     },
     {
-      "series_id": 250220,
-      "series_name": "The Miniature Wife",
-      "series_imdb_id": "tt31909098",
-      "season_number": 1,
-      "season_id": 385528,
-      "air_date": "2026-04-09",
-      "age_days": 109,
-      "best_rank": null,
-      "description": "An insanely creative marital comedy starring Matthew Macfadyen and Elizabeth Banks",
-      "overview": "A married couple battle for power within their relationship which is complicated when an accident shrinks the wife to six inches tall.",
+      "series_id": 60625,
+      "series_name": "Rick and Morty",
+      "series_imdb_id": "tt2861424",
+      "season_number": 9,
+      "season_id": 498800,
+      "air_date": "2026-05-24",
+      "age_days": 65,
+      "best_rank": 6,
+      "description": "Another season of mind-bending sci-fi chaos and hilarious adventures.",
+      "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
       "episode_count": 10,
-      "total_episodes": 10,
+      "total_episodes": 91,
       "genres": [
-        "Drama",
+        "Science Fiction",
         "Comedy",
-        "Romance"
+        "Animation",
+        "Adventure"
       ],
       "top_actors": [
-        "Elizabeth Banks",
-        "Matthew Macfadyen",
-        "Zoe Lister-Jones"
+        "Chris Parnell",
+        "Spencer Grammer",
+        "Sarah Chalke"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=6BnQ7WqkkmE",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/99SkFAS3S3iOtnplwH0byFUMiHK.jpg",
-      "tvdb_id": 448132,
-      "tvdb_season_id": 2119780,
-      "network": "Peacock",
-      "runtime": 43,
+      "trailer_url": "https://www.youtube.com/watch?v=wEEIUYnmXBM",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+      "tvdb_id": 275274,
+      "tvdb_season_id": 2246924,
+      "network": "Adult Swim",
+      "runtime": 22,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 73.0,
+        "composite_score": 91.71,
         "imdb": {
-          "rating": 7.3,
-          "votes": 1230,
-          "season_rating": 7.3
+          "rating": 8.171428571428573,
+          "votes": 700885,
+          "season_rating": 8.171428571428573
         }
       },
       "streaming_availability": {
@@ -2546,13 +2550,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg"
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              },
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/250220-the-miniature-wife/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -2561,78 +2592,20 @@
                 "provider_id": 2,
                 "provider_name": "Apple TV Store",
                 "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/250220-the-miniature-wife/watch?locale=CA"
-        }
-      },
-      "poster_path": "/99SkFAS3S3iOtnplwH0byFUMiHK.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 285807,
-      "series_name": "Nemesis",
-      "series_imdb_id": "tt36022742",
-      "season_number": 1,
-      "season_id": 445238,
-      "air_date": "2026-05-14",
-      "age_days": 74,
-      "best_rank": null,
-      "description": "A slick, international conspiracy thriller perfect for fans of high-stakes crime",
-      "overview": "Sylvia van Maele, officier van justitie in Den Haag, bundelt haar krachten met Lars van de FIOD in de strijd tegen financiële misdaad: een schaduwwereld vol brievenbusfirma's, doodlopende paper trails en internationale belastingregels die gebogen en gebroken worden. Wanneer de grens tussen haar persoonlijke en professionele leven vervaagt, moet Sylvia op haar intuïtie vertrouwen om te overleven.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Matthew Law",
-        "Y'lan Noel",
-        "Cleopatra Coleman"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=M9nc3simqAE",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/7AS4WGGA8COAPgES3arizDOtfWf.jpg",
-      "tvdb_id": 440566,
-      "tvdb_season_id": 2087513,
-      "network": "Disney+",
-      "runtime": 49,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 80.25,
-        "imdb": {
-          "rating": 8.025,
-          "votes": 1575,
-          "season_rating": 8.025
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
+              },
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
+                "provider_id": 140,
+                "provider_name": "CosmoGo",
+                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
+              },
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -2641,13 +2614,35 @@
                 "provider_id": 8,
                 "provider_name": "Netflix",
                 "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              },
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/285807-nemesis/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/60625-rick-and-morty/watch?locale=AU"
         }
       },
-      "poster_path": "/7AS4WGGA8COAPgES3arizDOtfWf.jpg",
+      "poster_path": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
       "backdrop_path": null
     }
   ]
