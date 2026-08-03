@@ -36,7 +36,16 @@ function StarIcon() {
   )
 }
 
-export function MovieCard({ movie, isAboveFold = false, featured = false, radarrUrl = "", sonarrUrl = "", className = "" }) {
+export function MovieCard({
+  movie,
+  isAboveFold = false,
+  featured = false,
+  radarrUrl = "",
+  sonarrUrl = "",
+  className = "",
+  isOpen = false,
+  onOpenChange,
+}) {
   const trailerEmbedUrl = getYouTubeEmbedUrl(movie.trailerUrl)
   const posterSrcSet = featured
     ? getPosterSrcSet(movie.posterPath, ["w342", "w500", "w780"])
@@ -50,7 +59,7 @@ export function MovieCard({ movie, isAboveFold = false, featured = false, radarr
 
   return (
     <div className={`brand-surface flex flex-col gap-3 rounded-[1.55rem] p-2 transition-[transform,box-shadow] duration-500 ease-out hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${className}`}>
-      <Dialog>
+      <Dialog open={isOpen} onOpenChange={onOpenChange}>
         <DialogTrigger asChild>
           <button
             type="button"

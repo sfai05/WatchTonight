@@ -1,3 +1,5 @@
+import { buildMovieSlug, buildTvSlug } from "@/lib/slug"
+
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/"
 
 export function getPosterUrl(posterPath, size = "w500") {
@@ -49,9 +51,13 @@ export async function fetchTvSeasonsData() {
 
 export function transformMovieData(raw) {
   const movies = raw?.movies ?? []
-  return movies.map((movie) => ({
+  return movies.map((movie) => {
+    const slug = buildMovieSlug(movie.title, movie.id)
+    return {
     id: movie.id,
     kind: "movie",
+    slug,
+    path: `/movie/${slug}`,
     title: movie.title,
     description: movie.description || movie.overview,
     overview: movie.overview || movie.description,
@@ -87,14 +93,20 @@ export function transformMovieData(raw) {
       return Array.from(deduped.values())
     })(),
     infoUrl: `https://www.themoviedb.org/movie/${movie.id}`,
-  }))
+  }
+  })
 }
 
 export function transformTvSeasonData(raw) {
   const seasons = raw?.seasons ?? []
-  return seasons.map((season) => ({
-    id: season.season_id || `${season.series_id}-s${season.season_number}`,
+  return seasons.map((season) => {
+    const id = season.season_id || `${season.series_id}-s${season.season_number}`
+    const slug = buildTvSlug(season.series_name, season.season_number, id)
+    return {
+    id,
     kind: "tv",
+    slug,
+    path: `/tv/${slug}`,
     title: `${season.series_name} — Season ${season.season_number}`,
     description: season.description || season.overview,
     overview: season.overview || season.description,
@@ -138,7 +150,8 @@ export function transformTvSeasonData(raw) {
     status: season.status,
     imdbRating: season?.ratings?.imdb?.rating ?? null,
     tvdbId: season.tvdb_id || null,
-  }))
+  }
+  })
 }
 
 export function getLatestGeneratedAt(...dates) {

@@ -1,4 +1,5 @@
-import { lazy, Suspense, useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
+import { useNavigate, useParams } from "react-router-dom"
 
 import { MovieCard } from "@/components/MovieCard"
 import { AboutDialog } from "@/components/AboutDialog"
@@ -7,17 +8,19 @@ import { IconPanelToggle, IconInstagram, IconThreads, IconTwitterX } from "@/com
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Dialog } from "@/components/ui/dialog"
+import { ensureItemVisible, trimToFullRows, useColumnCount } from "@/lib/grid"
 import {
   fetchMoviesData,
   fetchTvSeasonsData,
   getLatestGeneratedAt,
-  getPosterSrcSet,
   transformMovieData,
   transformTvSeasonData,
 } from "@/lib/movieData"
 
-const MovieDialogContent = lazy(() => import("@/components/MovieDialogContent"))
+const SITE_URL = "https://watchtonight.app"
+const DEFAULT_TITLE = "WatchTonight — New releases streaming at home tonight"
+const DEFAULT_DESCRIPTION =
+  "Recently popular movies and TV shows available to stream at home. A minimalist poster wall with trailers and where to watch."
 const BRAND_MARK = "/brand-mark-nobg.png"
 const BRAND_MARK_SQUARE = "/brand-mark-square.png"
 const HERO_COLLAPSE_COOKIE = "watchtonight-hero-collapsed"
@@ -49,24 +52,6 @@ function getDefaultHeroCollapsed() {
   return false
 }
 
-function getYouTubeEmbedUrl(url) {
-  if (!url) return null
-  try {
-    const parsed = new URL(url)
-    if (parsed.hostname.includes("youtu.be")) {
-      const id = parsed.pathname.replace("/", "")
-      return id ? `https://www.youtube.com/embed/${id}` : null
-    }
-    if (parsed.hostname.includes("youtube.com")) {
-      const id = parsed.searchParams.get("v")
-      return id ? `https://www.youtube.com/embed/${id}` : null
-    }
-  } catch {
-    return null
-  }
-  return null
-}
-
 function LoadingSkeleton() {
   return (
     <div>
@@ -88,6 +73,8 @@ function LoadingSkeleton() {
 }
 
 export default function App() {
+  const navigate = useNavigate()
+  const { kind: routeKind, slug: routeSlug } = useParams()
   const [movies, setMovies] = useState([])
   const [tvSeasons, setTvSeasons] = useState([])
   const [isLoading, setIsLoading] = useState(true)
@@ -95,9 +82,7 @@ export default function App() {
   const [lastUpdated, setLastUpdated] = useState("")
   const [radarrUrl, setRadarrUrl] = useState("")
   const [sonarrUrl, setSonarrUrl] = useState("")
-  const [activeTab, setActiveTab] = useState("movies")
-  const [luckyMovie, setLuckyMovie] = useState(null)
-  const [luckyOpen, setLuckyOpen] = useState(false)
+  const [activeTab, setActiveTab] = useState(routeKind === "tv" ? "tv" : "movies")
   const [heroCollapsed, setHeroCollapsed] = useState(getDefaultHeroCollapsed)
   const activeCount = activeTab === "tv" ? tvSeasons.length : movies.length
   const estimatedDecisionMinutes = activeTab === "tv" ? 17 : 23
@@ -105,7 +90,50 @@ export default function App() {
     ? new Date(lastUpdated).toLocaleDateString(undefined, { day: "2-digit", month: "short", year: "numeric" })
     : "Daily refresh"
 
+  const activeItem = useMemo(() => {
+    if (!routeSlug) return null
+    const pool =
+      routeKind === "tv" ? tvSeasons : routeKind === "movie" ? movies : [...movies, ...tvSeasons]
+    return pool.find((item) => item.slug === routeSlug) || null
+  }, [movies, tvSeasons, routeKind, routeSlug])
+
+  const columns = useColumnCount()
+  const visibleMovies = useMemo(() => {
+    const trimmed = trimToFullRows(movies, columns)
+    return ensureItemVisible(trimmed, movies, activeItem)
+  }, [movies, columns, activeItem])
+  const visibleTvSeasons = useMemo(() => {
+    const trimmed = trimToFullRows(tvSeasons, columns)
+    return ensureItemVisible(trimmed, tvSeasons, activeItem)
+  }, [tvSeasons, columns, activeItem])
+
+  function handleCardOpenChange(item, open) {
+    navigate(open ? item.path : "/")
+  }
+
   const structuredData = useMemo(() => {
+    if (activeItem) {
+      return {
+        "@context": "https://schema.org",
+        "@type": activeItem.kind === "tv" ? "TVSeason" : "Movie",
+        name: activeItem.title,
+        description: activeItem.overview || activeItem.description,
+        image: activeItem.posterUrl || undefined,
+        datePublished: activeItem.releaseDate || undefined,
+        url: `${SITE_URL}${activeItem.path}`,
+        ...(activeItem.compositeScore != null
+          ? {
+              aggregateRating: {
+                "@type": "AggregateRating",
+                ratingValue: (activeItem.compositeScore / 10).toFixed(1),
+                bestRating: "10",
+                worstRating: "0",
+              },
+            }
+          : {}),
+      }
+    }
+
     const items = [...movies, ...tvSeasons].map((item, index) => ({
       "@type": "ListItem",
       position: index + 1,
@@ -115,7 +143,7 @@ export default function App() {
         description: item.overview || item.description,
         image: item.posterUrl || undefined,
         datePublished: item.releaseDate || undefined,
-        url: item.infoUrl || "https://watchtonight.app/",
+        url: `${SITE_URL}${item.path}`,
       },
     }))
 
@@ -125,7 +153,7 @@ export default function App() {
         {
           "@type": "WebSite",
           name: "WatchTonight",
-          url: "https://watchtonight.app/",
+          url: `${SITE_URL}/`,
           description: "Recently popular movies available to stream at home.",
           inLanguage: "en",
         },
@@ -138,7 +166,37 @@ export default function App() {
         },
       ],
     }
-  }, [movies, tvSeasons])
+  }, [movies, tvSeasons, activeItem])
+
+  useEffect(() => {
+    if (typeof document === "undefined") return
+
+    const title = activeItem
+      ? `${activeItem.title} — Where to Stream | WatchTonight`
+      : DEFAULT_TITLE
+    const description = activeItem
+      ? (activeItem.overview || activeItem.description || DEFAULT_DESCRIPTION).slice(0, 300)
+      : DEFAULT_DESCRIPTION
+    const url = activeItem ? `${SITE_URL}${activeItem.path}` : `${SITE_URL}/`
+    const image = activeItem?.posterUrl || `${SITE_URL}/og-image.png`
+
+    document.title = title
+
+    const setMeta = (selector, attr, value) => {
+      const el = document.querySelector(selector)
+      if (el) el.setAttribute(attr, value)
+    }
+
+    setMeta('meta[name="description"]', "content", description)
+    setMeta('link[rel="canonical"]', "href", url)
+    setMeta('meta[property="og:title"]', "content", title)
+    setMeta('meta[property="og:description"]', "content", description)
+    setMeta('meta[property="og:url"]', "content", url)
+    setMeta('meta[property="og:image"]', "content", image)
+    setMeta('meta[name="twitter:title"]', "content", title)
+    setMeta('meta[name="twitter:description"]', "content", description)
+    setMeta('meta[name="twitter:image"]', "content", image)
+  }, [activeItem])
 
   useEffect(() => {
     let isMounted = true
@@ -208,7 +266,7 @@ export default function App() {
   }
 
   return (
-    <Tabs defaultValue="movies" onValueChange={setActiveTab}>
+    <Tabs defaultValue={routeKind === "tv" ? "tv" : "movies"} onValueChange={setActiveTab}>
       <div className="min-h-screen bg-background text-foreground">
         <header className="sticky top-0 z-30 border-b border-[#e4d8ab]/10 bg-[rgba(14,26,24,0.88)] backdrop-blur-xl">
           <div className="mx-auto max-w-7xl px-3 py-2.5 sm:px-6 sm:py-3">
@@ -268,7 +326,7 @@ export default function App() {
           >
             <div className="brand-halftone absolute inset-0 opacity-25" aria-hidden="true" />
             <div className="absolute inset-y-0 right-0 hidden w-[32rem] bg-[radial-gradient(circle_at_center,rgba(214,142,37,0.18),transparent_65%)] lg:block" aria-hidden="true" />
-            <div className={`relative ${heroCollapsed ? "flex flex-col gap-4" : "grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end"}`}>
+            <div className={`relative ${heroCollapsed ? "flex flex-col gap-4" : "grid grid-cols-1 gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end"}`}>
               <div className={heroCollapsed ? "" : "max-w-2xl"}>
                 <div>
                   <div className="flex items-start justify-between gap-3 sm:block">
@@ -291,7 +349,7 @@ export default function App() {
                       />
                     </Button>
                   </div>
-                  <h2 className={`mt-4 font-display font-extrabold leading-[0.94] tracking-[-0.05em] text-brand-cream ${heroCollapsed ? "text-[clamp(1.7rem,4vw,2.6rem)]" : "text-[clamp(2.6rem,6vw,4.9rem)]"}`}>
+                  <h2 className={`mt-4 break-words font-display font-extrabold leading-[0.94] tracking-[-0.05em] text-brand-cream ${heroCollapsed ? "text-[clamp(1.7rem,4vw,2.6rem)]" : "text-[clamp(2.3rem,6vw,4.9rem)]"}`}>
                     {heroCollapsed ? "Tonight\u2019s picks" : "Stop scrolling."}
                     {!heroCollapsed && (
                       <>
@@ -375,7 +433,7 @@ export default function App() {
             <>
               <TabsContent value="movies" className="mt-0">
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6">
-                  {movies.map((movie, index) => (
+                  {visibleMovies.map((movie, index) => (
                     <MovieCard
                       key={movie.id}
                       movie={movie}
@@ -384,6 +442,8 @@ export default function App() {
                       className={index === 0 ? "col-span-2 row-span-2" : ""}
                       radarrUrl={radarrUrl}
                       sonarrUrl={sonarrUrl}
+                      isOpen={activeItem === movie}
+                      onOpenChange={(open) => handleCardOpenChange(movie, open)}
                     />
                   ))}
                 </div>
@@ -391,7 +451,7 @@ export default function App() {
 
               <TabsContent value="tv" className="mt-0">
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6">
-                  {tvSeasons.map((season, index) => (
+                  {visibleTvSeasons.map((season, index) => (
                     <MovieCard
                       key={season.id}
                       movie={season}
@@ -400,6 +460,8 @@ export default function App() {
                       className={index === 0 ? "col-span-2 row-span-2" : ""}
                       radarrUrl={radarrUrl}
                       sonarrUrl={sonarrUrl}
+                      isOpen={activeItem === season}
+                      onOpenChange={(open) => handleCardOpenChange(season, open)}
                     />
                   ))}
                 </div>
@@ -409,39 +471,23 @@ export default function App() {
 
           {/* Feeling lucky */}
           {!isLoading && !error && (
-            <>
-              <div className="mt-12 flex justify-center">
-                <button
-                  type="button"
-                  onClick={() => {
-                    const pool = activeTab === "tv" ? tvSeasons : movies
-                    if (!pool.length) return
-                    const pick = pool[Math.floor(Math.random() * pool.length)]
-                    setLuckyMovie(pick)
-                    setLuckyOpen(true)
-                  }}
-                  className="brand-kicker flex items-center gap-2 rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.1)] px-5 py-3 text-brand-cream transition hover:-translate-y-0.5 hover:bg-[rgba(214,142,37,0.18)] hover:text-brand-cream active:translate-y-0"
-                  data-umami-event="Feeling lucky"
-                  data-umami-event-tab={activeTab}
-                >
-                  <span aria-hidden="true">🎲</span>
-                  Feeling lucky?
-                </button>
-              </div>
-              <Dialog open={luckyOpen} onOpenChange={setLuckyOpen}>
-                <Suspense fallback={null}>
-                  {luckyMovie && (
-                    <MovieDialogContent
-                      movie={luckyMovie}
-                      trailerEmbedUrl={getYouTubeEmbedUrl(luckyMovie.trailerUrl)}
-                      dialogPosterSrcSet={getPosterSrcSet(luckyMovie.posterPath, ["w342", "w500", "w780"])}
-                      radarrUrl={radarrUrl}
-                      sonarrUrl={sonarrUrl}
-                    />
-                  )}
-                </Suspense>
-              </Dialog>
-            </>
+            <div className="mt-12 flex justify-center">
+              <button
+                type="button"
+                onClick={() => {
+                  const pool = activeTab === "tv" ? tvSeasons : movies
+                  if (!pool.length) return
+                  const pick = pool[Math.floor(Math.random() * pool.length)]
+                  navigate(pick.path)
+                }}
+                className="brand-kicker flex items-center gap-2 rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.1)] px-5 py-3 text-brand-cream transition hover:-translate-y-0.5 hover:bg-[rgba(214,142,37,0.18)] hover:text-brand-cream active:translate-y-0"
+                data-umami-event="Feeling lucky"
+                data-umami-event-tab={activeTab}
+              >
+                <span aria-hidden="true">🎲</span>
+                Feeling lucky?
+              </button>
+            </div>
           )}
 
         </main>
