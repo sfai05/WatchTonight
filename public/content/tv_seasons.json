@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:37:32.915869",
+  "generated_at": "2026-08-21T07:39:57.232252",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 5,
       "season_id": 462905,
       "air_date": "2026-08-20",
-      "age_days": 0,
-      "best_rank": 32,
-      "description": "Just dropped today for the ultimate final season binge — TikTok is losing its mind.",
+      "age_days": 1,
+      "best_rank": 6,
+      "description": "The explosive final season that has all of social media in a collective chokehold.",
       "overview": "Season 5 finds the Pogues at their absolute breaking point following the tragic loss  in Morocco. Stranded far from home and mourning the heart of their crew, they’ve lost the Blue Crown and continue to face a gauntlet of familiar threats. With Chandler Groff still at large, Dalia and the Corsairs closing in, and the Kooks ensuring the Pogues have no home to return to, John B, Sarah, Kiara, Pope, and Cleo must rely on their scrappy instincts—and an uneasy alliance with Rafe—to keep from falling apart for good. Their mission is now a desperate race to reclaim their future and finally win the freedom they’ve been chasing since the beginning. It’s the Pogues against the world as they seek to avenge their best friend and bring it on home…one final time.",
       "episode_count": 10,
       "total_episodes": 50,
@@ -37,7 +37,7 @@
       "runtime": 51,
       "status": "Ended",
       "ratings": {
-        "composite_score": 85.0,
+        "composite_score": 95.0,
         "imdb": {
           "rating": 7.5,
           "votes": 104906,
@@ -86,15 +86,134 @@
       "backdrop_path": null
     },
     {
+      "series_id": 2710,
+      "series_name": "It's Always Sunny in Philadelphia",
+      "series_imdb_id": "tt0472954",
+      "season_number": 18,
+      "season_id": 530073,
+      "air_date": "2026-08-17",
+      "age_days": 4,
+      "best_rank": 29,
+      "description": "18 seasons in and still delivering the most unhinged, hilarious comedy on television.",
+      "overview": "Four egocentric friends who run a neighborhood Irish pub in Philadelphia try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
+      "episode_count": 10,
+      "total_episodes": 187,
+      "genres": [
+        "Comedy"
+      ],
+      "top_actors": [
+        "Charlie Day",
+        "Glenn Howerton",
+        "Rob Mac"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=0uGkGEwOZs8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fNJSWcDsnYQ9ygfMP2rM0souFgI.jpg",
+      "tvdb_id": 75805,
+      "tvdb_season_id": 2261066,
+      "network": "FX",
+      "runtime": 25,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 98.0,
+        "imdb": {
+          "rating": 8.8,
+          "votes": 279960,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=AU"
+        }
+      },
+      "poster_path": "/fNJSWcDsnYQ9ygfMP2rM0souFgI.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 108978,
       "series_name": "Reacher",
       "series_imdb_id": "tt9288030",
       "season_number": 4,
       "season_id": 525713,
       "air_date": "2026-08-12",
-      "age_days": 8,
+      "age_days": 9,
       "best_rank": 2,
-      "description": "Alan Ritchson delivers relentless action in the dark, heavy-hitting new season everyone's streaming.",
+      "description": "Prime Video's biggest action hit returns with high-stakes political intrigue and brutal fights.",
       "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
       "episode_count": 8,
       "total_episodes": 32,
@@ -210,9 +329,9 @@
       "season_number": 4,
       "season_id": 466392,
       "air_date": "2026-08-04",
-      "age_days": 16,
-      "best_rank": 7,
-      "description": "Apple TV's biggest premiere ever — the beloved comedy returns in absolute peak form.",
+      "age_days": 17,
+      "best_rank": 9,
+      "description": "The internet's favorite feel-good comedy is back, sparking fiery online debates this week.",
       "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
       "episode_count": 10,
       "total_episodes": 44,
@@ -289,250 +408,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 2710,
-      "series_name": "It's Always Sunny in Philadelphia",
-      "series_imdb_id": "tt0472954",
-      "season_number": 18,
-      "season_id": 530073,
-      "air_date": "2026-08-17",
-      "age_days": 3,
-      "best_rank": 26,
-      "description": "18 seasons in and still the funniest, most unhinged comedy on television.",
-      "overview": "Four egocentric friends who run a neighborhood Irish pub in Philadelphia try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
-      "episode_count": 10,
-      "total_episodes": 187,
-      "genres": [
-        "Comedy"
-      ],
-      "top_actors": [
-        "Charlie Day",
-        "Glenn Howerton",
-        "Rob Mac"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=0uGkGEwOZs8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fNJSWcDsnYQ9ygfMP2rM0souFgI.jpg",
-      "tvdb_id": 75805,
-      "tvdb_season_id": 2261066,
-      "network": "FX",
-      "runtime": 25,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 98.0,
-        "imdb": {
-          "rating": 8.8,
-          "votes": 279960,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2710-it-s-always-sunny-in-philadelphia/watch?locale=AU"
-        }
-      },
-      "poster_path": "/fNJSWcDsnYQ9ygfMP2rM0souFgI.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 94997,
-      "series_name": "House of the Dragon",
-      "series_imdb_id": "tt11198330",
-      "season_number": 3,
-      "season_id": 449260,
-      "air_date": "2026-06-21",
-      "age_days": 60,
-      "best_rank": 5,
-      "description": "The explosive finale set the internet on fire — high-stakes dragons and intense drama.",
-      "overview": "The Black and Green factions lock into an all-out, relentless struggle for the Iron Throne. As dragons and armies clash across the realm, Westeros witnesses the devastating consequences of total war.",
-      "episode_count": 8,
-      "total_episodes": 26,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Adventure",
-        "Action",
-        "War"
-      ],
-      "top_actors": [
-        "Matt Smith",
-        "Emma D'Arcy",
-        "Olivia Cooke"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=xZUavocHU2g",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
-      "tvdb_id": 371572,
-      "tvdb_season_id": 2247337,
-      "network": "HBO",
-      "runtime": 60,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 100.0,
-        "imdb": {
-          "rating": 9.0,
-          "votes": 543152,
-          "season_rating": 9.0
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 140,
-                "provider_name": "CosmoGo",
-                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=AU"
-        }
-      },
-      "poster_path": "/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 123542,
       "series_name": "LINK CLICK",
       "series_imdb_id": "tt14976292",
       "season_number": 4,
       "season_id": 454061,
       "air_date": "2026-08-14",
-      "age_days": 6,
-      "best_rank": 39,
-      "description": "Anime fans are buzzing over this incredible new mind-bending time-travel season.",
+      "age_days": 7,
+      "best_rank": 30,
+      "description": "Anime's premier time-travel mystery drops another mind-bending season that fans are obsessing over.",
       "overview": "After the Li Tianchen incident came to an end, the Time Photo Studio returned to a superficial calm. However, the news of Xia Fei's disappearance once again plunged everyone into the crossroads of fate. With Vein's return and Qiao Ling's awakening powers, Cheng Xiaoshi and Lu Guang gradually uncover the secrets of the Bahati fire case. Cheng Xiaoshi's father, Cheng Weimin, and mother, Shao Yuanyuan, also seemed to have intricate connections to it. As the investigation deepens, Liu Xiao, from a mysterious organization, begins his actions, and the intervention of Bridon police officer Jae adds uncertainty to this quest for the truth.",
       "episode_count": null,
       "total_episodes": 41,
@@ -611,9 +495,9 @@
       "season_number": 3,
       "season_id": 520890,
       "air_date": "2026-08-02",
-      "age_days": 18,
-      "best_rank": 8,
-      "description": "Adrenaline-fueled tactical action that keeps driving heat and non-stop online chatter.",
+      "age_days": 19,
+      "best_rank": 7,
+      "description": "Taylor Sheridan's high-octane spy thriller delivers non-stop adrenaline and intense tactical action.",
       "overview": "In Season Three, hidden networks, foreign operatives, and personal betrayals collide. Joe walks the line between duty and home as unseen forces circle her world. Patterns appear where they shouldn't, names vanish, and paths rearrange. Guided by Kaitlyn and Westfield, Joe confronts enemies operating in the shadows, leaving her to reckon with a war that now reaches into every part of her life.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -726,39 +610,157 @@
       "backdrop_path": null
     },
     {
-      "series_id": 247522,
-      "series_name": "Tires",
-      "series_imdb_id": "tt31491435",
-      "season_number": 3,
-      "season_id": 525759,
-      "air_date": "2026-08-13",
-      "age_days": 7,
-      "best_rank": 38,
-      "description": "Quick, hilarious, and trending on Netflix right now — perfect for a late-night binge.",
-      "overview": "Will, the nervous and unqualified heir to an auto repair chain, attempts to turn his father’s business around despite constant torture from his cousin and now employee, Shane.",
-      "episode_count": 12,
-      "total_episodes": 30,
+      "series_id": 615,
+      "series_name": "Futurama",
+      "series_imdb_id": "tt0149460",
+      "season_number": 11,
+      "season_id": 516338,
+      "air_date": "2026-08-03",
+      "age_days": 18,
+      "best_rank": 11,
+      "description": "Sci-fi animation's beloved crew returns with fresh satirical bites and classic sharp wit.",
+      "overview": "Brace yourselves... The future is about to get a whole lot stranger! It's a non-stop onslaught of swaggering space pirates, lab-grown meats, sexy scams... plus the shocking return of Dr. Zoidberg's lost love! You didn't see that coming, prior to being told about it just now!",
+      "episode_count": 10,
+      "total_episodes": 164,
       "genres": [
-        "Comedy"
+        "Science Fiction",
+        "Comedy",
+        "Animation",
+        "Adventure"
       ],
       "top_actors": [
-        "Steve Gerben",
-        "Shane Gillis",
-        "Chris O'Connor"
+        "Billy West",
+        "Katey Sagal",
+        "John DiMaggio"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=1lGZSnSht8s",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vzVW4UAGi8JcvN8qWU7hBVCrZpd.jpg",
-      "tvdb_id": 446718,
-      "tvdb_season_id": 2248868,
-      "network": "Netflix",
-      "runtime": 24,
+      "trailer_url": "https://www.youtube.com/watch?v=Jb2LBG5qa88",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1vFaNoZkjjTHdAiVoC6HKhh1Ygz.jpg",
+      "tvdb_id": 73871,
+      "tvdb_season_id": 2249818,
+      "network": "FOX",
+      "runtime": 23,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.0,
+        "composite_score": 78.1,
         "imdb": {
-          "rating": 7.6,
-          "votes": 20758,
+          "rating": 6.81,
+          "votes": 278626,
+          "season_rating": 6.81
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=AU"
+        }
+      },
+      "poster_path": "/1vFaNoZkjjTHdAiVoC6HKhh1Ygz.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 253983,
+      "series_name": "Women in Blue",
+      "series_imdb_id": "tt20516590",
+      "season_number": 2,
+      "season_id": 507180,
+      "air_date": "2026-08-11",
+      "age_days": 10,
+      "best_rank": 31,
+      "description": "An engaging real-life look behind the scenes that docuseries fans are loving right now.",
+      "overview": "In season two, now promoted to lieutenant, María finds herself torn between the rules she's sworn to uphold and a relentless pull toward the truth when the body of a student activist is discovered, and the Azules are pulled into an investigation that reaches back to the student massacre of 1968. Before they can make sense of what they've found, the body of a person connected to that brutal chapter of history is found, sending shock waves through the department. Someone is delivering justice straight to the police's door, and the Azules are the department's last hope of stopping the killer. As María, Valentina, Gabina and Ángeles fight battles both inside and outside the precinct, buried truths rise to the surface and they're forced to confront an uncomfortable question: in a system plagued with corruption, what is the cost of fighting for their ideals?",
+      "episode_count": 8,
+      "total_episodes": 18,
+      "genres": [
+        "Reality",
+        "Documentary"
+      ],
+      "top_actors": [
+        "Bárbara Mori",
+        "Ximena Sariñana",
+        "Natalia Téllez"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=Z9n3TkdcGLY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
+      "tvdb_id": 281169,
+      "tvdb_season_id": 732475,
+      "network": "TVNZ 1",
+      "runtime": 30,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 82.0,
+        "imdb": {
+          "rating": 7.2,
+          "votes": 1456,
           "season_rating": null
         }
       },
@@ -767,40 +769,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247522-tires/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/253983-las-azules/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247522-tires/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/253983-las-azules/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247522-tires/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/253983-las-azules/watch?locale=AU"
         }
       },
-      "poster_path": "/vzVW4UAGi8JcvN8qWU7hBVCrZpd.jpg",
+      "poster_path": "/9CHpaYUqgFM81e0emaWkfyFyche.jpg",
       "backdrop_path": null
     },
     {
@@ -810,9 +812,9 @@
       "season_number": 4,
       "season_id": 472809,
       "air_date": "2026-07-23",
-      "age_days": 28,
-      "best_rank": 23,
-      "description": "Sci-fi at its absolute finest — bold, fun, and generating major fan hype.",
+      "age_days": 29,
+      "best_rank": 15,
+      "description": "The gold standard of modern sci-fi continues to deliver peak episodic TV perfection.",
       "overview": "In the fourth season, the crew of the U.S.S. Enterprise—led by Captain Christopher Pike—embarks on a series of thrilling and emotional adventures across the stars. As they journey to strange new worlds, they battle inner demons and external threats, encounter colorful new characters, reunite with familiar faces and confront terrifying aliens. Through it all, they strive to embrace a bright, hopeful future.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -836,7 +838,7 @@
       "runtime": 53,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 87.0,
+        "composite_score": 92.0,
         "imdb": {
           "rating": 8.2,
           "votes": 75901,
@@ -935,9 +937,9 @@
       "season_number": 2,
       "season_id": 481757,
       "air_date": "2026-07-22",
-      "age_days": 29,
-      "best_rank": 12,
-      "description": "Slick, stylish action thriller that K-drama fans can't stop raving about this week.",
+      "age_days": 30,
+      "best_rank": 19,
+      "description": "Slick, relentless action choreography makes this Korean thriller a weekend binge favorite.",
       "overview": "Season 2 returns with Jian in control of the weapons shop, Jinman returned from the dead, and BABYLON well and truly on the backfoot. Working to keep Jian safe, Jinman will take the fight to BABYLON's door, but the mercenary organization won't go down easily. Humiliated, BABYLON will bring in help from overseas and unleash a new wave of deadly assassins to rebuild their ranks and exact their revenge.",
       "episode_count": 8,
       "total_episodes": 16,
@@ -1015,118 +1017,41 @@
       "backdrop_path": null
     },
     {
-      "series_id": 138502,
-      "series_name": "X-Men '97",
-      "series_imdb_id": "tt16026746",
-      "season_number": 2,
-      "season_id": 518984,
-      "air_date": "2026-07-01",
-      "age_days": 50,
-      "best_rank": 13,
-      "description": "Nostalgic superhero storytelling at its peak — critics and Reddit are agreeing it's top-tier.",
-      "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
-      "episode_count": 9,
-      "total_episodes": 19,
-      "genres": [
-        "Science Fiction",
-        "Animation",
-        "Adventure",
-        "Action"
-      ],
-      "top_actors": [],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=mfUtseK27pc",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-      "tvdb_id": 412432,
-      "tvdb_season_id": 2246652,
-      "network": "Disney+",
-      "runtime": 31,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 92.0,
-        "imdb": {
-          "rating": 8.5,
-          "votes": 54746,
-          "season_rating": 8.5
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=AU"
-        }
-      },
-      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 125988,
-      "series_name": "Silo",
-      "series_imdb_id": "tt14688458",
-      "season_number": 3,
-      "season_id": 512220,
-      "air_date": "2026-07-02",
-      "age_days": 49,
-      "best_rank": 3,
-      "description": "The mystery deepens in TV's best dystopian sci-fi series — binge it immediately.",
-      "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
+      "series_id": 287620,
+      "series_name": "Stuart Fails to Save the Universe",
+      "series_imdb_id": "tt27497393",
+      "season_number": 1,
+      "season_id": 448732,
+      "air_date": "2026-07-23",
+      "age_days": 29,
+      "best_rank": 12,
+      "description": "A chaotic sci-fi comedy entry that's quietly earning a dedicated cult following.",
+      "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we’ve come to know and love from The Big Bang Theory. As the title implies, things don’t go well.",
       "episode_count": 10,
-      "total_episodes": 30,
+      "total_episodes": 10,
       "genres": [
         "Science Fiction",
-        "Drama"
+        "Comedy"
       ],
       "top_actors": [
-        "Rebecca Ferguson",
-        "Common",
-        "Chinaza Uche"
+        "Kevin Sussman",
+        "Lauren Lapkus",
+        "Brian Posehn"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=BLBvbMtjyAQ",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
-      "tvdb_id": 403245,
-      "tvdb_season_id": 2246297,
-      "network": "Apple TV",
-      "runtime": 51,
+      "trailer_url": "https://www.youtube.com/watch?v=orv-w9ewCps",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
+      "tvdb_id": 465664,
+      "tvdb_season_id": 2195623,
+      "network": "HBO Max",
+      "runtime": 22,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 90.0,
+        "composite_score": 80.0,
         "imdb": {
-          "rating": 7.3,
-          "votes": 218324,
-          "season_rating": 7.3
+          "rating": 7.0,
+          "votes": 2078,
+          "season_rating": null
         }
       },
       "streaming_availability": {
@@ -1134,40 +1059,28 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=US"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=AU"
         }
       },
-      "poster_path": "/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
+      "poster_path": "/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
       "backdrop_path": null
     },
     {
@@ -1177,9 +1090,9 @@
       "season_number": 3,
       "season_id": 516724,
       "air_date": "2026-07-26",
-      "age_days": 25,
-      "best_rank": 21,
-      "description": "Dark, gritty zombie action back on AMC that fans are devouring right now.",
+      "age_days": 26,
+      "best_rank": 32,
+      "description": "Gritty urban horror with intense chemistry that keeps franchise fans glued to screen.",
       "overview": "In season three, Maggie and Negan finally put aside their differences to build the first thriving community in Manhattan since the apocalypse, but when chaos in the city begins to arise, they are forced to question: have they learned from their old wounds or will their dark past spell doom for the entire city?",
       "episode_count": 8,
       "total_episodes": 22,
@@ -1299,15 +1212,494 @@
       "backdrop_path": null
     },
     {
+      "series_id": 57532,
+      "series_name": "PAW Patrol",
+      "series_imdb_id": "tt3121722",
+      "season_number": 14,
+      "season_id": 530810,
+      "air_date": "2026-07-31",
+      "age_days": 21,
+      "best_rank": null,
+      "description": "The ultimate family-friendly staple keeping young audiences entertained all week long.",
+      "overview": "The PAW Patrol is on a roll with adventures that take the pups from the prehistoric wilds of Dino Island to the rock-climbing heights of Rescue Mountain. Along the way, they’ll team up with new friends–from a speedy racing pooch to the legendary Abominable Snow Pup–proving that for this team, no job is too big, no pup is too small!",
+      "episode_count": null,
+      "total_episodes": 567,
+      "genres": [
+        "Family",
+        "Comedy",
+        "Children",
+        "Animation",
+        "Adventure",
+        "Action"
+      ],
+      "top_actors": [
+        "Majestie lewton ll"
+      ],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
+      "tvdb_id": 272472,
+      "tvdb_season_id": null,
+      "network": "TVOkids",
+      "runtime": 12,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 66.0,
+        "imdb": {
+          "rating": 6.1,
+          "votes": 7795,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              },
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              },
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=AU"
+        }
+      },
+      "poster_path": "/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 47663,
+      "series_name": "The Ark",
+      "series_imdb_id": "tt17371078",
+      "season_number": 3,
+      "season_id": 516048,
+      "air_date": "2026-07-29",
+      "age_days": 23,
+      "best_rank": 39,
+      "description": "High-concept sci-fi survival drama that delivers tense, fast-paced space thrills.",
+      "overview": "100 years in the future when planetary colonization missions have begun as a necessity to help secure the survival of the human race. The first of these missions on a spacecraft known as Ark One encounters a catastrophic event causing massive destruction and loss of life. With more than a year left to go before reaching their target planet, a lack of life-sustaining supplies and loss of leadership, the remaining crew must become the best versions of themselves to stay on course and survive.",
+      "episode_count": 12,
+      "total_episodes": 36,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "top_actors": [
+        "Christie Burke",
+        "Richard Fleeshman",
+        "Stacey Read"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=YKtH0mVhwSg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hJS2LrtNa6mTevyYuJ8dai7Mc3p.jpg",
+      "tvdb_id": 415089,
+      "tvdb_season_id": 2222377,
+      "network": "SYFY",
+      "runtime": 43,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 62.0,
+        "imdb": {
+          "rating": 5.7,
+          "votes": 8671,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/47663-the-ark/watch?locale=US"
+        }
+      },
+      "poster_path": "/hJS2LrtNa6mTevyYuJ8dai7Mc3p.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 94997,
+      "series_name": "House of the Dragon",
+      "series_imdb_id": "tt11198330",
+      "season_number": 3,
+      "season_id": 449260,
+      "air_date": "2026-06-21",
+      "age_days": 61,
+      "best_rank": 5,
+      "description": "HBO's crowning fantasy titan delivers breathtaking scale and the year's most fiery TV moments.",
+      "overview": "The Black and Green factions lock into an all-out, relentless struggle for the Iron Throne. As dragons and armies clash across the realm, Westeros witnesses the devastating consequences of total war.",
+      "episode_count": 8,
+      "total_episodes": 26,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Adventure",
+        "Action",
+        "War"
+      ],
+      "top_actors": [
+        "Matt Smith",
+        "Emma D'Arcy",
+        "Olivia Cooke"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=xZUavocHU2g",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
+      "tvdb_id": 371572,
+      "tvdb_season_id": 2247337,
+      "network": "HBO",
+      "runtime": 60,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 100.0,
+        "imdb": {
+          "rating": 9.0,
+          "votes": 543152,
+          "season_rating": 9.0
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 140,
+                "provider_name": "CosmoGo",
+                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=AU"
+        }
+      },
+      "poster_path": "/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 125988,
+      "series_name": "Silo",
+      "series_imdb_id": "tt14688458",
+      "season_number": 3,
+      "season_id": 512220,
+      "air_date": "2026-07-02",
+      "age_days": 50,
+      "best_rank": 3,
+      "description": "Apple TV's atmospheric sci-fi mystery thickens with masterclass suspense and brilliant performances.",
+      "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
+      "episode_count": 10,
+      "total_episodes": 30,
+      "genres": [
+        "Science Fiction",
+        "Drama"
+      ],
+      "top_actors": [
+        "Rebecca Ferguson",
+        "Common",
+        "Chinaza Uche"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=BLBvbMtjyAQ",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
+      "tvdb_id": 403245,
+      "tvdb_season_id": 2246297,
+      "network": "Apple TV",
+      "runtime": 51,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 90.0,
+        "imdb": {
+          "rating": 7.3,
+          "votes": 218324,
+          "season_rating": 7.3
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=AU"
+        }
+      },
+      "poster_path": "/eviZTbKOXOeSaR268iJ9yqtwTNU.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 138502,
+      "series_name": "X-Men '97",
+      "series_imdb_id": "tt16026746",
+      "season_number": 2,
+      "season_id": 518984,
+      "air_date": "2026-07-01",
+      "age_days": 51,
+      "best_rank": 16,
+      "description": "Saturday morning nostalgia meets jaw-dropping modern storytelling in this animated powerhouse.",
+      "overview": "Season 2 continues with the heroic mutant team of X-Men, divided and thrown across different eras in time as they struggle to navigate their return home. Meanwhile, back in the 1990s, suspicious foes and new strains of mutant intolerance are on the rise in the wake of the X-Men's absence.",
+      "episode_count": 9,
+      "total_episodes": 19,
+      "genres": [
+        "Science Fiction",
+        "Animation",
+        "Adventure",
+        "Action"
+      ],
+      "top_actors": [],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=mfUtseK27pc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+      "tvdb_id": 412432,
+      "tvdb_season_id": 2246652,
+      "network": "Disney+",
+      "runtime": 31,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 92.0,
+        "imdb": {
+          "rating": 8.5,
+          "votes": 54746,
+          "season_rating": 8.5
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/138502-x-men-97/watch?locale=AU"
+        }
+      },
+      "poster_path": "/2HKBc5UiFw8JrruHq8S1Y7TnlW0.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 278624,
       "series_name": "Lucky",
       "series_imdb_id": "tt34866681",
       "season_number": 1,
       "season_id": 431609,
       "air_date": "2026-07-14",
-      "age_days": 37,
+      "age_days": 38,
       "best_rank": 4,
-      "description": "Drew Starkey shines in this gritty new crime drama everyone is discovering.",
+      "description": "Gritty new crime thriller that delivers a quick, edge-of-your-seat binge for dark drama lovers.",
       "overview": "A reformed criminal is forced to confront her past and return to illicit activities for one final job, hoping to secure her freedom and leave her former life behind for good.",
       "episode_count": null,
       "total_episodes": 7,
@@ -1378,132 +1770,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 615,
-      "series_name": "Futurama",
-      "series_imdb_id": "tt0149460",
-      "season_number": 11,
-      "season_id": 516338,
-      "air_date": "2026-08-03",
-      "age_days": 17,
-      "best_rank": 16,
-      "description": "Sci-fi satire returns fresh with classic sci-fi humor fans love.",
-      "overview": "Brace yourselves... The future is about to get a whole lot stranger! It's a non-stop onslaught of swaggering space pirates, lab-grown meats, sexy scams... plus the shocking return of Dr. Zoidberg's lost love! You didn't see that coming, prior to being told about it just now!",
-      "episode_count": 10,
-      "total_episodes": 164,
-      "genres": [
-        "Science Fiction",
-        "Comedy",
-        "Animation",
-        "Adventure"
-      ],
-      "top_actors": [
-        "Billy West",
-        "Katey Sagal",
-        "John DiMaggio"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=Jb2LBG5qa88",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1vFaNoZkjjTHdAiVoC6HKhh1Ygz.jpg",
-      "tvdb_id": 73871,
-      "tvdb_season_id": 2249818,
-      "network": "FOX",
-      "runtime": 23,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 78.1,
-        "imdb": {
-          "rating": 6.81,
-          "votes": 278626,
-          "season_rating": 6.81
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/615-futurama/watch?locale=AU"
-        }
-      },
-      "poster_path": "/1vFaNoZkjjTHdAiVoC6HKhh1Ygz.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 254420,
       "series_name": "Elle",
       "series_imdb_id": "tt32020831",
       "season_number": 1,
       "season_id": 393740,
       "air_date": "2026-07-01",
-      "age_days": 50,
+      "age_days": 51,
       "best_rank": null,
-      "description": "Charismatic new prequel drama getting great word-of-mouth chatter across social feeds.",
+      "description": "Charmingly funny character drama that offers a light, delightful binge for your weekend.",
       "overview": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1556,9 +1831,9 @@
       "season_number": 1,
       "season_id": 464822,
       "air_date": "2026-06-26",
-      "age_days": 55,
+      "age_days": 56,
       "best_rank": null,
-      "description": "A quirky comedic alternate history sparking funny debates online.",
+      "description": "A quirky, satirical comedic history tour filled with sharp observations and clever humor.",
       "overview": "",
       "episode_count": null,
       "total_episodes": 7,
@@ -1666,9 +1941,9 @@
       "season_number": 1,
       "season_id": 430534,
       "air_date": "2026-06-18",
-      "age_days": 63,
+      "age_days": 64,
       "best_rank": null,
-      "description": "Fast-paced mystery miniseries that's climbing up the Netflix top ten charts.",
+      "description": "Fast-paced Harlan Coben-style thriller designed for a single-sitting binge session tonight.",
       "overview": "An innocent father serves a life sentence for the murder of his own son. When he receives evidence that his son my still be alive, he is determined to break out of prison to discover the truth.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1746,9 +2021,9 @@
       "season_number": 1,
       "season_id": 429041,
       "air_date": "2026-06-04",
-      "age_days": 77,
+      "age_days": 78,
       "best_rank": null,
-      "description": "Tense, psychological thriller remake that delivers intense star-powered drama.",
+      "description": "Spooky, atmosphere-heavy psychological thriller boasting stellar lead performances and steady tension.",
       "overview": "A storm is coming for two happily married attorneys when a notorious killer from their past gets out of prison.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1828,9 +2103,9 @@
       "season_number": 1,
       "season_id": 328217,
       "air_date": "2026-05-25",
-      "age_days": 87,
+      "age_days": 88,
       "best_rank": null,
-      "description": "Nicolas Cage in noir superhero gear — stylish, retro, and totally unique.",
+      "description": "Nicolas Cage leads a stylish, hard-boiled superhero mystery drenched in rich atmosphere.",
       "overview": "Private investigator Ben Reilly is hired on a couple of straightforward cases... until mobsters, monsters, and a mysterious femme fatale spin a web that brings him face to face with his former life as New York's only superhero: The Spider.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1885,9 +2160,9 @@
       "season_number": 9,
       "season_id": 498800,
       "air_date": "2026-05-24",
-      "age_days": 88,
-      "best_rank": 25,
-      "description": "Multiverse chaos continues with sharp sci-fi humor fan forums are analyzing.",
+      "age_days": 89,
+      "best_rank": 14,
+      "description": "Multiversal animated madness returns with clever sci-fi satire and endlessly quotable banter.",
       "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
       "episode_count": 10,
       "total_episodes": 91,
@@ -1911,7 +2186,7 @@
       "runtime": 22,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 81.71,
+        "composite_score": 86.71,
         "imdb": {
           "rating": 8.171428571428573,
           "votes": 700885,
@@ -2025,9 +2300,9 @@
       "season_number": 1,
       "season_id": 471596,
       "air_date": "2026-05-15",
-      "age_days": 97,
+      "age_days": 98,
       "best_rank": null,
-      "description": "Yellowstone universe expands with heavy-hitting Western drama Western fans love.",
+      "description": "Taylor Sheridan's western universe expands with captivating family drama and rugged grit.",
       "overview": "Beth Dutton and Rip Wheeler are striking out on their own, and relocating for a new adventure. Their ward, Carter, is along for the ride, and – despite serious distractions – Beth and Rip work hard to ensure he becomes the man he’s meant to be. Just after the events of the Yellowstone series finale, follow Beth and Rip as they take on a 7,000-acre ranch in South Texas. Even with all of its beautiful landscapes and peaceful lifestyle, the pair run into hiccups trying to survive in the area, including a ruthless rival ranch run by a wealthy owner.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -2119,9 +2394,9 @@
       "season_number": 1,
       "season_id": 421523,
       "air_date": "2026-05-13",
-      "age_days": 99,
+      "age_days": 100,
       "best_rank": null,
-      "description": "Spicy college sports drama generating tons of buzz among romance fans.",
+      "description": "Spicy college romance and athletic drama that romance readers are devouring right now.",
       "overview": "The series depicts the elite ice hockey team, and the women in their lives, as they grapple with love, heartbreak, and self-discovery — forging deep friendships and enduring bonds while navigating the complexities that come with transitioning into adulthood.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2175,9 +2450,9 @@
       "season_number": 1,
       "season_id": 416679,
       "air_date": "2026-04-28",
-      "age_days": 114,
+      "age_days": 115,
       "best_rank": null,
-      "description": "Creepy horror-comedy hybrid that delivers sharp laughs and spooky vibes.",
+      "description": "A delightfully strange horror-comedy mix that brings dark humor and eerie small-town vibes.",
       "overview": "Widow's Bay is a quaint island town 40 miles off the coast of New England. But something lurks beneath the surface. Mayor Tom Loftis is desperate to revive his struggling community. There's no Wi-Fi, spotty cellular reception and he must contend with superstitious locals who believe their island is cursed. He wants these people to respect him. They don't. They think he is soft and cowardly. And he is. But Loftis is determined to build a better future for his teenage son and turn the island into a tourist destination. Miraculously, he succeeds: tourists are finally coming. Unfortunately, the locals were right. After decades of calm, the old stories that seemed too ludicrous to be true start happening again.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2254,9 +2529,9 @@
       "season_number": 1,
       "season_id": 445238,
       "air_date": "2026-05-14",
-      "age_days": 98,
+      "age_days": 99,
       "best_rank": null,
-      "description": "Dark, intrigue-filled crime drama delivering intense performances and suspense.",
+      "description": "Slick financial crime thriller filled with shadowy betrayals and high-stakes corporate intrigue.",
       "overview": "Sylvia van Maele, officier van justitie in Den Haag, bundelt haar krachten met Lars van de FIOD in de strijd tegen financiële misdaad: een schaduwwereld vol brievenbusfirma's, doodlopende paper trails en internationale belastingregels die gebogen en gebroken worden. Wanneer de grens tussen haar persoonlijke en professionele leven vervaagt, moet Sylvia op haar intuïtie vertrouwen om te overleven.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2328,94 +2603,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 285404,
-      "series_name": "Maximum Pleasure Guaranteed",
-      "series_imdb_id": "tt35946742",
-      "season_number": 1,
-      "season_id": 444447,
-      "air_date": "2026-05-19",
-      "age_days": 93,
-      "best_rank": null,
-      "description": "Witty Apple TV comedy-thriller making waves for its dark humor.",
-      "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder and youth soccer.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Comedy",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Tatiana Maslany",
-        "Jake Johnson",
-        "Dolly de Leon"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=WyJleaP-K48",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5GAmuwr4KqhviOb5p1GWyOuFK0P.jpg",
-      "tvdb_id": 460793,
-      "tvdb_season_id": 2174301,
-      "network": "Apple TV",
-      "runtime": 35,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 76.88,
-        "imdb": {
-          "rating": 7.6875,
-          "votes": 3403,
-          "season_rating": 7.6875
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=AU"
-        }
-      },
-      "poster_path": "/5GAmuwr4KqhviOb5p1GWyOuFK0P.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 4057,
       "series_name": "Criminal Minds",
       "series_imdb_id": "tt0452046",
       "season_number": 19,
       "season_id": 506824,
       "air_date": "2026-05-28",
-      "age_days": 84,
-      "best_rank": 30,
-      "description": "Procedural favorite keeps delivering intense cases for dedicated binge-watchers.",
+      "age_days": 85,
+      "best_rank": 31,
+      "description": "Procedural TV royalty keeps delivering comfort crime-solving with deep character chemistry.",
       "overview": "As the BAU investigates a string of chilling new cases, Elias Voit embarks on a path to atone for his past. His newfound infamy inadvertently awakens their most formidable nemesis yet, The Fan. Precise, calculating, and relentlessly dangerous, this UnSub pushes the BAU to the brink and back under the shadow of Elias Voit. But how far will The Fan go to prove his superiority over his idol?",
       "episode_count": 10,
       "total_episodes": 364,
@@ -2550,110 +2746,41 @@
       "backdrop_path": null
     },
     {
-      "series_id": 287620,
-      "series_name": "Stuart Fails to Save the Universe",
-      "series_imdb_id": "tt27497393",
+      "series_id": 285404,
+      "series_name": "Maximum Pleasure Guaranteed",
+      "series_imdb_id": "tt35946742",
       "season_number": 1,
-      "season_id": 448732,
-      "air_date": "2026-07-23",
-      "age_days": 28,
-      "best_rank": 22,
-      "description": "Fun sci-fi comedy adventure delivering lighthearted weekend laughs.",
-      "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we’ve come to know and love from The Big Bang Theory. As the title implies, things don’t go well.",
+      "season_id": 444447,
+      "air_date": "2026-05-19",
+      "age_days": 94,
+      "best_rank": null,
+      "description": "A unique comedic thriller offering dark laughs and unexpected twists for late-night viewing.",
+      "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder and youth soccer.",
       "episode_count": 10,
       "total_episodes": 10,
       "genres": [
-        "Science Fiction",
-        "Comedy"
-      ],
-      "top_actors": [
-        "Kevin Sussman",
-        "Lauren Lapkus",
-        "Brian Posehn"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=orv-w9ewCps",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
-      "tvdb_id": 465664,
-      "tvdb_season_id": 2195623,
-      "network": "HBO Max",
-      "runtime": 22,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 75.0,
-        "imdb": {
-          "rating": 7.0,
-          "votes": 2078,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=AU"
-        }
-      },
-      "poster_path": "/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 57532,
-      "series_name": "PAW Patrol",
-      "series_imdb_id": "tt3121722",
-      "season_number": 14,
-      "season_id": 530810,
-      "air_date": "2026-07-31",
-      "age_days": 20,
-      "best_rank": null,
-      "description": "Kid-approved animated adventure perfect for family watch-party nights.",
-      "overview": "The PAW Patrol is on a roll with adventures that take the pups from the prehistoric wilds of Dino Island to the rock-climbing heights of Rescue Mountain. Along the way, they’ll team up with new friends–from a speedy racing pooch to the legendary Abominable Snow Pup–proving that for this team, no job is too big, no pup is too small!",
-      "episode_count": null,
-      "total_episodes": 567,
-      "genres": [
-        "Family",
         "Comedy",
-        "Children",
-        "Animation",
-        "Adventure",
-        "Action"
+        "Thriller"
       ],
       "top_actors": [
-        "Majestie lewton ll"
+        "Tatiana Maslany",
+        "Jake Johnson",
+        "Dolly de Leon"
       ],
       "production_companies": [],
-      "trailer_url": null,
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
-      "tvdb_id": 272472,
-      "tvdb_season_id": null,
-      "network": "TVOkids",
-      "runtime": 12,
+      "trailer_url": "https://www.youtube.com/watch?v=WyJleaP-K48",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5GAmuwr4KqhviOb5p1GWyOuFK0P.jpg",
+      "tvdb_id": 460793,
+      "tvdb_season_id": 2174301,
+      "network": "Apple TV",
+      "runtime": 35,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 66.0,
+        "composite_score": 76.88,
         "imdb": {
-          "rating": 6.1,
-          "votes": 7795,
-          "season_rating": null
+          "rating": 7.6875,
+          "votes": 3403,
+          "season_rating": 7.6875
         }
       },
       "streaming_availability": {
@@ -2661,178 +2788,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              },
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              },
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/h5DcR0J2EESLitnhR8xLG1QymTE.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/mcbz1LgtErU9p4UdbZ0rG6RTWHX.jpg"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/57532-paw-patrol/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/285404-maximum-pleasure-guaranteed/watch?locale=AU"
         }
       },
-      "poster_path": "/8HXkgUBO5OF8ZK9XbY69RM4S5rv.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 224263,
-      "series_name": "Stranger Things: Tales from '85",
-      "series_imdb_id": "tt27486290",
-      "season_number": 1,
-      "season_id": 336593,
-      "air_date": "2026-04-23",
-      "age_days": 119,
-      "best_rank": null,
-      "description": "Spinoff animated entry for die-hard fans looking for quick Upside Down nostalgia.",
-      "overview": "In the winter of 1985, snow blankets the town and the horrors of the Upside Down are finally fading. Our heroes Eleven, Mike, Will, Dustin, Lucas, and Max have settled back into a normal life of D&D, snowball fights, and quiet days. But beneath the ice, something terrifying has awakened. Could it be from the Upside Down? From the depths of Hawkins Lab? Or from somewhere else entirely? Our heroes must race to solve this mystery and save Hawkins in this untold story set in the Stranger Things universe.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Drama",
-        "Animation",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Brooklyn Davey Norstedt",
-        "Jolie Hoang-Rappaport",
-        "Luca Diaz"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=kajCUhg36R0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2orq3F4a1prP3RnJjYSWzSjHYZQ.jpg",
-      "tvdb_id": 462906,
-      "tvdb_season_id": 2183483,
-      "network": "Netflix",
-      "runtime": 29,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 42.0,
-        "imdb": {
-          "rating": 4.199999999999999,
-          "votes": 6215,
-          "season_rating": 4.199999999999999
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=AU"
-        }
-      },
-      "poster_path": "/2orq3F4a1prP3RnJjYSWzSjHYZQ.jpg",
+      "poster_path": "/5GAmuwr4KqhviOb5p1GWyOuFK0P.jpg",
       "backdrop_path": null
     }
   ]
