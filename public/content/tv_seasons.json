@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:20:29.315847",
+  "generated_at": "2026-09-02T11:57:37.811219",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 1,
       "season_id": 165308,
       "air_date": "2026-08-16",
-      "age_days": 16,
-      "best_rank": 1,
-      "description": "The gritty HBO mystery everyone is debating on Reddit right now.",
+      "age_days": 17,
+      "best_rank": 2,
+      "description": "HBO's grounded DC mystery is dominating every TV feed and fan forum right now",
       "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -70,15 +70,216 @@
       "backdrop_path": null
     },
     {
+      "series_id": 100757,
+      "series_name": "Outer Banks",
+      "series_imdb_id": "tt10293938",
+      "season_number": 5,
+      "season_id": 462905,
+      "air_date": "2026-08-20",
+      "age_days": 13,
+      "best_rank": 25,
+      "description": "The explosive series finale just dropped and it's already #1 on Netflix worldwide",
+      "overview": "Season 5 finds the Pogues at their absolute breaking point following the tragic loss  in Morocco. Stranded far from home and mourning the heart of their crew, they’ve lost the Blue Crown and continue to face a gauntlet of familiar threats. With Chandler Groff still at large, Dalia and the Corsairs closing in, and the Kooks ensuring the Pogues have no home to return to, John B, Sarah, Kiara, Pope, and Cleo must rely on their scrappy instincts—and an uneasy alliance with Rafe—to keep from falling apart for good. Their mission is now a desperate race to reclaim their future and finally win the freedom they’ve been chasing since the beginning. It’s the Pogues against the world as they seek to avenge their best friend and bring it on home…one final time.",
+      "episode_count": 10,
+      "total_episodes": 50,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action",
+        "Thriller",
+        "Romance",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Chase Stokes",
+        "Madelyn Cline",
+        "Madison Bailey"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=ZP_-xfWQ6_U",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qlWuZV4TcZkryv7lh2srVl75jdy.jpg",
+      "tvdb_id": 379169,
+      "tvdb_season_id": 2154694,
+      "network": "Netflix",
+      "runtime": 51,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 90.0,
+        "imdb": {
+          "rating": 8.0,
+          "votes": 104906,
+          "season_rating": 8.0
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=AU"
+        }
+      },
+      "poster_path": "/qlWuZV4TcZkryv7lh2srVl75jdy.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 108978,
+      "series_name": "Reacher",
+      "series_imdb_id": "tt9288030",
+      "season_number": 4,
+      "season_id": 525713,
+      "air_date": "2026-08-12",
+      "age_days": 21,
+      "best_rank": 1,
+      "description": "Social media is fiercely debating Reacher's wild new NYC case—an absolute must-watch",
+      "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
+      "episode_count": 8,
+      "total_episodes": 32,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Alan Ritchson",
+        "Agnez Mo",
+        "Sydelle Noel"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=PCbp1FfipPg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "tvdb_id": 366924,
+      "tvdb_season_id": 2191495,
+      "network": "Prime Video",
+      "runtime": 48,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 100.0,
+        "imdb": {
+          "rating": 8.0,
+          "votes": 291841,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=AU"
+        }
+      },
+      "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 196322,
       "series_name": "Dark Matter",
       "series_imdb_id": "tt19231492",
       "season_number": 2,
       "season_id": 509488,
       "air_date": "2026-08-27",
-      "age_days": 5,
-      "best_rank": 4,
-      "description": "Mind-bending sci-fi at its finest — season two escalates the chaos immediately.",
+      "age_days": 6,
+      "best_rank": 6,
+      "description": "Mind-bending sci-fi back for Season 2—the freshest thriller on TV this weekend",
       "overview": "In season two, the Dessens settle into a quiet life in a world that finally seems safe, until the unimaginable forces them to run once again. As Jason's obsession with the Box deepens, Daniela's growing paranoia pushes her to the brink, threatening to tear their fragile stability apart. Elsewhere, Amanda and Ryan join forces in a desperate attempt to find their way home. With Blair determined to stop him, Leighton relentlessly chases his grand vision of creating a perfect world.",
       "episode_count": 13,
       "total_episodes": 19,
@@ -104,7 +305,7 @@
       "runtime": 45,
       "status": "Ended",
       "ratings": {
-        "composite_score": 100.0,
+        "composite_score": 96.0,
         "imdb": {
           "rating": 7.6,
           "votes": 70578,
@@ -115,6 +316,11 @@
         "US": {
           "services": {
             "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
+              },
               {
                 "provider_id": 350,
                 "provider_name": "Apple TV",
@@ -159,9 +365,9 @@
       "season_number": 3,
       "season_id": 536976,
       "air_date": "2026-08-30",
-      "age_days": 2,
-      "best_rank": 35,
-      "description": "Just dropped and delivering relentless, high-stakes Arctic thriller tension.",
+      "age_days": 3,
+      "best_rank": 39,
+      "description": "High-stakes BBC tension at its finest—just premiered and already turning heads",
       "overview": "Military investigator DCI Silva fights to uncover conspiracies of silence.",
       "episode_count": 6,
       "total_episodes": 18,
@@ -227,98 +433,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 100757,
-      "series_name": "Outer Banks",
-      "series_imdb_id": "tt10293938",
-      "season_number": 5,
-      "season_id": 462905,
-      "air_date": "2026-08-20",
-      "age_days": 12,
-      "best_rank": 15,
-      "description": "TikTok's obsessed with the final season — an emotional, action-packed victory lap.",
-      "overview": "Season 5 finds the Pogues at their absolute breaking point following the tragic loss  in Morocco. Stranded far from home and mourning the heart of their crew, they’ve lost the Blue Crown and continue to face a gauntlet of familiar threats. With Chandler Groff still at large, Dalia and the Corsairs closing in, and the Kooks ensuring the Pogues have no home to return to, John B, Sarah, Kiara, Pope, and Cleo must rely on their scrappy instincts—and an uneasy alliance with Rafe—to keep from falling apart for good. Their mission is now a desperate race to reclaim their future and finally win the freedom they’ve been chasing since the beginning. It’s the Pogues against the world as they seek to avenge their best friend and bring it on home…one final time.",
-      "episode_count": 10,
-      "total_episodes": 50,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action",
-        "Thriller",
-        "Romance",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Chase Stokes",
-        "Madelyn Cline",
-        "Madison Bailey"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=ZP_-xfWQ6_U",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qlWuZV4TcZkryv7lh2srVl75jdy.jpg",
-      "tvdb_id": 379169,
-      "tvdb_season_id": 2154694,
-      "network": "Netflix",
-      "runtime": 51,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 95.0,
-        "imdb": {
-          "rating": 8.0,
-          "votes": 104906,
-          "season_rating": 8.0
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/100757-outer-banks/watch?locale=AU"
-        }
-      },
-      "poster_path": "/qlWuZV4TcZkryv7lh2srVl75jdy.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 2710,
       "series_name": "It's Always Sunny in Philadelphia",
       "series_imdb_id": "tt0472954",
       "season_number": 18,
       "season_id": 530073,
       "air_date": "2026-08-17",
-      "age_days": 15,
+      "age_days": 16,
       "best_rank": null,
-      "description": "Eighteen seasons in and still TV's most fearlessly hilarious comedy.",
+      "description": "The Gang's record-breaking 18th season is sparking non-stop laugh-out-loud clips on TikTok",
       "overview": "Four egocentric friends who run a neighborhood Irish pub in Philadelphia try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
       "episode_count": 10,
       "total_episodes": 187,
@@ -429,292 +552,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 108978,
-      "series_name": "Reacher",
-      "series_imdb_id": "tt9288030",
-      "season_number": 4,
-      "season_id": 525713,
-      "air_date": "2026-08-12",
-      "age_days": 20,
-      "best_rank": 6,
-      "description": "Pure hard-hitting adrenaline that delivers exactly what action fans crave.",
-      "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
-      "episode_count": 8,
-      "total_episodes": 32,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Alan Ritchson",
-        "Agnez Mo",
-        "Sydelle Noel"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=PCbp1FfipPg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "tvdb_id": 366924,
-      "tvdb_season_id": 2191495,
-      "network": "Prime Video",
-      "runtime": 49,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 95.0,
-        "imdb": {
-          "rating": 8.0,
-          "votes": 291841,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/108978-reacher/watch?locale=AU"
-        }
-      },
-      "poster_path": "/f1VCQIG2iCyOookdgOzwtUpwWC0.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 207333,
-      "series_name": "One Hundred Years of Solitude",
-      "series_imdb_id": "tt9892936",
-      "season_number": 2,
-      "season_id": 519928,
-      "air_date": "2026-08-05",
-      "age_days": 27,
-      "best_rank": 20,
-      "description": "Visually magnificent storytelling — a breathtaking masterpiece you need to experience.",
-      "overview": "En el mítico pueblo de Macondo, siete generaciones de la familia Buendía se enfrentan a una maldición, al olvido y lo ineludible de su pasado… y de su destino.",
-      "episode_count": null,
-      "total_episodes": 16,
-      "genres": [
-        "Mini-Series",
-        "Fantasy",
-        "Drama"
-      ],
-      "top_actors": [
-        "Claudio Cataño",
-        "Susana Morales",
-        "Carla Baratta"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=IQrJPP9cEHQ",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/p4u0TN6VTlOsl2UN20UzBIdayi9.jpg",
-      "tvdb_id": 426288,
-      "tvdb_season_id": null,
-      "network": "Netflix",
-      "runtime": 67,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 100.0,
-        "imdb": {
-          "rating": 9.15,
-          "votes": 18967,
-          "season_rating": 9.15
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=AU"
-        }
-      },
-      "poster_path": "/p4u0TN6VTlOsl2UN20UzBIdayi9.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 298168,
-      "series_name": "The Shards",
-      "series_imdb_id": "tt27543562",
-      "season_number": 1,
-      "season_id": 469445,
-      "air_date": "2026-08-05",
-      "age_days": 27,
-      "best_rank": 39,
-      "description": "Dark, stylish FX thriller generating huge cult mystery buzz online.",
-      "overview": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
-      "episode_count": 9,
-      "total_episodes": 9,
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "top_actors": [
-        "Igby Rigney",
-        "Kaia Gerber",
-        "Homer Gere"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=O3S7aKk0ALw",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "tvdb_id": 450799,
-      "tvdb_season_id": 2130844,
-      "network": "FX",
-      "runtime": 49,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 75.5,
-        "imdb": {
-          "rating": 7.050000000000001,
-          "votes": 2287,
-          "season_rating": 7.050000000000001
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=AU"
-        }
-      },
-      "poster_path": "/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 97546,
       "series_name": "Ted Lasso",
       "series_imdb_id": "tt10986410",
       "season_number": 4,
       "season_id": 466392,
       "air_date": "2026-08-04",
-      "age_days": 28,
-      "best_rank": 11,
-      "description": "The feel-good phenomenon returns with heart, humor, and endless charm.",
+      "age_days": 29,
+      "best_rank": 5,
+      "description": "The heartwarming phenomenon returns—Emmy-caliber comfort watching for your weekend",
       "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
       "episode_count": 10,
       "total_episodes": 44,
@@ -737,7 +583,7 @@
       "runtime": 43,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 97.0,
+        "composite_score": 100.0,
         "imdb": {
           "rating": 8.7,
           "votes": 448773,
@@ -791,15 +637,276 @@
       "backdrop_path": null
     },
     {
+      "series_id": 207333,
+      "series_name": "One Hundred Years of Solitude",
+      "series_imdb_id": "tt9892936",
+      "season_number": 2,
+      "season_id": 519928,
+      "air_date": "2026-08-05",
+      "age_days": 28,
+      "best_rank": 24,
+      "description": "Stunning magical realism and breathtaking visuals make this mandatory streaming tonight",
+      "overview": "En el mítico pueblo de Macondo, siete generaciones de la familia Buendía se enfrentan a una maldición, al olvido y lo ineludible de su pasado… y de su destino.",
+      "episode_count": null,
+      "total_episodes": 16,
+      "genres": [
+        "Mini-Series",
+        "Fantasy",
+        "Drama"
+      ],
+      "top_actors": [
+        "Claudio Cataño",
+        "Susana Morales",
+        "Carla Baratta"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=IQrJPP9cEHQ",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/p4u0TN6VTlOsl2UN20UzBIdayi9.jpg",
+      "tvdb_id": 426288,
+      "tvdb_season_id": null,
+      "network": "Netflix",
+      "runtime": 67,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 96.5,
+        "imdb": {
+          "rating": 9.15,
+          "votes": 18967,
+          "season_rating": 9.15
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207333-cien-anos-de-soledad/watch?locale=AU"
+        }
+      },
+      "poster_path": "/p4u0TN6VTlOsl2UN20UzBIdayi9.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 94997,
+      "series_name": "House of the Dragon",
+      "series_imdb_id": "tt11198330",
+      "season_number": 3,
+      "season_id": 449260,
+      "air_date": "2026-06-21",
+      "age_days": 73,
+      "best_rank": 17,
+      "description": "The most divisive, talked-about finale of the summer—Reddit is still arguing about it",
+      "overview": "The Black and Green factions lock into an all-out, relentless struggle for the Iron Throne. As dragons and armies clash across the realm, Westeros witnesses the devastating consequences of total war.",
+      "episode_count": 8,
+      "total_episodes": 26,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Adventure",
+        "Action",
+        "War"
+      ],
+      "top_actors": [
+        "Matt Smith",
+        "Emma D'Arcy",
+        "Olivia Cooke"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=xZUavocHU2g",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
+      "tvdb_id": 371572,
+      "tvdb_season_id": 2247337,
+      "network": "HBO",
+      "runtime": 60,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 95.0,
+        "imdb": {
+          "rating": 9.0,
+          "votes": 543152,
+          "season_rating": 9.0
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 140,
+                "provider_name": "CosmoGo",
+                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=AU"
+        }
+      },
+      "poster_path": "/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 127716,
+      "series_name": "Trigger Point",
+      "series_imdb_id": "tt11958610",
+      "season_number": 4,
+      "season_id": 537772,
+      "air_date": "2026-08-30",
+      "age_days": 3,
+      "best_rank": 38,
+      "description": "Fresh off its broadcast, this intense pulse-pounding thrill ride demands an immediate binge",
+      "overview": "",
+      "episode_count": null,
+      "total_episodes": 24,
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "top_actors": [
+        "Vicky McClure"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=o5UW95E_vJI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/s8r6OVUxUYCc78CbI0Op9TUUMIy.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
+      "ratings": {
+        "composite_score": 87.0,
+        "imdb": {
+          "rating": 7.7,
+          "votes": 10564,
+          "season_rating": 7.7
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/drPlq5beqXtBaP7MNs8W616YRhm.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/127716-trigger-point/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/127716-trigger-point/watch?locale=AU"
+        }
+      },
+      "poster_path": "/s8r6OVUxUYCc78CbI0Op9TUUMIy.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 260458,
       "series_name": "Adults",
       "series_imdb_id": "tt33049767",
       "season_number": 2,
       "season_id": 482504,
       "air_date": "2026-08-27",
-      "age_days": 5,
-      "best_rank": 17,
-      "description": "Fresh new season packed with sharp, relatable comedy moments.",
+      "age_days": 6,
+      "best_rank": 12,
+      "description": "Quietly dropped this week with razor-sharp comedic timing you shouldn't sleep on",
       "overview": "In season 2, the housemates tackle a new set of real-world questions. What if the 20-year-old who inherited your fake ID is cooler than you ever were, and younger than you'll ever be again? How do you explain to your friends that you actually love your boring office job? Why does being around your family make you regress into your worst self? And how do you ask for things to change, when you also need everything to stay the same? Together, the friends weave intricate webs of multi-player strategy just to avoid hurting someone else's feelings. They invent elaborate workarounds for problems they're too afraid to face head-on. It's not so much that they keep learning the same lessons – it's that they keep finding new ways to make mistakes. But the one thing they consistently get right: showing up for each other.",
       "episode_count": null,
       "total_episodes": 17,
@@ -898,15 +1005,94 @@
       "backdrop_path": null
     },
     {
+      "series_id": 298168,
+      "series_name": "The Shards",
+      "series_imdb_id": "tt27543562",
+      "season_number": 1,
+      "season_id": 469445,
+      "air_date": "2026-08-05",
+      "age_days": 28,
+      "best_rank": 37,
+      "description": "FX's sleek neo-noir mystery is generating massive word-of-mouth buzz among thriller fans",
+      "overview": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
+      "episode_count": 9,
+      "total_episodes": 9,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "top_actors": [
+        "Igby Rigney",
+        "Kaia Gerber",
+        "Homer Gere"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=O3S7aKk0ALw",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "tvdb_id": 450799,
+      "tvdb_season_id": 2130844,
+      "network": "FX",
+      "runtime": 49,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 75.5,
+        "imdb": {
+          "rating": 7.050000000000001,
+          "votes": 2287,
+          "season_rating": 7.050000000000001
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/298168-the-shards/watch?locale=AU"
+        }
+      },
+      "poster_path": "/wP0GdqwVu2g1y3q1KzBXuSrdTvX.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 113962,
       "series_name": "Lioness",
       "series_imdb_id": "tt13111078",
       "season_number": 3,
       "season_id": 520890,
       "air_date": "2026-08-02",
-      "age_days": 30,
-      "best_rank": 7,
-      "description": "High-octane spy drama that keeps you on the edge of your seat.",
+      "age_days": 31,
+      "best_rank": 8,
+      "description": "Taylor Sheridan's espionage powerhouse delivers high-octane drama that fans are devouring",
       "overview": "In Season Three, hidden networks, foreign operatives, and personal betrayals collide. Joe walks the line between duty and home as unseen forces circle her world. Patterns appear where they shouldn't, names vanish, and paths rearrange. Guided by Kaitlyn and Westfield, Joe confronts enemies operating in the shadows, leaving her to reckon with a war that now reaches into every part of her life.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -929,7 +1115,7 @@
       "runtime": 48,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 93.0,
+        "composite_score": 90.0,
         "imdb": {
           "rating": 7.8,
           "votes": 83433,
@@ -1025,9 +1211,9 @@
       "season_number": 11,
       "season_id": 516338,
       "air_date": "2026-08-03",
-      "age_days": 29,
-      "best_rank": 8,
-      "description": "Classic animated sci-fi satire that still hits all the right notes.",
+      "age_days": 30,
+      "best_rank": 10,
+      "description": "Animation classic returns with sharp topical humor that's blowing up on Twitter",
       "overview": "Brace yourselves... The future is about to get a whole lot stranger! It's a non-stop onslaught of swaggering space pirates, lab-grown meats, sexy scams... plus the shocking return of Dr. Zoidberg's lost love! You didn't see that coming, prior to being told about it just now!",
       "episode_count": 10,
       "total_episodes": 164,
@@ -1136,143 +1322,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 194583,
-      "series_name": "The Walking Dead: Dead City",
-      "series_imdb_id": "tt18546730",
-      "season_number": 3,
-      "season_id": 516724,
-      "air_date": "2026-07-26",
-      "age_days": 37,
-      "best_rank": 22,
-      "description": "Gritty zombie survival action that fans are devouring this week.",
-      "overview": "In season three, Maggie and Negan finally put aside their differences to build the first thriving community in Manhattan since the apocalypse, but when chaos in the city begins to arise, they are forced to question: have they learned from their old wounds or will their dark past spell doom for the entire city?",
-      "episode_count": 8,
-      "total_episodes": 22,
-      "genres": [
-        "Horror",
-        "Drama",
-        "Adventure",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Lauren Cohan",
-        "Jeffrey Dean Morgan",
-        "Raúl Castillo"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=cctvSNDaaYs",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/seYokxOjFyTVX13XgD2FNjWIry8.jpg",
-      "tvdb_id": 417549,
-      "tvdb_season_id": 2250162,
-      "network": "AMC",
-      "runtime": 50,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 72.0,
-        "imdb": {
-          "rating": 7.0,
-          "votes": 33114,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/pbpMk2JmcoNnQwx5JGpXngfoWtp.jpg"
-              },
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/pvske1MyAoymrs5bguRfVqYiM9a.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/194583-the-walking-dead-dead-city/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 140,
-                "provider_name": "CosmoGo",
-                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/194583-the-walking-dead-dead-city/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/qR6FKvnPBx2O37FDg8PNM7efwF3.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/194583-the-walking-dead-dead-city/watch?locale=AU"
-        }
-      },
-      "poster_path": "/seYokxOjFyTVX13XgD2FNjWIry8.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 103516,
       "series_name": "Star Trek: Strange New Worlds",
       "series_imdb_id": "tt12327578",
       "season_number": 4,
       "season_id": 472809,
       "air_date": "2026-07-23",
-      "age_days": 40,
-      "best_rank": 29,
-      "description": "The best modern sci-fi adventure series continues its incredible run.",
+      "age_days": 41,
+      "best_rank": 26,
+      "description": "Star Trek at the absolute top of its game—sci-fi lovers are raving online",
       "overview": "In the fourth season, the crew of the U.S.S. Enterprise—led by Captain Christopher Pike—embarks on a series of thrilling and emotional adventures across the stars. As they journey to strange new worlds, they battle inner demons and external threats, encounter colorful new characters, reunite with familiar faces and confront terrifying aliens. Through it all, they strive to embrace a bright, hopeful future.",
       "episode_count": 10,
       "total_episodes": 40,
@@ -1395,9 +1453,9 @@
       "season_number": 1,
       "season_id": 448732,
       "air_date": "2026-07-23",
-      "age_days": 40,
-      "best_rank": 26,
-      "description": "A wildly funny new sci-fi comedy perfect for a quick binge.",
+      "age_days": 41,
+      "best_rank": 27,
+      "description": "Quirky sci-fi comedy fresh on HBO Max that hits all the right notes",
       "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1462,9 +1520,9 @@
       "season_number": 1,
       "season_id": 431609,
       "air_date": "2026-07-14",
-      "age_days": 49,
-      "best_rank": 16,
-      "description": "An addictive crime drama full of sharp turns and gritty suspense.",
+      "age_days": 50,
+      "best_rank": 20,
+      "description": "Gritty crime storytelling with killer performances—a hidden gem ready to be binged",
       "overview": "A reformed criminal is forced to confront her past and return to illicit activities for one final job, hoping to secure her freedom and leave her former life behind for good.",
       "episode_count": null,
       "total_episodes": 7,
@@ -1541,9 +1599,9 @@
       "season_number": 3,
       "season_id": 512220,
       "air_date": "2026-07-02",
-      "age_days": 61,
+      "age_days": 62,
       "best_rank": 3,
-      "description": "Riveting dystopian sci-fi that proves Apple TV dominates the genre.",
+      "description": "The dystopia deepens in an acclaimed third chapter sci-fi fans can't stop discussing",
       "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
       "episode_count": 10,
       "total_episodes": 30,
@@ -1620,9 +1678,9 @@
       "season_number": 1,
       "season_id": 393740,
       "air_date": "2026-07-01",
-      "age_days": 62,
+      "age_days": 63,
       "best_rank": null,
-      "description": "Charming and funny — the prequel series everyone is talking about.",
+      "description": "Fun, nostalgic origin story that's trending on Prime Video for good reason",
       "overview": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1675,9 +1733,9 @@
       "season_number": 1,
       "season_id": 464822,
       "air_date": "2026-06-26",
-      "age_days": 67,
+      "age_days": 68,
       "best_rank": null,
-      "description": "Unapologetically hilarious satirical comedy from top-tier comedic talent.",
+      "description": "Sharply satirical comedy that delivers irreverent laughs for a perfect weeknight watch",
       "overview": "",
       "episode_count": null,
       "total_episodes": 7,
@@ -1784,131 +1842,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 94997,
-      "series_name": "House of the Dragon",
-      "series_imdb_id": "tt11198330",
-      "season_number": 3,
-      "season_id": 449260,
-      "air_date": "2026-06-21",
-      "age_days": 72,
-      "best_rank": 18,
-      "description": "Epic fantasy spectacle with unmatched scale and intense political intrigue.",
-      "overview": "The Black and Green factions lock into an all-out, relentless struggle for the Iron Throne. As dragons and armies clash across the realm, Westeros witnesses the devastating consequences of total war.",
-      "episode_count": 8,
-      "total_episodes": 26,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Adventure",
-        "Action",
-        "War"
-      ],
-      "top_actors": [
-        "Matt Smith",
-        "Emma D'Arcy",
-        "Olivia Cooke"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=xZUavocHU2g",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
-      "tvdb_id": 371572,
-      "tvdb_season_id": 2247337,
-      "network": "HBO",
-      "runtime": 60,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 95.0,
-        "imdb": {
-          "rating": 9.0,
-          "votes": 543152,
-          "season_rating": 9.0
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/8z7rC8uIDaTM91X0ZfkRf04ydj2.jpg"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/oIXE9vJdkilIxCLAtlbtiqewgvn.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 140,
-                "provider_name": "CosmoGo",
-                "logo_path": "/4bIKO5tqPgko0135wL9GhMsb1wv.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/SPnB1qiCkYfirS2it3hZORwGVn.jpg"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/9B7l9ZSos54kFrZbliVExt2z9C9.jpg"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/94997-house-of-the-dragon/watch?locale=AU"
-        }
-      },
-      "poster_path": "/wSvDQN6tZR4VzDDZD3MUPIghVjC.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 278178,
       "series_name": "I Will Find You",
       "series_imdb_id": "tt34771210",
       "season_number": 1,
       "season_id": 430534,
       "air_date": "2026-06-18",
-      "age_days": 75,
+      "age_days": 76,
       "best_rank": null,
-      "description": "Fast-paced thriller mystery that makes for a perfect weekend binge.",
+      "description": "Netflix's fast-paced thriller mini-series is engineered for a seamless late-night binge",
       "overview": "An innocent father serves a life sentence for the murder of his own son. When he receives evidence that his son my still be alive, he is determined to break out of prison to discover the truth.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1986,9 +1928,9 @@
       "season_number": 17,
       "season_id": 480770,
       "air_date": "2026-06-11",
-      "age_days": 82,
-      "best_rank": 27,
-      "description": "Timeless animated nostalgia that continues to deliver reliable laughs.",
+      "age_days": 83,
+      "best_rank": 23,
+      "description": "Decades in and still serving up iconic meme fuel for social media",
       "overview": "Follow the aquatic adventures of a yellow sea sponge named SpongeBob who lives in a pineapple under the sea. When SpongeBob gets together with his friends in Bikini Bottom, there's always nautical nonsense to be found!",
       "episode_count": 26,
       "total_episodes": 659,
@@ -2129,9 +2071,9 @@
       "season_number": 1,
       "season_id": 429041,
       "air_date": "2026-06-04",
-      "age_days": 89,
+      "age_days": 90,
       "best_rank": null,
-      "description": "A chilling psychological thriller adaptation packed with intense performances.",
+      "description": "Apple TV's dark psychological series is generating tense debate across fan communities",
       "overview": "A storm is coming for two happily married attorneys when a notorious killer from their past gets out of prison.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2211,9 +2153,9 @@
       "season_number": 19,
       "season_id": 506824,
       "air_date": "2026-05-28",
-      "age_days": 96,
-      "best_rank": 25,
-      "description": "Long-running procedural comfort food that still delivers clever cases.",
+      "age_days": 97,
+      "best_rank": 21,
+      "description": "The procedural juggernaut proves it still has plenty of dark intrigue left",
       "overview": "As the BAU investigates a string of chilling new cases, Elias Voit embarks on a path to atone for his past. His newfound infamy inadvertently awakens their most formidable nemesis yet, The Fan. Precise, calculating, and relentlessly dangerous, this UnSub pushes the BAU to the brink and back under the shadow of Elias Voit. But how far will The Fan go to prove his superiority over his idol?",
       "episode_count": 10,
       "total_episodes": 364,
@@ -2354,9 +2296,9 @@
       "season_number": 1,
       "season_id": 328217,
       "air_date": "2026-05-25",
-      "age_days": 99,
+      "age_days": 100,
       "best_rank": null,
-      "description": "Stylish noir aesthetic meets gritty comic book detective storytelling.",
+      "description": "Nicolas Cage's stylish noir experiment remains a cult fan favorite online",
       "overview": "Private investigator Ben Reilly is hired on a couple of straightforward cases... until mobsters, monsters, and a mysterious femme fatale spin a web that brings him face to face with his former life as New York's only superhero: The Spider.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2411,9 +2353,9 @@
       "season_number": 9,
       "season_id": 498800,
       "air_date": "2026-05-24",
-      "age_days": 100,
-      "best_rank": 29,
-      "description": "Sci-fi comedy chaos that keeps finding fresh ways to surprise.",
+      "age_days": 101,
+      "best_rank": 27,
+      "description": "Multiverse chaos continues to fuel endless fan theories and Reddit breakdowns",
       "overview": "Season 9 is all certified bangers. No AI slop! Just Grade A organic slop, made by real humans with real human traits like back hair and cysts. Please watch, or we'll have neglected our families for nothing.",
       "episode_count": 10,
       "total_episodes": 91,
@@ -2551,9 +2493,9 @@
       "season_number": 1,
       "season_id": 444447,
       "air_date": "2026-05-19",
-      "age_days": 105,
+      "age_days": 106,
       "best_rank": null,
-      "description": "A quirky dark comedy thriller with a uniquely entertaining premise.",
+      "description": "Offbeat Apple comedy thriller that offers a breezy, delightfully weird evening binge",
       "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder and youth soccer.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -2630,9 +2572,9 @@
       "season_number": 1,
       "season_id": 471596,
       "air_date": "2026-05-15",
-      "age_days": 109,
+      "age_days": 110,
       "best_rank": null,
-      "description": "Western drama fans are loving this intense new ranching story.",
+      "description": "Yellowstone universe expands into another fierce, high-stakes Western drama worth catching",
       "overview": "Beth Dutton and Rip Wheeler are striking out on their own, and relocating for a new adventure. Their ward, Carter, is along for the ride, and – despite serious distractions – Beth and Rip work hard to ensure he becomes the man he’s meant to be. Just after the events of the Yellowstone series finale, follow Beth and Rip as they take on a 7,000-acre ranch in South Texas. Even with all of its beautiful landscapes and peaceful lifestyle, the pair run into hiccups trying to survive in the area, including a ruthless rival ranch run by a wealthy owner.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -2724,9 +2666,9 @@
       "season_number": 1,
       "season_id": 445238,
       "air_date": "2026-05-14",
-      "age_days": 110,
+      "age_days": 111,
       "best_rank": null,
-      "description": "Gripping crime thriller with tense pacing and strong lead performances.",
+      "description": "Sleek European thriller on Disney+ delivering intense crime mystery vibes",
       "overview": "Sylvia van Maele, officier van justitie in Den Haag, bundelt haar krachten met Lars van de FIOD in de strijd tegen financiële misdaad: een schaduwwereld vol brievenbusfirma's, doodlopende paper trails en internationale belastingregels die gebogen en gebroken worden. Wanneer de grens tussen haar persoonlijke en professionele leven vervaagt, moet Sylvia op haar intuïtie vertrouwen om te overleven.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2804,9 +2746,9 @@
       "season_number": 1,
       "season_id": 421523,
       "air_date": "2026-05-13",
-      "age_days": 111,
+      "age_days": 112,
       "best_rank": null,
-      "description": "Binge-worthy college sports drama loaded with romance and high drama.",
+      "description": "Steamy college drama that has romantic fiction fans obsessed on social media",
       "overview": "The series depicts the elite ice hockey team, and the women in their lives, as they grapple with love, heartbreak, and self-discovery — forging deep friendships and enduring bonds while navigating the complexities that come with transitioning into adulthood.",
       "episode_count": 8,
       "total_episodes": 8,
