@@ -1,7 +1,87 @@
 {
-  "generated_at": "2026-10-01T14:09:22.679768",
+  "generated_at": "2026-10-02T13:29:06.839259",
   "count": 30,
   "seasons": [
+    {
+      "series_id": 299939,
+      "series_name": "Monster: The Lizzie Borden Story",
+      "series_imdb_id": "",
+      "season_number": 1,
+      "season_id": 473542,
+      "air_date": "2026-09-17",
+      "age_days": 15,
+      "best_rank": 12,
+      "description": "The true-crime obsession taking over social media and sparking fierce debates right now.",
+      "overview": "When the repressed daughter of a wealthy New England family and her rebellious maid find themselves trapped in a house built on humiliation and cruelty, they escape into a fantasy of sex, power, and revenge. The gruesome unsolved murders that follow don't just shock the world — they give birth to an icon who refuses to live imprisoned in a cage, choosing instead to forge her own legend: shocking, monstrous, and gloriously free.",
+      "episode_count": 10,
+      "total_episodes": 8,
+      "genres": [
+        "Family",
+        "Crime",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Ella Beatty",
+        "Vicky Krieps",
+        "Sarah Paulson"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=gYTzF1vna40",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+      "tvdb_id": 389492,
+      "tvdb_season_id": 1871391,
+      "network": "Netflix",
+      "runtime": 52,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": null,
+          "votes": null,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/299939-monster-the-lizzie-borden-story/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/299939-monster-the-lizzie-borden-story/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/299939-monster-the-lizzie-borden-story/watch?locale=AU"
+        }
+      },
+      "poster_path": "/57XScX1aYtKi1LvHYFQLPUxVhTG.jpg",
+      "backdrop_path": null
+    },
     {
       "series_id": 1413,
       "series_name": "American Horror Story",
@@ -9,9 +89,9 @@
       "season_number": 13,
       "season_id": 528425,
       "air_date": "2026-09-24",
-      "age_days": 7,
+      "age_days": 8,
       "best_rank": 6,
-      "description": "The all-star horror reunion sparking wild fan theories across the internet",
+      "description": "Fresh, twisted, and unapologetically campy — horror fans are buzzing all over Twitter.",
       "overview": "Follows Ben DeSoto, a hospice caretaker suffering from triskaidekaphobia, who takes a strange job at The Apollyon, an eerie residential building inhabited by characters from seasons past.",
       "episode_count": 13,
       "total_episodes": 145,
@@ -134,15 +214,82 @@
       "backdrop_path": null
     },
     {
+      "series_id": 95350,
+      "series_name": "Lanterns",
+      "series_imdb_id": "tt26545992",
+      "season_number": 1,
+      "season_id": 165308,
+      "air_date": "2026-08-16",
+      "age_days": 47,
+      "best_rank": 1,
+      "description": "Prestige HBO detective thriller at its absolute best — stunning, gritty, and unmissable.",
+      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Science Fiction",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "tvdb_id": 376098,
+      "tvdb_season_id": 2005527,
+      "network": "HBO",
+      "runtime": 53,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 100.0,
+        "imdb": {
+          "rating": 8.4,
+          "votes": 4880,
+          "season_rating": 8.4
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
+        }
+      },
+      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 95480,
       "series_name": "Slow Horses",
       "series_imdb_id": "tt5875444",
       "season_number": 6,
       "season_id": 521992,
       "air_date": "2026-09-16",
-      "age_days": 15,
-      "best_rank": 12,
-      "description": "Gary Oldman is back and better than ever in TV's slickest spy thriller",
+      "age_days": 16,
+      "best_rank": 17,
+      "description": "Gary Oldman leads TV's sharpest, most gripping spy thriller — pure binge-worthy brilliance.",
       "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
       "episode_count": 6,
       "total_episodes": 36,
@@ -213,82 +360,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 95350,
-      "series_name": "Lanterns",
-      "series_imdb_id": "tt26545992",
-      "season_number": 1,
-      "season_id": 165308,
-      "air_date": "2026-08-16",
-      "age_days": 46,
-      "best_rank": 1,
-      "description": "HBO's gritty sci-fi detective noir is the prestige event of the season",
-      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Science Fiction",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Kyle Chandler",
-        "Aaron Pierre",
-        "Kelly Macdonald"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
-      "tvdb_id": 376098,
-      "tvdb_season_id": 2005527,
-      "network": "HBO",
-      "runtime": 53,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 100.0,
-        "imdb": {
-          "rating": 8.4,
-          "votes": 4880,
-          "season_rating": 8.4
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
-        }
-      },
-      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 247718,
       "series_name": "MobLand",
       "series_imdb_id": "tt31510819",
       "season_number": 2,
       "season_id": 528409,
       "air_date": "2026-09-18",
-      "age_days": 13,
+      "age_days": 14,
       "best_rank": 3,
-      "description": "Tom Hardy and Helen Mirren bring ruthless crime drama at its most intense",
+      "description": "Hard-hitting crime drama firing on all cylinders with relentless, pulse-pounding intensity.",
       "overview": "In the second season, the Harrigans struggle to show a unified front as rising rivals threaten their fractured criminal empire – and Harry Da Souza, their street-smart and formidable 'fixer', must walk a dangerous tightrope when tensions within the family intensify. As violence spills into every corner of their lives, loyalties snap, safety proves temporary, and the battle for power leaves no room for mercy.",
       "episode_count": 10,
       "total_episodes": 20,
@@ -403,58 +483,46 @@
       "backdrop_path": null
     },
     {
-      "series_id": 295778,
-      "series_name": "Scrubs",
-      "series_imdb_id": "tt40197357",
-      "season_number": 2,
-      "season_id": 514230,
-      "air_date": "2026-09-30",
-      "age_days": 1,
-      "best_rank": 30,
-      "description": "The nostalgic hospital comedy revival fans are already binging this week",
-      "overview": "Scrubs focuses on the lives of several people working at Sacred Heart, a teaching hospital. It features fast-paced dialogue, slapstick, and surreal vignettes presented mostly as the daydreams of the central character, Dr. John Michael \"J.D.\" Dorian.",
-      "episode_count": 22,
-      "total_episodes": 15,
+      "series_id": 2190,
+      "series_name": "South Park",
+      "series_imdb_id": "tt0121955",
+      "season_number": 29,
+      "season_id": 517335,
+      "air_date": "2026-09-16",
+      "age_days": 16,
+      "best_rank": 11,
+      "description": "Ruthless satire at its peak — every episode goes viral within minutes.",
+      "overview": "South Park is an animated series featuring four boys who live in the Colorado town of South Park, which is beset by frequent odd occurrences. The show grew out of a short film that Trey Parker and Matt Stone created called The Spirit of Christmas, and has become an award-winning show that is a unique blend of humor and satire.",
+      "episode_count": 6,
+      "total_episodes": 337,
       "genres": [
-        "Drama",
-        "Comedy"
+        "Comedy",
+        "Animation"
       ],
       "top_actors": [
-        "Zach Braff",
-        "Donald Faison",
-        "Sarah Chalke"
+        "Trey Parker",
+        "Matt Stone",
+        "Mona Marshall"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=PYvHf75iiRw",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
-      "tvdb_id": 76156,
-      "tvdb_season_id": 9773,
-      "network": "NBC",
-      "runtime": 25,
-      "status": "Ended",
+      "trailer_url": "https://www.youtube.com/watch?v=1OSXglZg-6E",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
+      "tvdb_id": 75897,
+      "tvdb_season_id": 2250900,
+      "network": "Comedy Central",
+      "runtime": 22,
+      "status": "Continuing",
       "ratings": {
-        "composite_score": 94.0,
+        "composite_score": 97.0,
         "imdb": {
-          "rating": 8.4,
-          "votes": 6705,
+          "rating": 8.7,
+          "votes": 441099,
           "season_rating": null
         }
       },
       "streaming_availability": {
         "US": {
           "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              },
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ],
             "buy": [
               {
                 "provider_id": 10,
@@ -467,21 +535,26 @@
                 "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
               },
               {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
                 "provider_id": 7,
                 "provider_name": "Fandango At Home",
                 "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
               }
             ],
             "buy": [
@@ -492,22 +565,34 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=AU"
         }
       },
-      "poster_path": "/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
+      "poster_path": "/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
       "backdrop_path": null
     },
     {
@@ -517,9 +602,9 @@
       "season_number": 38,
       "season_id": 529943,
       "air_date": "2026-09-27",
-      "age_days": 4,
-      "best_rank": 17,
-      "description": "Television's longest-running animated family kicks off another hilarious season",
+      "age_days": 5,
+      "best_rank": 18,
+      "description": "Fresh off its premiere and proving the iconic animated family still has bite.",
       "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
       "episode_count": 5,
       "total_episodes": 806,
@@ -636,128 +721,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 2190,
-      "series_name": "South Park",
-      "series_imdb_id": "tt0121955",
-      "season_number": 29,
-      "season_id": 517335,
-      "air_date": "2026-09-16",
-      "age_days": 15,
-      "best_rank": 22,
-      "description": "Sharply satirical, outrageously funny, and causing pure chaos online right now",
-      "overview": "South Park is an animated series featuring four boys who live in the Colorado town of South Park, which is beset by frequent odd occurrences. The show grew out of a short film that Trey Parker and Matt Stone created called The Spirit of Christmas, and has become an award-winning show that is a unique blend of humor and satire.",
-      "episode_count": 6,
-      "total_episodes": 337,
-      "genres": [
-        "Comedy",
-        "Animation"
-      ],
-      "top_actors": [
-        "Trey Parker",
-        "Matt Stone",
-        "Mona Marshall"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=1OSXglZg-6E",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
-      "tvdb_id": 75897,
-      "tvdb_season_id": 2250900,
-      "network": "Comedy Central",
-      "runtime": 22,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 92.0,
-        "imdb": {
-          "rating": 8.7,
-          "votes": 441099,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/2190-south-park/watch?locale=AU"
-        }
-      },
-      "poster_path": "/k7n2EVge7G77eMr3brztRGG1fFU.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 108978,
       "series_name": "Reacher",
       "series_imdb_id": "tt9288030",
       "season_number": 4,
       "season_id": 525713,
       "air_date": "2026-08-12",
-      "age_days": 50,
-      "best_rank": 5,
-      "description": "Non-stop adrenaline and heavyweight action that commands your full attention tonight",
+      "age_days": 51,
+      "best_rank": 3,
+      "description": "Adrenaline-fueled action perfection — Alan Ritchson delivers exactly what fans crave tonight.",
       "overview": "Based on \"Gone Tomorrow,\" when a chance encounter with a distraught stranger on a subway goes horribly wrong, Jack Reacher is drawn into a complex and deadly game that pits him against ruthless foes from the highest echelons of power.",
       "episode_count": 8,
       "total_episodes": 32,
@@ -867,15 +839,95 @@
       "backdrop_path": null
     },
     {
+      "series_id": 97546,
+      "series_name": "Ted Lasso",
+      "series_imdb_id": "tt10986410",
+      "season_number": 4,
+      "season_id": 466392,
+      "air_date": "2026-08-04",
+      "age_days": 59,
+      "best_rank": 14,
+      "description": "The heartwarming cultural phenomenon returns to bring pure joy back to your screen.",
+      "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
+      "episode_count": 10,
+      "total_episodes": 44,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Sport"
+      ],
+      "top_actors": [
+        "Jason Sudeikis",
+        "Hannah Waddingham",
+        "Jeremy Swift"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=Kk1KdTMhFs8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "tvdb_id": 383203,
+      "tvdb_season_id": 2247557,
+      "network": "Apple TV",
+      "runtime": 43,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 84.5,
+        "imdb": {
+          "rating": 7.75,
+          "votes": 464037,
+          "season_rating": 7.75
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=AU"
+        }
+      },
+      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 2710,
       "series_name": "It's Always Sunny in Philadelphia",
       "series_imdb_id": "tt0472954",
       "season_number": 18,
       "season_id": 530073,
       "air_date": "2026-08-17",
-      "age_days": 45,
+      "age_days": 46,
       "best_rank": null,
-      "description": "The gang is back with more unhinged, chaotic comedy gold",
+      "description": "Pure unhinged comedic chaos — the gang is back and sharper than ever.",
       "overview": "Four egocentric friends who run a neighborhood Irish pub in Philadelphia try to find their way through the adult world of work and relationships. Unfortunately, their warped views and precarious judgments often lead them to trouble, creating a myriad of uncomfortable situations that usually only get worse before they get better.",
       "episode_count": 10,
       "total_episodes": 187,
@@ -986,15 +1038,123 @@
       "backdrop_path": null
     },
     {
+      "series_id": 295778,
+      "series_name": "Scrubs",
+      "series_imdb_id": "tt40197357",
+      "season_number": 2,
+      "season_id": 514230,
+      "air_date": "2026-09-30",
+      "age_days": 2,
+      "best_rank": 27,
+      "description": "Just dropped this week — heartwarming hospital laughs to lift your mood instantly.",
+      "overview": "Scrubs focuses on the lives of several people working at Sacred Heart, a teaching hospital. It features fast-paced dialogue, slapstick, and surreal vignettes presented mostly as the daydreams of the central character, Dr. John Michael \"J.D.\" Dorian.",
+      "episode_count": 22,
+      "total_episodes": 15,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Zach Braff",
+        "Donald Faison",
+        "Sarah Chalke"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=PYvHf75iiRw",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
+      "tvdb_id": 76156,
+      "tvdb_season_id": 9773,
+      "network": "NBC",
+      "runtime": 25,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 94.0,
+        "imdb": {
+          "rating": 8.4,
+          "votes": 6705,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/295778-scrubs/watch?locale=AU"
+        }
+      },
+      "poster_path": "/l1EzNg0WMaoAu7oPa2oMXLizc4W.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 113962,
       "series_name": "Lioness",
       "series_imdb_id": "tt13111078",
       "season_number": 3,
       "season_id": 520890,
       "air_date": "2026-08-02",
-      "age_days": 60,
-      "best_rank": 20,
-      "description": "High-stakes espionage and gripping tactical action that keeps you hooked throughout",
+      "age_days": 61,
+      "best_rank": 17,
+      "description": "High-stakes tactical espionage packed with heart-racing tension and relentless suspense.",
       "overview": "In Season Three, hidden networks, foreign operatives, and personal betrayals collide. Joe walks the line between duty and home as unseen forces circle her world. Patterns appear where they shouldn't, names vanish, and paths rearrange. Guided by Kaitlyn and Westfield, Joe confronts enemies operating in the shadows, leaving her to reckon with a war that now reaches into every part of her life.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -1017,7 +1177,7 @@
       "runtime": 49,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 91.17,
+        "composite_score": 89.17,
         "imdb": {
           "rating": 8.416666666666666,
           "votes": 96616,
@@ -1100,220 +1260,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 97546,
-      "series_name": "Ted Lasso",
-      "series_imdb_id": "tt10986410",
-      "season_number": 4,
-      "season_id": 466392,
-      "air_date": "2026-08-04",
-      "age_days": 58,
-      "best_rank": 13,
-      "description": "Heartfelt, uplifting comedy that remains the ultimate comfort watch on streaming",
-      "overview": "In season four, Ted returns to Richmond, taking on his biggest challenge yet: coaching a second division women's football team. Throughout the course of the season, Ted and the team learn to leap before they look, taking chances they never thought they would.",
-      "episode_count": 10,
-      "total_episodes": 44,
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Sport"
-      ],
-      "top_actors": [
-        "Jason Sudeikis",
-        "Hannah Waddingham",
-        "Jeremy Swift"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=Kk1KdTMhFs8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "tvdb_id": 383203,
-      "tvdb_season_id": 2247557,
-      "network": "Apple TV",
-      "runtime": 43,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 84.5,
-        "imdb": {
-          "rating": 7.75,
-          "votes": 464037,
-          "season_rating": 7.75
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/97546-ted-lasso/watch?locale=AU"
-        }
-      },
-      "poster_path": "/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 103516,
-      "series_name": "Star Trek: Strange New Worlds",
-      "series_imdb_id": "tt12327578",
-      "season_number": 4,
-      "season_id": 472809,
-      "air_date": "2026-07-23",
-      "age_days": 70,
-      "best_rank": 32,
-      "description": "Bold, cinematic sci-fi storytelling that franchise fans are passionately celebrating",
-      "overview": "In the fourth season, the crew of the U.S.S. Enterprise—led by Captain Christopher Pike—embarks on a series of thrilling and emotional adventures across the stars. As they journey to strange new worlds, they battle inner demons and external threats, encounter colorful new characters, reunite with familiar faces and confront terrifying aliens. Through it all, they strive to embrace a bright, hopeful future.",
-      "episode_count": 10,
-      "total_episodes": 40,
-      "genres": [
-        "Science Fiction",
-        "Drama",
-        "Adventure",
-        "Action"
-      ],
-      "top_actors": [
-        "Anson Mount",
-        "Ethan Peck",
-        "Jess Bush"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=85nfSzEho68",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fW8uT1hiZPpd5k8tryEyOclkW1p.jpg",
-      "tvdb_id": 382389,
-      "tvdb_season_id": 2247054,
-      "network": "Paramount+",
-      "runtime": 53,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 82.0,
-        "imdb": {
-          "rating": 8.2,
-          "votes": 78692,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103516-star-trek-strange-new-worlds/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103516-star-trek-strange-new-worlds/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103516-star-trek-strange-new-worlds/watch?locale=AU"
-        }
-      },
-      "poster_path": "/fW8uT1hiZPpd5k8tryEyOclkW1p.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 196322,
       "series_name": "Dark Matter",
       "series_imdb_id": "tt19231492",
       "season_number": 2,
       "season_id": 509488,
       "air_date": "2026-08-27",
-      "age_days": 35,
-      "best_rank": 36,
-      "description": "Mind-bending reality twists that will have your brain working in overdrive",
+      "age_days": 36,
+      "best_rank": 23,
+      "description": "Mind-bending sci-fi keeping Reddit theorizing late into the night — binge it now.",
       "overview": "In season two, the Dessens settle into a quiet life in a world that finally seems safe, until the unimaginable forces them to run once again. As Jason's obsession with the Box deepens, Daniela's growing paranoia pushes her to the brink, threatening to tear their fragile stability apart. Elsewhere, Amanda and Ryan join forces in a desperate attempt to find their way home. With Blair determined to stop him, Leighton relentlessly chases his grand vision of creating a perfect world.",
       "episode_count": 13,
       "total_episodes": 19,
@@ -1393,15 +1348,97 @@
       "backdrop_path": null
     },
     {
+      "series_id": 224263,
+      "series_name": "Stranger Things: Tales from '85",
+      "series_imdb_id": "tt27486290",
+      "season_number": 2,
+      "season_id": 513565,
+      "air_date": "2026-09-17",
+      "age_days": 15,
+      "best_rank": null,
+      "description": "Fun retro Hawkins adventure delivering nostalgic thrills in bite-sized animated doses.",
+      "overview": "With Valentine's Day on the way, the gang must uncover the truth behind ghostly apparitions and a swarm of strange creatures causing chaos around town.",
+      "episode_count": 8,
+      "total_episodes": 18,
+      "genres": [
+        "Science Fiction",
+        "Horror",
+        "Drama",
+        "Animation",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Brooklyn Davey Norstedt",
+        "Jolie Hoang-Rappaport",
+        "Luca Diaz"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=VNW5dSRPg0Q",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lvuUptiocARMbrh2jOol8PVd9f4.jpg",
+      "tvdb_id": 462906,
+      "tvdb_season_id": 2264718,
+      "network": "Netflix",
+      "runtime": 29,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 63.0,
+        "imdb": {
+          "rating": 5.8,
+          "votes": 6215,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=AU"
+        }
+      },
+      "poster_path": "/lvuUptiocARMbrh2jOol8PVd9f4.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 298168,
       "series_name": "The Shards",
       "series_imdb_id": "tt27543562",
       "season_number": 1,
       "season_id": 469445,
       "air_date": "2026-08-05",
-      "age_days": 57,
+      "age_days": 58,
       "best_rank": null,
-      "description": "Stylish, dark neo-noir thriller dripping with tension and 1980s atmosphere",
+      "description": "Dark, sleek, and stylish FX noir that oozes mystery and vintage tension.",
       "overview": "The Shards is part teenage coming of age, erotic thriller and exploration of the untamed and mysterious era of Los Angeles 1981, tracking a group of privileged high school friends as a serial killer strikes across the city.",
       "episode_count": 9,
       "total_episodes": 9,
@@ -1472,176 +1509,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 224263,
-      "series_name": "Stranger Things: Tales from '85",
-      "series_imdb_id": "tt27486290",
-      "season_number": 2,
-      "season_id": 513565,
-      "air_date": "2026-09-17",
-      "age_days": 14,
-      "best_rank": null,
-      "description": "An animated horror detour that franchise superfans are debating right now",
-      "overview": "With Valentine's Day on the way, the gang must uncover the truth behind ghostly apparitions and a swarm of strange creatures causing chaos around town.",
-      "episode_count": 8,
-      "total_episodes": 18,
-      "genres": [
-        "Science Fiction",
-        "Horror",
-        "Drama",
-        "Animation",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Brooklyn Davey Norstedt",
-        "Jolie Hoang-Rappaport",
-        "Luca Diaz"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=VNW5dSRPg0Q",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/lvuUptiocARMbrh2jOol8PVd9f4.jpg",
-      "tvdb_id": 462906,
-      "tvdb_season_id": 2264718,
-      "network": "Netflix",
-      "runtime": 29,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 68.0,
-        "imdb": {
-          "rating": 5.8,
-          "votes": 6215,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/224263-stranger-things-tales-from-85/watch?locale=AU"
-        }
-      },
-      "poster_path": "/lvuUptiocARMbrh2jOol8PVd9f4.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 125988,
-      "series_name": "Silo",
-      "series_imdb_id": "tt14688458",
-      "season_number": 3,
-      "season_id": 512220,
-      "air_date": "2026-07-02",
-      "age_days": 91,
-      "best_rank": 29,
-      "description": "Riveting dystopian mystery that delivers breathtaking tension inside the bunker",
-      "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
-      "episode_count": 10,
-      "total_episodes": 31,
-      "genres": [
-        "Science Fiction",
-        "Drama"
-      ],
-      "top_actors": [
-        "Rebecca Ferguson",
-        "Common",
-        "Chinaza Uche"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=BLBvbMtjyAQ",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
-      "tvdb_id": 403245,
-      "tvdb_season_id": 2246297,
-      "network": "Apple TV",
-      "runtime": 51,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 73.0,
-        "imdb": {
-          "rating": 7.3,
-          "votes": 218324,
-          "season_rating": 7.3
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=AU"
-        }
-      },
-      "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 615,
       "series_name": "Futurama",
       "series_imdb_id": "tt0149460",
       "season_number": 11,
       "season_id": 516338,
       "air_date": "2026-08-03",
-      "age_days": 59,
-      "best_rank": 16,
-      "description": "Futuristic animated hilarity that proves the classic comedy still packs punch",
+      "age_days": 60,
+      "best_rank": 4,
+      "description": "Beloved sci-fi comedy comfort food packed with clever gags and cosmic adventures.",
       "overview": "Brace yourselves... The future is about to get a whole lot stranger! It's a non-stop onslaught of swaggering space pirates, lab-grown meats, sexy scams... plus the shocking return of Dr. Zoidberg's lost love! You didn't see that coming, prior to being told about it just now!",
       "episode_count": 10,
       "total_episodes": 164,
@@ -1665,7 +1541,7 @@
       "runtime": 23,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 75.1,
+        "composite_score": 85.1,
         "imdb": {
           "rating": 6.81,
           "votes": 278626,
@@ -1750,41 +1626,41 @@
       "backdrop_path": null
     },
     {
-      "series_id": 254420,
-      "series_name": "Elle",
-      "series_imdb_id": "tt32020831",
-      "season_number": 1,
-      "season_id": 393740,
-      "air_date": "2026-07-01",
+      "series_id": 125988,
+      "series_name": "Silo",
+      "series_imdb_id": "tt14688458",
+      "season_number": 3,
+      "season_id": 512220,
+      "air_date": "2026-07-02",
       "age_days": 92,
-      "best_rank": null,
-      "description": "A sharp and breezy comedy prequel that breathes fresh life into an icon",
-      "overview": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
-      "episode_count": 8,
-      "total_episodes": 8,
+      "best_rank": 25,
+      "description": "Masterful dystopian storytelling that rewards patient viewers with grand, chilling ambition.",
+      "overview": "Season three reveals an origin story set centuries earlier, while continuing the saga of a dystopian society of 10,000 people living underground under mysterious circumstances. In the present, Juliette Nichols survives her forced \"cleaning\" but returns with memory loss as the silo recovers from rebellion and faces a dangerous new threat. Meanwhile, in the \"Before Times,\" journalist Helen Drew and Congressman Daniel Keene uncover a conspiracy that pulls them into a chain of events with catastrophic, irreversible consequences.",
+      "episode_count": 10,
+      "total_episodes": 31,
       "genres": [
-        "Drama",
-        "Comedy"
+        "Science Fiction",
+        "Drama"
       ],
       "top_actors": [
-        "Lexi Minetree",
-        "June Diane Raphael",
-        "Tom Everett Scott"
+        "Rebecca Ferguson",
+        "Common",
+        "Chinaza Uche"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=6KsT3K5ynrU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dpH7Lyrs7z7MlTGgfeibryGnWAv.jpg",
-      "tvdb_id": 450048,
-      "tvdb_season_id": 2127768,
-      "network": "Prime Video",
-      "runtime": 49,
+      "trailer_url": "https://www.youtube.com/watch?v=BLBvbMtjyAQ",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
+      "tvdb_id": 403245,
+      "tvdb_season_id": 2246297,
+      "network": "Apple TV",
+      "runtime": 51,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 75.75,
+        "composite_score": 73.0,
         "imdb": {
-          "rating": 7.575,
-          "votes": 2692,
-          "season_rating": 7.575
+          "rating": 7.3,
+          "votes": 218324,
+          "season_rating": 7.3
         }
       },
       "streaming_availability": {
@@ -1792,16 +1668,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/254420-elle/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/125988-silo/watch?locale=AU"
         }
       },
-      "poster_path": "/dpH7Lyrs7z7MlTGgfeibryGnWAv.jpg",
+      "poster_path": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
       "backdrop_path": null
     },
     {
@@ -1811,9 +1711,9 @@
       "season_number": 1,
       "season_id": 429041,
       "air_date": "2026-06-04",
-      "age_days": 119,
+      "age_days": 120,
       "best_rank": null,
-      "description": "Psychological suspense at its peak — tense, chilling, and wonderfully acted",
+      "description": "Star-studded psychological suspense dripping with ominous atmosphere and intense performances.",
       "overview": "A storm is coming for two happily married attorneys when a notorious killer from their past gets out of prison.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -1887,15 +1787,82 @@
       "backdrop_path": null
     },
     {
+      "series_id": 287620,
+      "series_name": "Stuart Fails to Save the Universe",
+      "series_imdb_id": "tt27497393",
+      "season_number": 1,
+      "season_id": 448732,
+      "air_date": "2026-07-23",
+      "age_days": 71,
+      "best_rank": 31,
+      "description": "Fast, quirky cosmic comedy that delivers quick laughs and delightful eccentric energy.",
+      "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Science Fiction",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Kevin Sussman",
+        "Lauren Lapkus",
+        "Brian Posehn"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=orv-w9ewCps",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
+      "tvdb_id": 465664,
+      "tvdb_season_id": 2195623,
+      "network": "HBO Max",
+      "runtime": 20,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 71.0,
+        "imdb": {
+          "rating": 7.1,
+          "votes": 8259,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=US"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=AU"
+        }
+      },
+      "poster_path": "/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 278178,
       "series_name": "I Will Find You",
       "series_imdb_id": "tt34771210",
       "season_number": 1,
       "season_id": 430534,
       "air_date": "2026-06-18",
-      "age_days": 105,
+      "age_days": 106,
       "best_rank": null,
-      "description": "A rapid-fire Harlan Coben mystery made for a gripping weekend binge",
+      "description": "Gripping mystery adaptation packed with rapid-fire cliffhangers designed for a weekend binge.",
       "overview": "An innocent father serves a life sentence for the murder of his own son. When he receives evidence that his son my still be alive, he is determined to break out of prison to discover the truth.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -1967,15 +1934,70 @@
       "backdrop_path": null
     },
     {
+      "series_id": 254420,
+      "series_name": "Elle",
+      "series_imdb_id": "tt32020831",
+      "season_number": 1,
+      "season_id": 393740,
+      "air_date": "2026-07-01",
+      "age_days": 93,
+      "best_rank": null,
+      "description": "Charming, vibrant prequel energy that brings breezy escapist fun to your evening.",
+      "overview": "Before Elle Woods was a fish-out-of-water at Harvard, we meet her in 1995 in the tumultuous waters of high school where she encounters tricky friendships, forbidden romance, and questionable fashion choices. In this unexpected chapter of her adolescence, we learn about the experiences that shaped Elle into the iconic young woman we've come to know and love.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "top_actors": [
+        "Lexi Minetree",
+        "June Diane Raphael",
+        "Tom Everett Scott"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=6KsT3K5ynrU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dpH7Lyrs7z7MlTGgfeibryGnWAv.jpg",
+      "tvdb_id": 450048,
+      "tvdb_season_id": 2127768,
+      "network": "Prime Video",
+      "runtime": 49,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 75.75,
+        "imdb": {
+          "rating": 7.575,
+          "votes": 2692,
+          "season_rating": 7.575
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/254420-elle/watch?locale=US"
+        }
+      },
+      "poster_path": "/dpH7Lyrs7z7MlTGgfeibryGnWAv.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 283304,
       "series_name": "Little House on the Prairie",
       "series_imdb_id": "tt2431250",
       "season_number": 1,
       "season_id": 440318,
       "air_date": "2026-07-09",
-      "age_days": 84,
+      "age_days": 85,
       "best_rank": null,
-      "description": "A warm, wholesome period drama perfect for family viewing tonight",
+      "description": "Wholesome period drama reimagined with heartfelt warmth for cozy family viewing tonight.",
       "overview": "Based upon the best selling \"Little House\" series of books by Laura Ingalls Wilder.\r\n\r\nThe show follows the lives of a simple farming family, the Ingalls, who settle into a quaint little house near the small town of Walnut Grove during the late 1800s. The majority of the shows were narrated by Laura and the series follows her from when she and her family arrive in Walnut Grove until her adulthood with Almanzo Wilder, with whom she starts a family of her own.\r\n",
       "episode_count": 24,
       "total_episodes": 8,
@@ -2049,324 +2071,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 287620,
-      "series_name": "Stuart Fails to Save the Universe",
-      "series_imdb_id": "tt27497393",
-      "season_number": 1,
-      "season_id": 448732,
-      "air_date": "2026-07-23",
-      "age_days": 70,
-      "best_rank": null,
-      "description": "Quirky, laugh-out-loud multiverse misadventures that offer breezy sci-fi fun",
-      "overview": "Comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon and Leonard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Science Fiction",
-        "Comedy"
-      ],
-      "top_actors": [
-        "Kevin Sussman",
-        "Lauren Lapkus",
-        "Brian Posehn"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=orv-w9ewCps",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
-      "tvdb_id": 465664,
-      "tvdb_season_id": 2195623,
-      "network": "HBO Max",
-      "runtime": 20,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 71.0,
-        "imdb": {
-          "rating": 7.1,
-          "votes": 8259,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=US"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/287620-stuart-fails-to-save-the-universe/watch?locale=AU"
-        }
-      },
-      "poster_path": "/4cMBNZI9GE62chK8e7LugSjiUmC.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 65701,
-      "series_name": "Good Mythical Morning",
-      "series_imdb_id": "tt4087032",
-      "season_number": 31,
-      "season_id": 542019,
-      "air_date": "2026-09-07",
-      "age_days": 24,
-      "best_rank": null,
-      "description": "Daily internet comfort food delivering viral laughs and tasty chaos",
-      "overview": "Two \"Internetainers\" (Rhett & Link) go far out and do the weirdest things, giving you a daily dose of casual comedy every Monday-Friday.",
-      "episode_count": null,
-      "total_episodes": 3485,
-      "genres": [
-        "Game Show",
-        "Family",
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "Link Neal",
-        "Rhett McLaughlin"
-      ],
-      "production_companies": [],
-      "trailer_url": null,
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "tvdb_id": 290686,
-      "tvdb_season_id": null,
-      "network": "YouTube",
-      "runtime": 19,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 92.0,
-        "imdb": {
-          "rating": 8.7,
-          "votes": 2580,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=AU"
-        }
-      },
-      "poster_path": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 59941,
-      "series_name": "The Tonight Show Starring Jimmy Fallon",
-      "series_imdb_id": "tt3444938",
-      "season_number": 14,
-      "season_id": 544780,
-      "air_date": "2026-09-21",
-      "age_days": 10,
-      "best_rank": 4,
-      "description": "Star-studded celebrity interviews and late-night laughs to wind down your day",
-      "overview": "Hailing from Rockefeller Center in the heart of New York City, Jimmy has made it his mission to make sure viewers end the day with a smile. Each weeknight, he hosts A-list guests, from movie stars to athletes, comedians, public figures and everyone in between. He also delivers a signature nightly monologue, performs in topical comedy sketches, plays fan-favorite games, and presents recurring segments like Thank You Notes. Today's popular musical guests also stop by to perform alongside house band The Roots.",
-      "episode_count": null,
-      "total_episodes": 2421,
-      "genres": [
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "Jimmy Fallon",
-        "Steve Higgins"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=q-0YafsWK_M",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
-      "tvdb_id": 270261,
-      "tvdb_season_id": null,
-      "network": "NBC",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 95.0,
-        "imdb": {
-          "rating": 7.0,
-          "votes": 20070,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/59941-the-tonight-show-starring-jimmy-fallon/watch?locale=US"
-        }
-      },
-      "poster_path": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 61818,
-      "series_name": "Late Night with Seth Meyers",
-      "series_imdb_id": "tt3513388",
-      "season_number": 14,
-      "season_id": 535789,
-      "air_date": "2026-09-21",
-      "age_days": 10,
-      "best_rank": 13,
-      "description": "Sharp political satire and witty monologue comedy for late-night viewing",
-      "overview": "Beloved \"Saturday Night Live\" personality - and the longest serving \"anchor\" on the show's wildly popular \"Weekend Update\" - Seth Meyers takes over as host of NBC's \"Late Night,\" home to A-list celebrity guests, memorable comedy and the best in musical talent. Late Night with Seth Meyers is filmed at 30 Rockefeller Plaza, New York, NY.",
-      "episode_count": null,
-      "total_episodes": 1834,
-      "genres": [
-        "News",
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "Seth Meyers"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=rLwbzGyC6t4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
-      "tvdb_id": 270262,
-      "tvdb_season_id": null,
-      "network": "NBC",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 79.0,
-        "imdb": {
-          "rating": 6.4,
-          "votes": 8773,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/61818-late-night-with-seth-meyers/watch?locale=US"
-        }
-      },
-      "poster_path": "/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 1489,
-      "series_name": "Jimmy Kimmel Live!",
-      "series_imdb_id": "tt0320037",
-      "season_number": 25,
-      "season_id": 535784,
-      "air_date": "2026-09-08",
-      "age_days": 23,
-      "best_rank": null,
-      "description": "A dependable staple of evening comedy and topical monologues",
-      "overview": "Emmy-winner Jimmy Kimmel serves as host and executive producer of \"Jimmy Kimmel Live,\" ABC Television Network's distinctive late-night talk show. The show features a diverse line up of guests, including celebrities, athletes, comedians and human interest subjects. Along with a light-hearted and recognizable cast of characters, a hip house band and comedy bits in Kimmel's inimitable style, the show additionally offers one of the funniest, freshest monologues on television today. \"Jimmy Kimmel Live\" often features elaborate, innovative stunts - such as having Quentin Tarantino guest-direct an entire episode, or building a state of the art performance stage in the center of Hollywood Boulevard.",
-      "episode_count": null,
-      "total_episodes": 3356,
-      "genres": [
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "Jimmy Kimmel",
-        "Guillermo Rodriguez"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=2kqZi3RoA5I",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
-      "tvdb_id": 71998,
-      "tvdb_season_id": null,
-      "network": "ABC (US)",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 70.0,
-        "imdb": {
-          "rating": 6.5,
-          "votes": 18326,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1489-jimmy-kimmel-live/watch?locale=US"
-        }
-      },
-      "poster_path": "/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 295780,
       "series_name": "Life, Larry and the Pursuit of Unhappiness: An Almost History of America",
       "series_imdb_id": "tt37543147",
       "season_number": 1,
       "season_id": 464822,
       "air_date": "2026-06-26",
-      "age_days": 97,
+      "age_days": 98,
       "best_rank": null,
-      "description": "Irreverent, wry historical comedy with a distinctly cynical comedic edge",
+      "description": "Wry, sardonic comedy offering a hilarious and thoroughly cynical look at history.",
       "overview": "",
       "episode_count": null,
       "total_episodes": 7,
@@ -2479,9 +2192,9 @@
       "season_number": 1,
       "season_id": 431609,
       "air_date": "2026-07-14",
-      "age_days": 79,
+      "age_days": 80,
       "best_rank": null,
-      "description": "A gritty indie crime yarn with an engrossing underdog spirit",
+      "description": "Moody neo-noir crime thriller steeped in grit, shadow, and desperate tension.",
       "overview": "A reformed criminal is forced to confront her past and return to illicit activities for one final job, hoping to secure her freedom and leave her former life behind for good.",
       "episode_count": null,
       "total_episodes": 7,
@@ -2552,15 +2265,257 @@
       "backdrop_path": null
     },
     {
+      "series_id": 65701,
+      "series_name": "Good Mythical Morning",
+      "series_imdb_id": "tt4087032",
+      "season_number": 31,
+      "season_id": 542019,
+      "air_date": "2026-09-07",
+      "age_days": 25,
+      "best_rank": null,
+      "description": "YouTube royalty delivers reliable daily laughs and wildly entertaining morning antics.",
+      "overview": "Two \"Internetainers\" (Rhett & Link) go far out and do the weirdest things, giving you a daily dose of casual comedy every Monday-Friday.",
+      "episode_count": null,
+      "total_episodes": 3485,
+      "genres": [
+        "Game Show",
+        "Family",
+        "Comedy",
+        "Talk Show"
+      ],
+      "top_actors": [
+        "Link Neal",
+        "Rhett McLaughlin"
+      ],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "tvdb_id": 290686,
+      "tvdb_season_id": null,
+      "network": "YouTube",
+      "runtime": 19,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 92.0,
+        "imdb": {
+          "rating": 8.7,
+          "votes": 2580,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65701-good-mythical-morning/watch?locale=AU"
+        }
+      },
+      "poster_path": "/jMpBQr2aNOFAI6wsC47zsOG6qOh.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 59941,
+      "series_name": "The Tonight Show Starring Jimmy Fallon",
+      "series_imdb_id": "tt3444938",
+      "season_number": 14,
+      "season_id": 544780,
+      "air_date": "2026-09-21",
+      "age_days": 11,
+      "best_rank": null,
+      "description": "Celebrity hijinks, upbeat musical games, and breezy laughs for easy nighttime winding down.",
+      "overview": "Hailing from Rockefeller Center in the heart of New York City, Jimmy has made it his mission to make sure viewers end the day with a smile. Each weeknight, he hosts A-list guests, from movie stars to athletes, comedians, public figures and everyone in between. He also delivers a signature nightly monologue, performs in topical comedy sketches, plays fan-favorite games, and presents recurring segments like Thank You Notes. Today's popular musical guests also stop by to perform alongside house band The Roots.",
+      "episode_count": null,
+      "total_episodes": 2421,
+      "genres": [
+        "Comedy",
+        "Talk Show"
+      ],
+      "top_actors": [
+        "Jimmy Fallon",
+        "Steve Higgins"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=q-0YafsWK_M",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+      "tvdb_id": 270261,
+      "tvdb_season_id": null,
+      "network": "NBC",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.0,
+          "votes": 20070,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/59941-the-tonight-show-starring-jimmy-fallon/watch?locale=US"
+        }
+      },
+      "poster_path": "/1N4o5PmmqhlVDrcdJ2RlCFWbLGX.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 61818,
+      "series_name": "Late Night with Seth Meyers",
+      "series_imdb_id": "tt3513388",
+      "season_number": 14,
+      "season_id": 535789,
+      "air_date": "2026-09-21",
+      "age_days": 11,
+      "best_rank": 15,
+      "description": "Sharp political punchlines and hilarious late-night monologues to cap off your day.",
+      "overview": "Beloved \"Saturday Night Live\" personality - and the longest serving \"anchor\" on the show's wildly popular \"Weekend Update\" - Seth Meyers takes over as host of NBC's \"Late Night,\" home to A-list celebrity guests, memorable comedy and the best in musical talent. Late Night with Seth Meyers is filmed at 30 Rockefeller Plaza, New York, NY.",
+      "episode_count": null,
+      "total_episodes": 1834,
+      "genres": [
+        "News",
+        "Comedy",
+        "Talk Show"
+      ],
+      "top_actors": [
+        "Seth Meyers"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=rLwbzGyC6t4",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "tvdb_id": 270262,
+      "tvdb_season_id": null,
+      "network": "NBC",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 79.0,
+        "imdb": {
+          "rating": 6.4,
+          "votes": 8773,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/61818-late-night-with-seth-meyers/watch?locale=US"
+        }
+      },
+      "poster_path": "/qKFP9Se7LJtBaxrMS41iu63dtK3.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 1489,
+      "series_name": "Jimmy Kimmel Live!",
+      "series_imdb_id": "tt0320037",
+      "season_number": 25,
+      "season_id": 535784,
+      "air_date": "2026-09-08",
+      "age_days": 24,
+      "best_rank": null,
+      "description": "Classic monologue jokes and star-studded banter delivering reliable late-night chuckles.",
+      "overview": "Emmy-winner Jimmy Kimmel serves as host and executive producer of \"Jimmy Kimmel Live,\" ABC Television Network's distinctive late-night talk show. The show features a diverse line up of guests, including celebrities, athletes, comedians and human interest subjects. Along with a light-hearted and recognizable cast of characters, a hip house band and comedy bits in Kimmel's inimitable style, the show additionally offers one of the funniest, freshest monologues on television today. \"Jimmy Kimmel Live\" often features elaborate, innovative stunts - such as having Quentin Tarantino guest-direct an entire episode, or building a state of the art performance stage in the center of Hollywood Boulevard.",
+      "episode_count": null,
+      "total_episodes": 3356,
+      "genres": [
+        "Comedy",
+        "Talk Show"
+      ],
+      "top_actors": [
+        "Jimmy Kimmel",
+        "Guillermo Rodriguez"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=2kqZi3RoA5I",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
+      "tvdb_id": 71998,
+      "tvdb_season_id": null,
+      "network": "ABC (US)",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 70.0,
+        "imdb": {
+          "rating": 6.5,
+          "votes": 18326,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1489-jimmy-kimmel-live/watch?locale=US"
+        }
+      },
+      "poster_path": "/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 1900,
       "series_name": "LIVE with Kelly and Mark",
       "series_imdb_id": "tt0096636",
       "season_number": 39,
       "season_id": 541816,
       "air_date": "2026-09-08",
-      "age_days": 23,
+      "age_days": 24,
       "best_rank": null,
-      "description": "Breezy morning chatter and lively interviews to start your day",
+      "description": "Breezy daytime chemistry and lighthearted celebrity chatter to keep things relaxed.",
       "overview": "LIVE with:  is an American syndicated morning talk show.",
       "episode_count": 19,
       "total_episodes": 6903,
@@ -2608,9 +2563,9 @@
       "season_number": 30,
       "season_id": 533269,
       "air_date": "2026-09-08",
-      "age_days": 23,
+      "age_days": 24,
       "best_rank": null,
-      "description": "Heated daytime debates that never fail to spark polarizing conversations",
+      "description": "Fiery roundtable debates that consistently keep daytime watercooler chatter and timelines boiling.",
       "overview": "\"The View\", recipient of the 2003 Daytime Emmy® Award for Outstanding Talk Show, is ABC Daytime's morning chatfest, featuring a team of dynamic women of different ages, experiences and backgrounds discussing the most exciting events of the day. The current panel consists of Whoopi Goldberg, Joy Behar, Sunny Hostin, Sara Haines, Ana Navarro and Alyssa Farah Griffin.",
       "episode_count": 23,
       "total_episodes": 5158,
