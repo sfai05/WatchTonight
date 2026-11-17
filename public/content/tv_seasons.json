@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T16:44:10.105789",
+  "generated_at": "2026-11-17T16:39:59.365168",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 3,
       "season_id": 467821,
       "air_date": "2026-11-11",
-      "age_days": 5,
+      "age_days": 6,
       "best_rank": 1,
-      "description": "The massive fantasy spectacle everyone is fiercely debating online this week.",
+      "description": "The polarizing fantasy spectacle everyone is fiercely debating on social media right now.",
       "overview": "Jumping forward several years from the events of Season Two, Season Three takes place at the height of the War of the Elves and Sauron, as the Dark Lord seeks to craft the One Ring that will give him the edge he needs to win the war, bind all peoples to his will - and at last rule all Middle-earth.",
       "episode_count": 8,
       "total_episodes": 24,
@@ -67,9 +67,9 @@
       "season_number": 2,
       "season_id": 479648,
       "air_date": "2026-11-01",
-      "age_days": 15,
-      "best_rank": 9,
-      "description": "A legendary antihero returns at peak form with electrifying cat-and-mouse tension.",
+      "age_days": 16,
+      "best_rank": 7,
+      "description": "Thrilling, dark, and utterly gripping—this killer continuation fires on all cylinders.",
       "overview": "Season 2 finds Dexter caught between two killers, one notorious and the other terrorizing New York in ways no one ever anticipated, all while battling his greatest enemy yet, a mid-life crisis. Harrison continues his own pursuit of justice as father and son face their darkest chapter.",
       "episode_count": 10,
       "total_episodes": 20,
@@ -91,7 +91,7 @@
       "tvdb_id": 452595,
       "tvdb_season_id": 2252314,
       "network": "Paramount+ with Showtime",
-      "runtime": 52,
+      "runtime": 53,
       "status": "Continuing",
       "ratings": {
         "composite_score": 100.0,
@@ -193,11 +193,11 @@
       "season_number": 6,
       "season_id": 508698,
       "air_date": "2026-11-15",
-      "age_days": 1,
-      "best_rank": 11,
-      "description": "Just dropped yesterday and already captivating passionate audiences across the globe.",
+      "age_days": 2,
+      "best_rank": 12,
+      "description": "Freshly dropped and intensely emotional, the global phenomenon returns at its peak.",
       "overview": "The hour has come. Season 6 captures Jesus' final day through the eyes of those who love Him-and those who condemn Him. In the face of loneliness and death, He stands resolute in His plan that has always led to one place: the cross.",
-      "episode_count": 7,
+      "episode_count": 6,
       "total_episodes": 46,
       "genres": [
         "Family",
@@ -297,95 +297,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 213375,
-      "series_name": "VisionQuest",
-      "series_imdb_id": "tt23112594",
-      "season_number": 1,
-      "season_id": 314452,
-      "air_date": "2026-10-13",
-      "age_days": 34,
-      "best_rank": 2,
-      "description": "The blockbuster Marvel finale has Reddit exploding with mind-bending theories.",
-      "overview": "The Vision, rebooted and having escaped from those who sought to weaponize him, has been in hiding. Searching for new meaning, he consults the AI personas embedded in his programming, including Friday, Edith, Jarvis, and the infamous Ultron. His discreet existence ends when a bounty placed on his head thrusts him on the run with Thomas Shepherd, a mysterious boy who may be Vision's son reincarnate. As Vision evades capture, he must confront his nature, resist Ultron's influence, and unravel the enigma that is his young companion if he's to survive.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Science Fiction",
-        "Drama",
-        "Adventure"
-      ],
-      "top_actors": [
-        "Paul Bettany",
-        "James Spader",
-        "Ruaridh Mollica"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=1UE2Oh_IwHs",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
-      "tvdb_id": 426606,
-      "tvdb_season_id": 2027603,
-      "network": "Disney+",
-      "runtime": 54,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 98.5,
-        "imdb": {
-          "rating": 8.15,
-          "votes": 14696,
-          "season_rating": 8.15
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=AU"
-        }
-      },
-      "poster_path": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 225385,
       "series_name": "Black Doves",
       "series_imdb_id": "tt27995113",
       "season_number": 2,
       "season_id": 539082,
       "air_date": "2026-11-05",
-      "age_days": 11,
-      "best_rank": 29,
-      "description": "Keira Knightley shines in Netflix's slickest, most stylish espionage thriller.",
+      "age_days": 12,
+      "best_rank": 34,
+      "description": "A razor-sharp espionage thrill ride that already has viewers binging in one sitting.",
       "overview": "Helen is still betraying her nation's secrets to the covert organization she serves: the Black Doves. But after the misadventures of last Christmas, and with her husband Wallace, preparing to become Prime Minister, she is walking a more treacherous line than ever.",
       "episode_count": 6,
       "total_episodes": 12,
@@ -458,41 +378,41 @@
       "backdrop_path": null
     },
     {
-      "series_id": 288673,
-      "series_name": "Carrie",
-      "series_imdb_id": "tt11540908",
+      "series_id": 213375,
+      "series_name": "VisionQuest",
+      "series_imdb_id": "tt23112594",
       "season_number": 1,
-      "season_id": 450854,
-      "air_date": "2026-10-07",
-      "age_days": 40,
-      "best_rank": null,
-      "description": "Mike Flanagan turns Stephen King's horror classic into a chilling psychological triumph.",
-      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
-      "episode_count": null,
+      "season_id": 314452,
+      "air_date": "2026-10-13",
+      "age_days": 35,
+      "best_rank": 2,
+      "description": "Bold sci-fi drama packed with dazzling mystery and massive fan theory buzz.",
+      "overview": "The Vision, rebooted and having escaped from those who sought to weaponize him, has been in hiding. Searching for new meaning, he consults the AI personas embedded in his programming, including Friday, Edith, Jarvis, and the infamous Ultron. His discreet existence ends when a bounty placed on his head thrusts him on the run with Thomas Shepherd, a mysterious boy who may be Vision's son reincarnate. As Vision evades capture, he must confront his nature, resist Ultron's influence, and unravel the enigma that is his young companion if he's to survive.",
+      "episode_count": 8,
       "total_episodes": 8,
       "genres": [
-        "Mystery",
+        "Science Fiction",
         "Drama",
-        "Sci-Fi & Fantasy"
+        "Adventure"
       ],
       "top_actors": [
-        "Summer H. Howell",
-        "Samantha Sloyan",
-        "Siena Agudong"
+        "Paul Bettany",
+        "James Spader",
+        "Ruaridh Mollica"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=jkUw2nh6fT0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
-      "tvdb_id": null,
-      "tvdb_season_id": null,
-      "network": null,
-      "runtime": null,
-      "status": null,
+      "trailer_url": "https://www.youtube.com/watch?v=1UE2Oh_IwHs",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+      "tvdb_id": 426606,
+      "tvdb_season_id": 2027603,
+      "network": "Disney+",
+      "runtime": 54,
+      "status": "Ended",
       "ratings": {
-        "composite_score": 83.5,
+        "composite_score": 98.5,
         "imdb": {
           "rating": 8.15,
-          "votes": 3419,
+          "votes": 14696,
           "season_rating": 8.15
         }
       },
@@ -501,53 +421,77 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=AU"
         }
       },
-      "poster_path": "/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
+      "poster_path": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
       "backdrop_path": null
     },
     {
-      "series_id": 258165,
-      "series_name": "East of Eden",
-      "series_imdb_id": "tt21097264",
-      "season_number": 1,
-      "season_id": 400373,
-      "air_date": "2026-10-01",
-      "age_days": 46,
-      "best_rank": null,
-      "description": "Florence Pugh commands every frame in this gorgeous, emotionally devastating literary drama.",
-      "overview": "",
+      "series_id": 131488,
+      "series_name": "The Empress",
+      "series_imdb_id": "tt13720112",
+      "season_number": 3,
+      "season_id": 549608,
+      "air_date": "2026-11-12",
+      "age_days": 5,
+      "best_rank": 16,
+      "description": "Quick-witted and wildly fun, this hilarious new season is effortless entertainment.",
+      "overview": "Constrained by the corset of the Viennese court and deeply wounded by Franz's rejection and unfaithfulness after his return from the war, Elisabeth struggles to be heard and to understand what her soul truly longs for.",
       "episode_count": null,
-      "total_episodes": 7,
+      "total_episodes": 18,
       "genres": [
-        "Drama"
+        "Comedy"
       ],
       "top_actors": [
-        "Florence Pugh",
-        "Christopher Abbott",
-        "Mike Faist"
+        "Devrim Lingnau",
+        "Philip Froissant",
+        "Melika Foroutan"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=M9NWvGZViCg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
-      "tvdb_id": null,
+      "trailer_url": "https://www.youtube.com/watch?v=KfySe96FPr8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xNZLLiXBu8pLhFM2qidmPJo0O7n.jpg",
+      "tvdb_id": 369420,
       "tvdb_season_id": null,
-      "network": null,
-      "runtime": null,
-      "status": null,
+      "network": "YouTube",
+      "runtime": 10,
+      "status": "Ended",
       "ratings": {
-        "composite_score": 84.29,
+        "composite_score": 93.0,
         "imdb": {
-          "rating": 8.22857142857143,
-          "votes": 10352,
-          "season_rating": 8.22857142857143
+          "rating": 7.8,
+          "votes": 22289,
+          "season_rating": null
         }
       },
       "streaming_availability": {
@@ -561,7 +505,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -573,7 +517,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -585,48 +529,50 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=AU"
         }
       },
-      "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+      "poster_path": "/xNZLLiXBu8pLhFM2qidmPJo0O7n.jpg",
       "backdrop_path": null
     },
     {
-      "series_id": 95480,
-      "series_name": "Slow Horses",
-      "series_imdb_id": "tt5875444",
-      "season_number": 6,
-      "season_id": 521992,
-      "air_date": "2026-09-16",
-      "age_days": 61,
-      "best_rank": 15,
-      "description": "Gary Oldman leads the sharpest, most cynical spy masterpiece on television.",
-      "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
-      "episode_count": 6,
-      "total_episodes": 36,
+      "series_id": 96677,
+      "series_name": "Lupin",
+      "series_imdb_id": "tt2531336",
+      "season_number": 3,
+      "season_id": 456251,
+      "air_date": "2026-10-23",
+      "age_days": 25,
+      "best_rank": 30,
+      "description": "Slick, stylish, and relentlessly entertaining—the suave master thief never misses.",
+      "overview": "After four years in prison, Assane is ready to start a new life with his family. But the emergence of a mysterious copycat forces Lupin to return to his most brilliant schemes.",
+      "episode_count": 8,
+      "total_episodes": 25,
       "genres": [
-        "Suspense",
-        "Thriller"
+        "Drama",
+        "Crime",
+        "Action",
+        "Mystery"
       ],
       "top_actors": [
-        "Gary Oldman",
-        "Jack Lowden",
-        "Kristin Scott Thomas"
+        "Omar Sy",
+        "Ludivine Sagnier",
+        "Antoine Gouy"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=mZbJxpYHLuI",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
-      "tvdb_id": 372264,
-      "tvdb_season_id": 2213966,
-      "network": "Apple TV",
+      "trailer_url": "https://www.youtube.com/watch?v=Vr4zLkYblMA",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
+      "tvdb_id": 375921,
+      "tvdb_season_id": 2258322,
+      "network": "Netflix",
       "runtime": 46,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 88.5,
+        "composite_score": 81.0,
         "imdb": {
-          "rating": 8.350000000000001,
-          "votes": 162097,
-          "season_rating": 8.350000000000001
+          "rating": 7.6000000000000005,
+          "votes": 162224,
+          "season_rating": 7.6000000000000005
         }
       },
       "streaming_availability": {
@@ -634,40 +580,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=US"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/9icYBfYFcwgCbky5VdGUIKJ4C5i.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=AU"
         }
       },
-      "poster_path": "/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
+      "poster_path": "/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
       "backdrop_path": null
     },
     {
@@ -677,9 +623,9 @@
       "season_number": 4,
       "season_id": 486637,
       "air_date": "2026-10-16",
-      "age_days": 31,
+      "age_days": 32,
       "best_rank": 22,
-      "description": "Sylvester Stallone delivers swagger and grit in this crowd-pleasing mob powerhouse.",
+      "description": "Sylvester Stallone's charismatic mob empire delivers pure, addictive crime drama fun.",
       "overview": "In season four, Dwight fights to legitimize his empire and protect his crew as corrupt politicians, dangerous new enemies, and a crushing personal loss hit from every direction. However, every hard-won gain comes with even harder truths: about loyalty, leadership and the cost of ambition. Each move drags Dwight deeper into the street instincts he left behind in New York - turning Tulsa into a battleground and Dwight into the one threat no one can afford to underestimate.",
       "episode_count": 10,
       "total_episodes": 39,
@@ -794,15 +740,138 @@
       "backdrop_path": null
     },
     {
+      "series_id": 247718,
+      "series_name": "MobLand",
+      "series_imdb_id": "tt31510819",
+      "season_number": 2,
+      "season_id": 528409,
+      "air_date": "2026-09-18",
+      "age_days": 60,
+      "best_rank": 6,
+      "description": "Gritty, tense, and universally acclaimed—a powerhouse crime saga demanding your attention.",
+      "overview": "In the second season, the Harrigans struggle to show a unified front as rising rivals threaten their fractured criminal empire – and Harry Da Souza, their street-smart and formidable 'fixer', must walk a dangerous tightrope when tensions within the family intensify. As violence spills into every corner of their lives, loyalties snap, safety proves temporary, and the battle for power leaves no room for mercy.",
+      "episode_count": 10,
+      "total_episodes": 20,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "top_actors": [
+        "Tom Hardy",
+        "Pierce Brosnan",
+        "Paddy Considine"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=JSTcJ1uTjiY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
+      "tvdb_id": 446831,
+      "tvdb_season_id": 2225152,
+      "network": "Paramount+",
+      "runtime": 47,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 95.0,
+        "imdb": {
+          "rating": 8.299999999999999,
+          "votes": 131558,
+          "season_rating": 8.299999999999999
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=AU"
+        }
+      },
+      "poster_path": "/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 2734,
       "series_name": "Law & Order: Special Victims Unit",
       "series_imdb_id": "tt0203259",
       "season_number": 28,
       "season_id": 524282,
       "air_date": "2026-10-08",
-      "age_days": 39,
-      "best_rank": 1,
-      "description": "Television's definitive crime procedural remains as gripping and relevant as ever.",
+      "age_days": 40,
+      "best_rank": 2,
+      "description": "Television's definitive procedural remains astonishingly sharp and culturally vital.",
       "overview": "Delves into the dark side of the NYC underworld as the detectives investigate and prosecute various sexually oriented crimes, including rape, pedophilia, domestic violence, and the abuses of children, the disabled, and elderly victims of non-sexual crimes who require specialist handling, all while trying to balance the effects of the investigation on their own lives as they try not to let the dark side of these crimes affect them.",
       "episode_count": 11,
       "total_episodes": 602,
@@ -941,164 +1010,96 @@
       "backdrop_path": null
     },
     {
-      "series_id": 247718,
-      "series_name": "MobLand",
-      "series_imdb_id": "tt31510819",
-      "season_number": 2,
-      "season_id": 528409,
-      "air_date": "2026-09-18",
-      "age_days": 59,
-      "best_rank": 6,
-      "description": "Raw, unforgiving crime drama packed with explosive confrontations and stellar performances.",
-      "overview": "In the second season, the Harrigans struggle to show a unified front as rising rivals threaten their fractured criminal empire – and Harry Da Souza, their street-smart and formidable 'fixer', must walk a dangerous tightrope when tensions within the family intensify. As violence spills into every corner of their lives, loyalties snap, safety proves temporary, and the battle for power leaves no room for mercy.",
-      "episode_count": 10,
-      "total_episodes": 20,
+      "series_id": 288673,
+      "series_name": "Carrie",
+      "series_imdb_id": "tt11540908",
+      "season_number": 1,
+      "season_id": 450854,
+      "air_date": "2026-10-07",
+      "age_days": 41,
+      "best_rank": null,
+      "description": "Chilling psychological horror that reinterprets a classic with genuine dread.",
+      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
+      "episode_count": null,
+      "total_episodes": 8,
       "genres": [
+        "Mystery",
         "Drama",
-        "Crime"
+        "Sci-Fi & Fantasy"
       ],
       "top_actors": [
-        "Tom Hardy",
-        "Pierce Brosnan",
-        "Paddy Considine"
+        "Summer H. Howell",
+        "Samantha Sloyan",
+        "Siena Agudong"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=JSTcJ1uTjiY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
-      "tvdb_id": 446831,
-      "tvdb_season_id": 2225152,
-      "network": "Paramount+",
-      "runtime": 47,
-      "status": "Continuing",
+      "trailer_url": "https://www.youtube.com/watch?v=jkUw2nh6fT0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
       "ratings": {
-        "composite_score": 95.0,
+        "composite_score": 83.5,
         "imdb": {
-          "rating": 8.299999999999999,
-          "votes": 131558,
-          "season_rating": 8.299999999999999
+          "rating": 8.15,
+          "votes": 3419,
+          "season_rating": 8.15
         }
       },
       "streaming_availability": {
         "US": {
           "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=US"
-        },
-        "CA": {
-          "services": {
             "subscription": [
               {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=US"
         }
       },
-      "poster_path": "/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
+      "poster_path": "/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
       "backdrop_path": null
     },
     {
-      "series_id": 95350,
-      "series_name": "Lanterns",
-      "series_imdb_id": "tt26545992",
+      "series_id": 258165,
+      "series_name": "East of Eden",
+      "series_imdb_id": "tt21097264",
       "season_number": 1,
-      "season_id": 165308,
-      "air_date": "2026-08-16",
-      "age_days": 92,
+      "season_id": 400373,
+      "air_date": "2026-10-01",
+      "age_days": 47,
       "best_rank": null,
-      "description": "HBO crafts a prestige sci-fi mystery loaded with dark cinematic intrigue.",
-      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
-      "episode_count": 8,
-      "total_episodes": 8,
+      "description": "Prestigious, gorgeously acted literary drama that critics are raving about.",
+      "overview": "",
+      "episode_count": null,
+      "total_episodes": 7,
       "genres": [
-        "Science Fiction",
-        "Mystery"
+        "Drama"
       ],
       "top_actors": [
-        "Kyle Chandler",
-        "Aaron Pierre",
-        "Kelly Macdonald"
+        "Florence Pugh",
+        "Christopher Abbott",
+        "Mike Faist"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
-      "tvdb_id": 376098,
-      "tvdb_season_id": 2005527,
-      "network": "HBO",
-      "runtime": 53,
-      "status": "Continuing",
+      "trailer_url": "https://www.youtube.com/watch?v=M9NWvGZViCg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+      "tvdb_id": null,
+      "tvdb_season_id": null,
+      "network": null,
+      "runtime": null,
+      "status": null,
       "ratings": {
-        "composite_score": 84.0,
+        "composite_score": 84.29,
         "imdb": {
-          "rating": 8.4,
-          "votes": 65291,
-          "season_rating": 8.4
+          "rating": 8.22857142857143,
+          "votes": 10352,
+          "season_rating": 8.22857142857143
         }
       },
       "streaming_availability": {
@@ -1106,79 +1107,40 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=US"
         },
         "CA": {
           "services": {
-            "buy": [
+            "subscription": [
               {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=AU"
         }
       },
-      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
       "backdrop_path": null
     },
     {
@@ -1188,9 +1150,9 @@
       "season_number": 13,
       "season_id": 528425,
       "air_date": "2026-09-24",
-      "age_days": 53,
-      "best_rank": 2,
-      "description": "Deliciously campy and chaotic horror fueling heated debates across social media.",
+      "age_days": 54,
+      "best_rank": 1,
+      "description": "Campy, divisive, and wildly chaotic—the horror staple generating endless online chatter.",
       "overview": "Follows Ben DeSoto, a hospice caretaker suffering from triskaidekaphobia, who takes a strange job at The Apollyon, an eerie residential building inhabited by characters from seasons past.",
       "episode_count": 13,
       "total_episodes": 145,
@@ -1324,9 +1286,9 @@
       "season_number": 29,
       "season_id": 517335,
       "air_date": "2026-09-16",
-      "age_days": 61,
+      "age_days": 62,
       "best_rank": 23,
-      "description": "Unflinching, viral satire taking aim at pop culture with razor-sharp precision.",
+      "description": "As unapologetic and ruthlessly satirical as ever, skewering modern culture flawlessly.",
       "overview": "Join Stan, Kyle, Cartman and Kenny for the historic 29th season of South America.",
       "episode_count": 6,
       "total_episodes": 337,
@@ -1437,9 +1399,9 @@
       "season_number": 10,
       "season_id": 532871,
       "air_date": "2026-10-15",
-      "age_days": 32,
+      "age_days": 33,
       "best_rank": null,
-      "description": "Wildly unpredictable high-octane emergency drama that always keeps fans on edge.",
+      "description": "Non-stop emergencies and beloved cast dynamics make this premier primetime comfort food.",
       "overview": "Explores the high-pressure experiences of the first responders who are thrust into the most frightening, shocking and heart-stopping situations.",
       "episode_count": 9,
       "total_episodes": 149,
@@ -1552,15 +1514,714 @@
       "backdrop_path": null
     },
     {
+      "series_id": 1416,
+      "series_name": "Grey's Anatomy",
+      "series_imdb_id": "tt0413573",
+      "season_number": 23,
+      "season_id": 532939,
+      "air_date": "2026-10-15",
+      "age_days": 33,
+      "best_rank": null,
+      "description": "The iconic medical drama proves its legendary staying power with top-tier drama.",
+      "overview": "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
+      "episode_count": 7,
+      "total_episodes": 467,
+      "genres": [
+        "Soap",
+        "Drama",
+        "Romance"
+      ],
+      "top_actors": [
+        "Ellen Pompeo",
+        "Chandra Wilson",
+        "James Pickens Jr."
+      ],
+      "production_companies": [],
+      "trailer_url": null,
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gO8Fo47KV1opiutRDdBS5jclTQB.jpg",
+      "tvdb_id": 73762,
+      "tvdb_season_id": 2264688,
+      "network": "ABC (US)",
+      "runtime": 43,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.8,
+          "votes": 378600,
+          "season_rating": 7.8
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=AU"
+        }
+      },
+      "poster_path": "/gO8Fo47KV1opiutRDdBS5jclTQB.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 65334,
+      "series_name": "Miraculous: Tales of Ladybug & Cat Noir",
+      "series_imdb_id": "tt2580046",
+      "season_number": 7,
+      "season_id": 550240,
+      "air_date": "2026-11-01",
+      "age_days": 16,
+      "best_rank": null,
+      "description": "High-flying animated superhero action that keeps its passionate global fandom completely hooked.",
+      "overview": "New heroes. New powers. New enemies. The Miraculous universe will never be the same again. Faced with the greatest threats ever seen, Ladybug and Cat Noir will have to go beyond their limits to protect the world.",
+      "episode_count": null,
+      "total_episodes": 181,
+      "genres": [
+        "Children",
+        "Anime"
+      ],
+      "top_actors": [
+        "Anouck Hautbois",
+        "Benjamin Bollen",
+        "Marie Nonnenmacher"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=VCwtE3L-u7w",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/i6ZWgB0fFX7QkMYbsWUU9Q2YAGZ.jpg",
+      "tvdb_id": 433881,
+      "tvdb_season_id": null,
+      "network": "TF1",
+      "runtime": 2,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 80.0,
+        "imdb": {
+          "rating": 7.5,
+          "votes": 20913,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=AU"
+        }
+      },
+      "poster_path": "/i6ZWgB0fFX7QkMYbsWUU9Q2YAGZ.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 95350,
+      "series_name": "Lanterns",
+      "series_imdb_id": "tt26545992",
+      "season_number": 1,
+      "season_id": 165308,
+      "air_date": "2026-08-16",
+      "age_days": 93,
+      "best_rank": null,
+      "description": "Atmospheric HBO detective mystery with stellar production values and gritty cosmic intrigue.",
+      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Science Fiction",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "tvdb_id": 376098,
+      "tvdb_season_id": 2005527,
+      "network": "HBO",
+      "runtime": 53,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 84.0,
+        "imdb": {
+          "rating": 8.4,
+          "votes": 65291,
+          "season_rating": 8.4
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
+        }
+      },
+      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 62650,
+      "series_name": "Chicago Med",
+      "series_imdb_id": "tt4655480",
+      "season_number": 12,
+      "season_id": 524273,
+      "air_date": "2026-10-07",
+      "age_days": 41,
+      "best_rank": null,
+      "description": "Consistently emotional and expertly paced hospital drama that hits every dramatic beat.",
+      "overview": "An emotional ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors that holds it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room, and through it all, familiar faces from the Chicago Police and Fire departments will intertwine as this third team of Chicago heroes hits the ground running.",
+      "episode_count": 10,
+      "total_episodes": 225,
+      "genres": [
+        "Drama"
+      ],
+      "top_actors": [
+        "Steven Weber",
+        "Jessy Schram",
+        "Luke Mitchell"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "tvdb_id": 295640,
+      "tvdb_season_id": 2256785,
+      "network": "NBC",
+      "runtime": 44,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 89.67,
+        "imdb": {
+          "rating": 8.766666666666667,
+          "votes": 35183,
+          "season_rating": 8.766666666666667
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=AU"
+        }
+      },
+      "poster_path": "/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 58841,
+      "series_name": "Chicago P.D.",
+      "series_imdb_id": "tt2805096",
+      "season_number": 14,
+      "season_id": 524274,
+      "air_date": "2026-10-07",
+      "age_days": 41,
+      "best_rank": null,
+      "description": "Hard-hitting police action anchored by intense character conflicts and moral dilemmas.",
+      "overview": "Detective Sergeant Hank Voight and his elite Intelligence Unit at the Chicago Police Department combat atrocious offences and bring criminals to justice.",
+      "episode_count": 10,
+      "total_episodes": 271,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action"
+      ],
+      "top_actors": [
+        "Jason Beghe",
+        "Marina Squerciati",
+        "Patrick John Flueger"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
+      "tvdb_id": 269641,
+      "tvdb_season_id": 2256787,
+      "network": "NBC",
+      "runtime": 41,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 83.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 53071,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              },
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=AU"
+        }
+      },
+      "poster_path": "/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 44006,
+      "series_name": "Chicago Fire",
+      "series_imdb_id": "tt2261391",
+      "season_number": 15,
+      "season_id": 524275,
+      "air_date": "2026-10-07",
+      "age_days": 41,
+      "best_rank": null,
+      "description": "Reliable high-octane rescues and heartwarming camaraderie perfect for a cozy weeknight watch.",
+      "overview": "The lives of firefighters and paramedics working for the City of Chicago Fire Department at Fire Station 51, made up of Truck 81, Squadron 3, Ambulance 61, and Battalion 25.",
+      "episode_count": 10,
+      "total_episodes": 304,
+      "genres": [
+        "Drama",
+        "Action"
+      ],
+      "top_actors": [
+        "Taylor Kinney",
+        "David Eigenberg",
+        "Christian Stolte"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mqwUwexSSiBGC9qGgu38tKczFn.jpg",
+      "tvdb_id": 258541,
+      "tvdb_season_id": 2256786,
+      "network": "NBC",
+      "runtime": 42,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 82.0,
+        "imdb": {
+          "rating": 8.0,
+          "votes": 72747,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 387,
+                "provider_name": "Peacock Premium Plus",
+                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=US"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=AU"
+        }
+      },
+      "poster_path": "/mqwUwexSSiBGC9qGgu38tKczFn.jpg",
+      "backdrop_path": null
+    },
+    {
       "series_id": 456,
       "series_name": "The Simpsons",
       "series_imdb_id": "tt0096697",
       "season_number": 38,
       "season_id": 529943,
       "air_date": "2026-09-27",
-      "age_days": 50,
-      "best_rank": 37,
-      "description": "Springfield delivers comfort viewing with clever modern twists and timeless humor.",
+      "age_days": 51,
+      "best_rank": null,
+      "description": "TV's most iconic animated family still delivers clever jokes and nostalgic warmth.",
       "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
       "episode_count": 15,
       "total_episodes": 816,
@@ -1683,9 +2344,9 @@
       "season_number": 6,
       "season_id": 548628,
       "air_date": "2026-10-06",
-      "age_days": 41,
-      "best_rank": 15,
-      "description": "Pure nostalgic animation joy that charms longtime fans and newcomers alike.",
+      "age_days": 42,
+      "best_rank": 16,
+      "description": "Pure animated joy, unmatched musical numbers, and timeless comedic energy for everyone.",
       "overview": "Each day, two kind-hearted suburban stepbrothers on summer vacation embark on some grand new project, which annoys their controlling sister, Candace, who tries to bust them. Meanwhile, their pet platypus plots against evil Dr. Doofenshmirtz.",
       "episode_count": 2,
       "total_episodes": 263,
@@ -1797,246 +2458,17 @@
       "backdrop_path": null
     },
     {
-      "series_id": 62650,
-      "series_name": "Chicago Med",
-      "series_imdb_id": "tt4655480",
-      "season_number": 12,
-      "season_id": 524273,
-      "air_date": "2026-10-07",
-      "age_days": 40,
-      "best_rank": null,
-      "description": "High-pressure emergency room drama packed with emotionally charged patient stories.",
-      "overview": "An emotional ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors that holds it together. They will tackle unique new cases inspired by topical events, forging fiery relationships in the pulse-pounding pandemonium of the emergency room, and through it all, familiar faces from the Chicago Police and Fire departments will intertwine as this third team of Chicago heroes hits the ground running.",
-      "episode_count": 10,
-      "total_episodes": 225,
-      "genres": [
-        "Drama"
-      ],
-      "top_actors": [
-        "Steven Weber",
-        "Jessy Schram",
-        "Luke Mitchell"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "tvdb_id": 295640,
-      "tvdb_season_id": 2256785,
-      "network": "NBC",
-      "runtime": 44,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 89.67,
-        "imdb": {
-          "rating": 8.766666666666667,
-          "votes": 35183,
-          "season_rating": 8.766666666666667
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/62650-chicago-med/watch?locale=AU"
-        }
-      },
-      "poster_path": "/s55mHZ5q68IUtRsQdy2oC3nPpG7.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 1416,
-      "series_name": "Grey's Anatomy",
-      "series_imdb_id": "tt0413573",
-      "season_number": 23,
-      "season_id": 532939,
-      "air_date": "2026-10-15",
-      "age_days": 32,
-      "best_rank": null,
-      "description": "Decades later, Seattle's favorite doctors still deliver deeply satisfying hospital melodrama.",
-      "overview": "A drama centered on the personal and professional lives of five surgical interns and their supervisors.",
-      "episode_count": 7,
-      "total_episodes": 467,
-      "genres": [
-        "Soap",
-        "Drama",
-        "Romance"
-      ],
-      "top_actors": [
-        "Ellen Pompeo",
-        "Chandra Wilson",
-        "James Pickens Jr."
-      ],
-      "production_companies": [],
-      "trailer_url": null,
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gO8Fo47KV1opiutRDdBS5jclTQB.jpg",
-      "tvdb_id": 73762,
-      "tvdb_season_id": 2264688,
-      "network": "ABC (US)",
-      "runtime": 43,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 80.0,
-        "imdb": {
-          "rating": 7.8,
-          "votes": 378600,
-          "season_rating": 7.8
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1416-grey-s-anatomy/watch?locale=AU"
-        }
-      },
-      "poster_path": "/gO8Fo47KV1opiutRDdBS5jclTQB.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 4614,
       "series_name": "NCIS",
       "series_imdb_id": "tt0364845",
       "season_number": 24,
       "season_id": 532133,
       "air_date": "2026-10-06",
-      "age_days": 41,
+      "age_days": 42,
       "best_rank": null,
-      "description": "Dependable military procedural action that continues to satisfy loyal viewers.",
+      "description": "Dependable, comfort-viewing crime investigation that continues to draw massive weekly crowds.",
       "overview": "NCIS (Naval Criminal Investigative Service) is more than just an action drama. With liberal doses of humor, it’s a show that focuses on the sometimes complex and always amusing dynamics of a team forced to work together in high-stress situations. From murder and espionage to terrorism and stolen submarines, these special agents investigate all crimes with Navy or Marine Corps ties.",
-      "episode_count": 8,
+      "episode_count": 9,
       "total_episodes": 515,
       "genres": [
         "Drama",
@@ -2170,368 +2602,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 80748,
-      "series_name": "FBI",
-      "series_imdb_id": "tt7491982",
-      "season_number": 9,
-      "season_id": 532128,
-      "air_date": "2026-10-05",
-      "age_days": 42,
-      "best_rank": null,
-      "description": "Fast-moving federal agent drama loaded with pulse-pounding action and suspense.",
-      "overview": "The New York office of the FBI brings to bear all their talents, intellect and technical expertise on major cases in order to keep their city and the country safe.",
-      "episode_count": 10,
-      "total_episodes": 167,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action"
-      ],
-      "top_actors": [
-        "Missy Peregrym",
-        "Zeeko Zaki",
-        "John Boyd"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=O7oPFgb6VNE",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5CPPq2VcSlDC5y6rn8fahMtLjzW.jpg",
-      "tvdb_id": 350071,
-      "tvdb_season_id": 2252315,
-      "network": "CBS",
-      "runtime": 42,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.33,
-        "imdb": {
-          "rating": 8.133333333333335,
-          "votes": 29523,
-          "season_rating": 8.133333333333335
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/80748-fbi/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/80748-fbi/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/80748-fbi/watch?locale=AU"
-        }
-      },
-      "poster_path": "/5CPPq2VcSlDC5y6rn8fahMtLjzW.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 58841,
-      "series_name": "Chicago P.D.",
-      "series_imdb_id": "tt2805096",
-      "season_number": 14,
-      "season_id": 524274,
-      "air_date": "2026-10-07",
-      "age_days": 40,
-      "best_rank": null,
-      "description": "Tense and uncompromising police drama tackling high-stakes criminal investigations.",
-      "overview": "Detective Sergeant Hank Voight and his elite Intelligence Unit at the Chicago Police Department combat atrocious offences and bring criminals to justice.",
-      "episode_count": 10,
-      "total_episodes": 271,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action"
-      ],
-      "top_actors": [
-        "Jason Beghe",
-        "Marina Squerciati",
-        "Patrick John Flueger"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
-      "tvdb_id": 269641,
-      "tvdb_season_id": 2256787,
-      "network": "NBC",
-      "runtime": 41,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.0,
-        "imdb": {
-          "rating": 8.1,
-          "votes": 53071,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              },
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/58841-chicago-p-d/watch?locale=AU"
-        }
-      },
-      "poster_path": "/w7R4ooo2IbOfBKOoMDwaiMGsNQf.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 44006,
-      "series_name": "Chicago Fire",
-      "series_imdb_id": "tt2261391",
-      "season_number": 15,
-      "season_id": 524275,
-      "air_date": "2026-10-07",
-      "age_days": 40,
-      "best_rank": null,
-      "description": "Adrenaline-fueled rescue heroism balanced with heartfelt brotherhood at Firehouse 51.",
-      "overview": "The lives of firefighters and paramedics working for the City of Chicago Fire Department at Fire Station 51, made up of Truck 81, Squadron 3, Ambulance 61, and Battalion 25.",
-      "episode_count": 10,
-      "total_episodes": 304,
-      "genres": [
-        "Drama",
-        "Action"
-      ],
-      "top_actors": [
-        "Taylor Kinney",
-        "David Eigenberg",
-        "Christian Stolte"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=8XkrTlXtwu8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/mqwUwexSSiBGC9qGgu38tKczFn.jpg",
-      "tvdb_id": 258541,
-      "tvdb_season_id": 2256786,
-      "network": "NBC",
-      "runtime": 42,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 82.0,
-        "imdb": {
-          "rating": 8.0,
-          "votes": 72747,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 387,
-                "provider_name": "Peacock Premium Plus",
-                "logo_path": "/yrEwyMzEKdqAoGhaWUARtIxByol.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/44006-chicago-fire/watch?locale=AU"
-        }
-      },
-      "poster_path": "/mqwUwexSSiBGC9qGgu38tKczFn.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 273207,
       "series_name": "Neagley",
       "series_imdb_id": "tt33539520",
       "season_number": 1,
       "season_id": 421460,
       "air_date": "2026-09-16",
-      "age_days": 61,
+      "age_days": 62,
       "best_rank": null,
-      "description": "Action-packed detective thriller delivering bone-crunching fights and effortless swagger.",
+      "description": "Fast-paced, hard-boiled action mystery for anyone craving sharp investigative thrills.",
       "overview": "Frances Neagley is a private investigator in Chicago. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell bent on justice. Using everything she's learned from Jack Reacher and her time as a member of the 110 Special Investigators, Neagley puts herself on a dangerous path to uncover a menacing evil.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -2579,41 +2658,43 @@
       "backdrop_path": null
     },
     {
-      "series_id": 65334,
-      "series_name": "Miraculous: Tales of Ladybug & Cat Noir",
-      "series_imdb_id": "tt2580046",
-      "season_number": 7,
-      "season_id": 550240,
-      "air_date": "2026-11-01",
-      "age_days": 15,
+      "series_id": 211288,
+      "series_name": "Tracker",
+      "series_imdb_id": "tt13875494",
+      "season_number": 4,
+      "season_id": 532134,
+      "air_date": "2026-10-04",
+      "age_days": 44,
       "best_rank": null,
-      "description": "Fast-paced superhero adventures and vibrant fun for animation fans worldwide.",
-      "overview": "New heroes. New powers. New enemies. The Miraculous universe will never be the same again. Faced with the greatest threats ever seen, Ladybug and Cat Noir will have to go beyond their limits to protect the world.",
+      "description": "Rugged, suspenseful survival procedural that makes every missing-person case an adventure.",
+      "overview": "\"This is Cyrron. One of six planets in the Mygar Federation. There was a prison break. 218 of the most violent criminals have disappeared into the city of Chicago. Finding them won't be easy - they're not human. Luckily for Earth, neither am I.\" 218 alien prisoners have escaped from their captivity from a prison in the Migar system. Their warden and guard, an alien named Daggun, followed them to Earth. While they occupied the bodies of humans, their pursuer was forced to create his body based on a model on an advertising billboard. Taking his name from the brand on the billboard, \"Cole\" was picked up by bar owner Mel, who took pity on him. Unlike the other aliens, since \"Cole\" didn't have a human body, he has no knowledge or memory of Earth, and is forced to learn everything from scratch.\r\nDespite these obstacles, and with Mel's help, Cole must locate and pursue the escaped prisoners, led by Dr. Zin, and drain the alien life forces from their human bodies and imprison the energy",
       "episode_count": null,
-      "total_episodes": 181,
+      "total_episodes": 63,
       "genres": [
-        "Children",
-        "Anime"
+        "Science Fiction",
+        "Drama",
+        "Action",
+        "Romance"
       ],
       "top_actors": [
-        "Anouck Hautbois",
-        "Benjamin Bollen",
-        "Marie Nonnenmacher"
+        "Justin Hartley",
+        "Fiona Rene",
+        "Chris Lee"
       ],
       "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=VCwtE3L-u7w",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/i6ZWgB0fFX7QkMYbsWUU9Q2YAGZ.jpg",
-      "tvdb_id": 433881,
+      "trailer_url": "https://www.youtube.com/watch?v=yz4KP9Nza5g",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/piRdX66Y0KAxQuPAhAhj8JSlqPj.jpg",
+      "tvdb_id": 76950,
       "tvdb_season_id": null,
-      "network": "TF1",
-      "runtime": 2,
+      "network": "Syndication",
+      "runtime": 60,
       "status": "Ended",
       "ratings": {
-        "composite_score": 80.0,
+        "composite_score": 80.67,
         "imdb": {
-          "rating": 7.5,
-          "votes": 20913,
-          "season_rating": null
+          "rating": 7.866666666666666,
+          "votes": 31529,
+          "season_rating": 7.866666666666666
         }
       },
       "streaming_availability": {
@@ -2621,18 +2702,35 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
               },
               {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/211288-tracker/watch?locale=US"
         },
         "CA": {
           "services": {
@@ -2643,9 +2741,9 @@
                 "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
               },
               {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
               }
             ],
             "buy": [
@@ -2656,16 +2754,11 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/211288-tracker/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
               {
                 "provider_id": 337,
                 "provider_name": "Disney Plus",
@@ -2673,88 +2766,10 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/65334-miraculous-les-aventures-de-ladybug-et-chat-noir/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/211288-tracker/watch?locale=AU"
         }
       },
-      "poster_path": "/i6ZWgB0fFX7QkMYbsWUU9Q2YAGZ.jpg",
-      "backdrop_path": null
-    },
-    {
-      "series_id": 131488,
-      "series_name": "The Empress",
-      "series_imdb_id": "tt13720112",
-      "season_number": 3,
-      "season_id": 549608,
-      "air_date": "2026-11-12",
-      "age_days": 4,
-      "best_rank": 14,
-      "description": "Bite-sized viral comedy serving up quick laughs and eccentric humor.",
-      "overview": "Constrained by the corset of the Viennese court and deeply wounded by Franz's rejection and unfaithfulness after his return from the war, Elisabeth struggles to be heard and to understand what her soul truly longs for.",
-      "episode_count": null,
-      "total_episodes": 18,
-      "genres": [
-        "Comedy"
-      ],
-      "top_actors": [
-        "Devrim Lingnau",
-        "Philip Froissant",
-        "Melika Foroutan"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=KfySe96FPr8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xNZLLiXBu8pLhFM2qidmPJo0O7n.jpg",
-      "tvdb_id": 369420,
-      "tvdb_season_id": null,
-      "network": "YouTube",
-      "runtime": 10,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 93.0,
-        "imdb": {
-          "rating": 7.8,
-          "votes": 22289,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=US"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/131488-die-kaiserin/watch?locale=AU"
-        }
-      },
-      "poster_path": "/xNZLLiXBu8pLhFM2qidmPJo0O7n.jpg",
+      "poster_path": "/piRdX66Y0KAxQuPAhAhj8JSlqPj.jpg",
       "backdrop_path": null
     },
     {
@@ -2764,9 +2779,9 @@
       "season_number": 1,
       "season_id": 515438,
       "air_date": "2026-09-21",
-      "age_days": 56,
+      "age_days": 57,
       "best_rank": null,
-      "description": "Straightforward police drama offering solid, old-school Friday night entertainment.",
+      "description": "Taut law-enforcement suspense with explosive shootouts and compelling tactical intrigue.",
       "overview": "A unique show from creator Rod Lurie about the life of the mob and the FBI.  Mob boss Jonah Malloy (David Paymer) is trying to run his business away from the interference of the FBI, while the FBI is trying everything to bring down his terror team.  Malloy doesn't know is he has an FBI undercover agent, Roy Ravelle (Anson Mount), working for him. Lisa Cohen (Leslie Hope) heads the FBI team, which also include Paige Van Doren (Leslie Bibb), who lost her husband on 9/11.",
       "episode_count": 13,
       "total_episodes": 13,
@@ -2853,9 +2868,9 @@
       "season_number": 1,
       "season_id": 484319,
       "air_date": "2026-09-24",
-      "age_days": 53,
+      "age_days": 54,
       "best_rank": null,
-      "description": "Nostalgic campus sitcom reboot full of warm laughs and easy charm.",
+      "description": "Charming, smart college sitcom revival packed with upbeat humor and heart.",
       "overview": "In this spin-off from the popular sitcom The Cosby Show, Denise Huxtable enters her sophomore year at Hillman, alma mater of her parents and grandfather, where she moves into Gilbert Hall and shares a dorm room with 26-year-old Jaleesa Vinson and talkative new roommate Maggie Lauten. Also included in the first season cast were obnoxious and extremely wealthy dormmate Whitley Gilbert, ladies' man Dwayne Wayne and dorm director Stevie Rallen. Lettie Bostic later replaced Stevie as the new dorm director. At the end of the first season, Denise would return home (and to The Cosby Show) after dropping out of college. In the fall of 1988, new students Freddie Brooks and Kim Reese entered Hillman College. Freddie was a \"hippie-child\" who developed a crush on Dwayne; and Kim, an aspiring med student, became Whitley's new roommate. Giving Dwayne a hard time was his math professor, Col. Bradford Taylor. Also, Ron Johnson and Walter Oakes became regulars in the second season after appearing o",
       "episode_count": 22,
       "total_episodes": 10,
@@ -2925,69 +2940,15 @@
       "backdrop_path": null
     },
     {
-      "series_id": 1489,
-      "series_name": "Jimmy Kimmel Live!",
-      "series_imdb_id": "tt0320037",
-      "season_number": 25,
-      "season_id": 535784,
-      "air_date": "2026-09-08",
-      "age_days": 69,
-      "best_rank": 5,
-      "description": "Sharp comedic monologues and celebrity interviews perfect for unwinding tonight.",
-      "overview": "Emmy-winner Jimmy Kimmel serves as host and executive producer of \"Jimmy Kimmel Live,\" ABC Television Network's distinctive late-night talk show. The show features a diverse line up of guests, including celebrities, athletes, comedians and human interest subjects. Along with a light-hearted and recognizable cast of characters, a hip house band and comedy bits in Kimmel's inimitable style, the show additionally offers one of the funniest, freshest monologues on television today. \"Jimmy Kimmel Live\" often features elaborate, innovative stunts - such as having Quentin Tarantino guest-direct an entire episode, or building a state of the art performance stage in the center of Hollywood Boulevard.",
-      "episode_count": 39,
-      "total_episodes": 3377,
-      "genres": [
-        "Comedy",
-        "Talk Show"
-      ],
-      "top_actors": [
-        "Jimmy Kimmel",
-        "Guillermo Rodriguez"
-      ],
-      "production_companies": [],
-      "trailer_url": "https://www.youtube.com/watch?v=2kqZi3RoA5I",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
-      "tvdb_id": 71998,
-      "tvdb_season_id": 2278487,
-      "network": "ABC (US)",
-      "runtime": 45,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 79.0,
-        "imdb": {
-          "rating": 6.4,
-          "votes": 20155,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/1489-jimmy-kimmel-live/watch?locale=US"
-        }
-      },
-      "poster_path": "/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
-      "backdrop_path": null
-    },
-    {
       "series_id": 329274,
       "series_name": "MOURINHO",
       "series_imdb_id": "tt43673968",
       "season_number": 1,
       "season_id": 531447,
       "air_date": "2026-08-11",
-      "age_days": 97,
+      "age_days": 98,
       "best_rank": null,
-      "description": "An enthralling look into the career of football's ultimate managerial mastermind.",
+      "description": "Fascinating insider look into one of soccer's most magnetic and controversial icons.",
       "overview": "This trophy-packed, insider-fuelled documentary charts José Mourinho's iconic rise as one of the world's top footballing managers of the most elite clubs.",
       "episode_count": 3,
       "total_episodes": 3,
@@ -3053,6 +3014,60 @@
         }
       },
       "poster_path": "/uUgrxU3Gjl7HeaAlYa4glHWFbO5.jpg",
+      "backdrop_path": null
+    },
+    {
+      "series_id": 1489,
+      "series_name": "Jimmy Kimmel Live!",
+      "series_imdb_id": "tt0320037",
+      "season_number": 25,
+      "season_id": 535784,
+      "air_date": "2026-09-08",
+      "age_days": 70,
+      "best_rank": 5,
+      "description": "Topical monologues, star-studded celebrity chats, and easy late-night laughs before bed.",
+      "overview": "Emmy-winner Jimmy Kimmel serves as host and executive producer of \"Jimmy Kimmel Live,\" ABC Television Network's distinctive late-night talk show. The show features a diverse line up of guests, including celebrities, athletes, comedians and human interest subjects. Along with a light-hearted and recognizable cast of characters, a hip house band and comedy bits in Kimmel's inimitable style, the show additionally offers one of the funniest, freshest monologues on television today. \"Jimmy Kimmel Live\" often features elaborate, innovative stunts - such as having Quentin Tarantino guest-direct an entire episode, or building a state of the art performance stage in the center of Hollywood Boulevard.",
+      "episode_count": 39,
+      "total_episodes": 3377,
+      "genres": [
+        "Comedy",
+        "Talk Show"
+      ],
+      "top_actors": [
+        "Jimmy Kimmel",
+        "Guillermo Rodriguez"
+      ],
+      "production_companies": [],
+      "trailer_url": "https://www.youtube.com/watch?v=2kqZi3RoA5I",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
+      "tvdb_id": 71998,
+      "tvdb_season_id": 2278487,
+      "network": "ABC (US)",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 79.0,
+        "imdb": {
+          "rating": 6.4,
+          "votes": 20155,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1489-jimmy-kimmel-live/watch?locale=US"
+        }
+      },
+      "poster_path": "/y7jTnhfIWXgrD4fc7DLOjwOO8nM.jpg",
       "backdrop_path": null
     }
   ]
