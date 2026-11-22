@@ -12,11 +12,11 @@ function getYouTubeEmbedUrl(url) {
     const parsed = new URL(url)
     if (parsed.hostname.includes("youtu.be")) {
       const id = parsed.pathname.replace("/", "")
-      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
+      return id ? `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0` : null
     }
     if (parsed.hostname.includes("youtube.com")) {
       const id = parsed.searchParams.get("v")
-      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
+      return id ? `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0` : null
     }
   } catch {
     return null
@@ -44,6 +44,7 @@ export function MovieCard({
   featured = false,
   radarrUrl = "",
   sonarrUrl = "",
+  selectedServiceId = null,
   className = "",
   isOpen = false,
   onOpenChange,
@@ -136,6 +137,7 @@ export function MovieCard({
             dialogPosterSrcSet={dialogPosterSrcSet}
             radarrUrl={radarrUrl}
             sonarrUrl={sonarrUrl}
+            selectedServiceId={selectedServiceId}
             onOpenSettings={onOpenSettings}
           />
         </Suspense>

@@ -51,12 +51,13 @@ export function useColumnCount() {
 }
 
 // The first item renders as a col-span-2 row-span-2 tile (4 cells instead of 1),
-// which shifts how many cells land in the final row. Trim trailing items so the
+// and optional fixed grid tiles (such as the Mystery Pick card) add extra cells,
+// shifting how many cells land in the final row. Trim trailing items so the
 // last row is always fully populated instead of dangling with a partial row.
-export function trimToFullRows(items, columns, featuredCells = 4) {
+export function trimToFullRows(items, columns, featuredCells = 4, extraFixedCells = 0) {
   if (!items.length || columns <= 0) return items
 
-  const extraCells = featuredCells - 1
+  const extraCells = featuredCells - 1 + extraFixedCells
   const totalCells = items.length + extraCells
   const remainder = totalCells % columns
   if (remainder === 0) return items
