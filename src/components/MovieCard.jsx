@@ -38,13 +38,16 @@ function StarIcon() {
 
 export function MovieCard({
   movie,
+  isLcp = false,
   isAboveFold = false,
+  isDeferred = false,
   featured = false,
   radarrUrl = "",
   sonarrUrl = "",
   className = "",
   isOpen = false,
   onOpenChange,
+  onOpenSettings,
 }) {
   const trailerEmbedUrl = getYouTubeEmbedUrl(movie.trailerUrl)
   const posterSrcSet = featured
@@ -58,7 +61,11 @@ export function MovieCard({
     : null
 
   return (
-    <div className={`brand-surface flex flex-col gap-3 rounded-[1.55rem] p-2 transition-[transform,box-shadow] duration-500 ease-out hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${className}`}>
+    <div
+      className={`brand-surface flex h-full flex-col gap-3 rounded-[1.55rem] p-2 transition-[transform,box-shadow] duration-500 ease-out hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${
+        isDeferred ? "card-deferred" : ""
+      } ${className}`}
+    >
       <Dialog open={isOpen} onOpenChange={onOpenChange}>
         <DialogTrigger asChild>
           <button
@@ -78,17 +85,17 @@ export function MovieCard({
                   src={movie.posterUrl}
                   srcSet={posterSrcSet || undefined}
                   sizes={featured
-                    ? "(min-width: 1280px) 400px, (min-width: 1024px) 50vw, (min-width: 768px) 66vw, 100vw"
+                    ? "(min-width: 1280px) 400px, (min-width: 1024px) 50vw, (min-width: 768px) 66vw, 50vw"
                     : "(min-width: 1280px) 200px, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, 50vw"
                   }
                   alt={`${movie.title} poster`}
                   width="500"
                   height="750"
-                  className={`aspect-[2/3] w-full object-cover will-change-transform transition-[transform,opacity] duration-500 ease-out group-hover:scale-[1.04] ${
+                  className={`aspect-[2/3] w-full object-cover transition-[transform,opacity] duration-500 ease-out group-hover:scale-[1.04] ${
                     isPosterLoaded ? "opacity-100" : "opacity-0"
                   }`}
                   loading={isAboveFold ? "eager" : "lazy"}
-                  fetchpriority={isAboveFold ? "high" : undefined}
+                  fetchPriority={isLcp ? "high" : undefined}
                   decoding="async"
                   onLoad={() => setIsPosterLoaded(true)}
                   onError={() => setIsPosterLoaded(true)}
@@ -102,18 +109,16 @@ export function MovieCard({
 
             {/* Score badge — top right, always visible */}
             {score && (
-              <div
-                className="absolute right-2 top-2 flex items-center gap-1 rounded-full border border-[#e4d8ab]/20 bg-[rgba(10,20,18,0.72)] px-2.5 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-brand-cream backdrop-blur-sm transition-transform duration-300 group-hover:scale-105"
-                aria-label={`Rating: ${score} out of 10`}
-              >
+              <div className="absolute right-2 top-2 flex items-center gap-1 rounded-full border border-[#e4d8ab]/20 bg-[rgba(10,20,18,0.72)] px-2.5 py-1 font-mono text-[0.6875rem] uppercase tracking-[0.12em] text-brand-cream backdrop-blur-sm transition-transform duration-300 group-hover:scale-105">
                 <StarIcon />
+                <span className="sr-only">Rating: {score} out of 10</span>
                 <span aria-hidden="true">{score}</span>
               </div>
             )}
 
-            {/* AI description — fades in with a gentle upward drift on hover */}
+            {/* AI description — fades in with a gentle upward drift on hover or focus */}
             {movie.description && (
-              <div className="absolute bottom-0 left-0 right-0 translate-y-2 opacity-0 transition-[opacity,transform] duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100">
+              <div className="absolute bottom-0 left-0 right-0 translate-y-2 opacity-0 transition-[opacity,transform] duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100">
                 <div className="bg-gradient-to-t from-[rgba(6,12,12,0.98)] via-[rgba(6,12,12,0.85)] via-45% to-transparent px-3 pb-3 pt-20">
                   <p className="text-sm leading-5 text-brand-cream line-clamp-4 [text-shadow:0_1px_3px_rgba(0,0,0,0.7)]">
                     &ldquo;{movie.description}&rdquo;
@@ -125,22 +130,21 @@ export function MovieCard({
         </DialogTrigger>
         <Suspense fallback={null}>
           <MovieDialogContent
+            key={movie.id}
             movie={movie}
             trailerEmbedUrl={trailerEmbedUrl}
             dialogPosterSrcSet={dialogPosterSrcSet}
             radarrUrl={radarrUrl}
             sonarrUrl={sonarrUrl}
+            onOpenSettings={onOpenSettings}
           />
         </Suspense>
       </Dialog>
 
       <div className="px-1 pb-1.5">
-        <div className="mb-1 flex items-start justify-between gap-2">
-          <h3 className="font-semibold text-sm leading-tight text-brand-cream line-clamp-2">{movie.title}</h3>
-          <span className="brand-kicker shrink-0 text-[0.55rem] text-brand-text-muted">
-            {movie.kind === "tv" ? "Series" : "Movie"}
-          </span>
-        </div>
+        <h3 className="mb-1 font-semibold text-sm leading-tight text-brand-cream line-clamp-2">
+          {movie.title}
+        </h3>
         {movie.genres?.length > 0 && (
           <p className="mt-0.5 text-xs text-brand-text-soft line-clamp-1">
             {movie.genres.slice(0, 2).join(" · ")}
