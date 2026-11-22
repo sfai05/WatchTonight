@@ -5,18 +5,18 @@ import { cva } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:pointer-events-none disabled:opacity-50",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-colors duration-200 motion-safe:transition-all focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring disabled:pointer-events-none disabled:opacity-50",
   {
     variants: {
       variant: {
         default:
-          "bg-primary text-primary-foreground shadow-[0_10px_30px_rgba(0,0,0,0.18)] hover:-translate-y-0.5 hover:bg-primary/95",
+          "bg-primary text-primary-foreground shadow-[0_10px_30px_rgba(0,0,0,0.18)] motion-safe:hover:-translate-y-0.5 hover:bg-primary/95",
         destructive:
-          "bg-destructive text-destructive-foreground shadow-[0_10px_30px_rgba(0,0,0,0.18)] hover:-translate-y-0.5 hover:bg-destructive/90",
+          "bg-destructive text-destructive-foreground shadow-[0_10px_30px_rgba(0,0,0,0.18)] motion-safe:hover:-translate-y-0.5 hover:bg-destructive/90",
         outline:
-          "border border-[#e4d8ab]/16 bg-[rgba(19,34,32,0.88)] text-brand-cream shadow-[0_10px_26px_rgba(0,0,0,0.16)] hover:-translate-y-0.5 hover:bg-[rgba(29,86,80,0.72)] hover:text-brand-cream-light",
+          "border border-[#e4d8ab]/25 bg-[rgba(19,34,32,0.88)] text-brand-cream shadow-[0_10px_26px_rgba(0,0,0,0.16)] motion-safe:hover:-translate-y-0.5 hover:bg-[rgba(29,86,80,0.72)] hover:text-brand-cream-light",
         secondary:
-          "bg-secondary text-secondary-foreground shadow-[0_10px_24px_rgba(0,0,0,0.12)] hover:-translate-y-0.5 hover:bg-secondary/90",
+          "bg-secondary text-secondary-foreground shadow-[0_10px_24px_rgba(0,0,0,0.12)] motion-safe:hover:-translate-y-0.5 hover:bg-secondary/90",
         ghost: "text-brand-text-soft hover:bg-[rgba(228,216,171,0.06)] hover:text-brand-cream",
         link: "text-primary underline-offset-4 hover:underline",
       },

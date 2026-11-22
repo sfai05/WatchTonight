@@ -59,7 +59,7 @@ export default {
           "cream-light": "#ECE1B9",
           pale:          "#F2ECD4",
           "text-soft":  "#8DA8A4",
-          "text-muted": "#5A7874",
+          "text-muted": "#7F9E99",
         },
       },
       borderRadius: {

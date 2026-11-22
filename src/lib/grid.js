@@ -1,27 +1,50 @@
 import { useEffect, useState } from "react"
 
-const BREAKPOINTS = [
-  { minWidth: 1280, columns: 5 },
-  { minWidth: 1024, columns: 4 },
-  { minWidth: 768, columns: 3 },
-  { minWidth: 0, columns: 2 },
+const BREAKPOINT_QUERIES = [
+  { query: "(min-width: 1280px)", columns: 5 },
+  { query: "(min-width: 1024px)", columns: 4 },
+  { query: "(min-width: 768px)", columns: 3 },
 ]
 
 function getColumnCount() {
-  if (typeof window === "undefined") return 2
-  const width = window.innerWidth
-  return BREAKPOINTS.find((bp) => width >= bp.minWidth).columns
+  if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+    return 2
+  }
+  const matched = BREAKPOINT_QUERIES.find(({ query }) => window.matchMedia(query).matches)
+  return matched ? matched.columns : 2
 }
 
 export function useColumnCount() {
   const [columns, setColumns] = useState(getColumnCount)
 
   useEffect(() => {
-    function handleResize() {
+    if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
+      return undefined
+    }
+
+    const mediaQueryLists = BREAKPOINT_QUERIES.map(({ query }) => window.matchMedia(query))
+
+    function handleBreakpointChange() {
       setColumns(getColumnCount())
     }
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
+
+    mediaQueryLists.forEach((mql) => {
+      if (typeof mql.addEventListener === "function") {
+        mql.addEventListener("change", handleBreakpointChange)
+      } else {
+        mql.addListener(handleBreakpointChange)
+      }
+    })
+
+    return () => {
+      mediaQueryLists.forEach((mql) => {
+        if (typeof mql.removeEventListener === "function") {
+          mql.removeEventListener("change", handleBreakpointChange)
+        } else {
+          mql.removeListener(handleBreakpointChange)
+        }
+      })
+    }
   }, [])
 
   return columns

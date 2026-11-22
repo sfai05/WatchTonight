@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: dark;
+  accent-color: #D68E25;
+  scrollbar-color: #2c6d67 #0a1412;
   --background: 170 30% 8%;
   --foreground: 47 51% 78%;
   --card: 172 28% 10%;
@@ -27,6 +30,7 @@
 
 html {
   background: hsl(var(--background));
+  scroll-padding-top: 5.5rem;
 }
 
 body {
@@ -36,6 +40,7 @@ body {
     hsl(var(--background));
   color: hsl(var(--foreground));
   font-family: "DM Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size-adjust: from-font;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
@@ -76,14 +81,34 @@ body::after {
   a {
     color: inherit;
   }
+
+  h1,
+  h2,
+  h3 {
+    font-size-adjust: from-font;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
 }
 
 @layer utilities {
+  .font-display {
+    font-size-adjust: from-font;
+  }
+
   .brand-kicker {
     font-family: "Space Mono", monospace;
-    font-size: 0.68rem;
+    font-size: 0.75rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
+  }
+
+  .card-deferred {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 340px;
   }
 
   .brand-surface {
@@ -101,10 +126,32 @@ body::after {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .animate-pulse {
+    animation: none;
+  }
+
+  [class*="animate-"] {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+  }
+}
+
+@media (forced-colors: active) {
+  :focus-visible {
+    outline: 2px solid Highlight;
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .brand-surface {
+    border-color: CanvasText;
   }
 }
