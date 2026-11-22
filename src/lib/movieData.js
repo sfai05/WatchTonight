@@ -1,6 +1,68 @@
 import { buildMovieSlug, buildTvSlug } from "@/lib/slug"
 
 const TMDB_IMAGE_BASE = "https://image.tmdb.org/t/p/"
+const FETCH_TIMEOUT_MS = 10_000
+
+async function fetchJsonWithTimeout(url, errorMessage, { signal } = {}) {
+  let timeoutId = null
+  let cleanup = null
+  let fetchSignal = signal
+
+  if (typeof AbortSignal !== "undefined" && typeof AbortSignal.timeout === "function") {
+    const timeoutSignal = AbortSignal.timeout(FETCH_TIMEOUT_MS)
+    if (!signal) {
+      fetchSignal = timeoutSignal
+    } else if (typeof AbortSignal.any === "function") {
+      fetchSignal = AbortSignal.any([signal, timeoutSignal])
+    } else if (typeof AbortController !== "undefined") {
+      const controller = new AbortController()
+      const forwardAbort = (source) => {
+        if (!controller.signal.aborted) {
+          controller.abort(source.reason)
+        }
+      }
+      if (signal.aborted) {
+        forwardAbort(signal)
+      } else if (timeoutSignal.aborted) {
+        forwardAbort(timeoutSignal)
+      } else {
+        const onSignalAbort = () => forwardAbort(signal)
+        const onTimeoutAbort = () => forwardAbort(timeoutSignal)
+        signal.addEventListener("abort", onSignalAbort, { once: true })
+        timeoutSignal.addEventListener("abort", onTimeoutAbort, { once: true })
+        cleanup = () => {
+          signal.removeEventListener("abort", onSignalAbort)
+          timeoutSignal.removeEventListener("abort", onTimeoutAbort)
+        }
+      }
+      fetchSignal = controller.signal
+    }
+  } else if (typeof AbortController !== "undefined") {
+    const controller = new AbortController()
+    timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
+    if (signal) {
+      const onSignalAbort = () => controller.abort(signal.reason)
+      if (signal.aborted) {
+        onSignalAbort()
+      } else {
+        signal.addEventListener("abort", onSignalAbort, { once: true })
+        cleanup = () => signal.removeEventListener("abort", onSignalAbort)
+      }
+    }
+    fetchSignal = controller.signal
+  }
+
+  try {
+    const response = await fetch(url, fetchSignal ? { signal: fetchSignal } : undefined)
+    if (!response.ok) {
+      throw new Error(errorMessage)
+    }
+    return await response.json()
+  } finally {
+    if (timeoutId !== null) clearTimeout(timeoutId)
+    if (cleanup) cleanup()
+  }
+}
 
 export function getPosterUrl(posterPath, size = "w500") {
   if (!posterPath) return null
@@ -33,67 +95,89 @@ export function getStreamingLink(movie) {
   return movie?.streaming_availability?.US?.link || null
 }
 
-export async function fetchMoviesData() {
-  const response = await fetch("/content/movies.json")
-  if (!response.ok) {
-    throw new Error("Unable to load movies data")
-  }
-  return response.json()
+export async function fetchMoviesData({ signal } = {}) {
+  return fetchJsonWithTimeout("/content/movies.json", "Unable to load movies data", { signal })
 }
 
-export async function fetchTvSeasonsData() {
-  const response = await fetch("/content/tv_seasons.json")
-  if (!response.ok) {
-    throw new Error("Unable to load TV seasons data")
+export async function fetchTvSeasonsData({ signal } = {}) {
+  return fetchJsonWithTimeout("/content/tv_seasons.json", "Unable to load TV seasons data", {
+    signal,
+  })
+}
+
+function getRatingCount(item) {
+  const total =
+    (Number(item?.ratings?.imdb?.votes) || 0) + (Number(item?.ratings?.tmdb?.votes) || 0)
+  return total > 0 ? total : null
+}
+
+function hasCustomDescription(rawDesc, rawOverview) {
+  return Boolean(rawDesc && rawDesc.trim() && rawDesc.trim() !== (rawOverview || "").trim())
+}
+
+function mapProviders(list, seenIds) {
+  const providers = []
+  for (const provider of list || []) {
+    if (!provider?.provider_id || seenIds.has(provider.provider_id)) continue
+    seenIds.add(provider.provider_id)
+    providers.push({
+      id: provider.provider_id,
+      name: provider.provider_name,
+      logoUrl: getProviderLogoUrl(provider.logo_path),
+    })
   }
-  return response.json()
+  return providers
+}
+
+function buildStreamingData(item) {
+  const services = item?.streaming_availability?.US?.services
+  if (!services) {
+    return {
+      streamingBuckets: { subscription: [], rentBuy: [] },
+      streamingProviders: [],
+    }
+  }
+  const seenIds = new Set()
+  const subscription = mapProviders(services.subscription, seenIds)
+  const rentBuy = mapProviders([...(services.rent || []), ...(services.buy || [])], seenIds)
+  return {
+    streamingBuckets: { subscription, rentBuy },
+    streamingProviders: [...subscription, ...rentBuy],
+  }
 }
 
 export function transformMovieData(raw) {
   const movies = raw?.movies ?? []
   return movies.map((movie) => {
     const slug = buildMovieSlug(movie.title, movie.id)
+    const { streamingBuckets, streamingProviders } = buildStreamingData(movie)
     return {
-    id: movie.id,
-    kind: "movie",
-    slug,
-    path: `/movie/${slug}`,
-    title: movie.title,
-    description: movie.description || movie.overview,
-    overview: movie.overview || movie.description,
-    genres: movie.genres || [],
-    director: movie.director || null,
-    topActors: movie.top_actors || [],
-    releaseDate: movie.release_date || null,
-    posterPath: movie.poster_path || null,
-    posterUrl: getPosterUrl(movie.poster_path, "w500"),
-    backdropPath: movie.backdrop_path || null,
-    backdropUrl: getBackdropUrl(movie.backdrop_path),
-    compositeScore: movie.ratings?.composite_score ?? null,
-    trailerUrl: movie.trailer_url || null,
-    streamingUrl: getStreamingLink(movie),
-    rentalUrl: movie?.streaming_availability?.US?.services?.rent?.[0]
-      ? getStreamingLink(movie)
-      : null,
-    streamingProviders: (() => {
-      const services = movie?.streaming_availability?.US?.services
-      if (!services) return []
-      const buckets = [services.subscription, services.rent, services.buy]
-      const flattened = buckets.flatMap((list) => list || [])
-      const deduped = new Map()
-      flattened.forEach((provider) => {
-        if (provider?.provider_id && !deduped.has(provider.provider_id)) {
-          deduped.set(provider.provider_id, {
-            id: provider.provider_id,
-            name: provider.provider_name,
-            logoUrl: getProviderLogoUrl(provider.logo_path),
-          })
-        }
-      })
-      return Array.from(deduped.values())
-    })(),
-    infoUrl: `https://www.themoviedb.org/movie/${movie.id}`,
-  }
+      id: movie.id,
+      kind: "movie",
+      slug,
+      path: `/movie/${slug}/`,
+      title: movie.title,
+      description: movie.description || movie.overview,
+      overview: movie.overview || movie.description,
+      hasCustomDescription: hasCustomDescription(movie.description, movie.overview),
+      genres: movie.genres || [],
+      director: movie.director || null,
+      topActors: movie.top_actors || [],
+      releaseDate: movie.release_date || null,
+      runtime: typeof movie.runtime === "number" && movie.runtime > 0 ? movie.runtime : null,
+      posterPath: movie.poster_path || null,
+      posterUrl: getPosterUrl(movie.poster_path, "w500"),
+      backdropPath: movie.backdrop_path || null,
+      backdropUrl: getBackdropUrl(movie.backdrop_path),
+      compositeScore: movie.ratings?.composite_score ?? null,
+      ratingCount: getRatingCount(movie),
+      trailerUrl: movie.trailer_url || null,
+      streamingUrl: getStreamingLink(movie),
+      rentalUrl: movieOrSeasonRentalUrl(movie),
+      streamingBuckets,
+      streamingProviders,
+      infoUrl: `https://www.themoviedb.org/movie/${movie.id}`,
+    }
   })
 }
 
@@ -102,56 +186,46 @@ export function transformTvSeasonData(raw) {
   return seasons.map((season) => {
     const id = season.season_id || `${season.series_id}-s${season.season_number}`
     const slug = buildTvSlug(season.series_name, season.season_number, id)
+    const { streamingBuckets, streamingProviders } = buildStreamingData(season)
     return {
-    id,
-    kind: "tv",
-    slug,
-    path: `/tv/${slug}`,
-    title: `${season.series_name} — Season ${season.season_number}`,
-    description: season.description || season.overview,
-    overview: season.overview || season.description,
-    genres: season.genres || [],
-    director: null,
-    topActors: season.top_actors || [],
-    releaseDate: season.air_date || null,
-    posterPath: season.poster_path || null,
-    posterUrl: getPosterUrl(season.poster_path, "w500"),
-    backdropPath: season.backdrop_path || null,
-    backdropUrl: getBackdropUrl(season.backdrop_path),
-    compositeScore: season.ratings?.composite_score ?? null,
-    trailerUrl: season.trailer_url || null,
-    streamingUrl: getStreamingLink(season),
-    rentalUrl: season?.streaming_availability?.US?.services?.rent?.[0]
-      ? getStreamingLink(season)
-      : null,
-    streamingProviders: (() => {
-      const services = season?.streaming_availability?.US?.services
-      if (!services) return []
-      const buckets = [services.subscription, services.rent, services.buy]
-      const flattened = buckets.flatMap((list) => list || [])
-      const deduped = new Map()
-      flattened.forEach((provider) => {
-        if (provider?.provider_id && !deduped.has(provider.provider_id)) {
-          deduped.set(provider.provider_id, {
-            id: provider.provider_id,
-            name: provider.provider_name,
-            logoUrl: getProviderLogoUrl(provider.logo_path),
-          })
-        }
-      })
-      return Array.from(deduped.values())
-    })(),
-    infoUrl: `https://www.themoviedb.org/tv/${season.series_id}/season/${season.season_number}`,
-    seriesName: season.series_name,
-    seasonNumber: season.season_number,
-    episodeCount: season.episode_count,
-    network: season.network,
-    runtime: season.runtime,
-    status: season.status,
-    imdbRating: season?.ratings?.imdb?.rating ?? null,
-    tvdbId: season.tvdb_id || null,
-  }
+      id,
+      kind: "tv",
+      slug,
+      path: `/tv/${slug}/`,
+      title: `${season.series_name} — Season ${season.season_number}`,
+      description: season.description || season.overview,
+      overview: season.overview || season.description,
+      hasCustomDescription: hasCustomDescription(season.description, season.overview),
+      genres: season.genres || [],
+      director: null,
+      topActors: season.top_actors || [],
+      releaseDate: season.air_date || null,
+      posterPath: season.poster_path || null,
+      posterUrl: getPosterUrl(season.poster_path, "w500"),
+      backdropPath: season.backdrop_path || null,
+      backdropUrl: getBackdropUrl(season.backdrop_path),
+      compositeScore: season.ratings?.composite_score ?? null,
+      ratingCount: getRatingCount(season),
+      trailerUrl: season.trailer_url || null,
+      streamingUrl: getStreamingLink(season),
+      rentalUrl: movieOrSeasonRentalUrl(season),
+      streamingBuckets,
+      streamingProviders,
+      infoUrl: `https://www.themoviedb.org/tv/${season.series_id}/season/${season.season_number}`,
+      seriesName: season.series_name,
+      seasonNumber: season.season_number,
+      episodeCount: season.episode_count,
+      network: season.network,
+      runtime: typeof season.runtime === "number" && season.runtime > 0 ? season.runtime : null,
+      status: season.status,
+      imdbRating: season?.ratings?.imdb?.rating ?? null,
+      tvdbId: season.tvdb_id || null,
+    }
   })
+}
+
+function movieOrSeasonRentalUrl(item) {
+  return item?.streaming_availability?.US?.services?.rent?.[0] ? getStreamingLink(item) : null
 }
 
 export function getLatestGeneratedAt(...dates) {
@@ -164,15 +238,18 @@ export function getLatestGeneratedAt(...dates) {
 }
 
 export function sortByReleaseDateDesc(items) {
-  return [...items].sort((a, b) => {
+  return items.toSorted((a, b) => {
     const aTime = a.releaseDate ? new Date(a.releaseDate).getTime() : 0
     const bTime = b.releaseDate ? new Date(b.releaseDate).getTime() : 0
     return bTime - aTime
   })
 }
 
-export async function fetchAllContent() {
-  const [moviesRaw, tvRaw] = await Promise.all([fetchMoviesData(), fetchTvSeasonsData()])
+export async function fetchAllContent({ signal } = {}) {
+  const [moviesRaw, tvRaw] = await Promise.all([
+    fetchMoviesData({ signal }),
+    fetchTvSeasonsData({ signal }),
+  ])
   const movies = transformMovieData(moviesRaw)
   const seasons = transformTvSeasonData(tvRaw)
   return {
