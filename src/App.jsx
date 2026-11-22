@@ -120,6 +120,7 @@ function PosterGrid({
   onCardOpenChange,
   onOpenSettings,
   onLuckyPick,
+  luckySeed = 0,
 }) {
   if (items.length === 0) {
     return (
@@ -139,6 +140,11 @@ function PosterGrid({
   }
 
   const showMysteryCard = items.length >= 2 && typeof onLuckyPick === "function"
+  const minMysteryIndex = Math.min(9, items.length)
+  const mysteryInsertIndex =
+    minMysteryIndex + Math.floor(luckySeed * (items.length - minMysteryIndex + 1))
+  const beforeMystery = showMysteryCard ? items.slice(0, mysteryInsertIndex) : items
+  const afterMystery = showMysteryCard ? items.slice(mysteryInsertIndex) : []
 
   function renderMovieItem(item, index) {
     const isFeatured = index === 0 && selectedServiceId == null
@@ -169,7 +175,7 @@ function PosterGrid({
       role="list"
       className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-6"
     >
-      {renderMovieItem(items[0], 0)}
+      {beforeMystery.map((item, index) => renderMovieItem(item, index))}
       {showMysteryCard && (
         <li key="mystery-pick">
           <MysteryPickCard
@@ -180,7 +186,9 @@ function PosterGrid({
           />
         </li>
       )}
-      {items.slice(1).map((item, offset) => renderMovieItem(item, offset + 1))}
+      {afterMystery.map((item, offset) =>
+        renderMovieItem(item, mysteryInsertIndex + offset)
+      )}
     </ul>
   )
 }
@@ -201,6 +209,10 @@ export default function App() {
   const [prevRouteKind, setPrevRouteKind] = useState(routeKind)
   const [selectedServiceId, setSelectedServiceId] = useState(null)
   const [dismissedMissingSlug, setDismissedMissingSlug] = useState(null)
+  const [luckySeeds] = useState(() => ({
+    movies: Math.random(),
+    tv: Math.random(),
+  }))
 
   if (routeKind !== prevRouteKind) {
     setPrevRouteKind(routeKind)
@@ -555,10 +567,9 @@ export default function App() {
             <h2 className="font-display text-[clamp(1.5rem,1.05rem+2.1vw,2.35rem)] font-extrabold leading-[1.04] tracking-[-0.04em] text-brand-cream">
               Stop scrolling. Pick something <span className="text-brand-gold">good tonight.</span>
             </h2>
-            <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm text-brand-text-soft">
+            <div className="mt-1.5 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 text-sm text-brand-text-soft">
               <p className="leading-snug">Critics-first movies &amp; series streaming at home</p>
-              <span aria-hidden="true" className="text-brand-text-muted">·</span>
-              <span className="font-mono text-[0.75rem] uppercase tracking-[0.14em] text-brand-cream-light/85">
+              <span className="ml-auto font-mono text-[0.75rem] uppercase tracking-[0.14em] text-brand-cream-light/85">
                 {formattedLastUpdated ? `Updated ${formattedLastUpdated}` : "Daily refresh"}
               </span>
             </div>
@@ -672,6 +683,7 @@ export default function App() {
                   onCardOpenChange={handleCardOpenChange}
                   onOpenSettings={() => setSettingsOpen(true)}
                   onLuckyPick={handleLuckyPick}
+                  luckySeed={luckySeeds.movies}
                 />
               </TabsContent>
 
@@ -688,6 +700,7 @@ export default function App() {
                   onCardOpenChange={handleCardOpenChange}
                   onOpenSettings={() => setSettingsOpen(true)}
                   onLuckyPick={handleLuckyPick}
+                  luckySeed={luckySeeds.tv}
                 />
               </TabsContent>
             </>
