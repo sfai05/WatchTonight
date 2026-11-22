@@ -4,7 +4,7 @@ import { useNavigate, useParams } from "react-router-dom"
 import { MovieCard } from "@/components/MovieCard"
 import { AboutDialog } from "@/components/AboutDialog"
 import { SettingsDialog } from "@/components/SettingsDialog"
-import { IconInstagram, IconPanelToggle, IconThreads, IconTwitterX, IconX } from "@/components/icons"
+import { IconInstagram, IconThreads, IconTwitterX, IconX } from "@/components/icons"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
@@ -22,37 +22,7 @@ const DEFAULT_TITLE = "WatchTonight — New releases streaming at home tonight"
 const DEFAULT_DESCRIPTION =
   "Recently popular movies and TV shows available to stream at home. A minimalist poster wall with trailers and where to watch."
 const BRAND_MARK = "/brand-mark-nobg.png"
-const HERO_COLLAPSE_COOKIE = "watchtonight-hero-collapsed"
-const HERO_VIEW_COUNT_COOKIE = "watchtonight-hero-views"
-const COOKIE_MAX_AGE = 60 * 60 * 24 * 365
 const MAX_TOP_SERVICES = 7
-
-function getCookie(name) {
-  if (typeof document === "undefined") return ""
-
-  return (
-    document.cookie
-      .split("; ")
-      .find((cookie) => cookie.startsWith(`${name}=`))
-      ?.split("=")[1] || ""
-  )
-}
-
-function setCookie(name, value, maxAge = COOKIE_MAX_AGE) {
-  if (typeof document === "undefined") return
-  document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAge}; SameSite=Lax`
-}
-
-function getDefaultHeroCollapsed() {
-  const savedPreference = getCookie(HERO_COLLAPSE_COOKIE)
-  const storedViews = Number.parseInt(getCookie(HERO_VIEW_COUNT_COOKIE) || "0", 10)
-
-  if (savedPreference === "true") return true
-  if (storedViews + 1 > 3) return true
-  if (savedPreference === "false") return false
-
-  return false
-}
 
 function readStoredSetting(key) {
   if (typeof window === "undefined") return ""
@@ -211,7 +181,6 @@ export default function App() {
   const [prevRouteKind, setPrevRouteKind] = useState(routeKind)
   const [selectedServiceId, setSelectedServiceId] = useState(null)
   const [dismissedMissingSlug, setDismissedMissingSlug] = useState(null)
-  const [heroCollapsed, setHeroCollapsed] = useState(getDefaultHeroCollapsed)
 
   if (routeKind !== prevRouteKind) {
     setPrevRouteKind(routeKind)
@@ -452,20 +421,6 @@ export default function App() {
     }
   }, [loadVersion])
 
-  useEffect(() => {
-    const nextViews = Number.parseInt(getCookie(HERO_VIEW_COUNT_COOKIE) || "0", 10) + 1
-    setCookie(HERO_VIEW_COUNT_COOKIE, String(nextViews))
-  }, [])
-
-  function handleHeroCollapsedChange(nextCollapsed) {
-    setHeroCollapsed(nextCollapsed)
-    setCookie(HERO_COLLAPSE_COOKIE, String(nextCollapsed))
-
-    if (!nextCollapsed) {
-      setCookie(HERO_VIEW_COUNT_COOKIE, "0")
-    }
-  }
-
   return (
     <Tabs value={activeTab} onValueChange={handleTabChange}>
       <div className="min-h-screen bg-background text-foreground">
@@ -532,55 +487,40 @@ export default function App() {
 
         <main id="main-content" tabIndex={-1} className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 focus:outline-none">
           <section
-            className={`brand-surface relative mb-5 overflow-hidden rounded-[1.75rem] px-5 sm:mb-6 sm:px-7 ${
-              heroCollapsed ? "py-3.5 sm:py-4" : "py-4 sm:py-5"
-            }`}
+            aria-label="Tonight's picks"
+            className="mb-5 flex flex-col gap-3 sm:mb-6 sm:flex-row sm:items-center sm:justify-between sm:gap-6"
           >
-            <div className="brand-halftone absolute inset-0 opacity-20" aria-hidden="true" />
-            <div className="relative flex items-start justify-between gap-4 sm:items-center">
-              <div className="min-w-0 flex-1">
-                <h2
-                  className={`font-display font-extrabold leading-[1.02] tracking-[-0.04em] text-brand-cream ${
-                    heroCollapsed
-                      ? "text-[clamp(1.25rem,1rem+1.4vw,1.8rem)]"
-                      : "text-[clamp(1.5rem,1.1rem+2.2vw,2.5rem)]"
-                  }`}
-                >
-                  {heroCollapsed ? (
-                    "Tonight\u2019s picks"
-                  ) : (
-                    <>
-                      Stop scrolling. Pick something <span className="text-brand-gold">good tonight.</span>
-                    </>
-                  )}
-                </h2>
-                <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-text-soft">
-                  <p className="leading-snug">
-                    {heroCollapsed
-                      ? "Critics-first picks streaming at home tonight."
-                      : "Critics-first movies and series streaming at home — no sign-in, no endless scrolling."}
-                  </p>
-                  <span className="font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-brand-cream-light/85">
-                    {formattedLastUpdated ? `Updated ${formattedLastUpdated}` : "Daily refresh"}
-                  </span>
-                </div>
+            <div className="min-w-0 flex-1">
+              <h2 className="font-display text-[clamp(1.5rem,1.05rem+2.1vw,2.35rem)] font-extrabold leading-[1.04] tracking-[-0.04em] text-brand-cream">
+                Stop scrolling. Pick something <span className="text-brand-gold">good tonight.</span>
+              </h2>
+              <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-1 text-sm text-brand-text-soft">
+                <p className="leading-snug">Critics-first movies &amp; series streaming at home</p>
+                <span aria-hidden="true" className="text-brand-text-muted">·</span>
+                <span className="font-mono text-[0.75rem] uppercase tracking-[0.14em] text-brand-cream-light/85">
+                  {formattedLastUpdated ? `Updated ${formattedLastUpdated}` : "Daily refresh"}
+                </span>
               </div>
-
-              <Button
-                type="button"
-                variant="outline"
-                size="icon"
-                onClick={() => handleHeroCollapsedChange(!heroCollapsed)}
-                aria-expanded={!heroCollapsed}
-                aria-label={heroCollapsed ? "Expand banner" : "Collapse banner"}
-                className="z-10 h-10 w-10 shrink-0 text-brand-cream-light hover:text-brand-cream"
-              >
-                <IconPanelToggle
-                  collapsed={heroCollapsed}
-                  className="h-4 w-4 transition-transform duration-200"
-                />
-              </Button>
             </div>
+
+            {!isLoading && !error && (
+              <button
+                type="button"
+                disabled={activeFilteredPool.length === 0}
+                onClick={() => {
+                  if (!activeFilteredPool.length) return
+                  const pick =
+                    activeFilteredPool[Math.floor(Math.random() * activeFilteredPool.length)]
+                  navigate(normalizePath(pick.path))
+                }}
+                className="brand-kicker inline-flex min-h-[40px] shrink-0 items-center justify-center gap-2 self-start rounded-full border border-[#d68e25]/60 bg-[rgba(214,142,37,0.12)] px-4 py-2 text-brand-cream transition motion-safe:hover:-translate-y-0.5 hover:border-[#d68e25]/80 hover:bg-[rgba(214,142,37,0.2)] hover:text-brand-cream motion-safe:active:translate-y-0 disabled:pointer-events-none disabled:opacity-40 sm:self-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                data-umami-event="Feeling lucky"
+                data-umami-event-tab={activeTab}
+              >
+                <span aria-hidden="true">🎲</span>
+                Feeling lucky?
+              </button>
+            )}
           </section>
 
           {showMissingRouteBanner && (
@@ -618,12 +558,12 @@ export default function App() {
 
           {!isLoading && !error && (
             <>
-              {/* Utility & Streaming-Service Filter Bar */}
-              <div className="mb-5 flex flex-col gap-3 sm:mb-6 sm:flex-row sm:items-center sm:justify-between">
+              {/* Streaming-Service Filter Bar */}
+              {topServices.length > 0 && (
                 <div
                   role="group"
                   aria-label="Filter by streaming service"
-                  className="flex flex-wrap items-center gap-2"
+                  className="mb-5 flex flex-wrap items-center gap-2 sm:mb-6"
                 >
                   <button
                     type="button"
@@ -676,24 +616,7 @@ export default function App() {
                     )
                   })}
                 </div>
-
-                <button
-                  type="button"
-                  disabled={activeFilteredPool.length === 0}
-                  onClick={() => {
-                    if (!activeFilteredPool.length) return
-                    const pick =
-                      activeFilteredPool[Math.floor(Math.random() * activeFilteredPool.length)]
-                    navigate(normalizePath(pick.path))
-                  }}
-                  className="brand-kicker inline-flex min-h-[38px] shrink-0 items-center justify-center gap-2 self-start rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.1)] px-4 py-2 text-brand-cream transition motion-safe:hover:-translate-y-0.5 hover:bg-[rgba(214,142,37,0.18)] hover:text-brand-cream motion-safe:active:translate-y-0 disabled:pointer-events-none disabled:opacity-40 sm:self-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-                  data-umami-event="Feeling lucky"
-                  data-umami-event-tab={activeTab}
-                >
-                  <span aria-hidden="true">🎲</span>
-                  Feeling lucky?
-                </button>
-              </div>
+              )}
 
               <TabsContent value="movies" className="mt-0">
                 <PosterGrid
