@@ -456,6 +456,7 @@ export default function App() {
     function handleKeyDown(event) {
       if (event.metaKey || event.ctrlKey || event.altKey || event.shiftKey) return
       if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return
+      if (document.querySelector('[data-trailer-open="true"]')) return
 
       const active = document.activeElement
       if (
@@ -475,7 +476,7 @@ export default function App() {
       event.preventDefault()
       const delta = event.key === "ArrowRight" ? 1 : -1
       const nextIndex = (currentIndex + delta + list.length) % list.length
-      navigate(normalizePath(list[nextIndex].path))
+      navigate(normalizePath(list[nextIndex].path), { replace: true })
     }
 
     window.addEventListener("keydown", handleKeyDown)

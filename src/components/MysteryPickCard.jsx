@@ -14,15 +14,17 @@ export function MysteryPickCard({
       type="button"
       onClick={onPick}
       disabled={poolCount === 0}
-      aria-label={`Feeling lucky? Open a random pick from ${poolSummary}`}
       data-umami-event="Feeling lucky"
       data-umami-event-tab={kind}
-      className="brand-surface group flex h-full w-full cursor-pointer flex-col gap-3 rounded-[1.55rem] border border-[#d68e25]/60 p-2 text-left transition-shadow duration-500 ease-out hover:border-[#d68e25]/85 motion-safe:transition-[transform,box-shadow,border-color] motion-safe:hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] disabled:pointer-events-none disabled:opacity-40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+      className="brand-surface brand-surface-gold group flex h-full w-full cursor-pointer flex-col gap-3 rounded-[1.55rem] p-2 text-left transition-shadow duration-500 ease-out motion-safe:transition-[transform,box-shadow,border-color] motion-safe:hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] disabled:pointer-events-none disabled:opacity-40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
     >
       <span className="relative flex aspect-[2/3] w-full flex-col items-center justify-between overflow-hidden rounded-[1.2rem] border border-[#d68e25]/35 bg-[radial-gradient(circle_at_50%_28%,rgba(214,142,37,0.24),transparent_62%),linear-gradient(180deg,#162926_0%,#0e1a18_100%)] p-3 text-center sm:p-4">
         <span className="brand-halftone absolute inset-0 opacity-25" aria-hidden="true" />
 
-        <span className="relative z-10 font-mono text-[0.6875rem] font-bold uppercase tracking-[0.14em] text-brand-gold">
+        <span
+          aria-hidden="true"
+          className="relative z-10 font-mono text-[0.6875rem] font-bold uppercase tracking-[0.14em] text-brand-gold"
+        >
           Wildcard
         </span>
 

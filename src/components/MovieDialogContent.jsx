@@ -129,7 +129,15 @@ function StreamingBadgeList({ providers, selectedServiceId, muted = false }) {
   )
 }
 
-export default function MovieDialogContent({
+export default function MovieDialogContent(props) {
+  return (
+    <DialogContent className="movie-dialog-frame left-0 top-0 flex h-[100dvh] max-h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 flex-col gap-0 overflow-hidden rounded-none border-0 border-[#e4d8ab]/12 bg-[#0E1A18] p-0 text-brand-cream [&>button]:text-brand-text-soft [&>button]:hover:text-brand-cream">
+      <MovieDialogBody {...props} />
+    </DialogContent>
+  )
+}
+
+function MovieDialogBody({
   movie,
   trailerEmbedUrl,
   dialogPosterSrcSet,
@@ -140,7 +148,7 @@ export default function MovieDialogContent({
 }) {
   const [isPosterLoaded, setIsPosterLoaded] = useState(false)
   const [posterError, setPosterError] = useState(false)
-  const [trailerMovieId, setTrailerMovieId] = useState(null)
+  const [isTrailerOpen, setIsTrailerOpen] = useState(false)
   const [isTrailerLoaded, setIsTrailerLoaded] = useState(false)
   const [showRentBuy, setShowRentBuy] = useState(false)
   const [copied, setCopied] = useState(false)
@@ -154,7 +162,7 @@ export default function MovieDialogContent({
     }
   }, [])
 
-  const showTrailer = trailerMovieId === movie.id && Boolean(trailerEmbedUrl)
+  const showTrailer = isTrailerOpen && Boolean(trailerEmbedUrl)
 
   const hasRadarr = Boolean(radarrUrl) && movie?.kind !== "tv"
   const radarrLink = hasRadarr
@@ -206,16 +214,16 @@ export default function MovieDialogContent({
   function openTrailer() {
     if (!trailerEmbedUrl) return
     setIsTrailerLoaded(false)
-    setTrailerMovieId(movie.id)
+    setIsTrailerOpen(true)
   }
 
   function closeTrailer() {
-    setTrailerMovieId(null)
+    setIsTrailerOpen(false)
     setIsTrailerLoaded(false)
   }
 
   async function handleCopyLink() {
-    if (typeof window === "undefined") return
+    if (typeof window === "undefined" || !navigator.clipboard?.writeText) return
     try {
       await navigator.clipboard.writeText(window.location.href)
       setCopied(true)
@@ -290,193 +298,184 @@ export default function MovieDialogContent({
   )
 
   return (
-    <DialogContent className="movie-dialog-frame left-0 top-0 flex h-[100dvh] max-h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 flex-col gap-0 overflow-hidden rounded-none border-0 border-[#e4d8ab]/12 bg-[#0E1A18] p-0 text-brand-cream [&>button]:text-brand-text-soft [&>button]:hover:text-brand-cream">
-      <div
-        className={
-          showTrailer
-            ? "flex flex-1 min-h-0 flex-col overflow-hidden"
-            : "movie-dialog-split flex flex-1 min-h-0 overflow-hidden"
-        }
-      >
-        {/* ── Option 1: Top 16:9 Cinema Stage (when trailer is playing) ── */}
-        {showTrailer ? (
-          <div className="movie-dialog-stage relative shrink-0 border-b border-[#e4d8ab]/10 bg-[#060C0B]">
-            <div
-              id="movie-trailer-player"
-              className="relative mx-auto aspect-video w-full max-w-[calc(46dvh*16/9)] overflow-hidden bg-[#060C0B] md:rounded-xl md:border md:border-[#e4d8ab]/12"
-            >
-              {!isTrailerLoaded && (
-                <div
-                  aria-hidden="true"
-                  className="absolute inset-0 flex items-center justify-center bg-[#060C0B] font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-brand-text-soft animate-pulse"
-                >
-                  Loading trailer&hellip;
-                </div>
-              )}
-              <iframe
-                src={trailerEmbedUrl}
-                title={`${movie.title} trailer`}
-                className="relative z-10 h-full w-full"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                onLoad={() => setIsTrailerLoaded(true)}
-              />
-            </div>
-          </div>
-        ) : (
-          /* ── Desktop & Tall-Tablet: Atmospheric left poster column ── */
-          <div className="movie-dialog-desktop-poster relative hidden w-[40%] shrink-0 items-center justify-center overflow-hidden">
-            {heroBg && (
-              <>
-                <div
-                  className="absolute inset-0 scale-110 blur-2xl"
-                  style={{
-                    backgroundImage: `url(${heroBg})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    opacity: 0.55,
-                  }}
-                  aria-hidden="true"
-                />
-                <div className="absolute inset-0 bg-[rgba(10,20,18,0.38)]" aria-hidden="true" />
-                <div className="absolute inset-0 brand-halftone opacity-15" aria-hidden="true" />
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0E1A18]/68" aria-hidden="true" />
-              </>
+    <div
+      data-trailer-open={showTrailer ? "true" : undefined}
+      className={
+        showTrailer
+          ? "flex flex-1 min-h-0 flex-col overflow-hidden"
+          : "movie-dialog-split flex flex-1 min-h-0 overflow-hidden"
+      }
+    >
+      {/* ── Option 1: Top 16:9 Cinema Stage (when trailer is playing) ── */}
+      {showTrailer ? (
+        <div className="movie-dialog-stage relative shrink-0 border-b border-[#e4d8ab]/10 bg-[#060C0B]">
+          <div
+            id="movie-trailer-player"
+            className="relative mx-auto aspect-video w-full max-w-[calc(46dvh*16/9)] overflow-hidden bg-[#060C0B] md:rounded-xl md:border md:border-[#e4d8ab]/12"
+          >
+            {!isTrailerLoaded && (
+              <div
+                aria-hidden="true"
+                className="absolute inset-0 flex items-center justify-center bg-[#060C0B] font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-brand-text-soft animate-pulse"
+              >
+                Loading trailer&hellip;
+              </div>
             )}
+            <iframe
+              src={trailerEmbedUrl}
+              title={`${movie.title} trailer`}
+              className="relative z-10 h-full w-full"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              onLoad={() => setIsTrailerLoaded(true)}
+            />
+          </div>
+        </div>
+      ) : (
+        /* ── Desktop & Tall-Tablet: Atmospheric left poster column ── */
+        <div className="movie-dialog-desktop-poster relative hidden w-[40%] shrink-0 items-center justify-center overflow-hidden">
+          {heroBg && (
+            <>
+              <div
+                className="absolute inset-0 scale-110 blur-2xl"
+                style={{
+                  backgroundImage: `url(${heroBg})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  opacity: 0.55,
+                }}
+                aria-hidden="true"
+              />
+              <div className="absolute inset-0 bg-[rgba(10,20,18,0.38)]" aria-hidden="true" />
+              <div className="absolute inset-0 brand-halftone opacity-15" aria-hidden="true" />
+              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#0E1A18]/68" aria-hidden="true" />
+            </>
+          )}
 
-            <div className="relative z-10 flex w-full max-w-[290px] flex-col items-center p-7">
+          <div className="relative z-10 flex w-full max-w-[290px] flex-col items-center p-7">
+            {trailerEmbedUrl ? (
+              <button
+                type="button"
+                onClick={openTrailer}
+                aria-label={`Watch trailer for ${movie.title}`}
+                data-umami-event="Watch trailer"
+                data-umami-event-title={movie.title}
+                data-umami-event-kind={movie.kind || "movie"}
+                className="group flex w-full flex-col items-center focus-visible:outline-none"
+              >
+                {desktopPosterVisual}
+                <span className="mt-4 inline-flex min-h-[36px] items-center gap-2 rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.12)] px-4 py-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.16em] text-brand-cream transition group-hover:border-primary group-hover:bg-primary group-hover:text-primary-foreground group-focus-visible:ring-2 group-focus-visible:ring-ring group-focus-visible:ring-offset-2 group-focus-visible:ring-offset-[#0E1A18]">
+                  <IconPlay className="h-3.5 w-3.5" />
+                  Watch trailer
+                </span>
+              </button>
+            ) : (
+              desktopPosterVisual
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* ── Scrollable Details Panel ── */}
+      <div className="flex flex-1 min-h-0 flex-col overflow-y-auto overflow-x-hidden overscroll-contain">
+        {/* Mobile & Short-Landscape Banner */}
+        {!showTrailer && (
+          <div className="movie-dialog-compact-only movie-dialog-compact-banner relative shrink-0 overflow-hidden">
+            {heroBg && (
+              <div
+                className="absolute inset-0 scale-110 blur-xl opacity-60"
+                style={{
+                  backgroundImage: `url(${heroBg})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                aria-hidden="true"
+              />
+            )}
+            <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
+            <div className="absolute inset-0 bg-[rgba(10,20,18,0.22)]" aria-hidden="true" />
+            <div className="absolute bottom-0 inset-x-0 h-12 bg-gradient-to-t from-[#0E1A18] to-transparent" aria-hidden="true" />
+            <div className="relative z-10 flex h-full w-full items-center justify-center py-3">
               {trailerEmbedUrl ? (
                 <button
                   type="button"
                   onClick={openTrailer}
-                  aria-label={`Play trailer for ${movie.title}`}
-                  aria-controls="movie-trailer-player"
-                  aria-expanded={showTrailer}
+                  aria-label={`Watch trailer for ${movie.title}`}
                   data-umami-event="Watch trailer"
                   data-umami-event-title={movie.title}
                   data-umami-event-kind={movie.kind || "movie"}
-                  className="group flex w-full flex-col items-center focus-visible:outline-none"
+                  className="h-full rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
                 >
-                  {desktopPosterVisual}
-                  <span className="mt-4 inline-flex min-h-[36px] items-center gap-2 rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.12)] px-4 py-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.16em] text-brand-cream transition group-hover:border-primary group-hover:bg-primary group-hover:text-primary-foreground group-focus-visible:ring-2 group-focus-visible:ring-ring group-focus-visible:ring-offset-2 group-focus-visible:ring-offset-[#0E1A18]">
-                    <IconPlay className="h-3.5 w-3.5" />
-                    Watch trailer
-                  </span>
+                  {compactPosterVisual}
                 </button>
               ) : (
-                desktopPosterVisual
+                compactPosterVisual
               )}
             </div>
           </div>
         )}
 
-        {/* ── Scrollable Details Panel ── */}
-        <div className="flex flex-1 min-h-0 flex-col overflow-y-auto overflow-x-hidden overscroll-contain">
-          {/* Mobile & Short-Landscape Banner */}
-          {!showTrailer && (
-            <div
-              className="movie-dialog-compact-only movie-dialog-compact-banner relative shrink-0 overflow-hidden"
-              style={{ height: "52vw", minHeight: "210px", maxHeight: "300px" }}
-            >
-              {heroBg && (
-                <div
-                  className="absolute inset-0 scale-110 blur-xl opacity-60"
-                  style={{
-                    backgroundImage: `url(${heroBg})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
-                  aria-hidden="true"
-                />
-              )}
-              <div className="absolute inset-0 bg-black/40" aria-hidden="true" />
-              <div className="absolute inset-0 bg-[rgba(10,20,18,0.22)]" aria-hidden="true" />
-              <div className="absolute bottom-0 inset-x-0 h-12 bg-gradient-to-t from-[#0E1A18] to-transparent" aria-hidden="true" />
-              <div className="relative z-10 flex h-full w-full items-center justify-center py-3">
-                {trailerEmbedUrl ? (
-                  <button
-                    type="button"
-                    onClick={openTrailer}
-                    aria-label={`Play trailer for ${movie.title}`}
-                    aria-controls="movie-trailer-player"
-                    aria-expanded={showTrailer}
-                    data-umami-event="Watch trailer"
-                    data-umami-event-title={movie.title}
-                    data-umami-event-kind={movie.kind || "movie"}
-                    className="h-full rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ring"
-                  >
-                    {compactPosterVisual}
-                  </button>
-                ) : (
-                  compactPosterVisual
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* Main editorial content */}
-          <div className="flex flex-1 flex-col gap-5 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] md:p-7">
-            {/* Title block */}
-            <div className={showTrailer ? "flex flex-col gap-3" : "pr-14"}>
-              {showTrailer && (
-                <div>
-                  <button
-                    type="button"
-                    onClick={closeTrailer}
-                    className="inline-flex min-h-[36px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/16 bg-[rgba(228,216,171,0.05)] px-3.5 py-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-brand-cream-light transition hover:border-[#d68e25]/45 hover:bg-[rgba(214,142,37,0.12)] hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-                  >
-                    <ArrowLeftIcon className="h-3.5 w-3.5" />
-                    Back to poster
-                  </button>
-                </div>
-              )}
-
+        {/* Main editorial content */}
+        <div className="flex flex-1 flex-col gap-5 p-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] md:p-7">
+          {/* Title block */}
+          <div className={showTrailer ? "flex flex-col gap-3" : "pr-14"}>
+            {showTrailer && (
               <div>
-                {kickerParts.length > 0 && (
-                  <p className="mb-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-brand-gold">
-                    {kickerParts.join(" · ")}
-                  </p>
-                )}
-                <DialogTitle asChild>
-                  <h2 className="font-display text-2xl font-bold leading-tight tracking-[-0.04em] text-brand-cream sm:text-3xl">
-                    {displayTitle}
-                    {movie.kind === "tv" && movie.seasonNumber && (
-                      <span className="sr-only"> — Season {movie.seasonNumber}</span>
-                    )}
-                  </h2>
-                </DialogTitle>
-                <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-text-soft">
-                  {metaParts.length > 0 && <span>{metaParts.join(" · ")}</span>}
-                  {score && (
-                    <span
-                      title="Critics composite score (out of 10)"
-                      className="inline-flex items-center gap-1 font-semibold text-brand-gold"
-                    >
-                      <StarIcon />
-                      <span className="sr-only">Rating: {score} out of 10</span>
-                      <span aria-hidden="true">{score}</span>
-                    </span>
-                  )}
-                </div>
+                <button
+                  type="button"
+                  onClick={closeTrailer}
+                  className="inline-flex min-h-[36px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/16 bg-[rgba(228,216,171,0.05)] px-3.5 py-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-brand-cream-light transition hover:border-[#d68e25]/45 hover:bg-[rgba(214,142,37,0.12)] hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                >
+                  <ArrowLeftIcon className="h-3.5 w-3.5" />
+                  Back to poster
+                </button>
+              </div>
+            )}
 
-                {!showTrailer && trailerEmbedUrl && (
-                  <Button
-                    type="button"
-                    size="sm"
-                    onClick={openTrailer}
-                    aria-controls="movie-trailer-player"
-                    aria-expanded={showTrailer}
-                    data-umami-event="Watch trailer"
-                    data-umami-event-title={movie.title}
-                    data-umami-event-kind={movie.kind || "movie"}
-                    className="movie-dialog-compact-flex mt-3.5 min-h-[44px] px-4"
+            <div>
+              {kickerParts.length > 0 && (
+                <p className="mb-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-brand-gold">
+                  {kickerParts.join(" · ")}
+                </p>
+              )}
+              <DialogTitle asChild>
+                <h2 className="font-display text-2xl font-bold leading-tight tracking-[-0.04em] text-brand-cream sm:text-3xl">
+                  {displayTitle}
+                  {movie.kind === "tv" && movie.seasonNumber && (
+                    <span className="sr-only"> — Season {movie.seasonNumber}</span>
+                  )}
+                </h2>
+              </DialogTitle>
+              <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-text-soft">
+                {metaParts.length > 0 && <span>{metaParts.join(" · ")}</span>}
+                {score && (
+                  <span
+                    title="Critics composite score (out of 10)"
+                    className="inline-flex items-center gap-1 font-semibold text-brand-gold"
                   >
-                    <IconPlay className="h-3.5 w-3.5" />
-                    Watch trailer
-                  </Button>
+                    <StarIcon />
+                    <span className="sr-only">Rating: {score} out of 10</span>
+                    <span aria-hidden="true">{score}</span>
+                  </span>
                 )}
               </div>
+
+              {!showTrailer && trailerEmbedUrl && (
+                <Button
+                  type="button"
+                  size="sm"
+                  onClick={openTrailer}
+                  data-umami-event="Watch trailer"
+                  data-umami-event-title={movie.title}
+                  data-umami-event-kind={movie.kind || "movie"}
+                  className="movie-dialog-compact-flex mt-3.5 min-h-[44px] px-4"
+                >
+                  <IconPlay className="h-3.5 w-3.5" />
+                  Watch trailer
+                </Button>
+              )}
             </div>
+          </div>
 
             {/* Synopsis + Inline Editorial Credits */}
             <div>
@@ -627,7 +626,6 @@ export default function MovieDialogContent({
               <button
                 type="button"
                 onClick={handleCopyLink}
-                aria-live="polite"
                 className="inline-flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-2 text-xs text-brand-cream-light/85 transition hover:border-[#d68e25]/40 hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream motion-safe:hover:scale-[1.02] motion-safe:active:scale-[0.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
               >
                 {copied ? (
@@ -637,6 +635,9 @@ export default function MovieDialogContent({
                 )}
                 <span>{copied ? "Copied" : "Copy link"}</span>
               </button>
+              <span role="status" aria-live="polite" className="sr-only">
+                {copied ? "Link copied to clipboard" : ""}
+              </span>
 
               {!radarrLink && !sonarrLink && (
                 <button
@@ -662,6 +663,5 @@ export default function MovieDialogContent({
           </div>
         </div>
       </div>
-    </DialogContent>
   )
 }
