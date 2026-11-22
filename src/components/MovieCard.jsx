@@ -6,22 +6,26 @@ import { getPosterSrcSet } from "@/lib/movieData"
 
 const MovieDialogContent = lazy(() => import("@/components/MovieDialogContent"))
 
+const YOUTUBE_ID_RE = /^[\w-]{11}$/
+
 function getYouTubeEmbedUrl(url) {
   if (!url) return null
   try {
     const parsed = new URL(url)
-    if (parsed.hostname.includes("youtu.be")) {
-      const id = parsed.pathname.replace("/", "")
-      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
+    let id = null
+    if (parsed.hostname === "youtu.be" || parsed.hostname === "www.youtu.be") {
+      id = parsed.pathname.split("/").filter(Boolean)[0] || null
+    } else if (
+      parsed.hostname === "youtube.com" ||
+      parsed.hostname.endsWith(".youtube.com")
+    ) {
+      id = parsed.searchParams.get("v")
     }
-    if (parsed.hostname.includes("youtube.com")) {
-      const id = parsed.searchParams.get("v")
-      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
-    }
+    if (!id || !YOUTUBE_ID_RE.test(id)) return null
+    return `https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?autoplay=1&rel=0&playsinline=1`
   } catch {
     return null
   }
-  return null
 }
 
 function StarIcon() {
@@ -44,6 +48,7 @@ export function MovieCard({
   featured = false,
   radarrUrl = "",
   sonarrUrl = "",
+  selectedServiceId = null,
   className = "",
   isOpen = false,
   onOpenChange,
@@ -136,6 +141,7 @@ export function MovieCard({
             dialogPosterSrcSet={dialogPosterSrcSet}
             radarrUrl={radarrUrl}
             sonarrUrl={sonarrUrl}
+            selectedServiceId={selectedServiceId}
             onOpenSettings={onOpenSettings}
           />
         </Suspense>

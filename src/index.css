@@ -125,6 +125,14 @@ body::after {
     box-shadow: 0 22px 60px rgba(0, 0, 0, 0.24);
   }
 
+  .brand-surface-gold {
+    border-color: rgb(214 142 37 / 0.6);
+  }
+
+  .brand-surface-gold:hover {
+    border-color: rgb(214 142 37 / 0.85);
+  }
+
   .brand-halftone {
     background-image: radial-gradient(circle, rgba(214, 142, 37, 0.18) 1px, transparent 1px);
     background-size: 6px 6px;
@@ -157,7 +165,77 @@ body::after {
     color: HighlightText;
   }
 
-  .brand-surface {
+  .brand-surface,
+  .brand-surface-gold {
     border-color: CanvasText;
+  }
+}
+
+.movie-dialog-split {
+  flex-direction: column;
+}
+
+.movie-dialog-desktop-poster {
+  display: none;
+}
+
+.movie-dialog-compact-only {
+  display: block;
+}
+
+.movie-dialog-compact-flex {
+  display: inline-flex;
+}
+
+.movie-dialog-stage {
+  padding-top: calc(4.25rem + env(safe-area-inset-top));
+}
+
+.movie-dialog-compact-banner {
+  height: clamp(210px, 52vw, 300px);
+}
+
+@media (min-width: 768px) and (min-height: 540px) {
+  .movie-dialog-frame {
+    left: 50%;
+    top: 50%;
+    height: auto;
+    max-height: min(88dvh, 760px);
+    width: 92vw;
+    max-width: 56rem;
+    --tw-translate-x: -50%;
+    --tw-translate-y: -50%;
+    border-radius: 1.75rem;
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .movie-dialog-split {
+    flex-direction: row;
+  }
+
+  .movie-dialog-desktop-poster {
+    display: flex;
+  }
+
+  .movie-dialog-compact-only,
+  .movie-dialog-compact-flex {
+    display: none;
+  }
+
+  .movie-dialog-stage {
+    padding: 1rem 4rem;
+  }
+}
+
+@media (max-height: 539px) {
+  .movie-dialog-compact-banner {
+    height: 176px;
+    min-height: 150px;
+    max-height: 196px;
+  }
+
+  .movie-dialog-stage {
+    padding: 0.5rem 4rem;
   }
 }

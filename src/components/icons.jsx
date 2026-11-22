@@ -261,29 +261,3 @@ export function IconTwitterX({ className }) {
     </svg>
   )
 }
-
-// PanelToggle icon — down-chevron, rotated when collapsed
-export function IconPanelToggle({ className, collapsed = false }) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      className={cn(
-        "group/icon motion-safe:transition-transform motion-safe:duration-200",
-        collapsed ? "rotate-180" : "rotate-0",
-        className
-      )}
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-    >
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path
-        d="M6 9l6 6l6 -6"
-        className="motion-safe:transition-transform motion-safe:duration-200 motion-safe:group-hover/icon:translate-y-0.5"
-      />
-    </svg>
-  )
-}
