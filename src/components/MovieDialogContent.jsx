@@ -3,18 +3,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Skeleton } from "@/components/ui/skeleton"
 import { IconPlay } from "@/components/icons"
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog"
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip"
+import { DialogContent, DialogTitle } from "@/components/ui/dialog"
 
 function StarIcon() {
   return (
@@ -24,16 +13,93 @@ function StarIcon() {
   )
 }
 
+function formatRuntime(minutes) {
+  if (!Number.isFinite(minutes) || minutes <= 0) return null
+  const total = Math.round(minutes)
+  const hours = Math.floor(total / 60)
+  const mins = total % 60
+  if (hours === 0) return `${mins}m`
+  if (mins === 0) return `${hours}h`
+  return `${hours}h ${mins}m`
+}
+
+function StreamingProviderGroup({ label, providers, streamingUrl, title }) {
+  if (!providers.length) return null
+
+  return (
+    <div>
+      <p className="mb-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.14em] text-brand-text-soft">
+        {label}
+      </p>
+      <div className="flex flex-col gap-1.5">
+        {providers.map((provider) => {
+          const content = (
+            <>
+              {provider.logoUrl && (
+                <img
+                  src={provider.logoUrl}
+                  alt=""
+                  aria-hidden="true"
+                  width="20"
+                  height="20"
+                  className="h-5 w-5 shrink-0 rounded"
+                />
+              )}
+              <span className="truncate">{provider.name}</span>
+              {streamingUrl && (
+                <span
+                  aria-hidden="true"
+                  className="ml-auto pl-2 text-brand-text-soft transition-colors group-hover:text-brand-gold"
+                >
+                  ↗
+                </span>
+              )}
+            </>
+          )
+
+          if (streamingUrl) {
+            return (
+              <a
+                key={provider.id}
+                href={streamingUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`${provider.name} — view where to watch ${title}`}
+                data-umami-event="Open streaming link"
+                data-umami-event-provider={provider.name}
+                data-umami-event-title={title}
+                className="group flex min-h-[40px] items-center gap-2 rounded-xl border border-[#e4d8ab]/12 bg-[rgba(228,216,171,0.04)] px-3 py-2 text-xs text-brand-cream-light/90 transition hover:border-[#d68e25]/40 hover:bg-[rgba(214,142,37,0.12)] hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+              >
+                {content}
+              </a>
+            )
+          }
+
+          return (
+            <div
+              key={provider.id}
+              className="flex min-h-[40px] items-center gap-2 rounded-xl border border-[#e4d8ab]/8 bg-[rgba(228,216,171,0.04)] px-3 py-2 text-xs text-brand-cream-light/85"
+            >
+              {content}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
 export default function MovieDialogContent({
   movie,
   trailerEmbedUrl,
   dialogPosterSrcSet,
   radarrUrl,
   sonarrUrl,
+  onOpenSettings,
 }) {
   const [isPosterLoaded, setIsPosterLoaded] = useState(false)
-  const [showRadarrTip, setShowRadarrTip] = useState(false)
-  const [showSonarrTip, setShowSonarrTip] = useState(false)
+  const [trailerMovieId, setTrailerMovieId] = useState(null)
+  const showTrailer = trailerMovieId === movie.id
 
   const hasRadarr = Boolean(radarrUrl) && movie?.kind !== "tv"
   const radarrLink = hasRadarr
@@ -51,9 +117,26 @@ export default function MovieDialogContent({
   const score =
     movie.compositeScore != null ? (movie.compositeScore / 10).toFixed(1) : null
   const releaseYear = movie.releaseDate
-    ? new Date(movie.releaseDate).getFullYear()
+    ? String(movie.releaseDate).slice(0, 4)
     : null
+  const formattedRuntime = formatRuntime(movie.runtime)
   const heroBg = movie.backdropUrl || movie.posterUrl
+
+  const showCustomDescription =
+    movie.hasCustomDescription ??
+    (Boolean(movie.description) && movie.description !== movie.overview)
+
+  const subscriptionProviders =
+    movie.streamingBuckets?.subscription ?? movie.streamingProviders ?? []
+  const rentBuyProviders = movie.streamingBuckets?.rentBuy ?? []
+  const hasStreaming = subscriptionProviders.length > 0 || rentBuyProviders.length > 0
+
+  const metaParts = [
+    movie.kind === "tv" && movie.seasonNumber ? `Season ${movie.seasonNumber}` : null,
+    movie.kind === "tv" && movie.episodeCount ? `${movie.episodeCount} ep` : null,
+    formattedRuntime,
+    movie.genres?.length > 0 ? movie.genres.slice(0, 2).join(" · ") : null,
+  ].filter(Boolean)
 
   return (
     <DialogContent className="left-0 top-0 h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 rounded-none border-[#e4d8ab]/10 bg-[#0E1A18] p-0 text-brand-cream overflow-hidden sm:left-[50%] sm:top-[50%] sm:h-auto sm:max-h-[88vh] sm:w-[90vw] sm:max-w-4xl sm:translate-x-[-50%] sm:translate-y-[-50%] sm:rounded-[1.75rem] [&>button]:text-brand-text-soft [&>button]:hover:text-brand-cream">
@@ -61,7 +144,6 @@ export default function MovieDialogContent({
 
         {/* ── Left: atmospheric poster panel ── */}
         <div className="relative hidden sm:flex sm:items-center sm:justify-center overflow-hidden">
-          {/* Blurred glow backdrop */}
           {heroBg && (
             <>
               <div
@@ -103,7 +185,7 @@ export default function MovieDialogContent({
                 />
               </div>
             ) : (
-              <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-white/10 text-white/40 text-sm">
+              <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-white/10 text-brand-text-soft text-sm">
                 No poster
               </div>
             )}
@@ -111,7 +193,7 @@ export default function MovieDialogContent({
         </div>
 
         {/* ── Right: content panel ── */}
-        <div className="flex flex-col overflow-x-hidden overflow-y-auto">
+        <div className="flex flex-col overflow-x-hidden overflow-y-auto overscroll-contain">
           {/* Mobile: full-bleed poster panel */}
           <div className="relative sm:hidden" style={{ height: "55vw", minHeight: "220px", maxHeight: "340px" }}>
             {heroBg && (
@@ -143,7 +225,7 @@ export default function MovieDialogContent({
 
             {/* Title block */}
             <div>
-              <p className="mb-1.5 font-mono text-[11px] uppercase tracking-[0.18em] text-brand-gold/80">
+              <p className="mb-1.5 font-mono text-[0.6875rem] uppercase tracking-[0.18em] text-brand-gold">
                 {[
                   releaseYear,
                   movie.kind === "tv" && movie.network ? movie.network : null,
@@ -157,19 +239,11 @@ export default function MovieDialogContent({
                 </h2>
               </DialogTitle>
               <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-brand-text-soft">
-                {movie.kind === "tv" && (
-                  <>
-                    {movie.seasonNumber && <span>Season {movie.seasonNumber}</span>}
-                    {movie.episodeCount && <span>· {movie.episodeCount} ep</span>}
-                    {movie.runtime && <span>· {movie.runtime}m</span>}
-                  </>
-                )}
-                {movie.genres?.length > 0 && (
-                  <span>{movie.genres.slice(0, 2).join(" · ")}</span>
-                )}
+                {metaParts.length > 0 && <span>{metaParts.join(" · ")}</span>}
                 {score && (
-                  <span className="flex items-center gap-1 font-semibold text-brand-gold" aria-label={`Rating: ${score} out of 10`}>
+                  <span className="flex items-center gap-1 font-semibold text-brand-gold">
                     <StarIcon />
+                    <span className="sr-only">Rating: {score} out of 10</span>
                     <span aria-hidden="true">{score}</span>
                   </span>
                 )}
@@ -180,11 +254,13 @@ export default function MovieDialogContent({
             <div className="grid gap-5 lg:grid-cols-[1fr_auto]">
               {/* Synopsis */}
               <div className="min-w-0">
-                <h3 className="brand-kicker mb-2 text-brand-gold/70">
+                <h3 className="brand-kicker mb-2 text-brand-gold">
                   Synopsis
                 </h3>
-                <p className="text-sm leading-relaxed text-brand-cream-light/85">{movie.overview}</p>
-                {movie.description && (
+                <p className="text-sm leading-relaxed text-brand-cream-light/85">
+                  {movie.overview || movie.description}
+                </p>
+                {showCustomDescription && (
                   <p className="mt-2.5 text-xs italic leading-relaxed text-brand-text-soft">
                     &ldquo;{movie.description}&rdquo;
                   </p>
@@ -192,29 +268,24 @@ export default function MovieDialogContent({
               </div>
 
               {/* Where to stream */}
-              {movie.streamingProviders?.length > 0 && (
-                <div className="shrink-0 sm:min-w-[150px]">
-                  <h3 className="brand-kicker mb-2 text-brand-gold/70">
+              {hasStreaming && (
+                <div className="shrink-0 sm:min-w-[170px]">
+                  <h3 className="brand-kicker mb-2 text-brand-gold">
                     Where to Stream
                   </h3>
-                  <div className="flex flex-col gap-1.5">
-                    {movie.streamingProviders.map((provider) => (
-                      <div
-                        key={provider.id}
-                        className="flex items-center gap-2 rounded-xl border border-[#e4d8ab]/8 bg-[rgba(228,216,171,0.04)] px-3 py-2 text-xs text-brand-cream-light/85"
-                      >
-                        {provider.logoUrl && (
-                          <img
-                            src={provider.logoUrl}
-                            alt={provider.name}
-                            width="20"
-                            height="20"
-                            className="h-5 w-5 rounded"
-                          />
-                        )}
-                        <span>{provider.name}</span>
-                      </div>
-                    ))}
+                  <div className="flex flex-col gap-3">
+                    <StreamingProviderGroup
+                      label="Stream"
+                      providers={subscriptionProviders}
+                      streamingUrl={movie.streamingUrl}
+                      title={movie.title}
+                    />
+                    <StreamingProviderGroup
+                      label="Rent / Buy"
+                      providers={rentBuyProviders}
+                      streamingUrl={movie.streamingUrl}
+                      title={movie.title}
+                    />
                   </div>
                 </div>
               )}
@@ -223,7 +294,7 @@ export default function MovieDialogContent({
             {/* Director */}
             {movie.director && (
               <div>
-                <h3 className="brand-kicker mb-2 text-brand-gold/70">
+                <h3 className="brand-kicker mb-2 text-brand-gold">
                   Director
                 </h3>
                 <div className="flex flex-wrap gap-1.5">
@@ -237,7 +308,7 @@ export default function MovieDialogContent({
             {/* Cast */}
             {movie.topActors?.length > 0 && (
               <div>
-                <h3 className="brand-kicker mb-2 text-brand-gold/70">
+                <h3 className="brand-kicker mb-2 text-brand-gold">
                   Cast
                 </h3>
                 <div className="flex flex-wrap gap-1.5">
@@ -255,18 +326,18 @@ export default function MovieDialogContent({
 
             {/* Add to Watchlist */}
             <div>
-              <h3 className="brand-kicker mb-2 text-brand-gold/70">
+              <h3 className="brand-kicker mb-2 text-brand-gold">
                 Add to Watchlist
               </h3>
               <div className="flex flex-wrap gap-1.5">
                 <a
                   href={traktLink}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   aria-label={`Add ${movie.title} to Trakt watchlist`}
                   data-umami-event="Open Trakt"
                   data-umami-event-title={movie.title}
-                  className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream hover:scale-[1.03] active:scale-[0.97]"
+                  className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
                 >
                   <img src="/icons/trakt.svg" alt="" width="14" height="14" className="h-3.5 w-3.5" />
                   Trakt
@@ -277,32 +348,25 @@ export default function MovieDialogContent({
                     <a
                       href={radarrLink}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       aria-label={`Add ${movie.title} to Radarr download queue`}
                       data-umami-event="Open Radarr"
                       data-umami-event-title={movie.title}
-                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream hover:scale-[1.03] active:scale-[0.97]"
+                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
                     >
                       <img src="/icons/radarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5" />
                       Radarr
                     </a>
                   ) : (
-                    <TooltipProvider>
-                      <Tooltip open={showRadarrTip}>
-                        <TooltipTrigger asChild>
-                          <span
-                            className="flex min-h-[44px] cursor-default items-center gap-1.5 rounded-full border border-[#e4d8ab]/8 px-4 py-3 text-xs text-brand-text-muted/80"
-                            aria-label="Radarr not configured — open Settings to add your URL"
-                            onMouseEnter={() => setShowRadarrTip(true)}
-                            onMouseLeave={() => setShowRadarrTip(false)}
-                          >
-                            <img src="/icons/radarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5 opacity-40" />
-                            Radarr
-                          </span>
-                        </TooltipTrigger>
-                        <TooltipContent>Configure your Radarr URL in Settings.</TooltipContent>
-                      </Tooltip>
-                    </TooltipProvider>
+                    <button
+                      type="button"
+                      onClick={() => onOpenSettings?.()}
+                      aria-label="Connect Radarr in Settings"
+                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-dashed border-[#e4d8ab]/20 bg-[rgba(228,216,171,0.02)] px-4 py-3 text-xs text-brand-text-soft transition hover:border-[#d68e25]/40 hover:bg-[rgba(214,142,37,0.08)] hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                    >
+                      <img src="/icons/radarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5 opacity-60" />
+                      Connect Radarr
+                    </button>
                   ))}
 
                 {movie.kind === "tv" &&
@@ -310,63 +374,63 @@ export default function MovieDialogContent({
                     <a
                       href={sonarrLink}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       aria-label={`Add ${movie.title} to Sonarr download queue`}
                       data-umami-event="Open Sonarr"
                       data-umami-event-title={movie.title}
-                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream hover:scale-[1.03] active:scale-[0.97]"
+                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-[#e4d8ab]/14 bg-[rgba(228,216,171,0.04)] px-4 py-3 text-xs text-brand-cream-light/80 transition hover:bg-[rgba(214,142,37,0.16)] hover:text-brand-cream motion-safe:hover:scale-[1.03] motion-safe:active:scale-[0.97] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
                     >
                       <img src="/icons/sonarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5" />
                       Sonarr
                     </a>
                   ) : (
-                    <TooltipProvider>
-                      <Tooltip open={showSonarrTip}>
-                        <TooltipTrigger asChild>
-                          <span
-                            className="flex min-h-[44px] cursor-default items-center gap-1.5 rounded-full border border-[#e4d8ab]/8 px-4 py-3 text-xs text-brand-text-muted/80"
-                            aria-label="Sonarr not configured — open Settings to add your URL"
-                            onMouseEnter={() => setShowSonarrTip(true)}
-                            onMouseLeave={() => setShowSonarrTip(false)}
-                          >
-                            <img src="/icons/sonarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5 opacity-40" />
-                            Sonarr
-                          </span>
-                        </TooltipTrigger>
-                        <TooltipContent>Configure your Sonarr URL in Settings.</TooltipContent>
-                      </Tooltip>
-                    </TooltipProvider>
+                    <button
+                      type="button"
+                      onClick={() => onOpenSettings?.()}
+                      aria-label="Connect Sonarr in Settings"
+                      className="flex min-h-[44px] items-center gap-1.5 rounded-full border border-dashed border-[#e4d8ab]/20 bg-[rgba(228,216,171,0.02)] px-4 py-3 text-xs text-brand-text-soft transition hover:border-[#d68e25]/40 hover:bg-[rgba(214,142,37,0.08)] hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
+                    >
+                      <img src="/icons/sonarr.svg" alt="" width="14" height="14" className="h-3.5 w-3.5 opacity-60" />
+                      Connect Sonarr
+                    </button>
                   ))}
               </div>
             </div>
 
-            {/* Watch Trailer button */}
+            {/* Inline Watch Trailer toggle + player */}
             {trailerEmbedUrl && (
               <div className="mt-auto border-t border-[#e4d8ab]/8 pt-4">
-                <Dialog>
-                  <DialogTrigger asChild>
-                    <Button
-                      className="gap-2"
-                      data-umami-event="Watch trailer"
-                      data-umami-event-title={movie.title}
-                      data-umami-event-kind={movie.kind || "movie"}
-                    >
-                      <IconPlay className="h-4 w-4" />
-                      Watch Trailer
-                    </Button>
-                  </DialogTrigger>
-                  <DialogContent className="left-0 top-0 h-[100dvh] w-[100dvw] max-w-none translate-x-0 translate-y-0 rounded-none p-6 sm:left-[50%] sm:top-[50%] sm:h-auto sm:max-h-[90vh] sm:w-[92vw] sm:max-w-5xl sm:translate-x-[-50%] sm:translate-y-[-50%] sm:rounded-[1.5rem] overflow-y-auto">
-                    <div className="aspect-video w-full overflow-hidden rounded-xl bg-black">
-                      <iframe
-                        src={trailerEmbedUrl}
-                        title={`${movie.title} trailer`}
-                        className="h-full w-full"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                      />
-                    </div>
-                  </DialogContent>
-                </Dialog>
+                <Button
+                  type="button"
+                  variant={showTrailer ? "outline" : "default"}
+                  aria-expanded={showTrailer}
+                  aria-controls="movie-trailer-player"
+                  onClick={() =>
+                    setTrailerMovieId((prev) => (prev === movie.id ? null : movie.id))
+                  }
+                  className="gap-2"
+                  data-umami-event="Watch trailer"
+                  data-umami-event-title={movie.title}
+                  data-umami-event-kind={movie.kind || "movie"}
+                >
+                  <IconPlay className="h-4 w-4" />
+                  Trailer
+                </Button>
+
+                {showTrailer && (
+                  <div
+                    id="movie-trailer-player"
+                    className="mt-4 aspect-video w-full overflow-hidden rounded-xl border border-[#e4d8ab]/10 bg-black"
+                  >
+                    <iframe
+                      src={trailerEmbedUrl}
+                      title={`${movie.title} trailer`}
+                      className="h-full w-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                    />
+                  </div>
+                )}
               </div>
             )}
           </div>

@@ -6,7 +6,7 @@ import App from './App.jsx'
 
 console.log(
   '%c\uD83C\uDFAC WatchTonight',
-  'font-size:15px;font-weight:700;color:#ffdca1;background:#0d1321;padding:4px 12px;border-radius:4px;',
+  'font-size:15px;font-weight:700;color:#E4D8AB;background:#0E1A18;padding:4px 12px;border-radius:4px;',
   '\n\nFresh picks, every day. Built with taste.'
 )
 

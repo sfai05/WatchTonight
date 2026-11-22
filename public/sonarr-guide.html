@@ -179,11 +179,14 @@
     font-size: 13px;
     color: var(--cream);
     word-break: break-all;
-    text-decoration: none;
-    border-bottom: 1px dashed rgba(228, 216, 171, 0.3);
-    transition: color 0.2s, border-color 0.2s;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(228, 216, 171, 0.7);
+    text-underline-offset: 0.2em;
+    transition: color 0.2s, text-decoration-color 0.2s;
   }
-  .url-callout a:hover { color: var(--gold-primary); border-color: var(--gold-primary); }
+  .url-callout a:hover { color: var(--gold-primary); text-decoration-color: var(--gold-primary); }
 
   /* ── Steps ── */
   .steps {
@@ -261,11 +264,13 @@
   }
   .info-card a {
     color: var(--gold-primary);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: rgba(214, 142, 37, 0.7);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 0.2s;
   }
-  .info-card a:hover { border-color: var(--gold-primary); }
+  .info-card a:hover { text-decoration-color: var(--gold-primary); }
 
   footer {
     border-top: 1px solid rgba(228, 216, 171, 0.06);

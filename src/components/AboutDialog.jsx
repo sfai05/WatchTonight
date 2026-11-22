@@ -16,7 +16,7 @@ export function AboutDialog({ lastUpdated }) {
   return (
     <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" size="icon" className="h-8 w-8 sm:h-10 sm:w-10" aria-label="About WatchTonight" title="About">
+        <Button variant="outline" size="icon" className="h-10 w-10" aria-label="About WatchTonight">
           <IconInfo className="h-4 w-4" />
         </Button>
       </DialogTrigger>
@@ -106,7 +106,7 @@ export function AboutDialog({ lastUpdated }) {
                 <span><span className="text-foreground/80 font-medium">Google Gemini</span> — final ranking and one-line descriptions</span>
               </li>
             </ul>
-            <p className="pt-1 text-xs text-muted-foreground/60">
+            <p className="pt-1 text-xs text-brand-text-soft">
               Data is refreshed daily.{lastUpdated ? (
                 <> Last updated: <span className="tabular-nums">{new Date(lastUpdated).toLocaleDateString(undefined, { day: "2-digit", month: "short", year: "numeric" })}</span>.</>
               ) : null}

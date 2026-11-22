@@ -31,12 +31,14 @@ function truncate(value, max) {
 
 function replaceTag(html, regex, replacement) {
   if (!regex.test(html)) return html
-  return html.replace(regex, replacement)
+  return html.replace(regex, () => replacement)
 }
 
 function renderPage(template, page) {
   const escapedTitle = escapeHtml(page.title)
   const escapedDescription = escapeHtml(page.description)
+  const escapedUrl = escapeHtml(page.url)
+  const escapedImage = escapeHtml(page.image)
 
   let html = template
 
@@ -49,7 +51,7 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/>/,
-    `<link rel="canonical" href="${page.url}" />`
+    `<link rel="canonical" href="${escapedUrl}" />`
   )
   html = replaceTag(
     html,
@@ -64,12 +66,12 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/>/,
-    `<meta property="og:url" content="${page.url}" />`
+    `<meta property="og:url" content="${escapedUrl}" />`
   )
   html = replaceTag(
     html,
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/>/,
-    `<meta property="og:image" content="${page.image}" />`
+    `<meta property="og:image" content="${escapedImage}" />`
   )
   html = replaceTag(
     html,
@@ -84,11 +86,16 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/>/,
-    `<meta name="twitter:image" content="${page.image}" />`
+    `<meta name="twitter:image" content="${escapedImage}" />`
   )
 
-  const jsonLd = `<script type="application/ld+json">${JSON.stringify(page.structuredData)}</script>`
-  html = html.replace("</head>", `${jsonLd}\n  </head>`)
+  const jsonLd = `<script id="wt-jsonld" type="application/ld+json">${JSON.stringify(page.structuredData).replace(/</g, "\\u003c")}</script>`
+  html = html.replace("</head>", () => `${jsonLd}\n  </head>`)
+  html = replaceTag(
+    html,
+    /<div\s+id=["']root["']\s*>\s*<\/div>/,
+    `<div id="root">${page.fallbackHtml}</div>`
+  )
 
   return html
 }
@@ -98,39 +105,126 @@ function writePage(template, dirPath, page) {
   fs.writeFileSync(path.join(dirPath, "index.html"), renderPage(template, page))
 }
 
+function getRatingCount(item) {
+  return (Number(item?.ratings?.imdb?.votes) || 0) + (Number(item?.ratings?.tmdb?.votes) || 0)
+}
+
+function buildAggregateRating(item) {
+  const composite = item?.ratings?.composite_score
+  const ratingCount = getRatingCount(item)
+  if (composite == null || ratingCount <= 0) return undefined
+  return {
+    "@type": "AggregateRating",
+    ratingValue: (composite / 10).toFixed(1),
+    bestRating: "10",
+    worstRating: "0",
+    ratingCount,
+  }
+}
+
+function getReleaseYear(dateStr) {
+  const match = String(dateStr ?? "").match(/^(\d{4})/)
+  return match ? match[1] : null
+}
+
+function getProviderNames(item) {
+  const services = item?.streaming_availability?.US?.services
+  if (!services) return []
+  const seen = new Set()
+  const names = []
+  for (const list of [services.subscription, services.rent, services.buy]) {
+    for (const provider of list || []) {
+      const name = provider?.provider_name
+      if (name && !seen.has(name)) {
+        seen.add(name)
+        names.push(name)
+      }
+    }
+  }
+  return names
+}
+
+function buildFallbackHtml({
+  title,
+  year,
+  network,
+  runtime,
+  genres,
+  overview,
+  director,
+  topActors,
+  providers,
+}) {
+  const metaParts = [
+    year,
+    network,
+    typeof runtime === "number" && runtime > 0 ? `${runtime} min` : null,
+  ].filter(Boolean)
+
+  const heading = metaParts.length
+    ? `${escapeHtml(title)} (${escapeHtml(metaParts.join(" · "))})`
+    : escapeHtml(title)
+
+  const parts = [`<main><article><h1>${heading}</h1>`]
+
+  if (genres?.length) {
+    parts.push(`<p>Genres: ${escapeHtml(genres.join(", "))}</p>`)
+  }
+  if (overview) {
+    parts.push(`<p>${escapeHtml(overview)}</p>`)
+  }
+  if (director) {
+    parts.push(`<p>Director: ${escapeHtml(director)}</p>`)
+  }
+  if (topActors?.length) {
+    parts.push(`<p>Cast: ${escapeHtml(topActors.join(", "))}</p>`)
+  }
+  if (providers?.length) {
+    const items = providers.map((name) => `<li>${escapeHtml(name)}</li>`).join("")
+    parts.push(`<section><h2>Where to Stream</h2><ul>${items}</ul></section>`)
+  }
+
+  parts.push(`<p><a href="/">Browse all tonight’s picks on WatchTonight</a></p>`)
+  parts.push(`</article></main>`)
+
+  return parts.join("")
+}
+
 function buildMoviePage(movie, slug) {
   const url = `${SITE_URL}/movie/${slug}/`
-  const description = truncate(movie.overview || movie.description || "", 300)
+  const overview = movie.overview || movie.description || ""
+  const description = truncate(overview, 300)
   const image = movie.poster_path
     ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
     : `${SITE_URL}/og-image.png`
-  const composite = movie.ratings?.composite_score
 
   return {
     url,
     title: `${movie.title} — Where to Stream | WatchTonight`,
     description,
     image,
+    fallbackHtml: buildFallbackHtml({
+      title: movie.title,
+      year: getReleaseYear(movie.release_date),
+      network: null,
+      runtime: movie.runtime,
+      genres: movie.genres,
+      overview,
+      director: movie.director,
+      topActors: movie.top_actors,
+      providers: getProviderNames(movie),
+    }),
     structuredData: {
       "@context": "https://schema.org",
       "@type": "Movie",
       name: movie.title,
-      description: movie.overview || movie.description || undefined,
+      description: overview || undefined,
       image: movie.poster_path
         ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
         : undefined,
       datePublished: movie.release_date || undefined,
       url,
-      ...(composite != null
-        ? {
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: (composite / 10).toFixed(1),
-              bestRating: "10",
-              worstRating: "0",
-            },
-          }
-        : {}),
+      aggregateRating: buildAggregateRating(movie),
     },
   }
 }
@@ -138,37 +232,49 @@ function buildMoviePage(movie, slug) {
 function buildTvPage(season, slug) {
   const url = `${SITE_URL}/tv/${slug}/`
   const title = `${season.series_name} — Season ${season.season_number}`
-  const description = truncate(season.overview || season.description || "", 300)
+  const overview = season.overview || season.description || ""
+  const description = truncate(overview, 300)
   const image = season.poster_path
     ? `https://image.tmdb.org/t/p/w500${season.poster_path}`
     : `${SITE_URL}/og-image.png`
-  const composite = season.ratings?.composite_score
 
   return {
     url,
     title: `${title} — Where to Stream | WatchTonight`,
     description,
     image,
+    fallbackHtml: buildFallbackHtml({
+      title,
+      year: getReleaseYear(season.air_date),
+      network: season.network,
+      runtime: season.runtime,
+      genres: season.genres,
+      overview,
+      director: null,
+      topActors: season.top_actors,
+      providers: getProviderNames(season),
+    }),
     structuredData: {
       "@context": "https://schema.org",
       "@type": "TVSeason",
       name: title,
-      description: season.overview || season.description || undefined,
+      ...(season.series_name
+        ? {
+            partOfSeries: {
+              "@type": "TVSeries",
+              name: season.series_name,
+            },
+          }
+        : {}),
+      seasonNumber: season.season_number || undefined,
+      numberOfEpisodes: season.episode_count || undefined,
+      description: overview || undefined,
       image: season.poster_path
         ? `https://image.tmdb.org/t/p/w500${season.poster_path}`
         : undefined,
       datePublished: season.air_date || undefined,
       url,
-      ...(composite != null
-        ? {
-            aggregateRating: {
-              "@type": "AggregateRating",
-              ratingValue: (composite / 10).toFixed(1),
-              bestRating: "10",
-              worstRating: "0",
-            },
-          }
-        : {}),
+      aggregateRating: buildAggregateRating(season),
     },
   }
 }
