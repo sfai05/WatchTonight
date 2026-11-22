@@ -39,7 +39,10 @@ async function fetchJsonWithTimeout(url, errorMessage, { signal } = {}) {
     }
   } else if (typeof AbortController !== "undefined") {
     const controller = new AbortController()
-    timeoutId = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS)
+    timeoutId = setTimeout(
+      () => controller.abort(new DOMException("The operation timed out.", "TimeoutError")),
+      FETCH_TIMEOUT_MS
+    )
     if (signal) {
       const onSignalAbort = () => controller.abort(signal.reason)
       if (signal.aborted) {
@@ -112,7 +115,9 @@ function getRatingCount(item) {
 }
 
 function hasCustomDescription(rawDesc, rawOverview) {
-  return Boolean(rawDesc && rawDesc.trim() && rawDesc.trim() !== (rawOverview || "").trim())
+  const desc = (rawDesc || "").trim()
+  const overview = (rawOverview || "").trim()
+  return Boolean(desc && overview && desc !== overview)
 }
 
 function mapProviders(list, seenIds) {

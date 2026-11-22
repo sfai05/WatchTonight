@@ -27,7 +27,11 @@ function isValidHttpUrl(value) {
 
 function readStoredUrl(key) {
   if (typeof window === "undefined") return ""
-  return localStorage.getItem(key) || ""
+  try {
+    return localStorage.getItem(key) || ""
+  } catch {
+    return ""
+  }
 }
 
 export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
@@ -40,23 +44,36 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
 
   const isControlled = controlledOpen !== undefined
   const open = isControlled ? controlledOpen : internalOpen
+  const [prevOpen, setPrevOpen] = useState(open)
+
+  if (open !== prevOpen) {
+    setPrevOpen(open)
+    if (open) {
+      setRadarrUrl(readStoredUrl(RADARR_KEY))
+      setSonarrUrl(readStoredUrl(SONARR_KEY))
+      setValidationError("")
+      setStatusMessage("")
+    }
+  }
 
   useEffect(() => {
+    if (!open && closeTimerRef.current) {
+      clearTimeout(closeTimerRef.current)
+      closeTimerRef.current = null
+    }
     return () => {
       if (closeTimerRef.current) {
         clearTimeout(closeTimerRef.current)
       }
     }
-  }, [])
+  }, [open])
 
   function setOpen(nextOpen) {
     if (closeTimerRef.current) {
       clearTimeout(closeTimerRef.current)
       closeTimerRef.current = null
     }
-    if (nextOpen) {
-      setRadarrUrl(readStoredUrl(RADARR_KEY))
-      setSonarrUrl(readStoredUrl(SONARR_KEY))
+    if (!nextOpen) {
       setValidationError("")
       setStatusMessage("")
     }
@@ -78,8 +95,12 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
     const nextRadarr = normalizeUrl(radarrUrl)
     const nextSonarr = normalizeUrl(sonarrUrl)
     if (typeof window !== "undefined") {
-      localStorage.setItem(RADARR_KEY, nextRadarr)
-      localStorage.setItem(SONARR_KEY, nextSonarr)
+      try {
+        localStorage.setItem(RADARR_KEY, nextRadarr)
+        localStorage.setItem(SONARR_KEY, nextSonarr)
+      } catch {
+        // Ignore storage write errors in restricted browsing contexts
+      }
     }
     setRadarrUrl(nextRadarr)
     setSonarrUrl(nextSonarr)
@@ -118,9 +139,9 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
           If you run either on your home server or NAS, entering your base URL here adds a quick
           &ldquo;Add to Radarr / Sonarr&rdquo; button on every title so you can queue it up without leaving the page.
         </p>
-        <form onSubmit={handleSave} className="grid gap-4">
+        <form onSubmit={handleSave} noValidate className="grid gap-4">
           <div className="grid gap-2 text-sm">
-            <div className="brand-kicker text-brand-gold/80 flex items-center justify-between gap-2">
+            <div className="brand-kicker text-brand-gold flex items-center justify-between gap-2">
               <label htmlFor="radarr-url-input">Radarr base URL</label>
               <a
                 href="/radarr-guide.html"
@@ -135,6 +156,8 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
               id="radarr-url-input"
               type="url"
               inputMode="url"
+              aria-invalid={Boolean(validationError)}
+              aria-describedby={validationError ? "settings-url-error" : undefined}
               value={radarrUrl}
               onChange={(event) => {
                 setRadarrUrl(event.target.value)
@@ -142,11 +165,11 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
                 if (statusMessage) setStatusMessage("")
               }}
               placeholder="https://radarr.example.com"
-              className="h-11 rounded-2xl border border-[#e4d8ab]/25 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream outline-none placeholder:text-brand-text-muted focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="h-11 rounded-2xl border border-[#e4d8ab]/55 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream placeholder:text-brand-text-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
             />
           </div>
           <div className="grid gap-2 text-sm">
-            <div className="brand-kicker text-brand-gold/80 flex items-center justify-between gap-2">
+            <div className="brand-kicker text-brand-gold flex items-center justify-between gap-2">
               <label htmlFor="sonarr-url-input">Sonarr base URL</label>
               <a
                 href="/sonarr-guide.html"
@@ -161,6 +184,8 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
               id="sonarr-url-input"
               type="url"
               inputMode="url"
+              aria-invalid={Boolean(validationError)}
+              aria-describedby={validationError ? "settings-url-error" : undefined}
               value={sonarrUrl}
               onChange={(event) => {
                 setSonarrUrl(event.target.value)
@@ -168,12 +193,12 @@ export function SettingsDialog({ onSave, open: controlledOpen, onOpenChange }) {
                 if (statusMessage) setStatusMessage("")
               }}
               placeholder="https://sonarr.example.com"
-              className="h-11 rounded-2xl border border-[#e4d8ab]/25 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream outline-none placeholder:text-brand-text-muted focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+              className="h-11 rounded-2xl border border-[#e4d8ab]/55 bg-[rgba(10,20,18,0.55)] px-4 text-sm text-brand-cream placeholder:text-brand-text-muted focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
             />
           </div>
 
           {validationError && (
-            <p role="alert" className="text-xs text-destructive">
+            <p id="settings-url-error" role="alert" className="text-xs text-destructive">
               {validationError}
             </p>
           )}

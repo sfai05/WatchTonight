@@ -56,7 +56,42 @@ function getDefaultHeroCollapsed() {
 
 function readStoredSetting(key) {
   if (typeof window === "undefined") return ""
-  return localStorage.getItem(key) || ""
+  try {
+    return localStorage.getItem(key) || ""
+  } catch {
+    return ""
+  }
+}
+
+function truncate(value, max) {
+  const str = String(value ?? "")
+  return str.length > max ? `${str.slice(0, max - 1).trimEnd()}…` : str
+}
+
+function getTopServices(pool) {
+  const counts = new Map()
+  for (const item of pool) {
+    const seen = new Set()
+    for (const provider of getSubscriptionProviders(item)) {
+      if (!provider?.id || seen.has(provider.id)) continue
+      seen.add(provider.id)
+      const existing = counts.get(provider.id)
+      if (existing) {
+        existing.count += 1
+      } else {
+        counts.set(provider.id, {
+          id: provider.id,
+          name: provider.name,
+          logoUrl: provider.logoUrl || null,
+          count: 1,
+        })
+      }
+    }
+  }
+
+  return [...counts.values()]
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+    .slice(0, MAX_TOP_SERVICES)
 }
 
 function normalizePath(path) {
@@ -173,9 +208,19 @@ export default function App() {
   const [sonarrUrl, setSonarrUrl] = useState(() => readStoredSetting("watchtonight-sonarr-url"))
   const [settingsOpen, setSettingsOpen] = useState(false)
   const [activeTab, setActiveTab] = useState(routeKind === "tv" ? "tv" : "movies")
+  const [prevRouteKind, setPrevRouteKind] = useState(routeKind)
   const [selectedServiceId, setSelectedServiceId] = useState(null)
   const [dismissedMissingSlug, setDismissedMissingSlug] = useState(null)
   const [heroCollapsed, setHeroCollapsed] = useState(getDefaultHeroCollapsed)
+
+  if (routeKind !== prevRouteKind) {
+    setPrevRouteKind(routeKind)
+    if (routeKind === "tv") {
+      setActiveTab("tv")
+    } else if (routeKind === "movie") {
+      setActiveTab("movies")
+    }
+  }
 
   const formattedLastUpdated = lastUpdated
     ? new Date(lastUpdated).toLocaleDateString(undefined, { day: "2-digit", month: "short", year: "numeric" })
@@ -190,31 +235,7 @@ export default function App() {
 
   const activePool = activeTab === "tv" ? tvSeasons : movies
 
-  const topServices = useMemo(() => {
-    const counts = new Map()
-    for (const item of activePool) {
-      const seen = new Set()
-      for (const provider of getSubscriptionProviders(item)) {
-        if (!provider?.id || seen.has(provider.id)) continue
-        seen.add(provider.id)
-        const existing = counts.get(provider.id)
-        if (existing) {
-          existing.count += 1
-        } else {
-          counts.set(provider.id, {
-            id: provider.id,
-            name: provider.name,
-            logoUrl: provider.logoUrl || null,
-            count: 1,
-          })
-        }
-      }
-    }
-
-    return [...counts.values()]
-      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
-      .slice(0, MAX_TOP_SERVICES)
-  }, [activePool])
+  const topServices = useMemo(() => getTopServices(activePool), [activePool])
 
   const filteredMovies = useMemo(
     () => filterByService(movies, selectedServiceId),
@@ -255,10 +276,11 @@ export default function App() {
     setActiveTab(nextTab)
     if (selectedServiceId != null) {
       const nextPool = nextTab === "tv" ? tvSeasons : movies
-      const hasMatch = nextPool.some((item) =>
-        getSubscriptionProviders(item).some((provider) => provider.id === selectedServiceId)
+      const nextTopServices = getTopServices(nextPool)
+      const isVisibleInNextTab = nextTopServices.some(
+        (service) => service.id === selectedServiceId
       )
-      if (!hasMatch) {
+      if (!isVisibleInNextTab) {
         setSelectedServiceId(null)
       }
     }
@@ -281,6 +303,20 @@ export default function App() {
         "@context": "https://schema.org",
         "@type": activeItem.kind === "tv" ? "TVSeason" : "Movie",
         name: activeItem.title,
+        ...(activeItem.kind === "tv" && activeItem.seriesName
+          ? {
+              partOfSeries: {
+                "@type": "TVSeries",
+                name: activeItem.seriesName,
+              },
+            }
+          : {}),
+        ...(activeItem.kind === "tv" && activeItem.seasonNumber
+          ? { seasonNumber: activeItem.seasonNumber }
+          : {}),
+        ...(activeItem.kind === "tv" && activeItem.episodeCount
+          ? { numberOfEpisodes: activeItem.episodeCount }
+          : {}),
         description: activeItem.overview || activeItem.description,
         image: activeItem.posterUrl || undefined,
         datePublished: activeItem.releaseDate || undefined,
@@ -334,13 +370,13 @@ export default function App() {
   }, [movies, tvSeasons, activeItem])
 
   useEffect(() => {
-    if (typeof document === "undefined" || isLoading) return
+    if (typeof document === "undefined" || isLoading || error || (routeSlug && !activeItem)) return
 
     const title = activeItem
       ? `${activeItem.title} — Where to Stream | WatchTonight`
       : DEFAULT_TITLE
     const description = activeItem
-      ? (activeItem.overview || activeItem.description || DEFAULT_DESCRIPTION).slice(0, 300)
+      ? truncate(activeItem.overview || activeItem.description || DEFAULT_DESCRIPTION, 300)
       : DEFAULT_DESCRIPTION
     const url = activeItem ? normalizeCanonicalUrl(activeItem.path) : `${SITE_URL}/`
     const image = activeItem?.posterUrl || `${SITE_URL}/og-image.png`
@@ -361,10 +397,10 @@ export default function App() {
     setMeta('meta[name="twitter:title"]', "content", title)
     setMeta('meta[name="twitter:description"]', "content", description)
     setMeta('meta[name="twitter:image"]', "content", image)
-  }, [activeItem, isLoading])
+  }, [activeItem, isLoading, error, routeSlug])
 
   useEffect(() => {
-    if (typeof document === "undefined" || isLoading) return
+    if (typeof document === "undefined" || isLoading || error || (routeSlug && !activeItem)) return
 
     let script =
       document.getElementById("wt-jsonld") ||
@@ -377,7 +413,7 @@ export default function App() {
     }
     script.id = "wt-jsonld"
     script.textContent = JSON.stringify(structuredData)
-  }, [structuredData, isLoading])
+  }, [structuredData, isLoading, error, routeSlug, activeItem])
 
   useEffect(() => {
     const controller = new AbortController()
@@ -398,8 +434,8 @@ export default function App() {
           setError("")
           setIsLoading(false)
         }
-      } catch (err) {
-        if (err?.name === "AbortError" || controller.signal.aborted) return
+      } catch {
+        if (controller.signal.aborted) return
         if (isMounted) {
           setError(
             "The projector\u2019s jammed \u2014 we couldn\u2019t load tonight\u2019s picks. Check your connection and try again."
@@ -494,7 +530,7 @@ export default function App() {
           </div>
         </header>
 
-        <main id="main-content" className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6">
+        <main id="main-content" tabIndex={-1} className="mx-auto max-w-7xl px-4 py-4 sm:px-6 sm:py-6 focus:outline-none">
           <section
             className={`brand-surface relative mb-5 overflow-hidden rounded-[1.75rem] px-5 sm:mb-6 sm:px-7 ${
               heroCollapsed ? "py-3.5 sm:py-4" : "py-4 sm:py-5"
@@ -559,7 +595,7 @@ export default function App() {
                 type="button"
                 onClick={() => setDismissedMissingSlug(routeSlug)}
                 aria-label="Dismiss notice"
-                className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-brand-text-soft transition-colors hover:bg-white/10 hover:text-brand-cream focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+                className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-brand-text-soft transition-colors hover:bg-white/10 hover:text-brand-cream focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
               >
                 <IconX className="h-4 w-4" />
               </button>
@@ -593,7 +629,7 @@ export default function App() {
                     type="button"
                     aria-pressed={selectedServiceId == null}
                     onClick={() => setSelectedServiceId(null)}
-                    className={`inline-flex min-h-[38px] items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+                    className={`inline-flex min-h-[38px] items-center gap-1.5 rounded-full border px-3.5 py-1.5 text-xs font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring ${
                       selectedServiceId == null
                         ? "border-primary bg-primary text-primary-foreground"
                         : "border-[#e4d8ab]/14 bg-[rgba(19,34,32,0.85)] text-brand-text-soft hover:border-[#e4d8ab]/30 hover:text-brand-cream"
@@ -612,7 +648,7 @@ export default function App() {
                         onClick={() =>
                           setSelectedServiceId((prev) => (prev === service.id ? null : service.id))
                         }
-                        className={`inline-flex min-h-[38px] items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background ${
+                        className={`inline-flex min-h-[38px] items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring ${
                           isSelected
                             ? "border-primary bg-primary text-primary-foreground"
                             : "border-[#e4d8ab]/14 bg-[rgba(19,34,32,0.85)] text-brand-text-soft hover:border-[#e4d8ab]/30 hover:text-brand-cream"
@@ -650,7 +686,7 @@ export default function App() {
                       activeFilteredPool[Math.floor(Math.random() * activeFilteredPool.length)]
                     navigate(normalizePath(pick.path))
                   }}
-                  className="brand-kicker inline-flex min-h-[38px] shrink-0 items-center justify-center gap-2 self-start rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.1)] px-4 py-2 text-brand-cream transition hover:-translate-y-0.5 hover:bg-[rgba(214,142,37,0.18)] hover:text-brand-cream active:translate-y-0 disabled:pointer-events-none disabled:opacity-40 sm:self-auto focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                  className="brand-kicker inline-flex min-h-[38px] shrink-0 items-center justify-center gap-2 self-start rounded-full border border-[#d68e25]/35 bg-[rgba(214,142,37,0.1)] px-4 py-2 text-brand-cream transition motion-safe:hover:-translate-y-0.5 hover:bg-[rgba(214,142,37,0.18)] hover:text-brand-cream motion-safe:active:translate-y-0 disabled:pointer-events-none disabled:opacity-40 sm:self-auto focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
                   data-umami-event="Feeling lucky"
                   data-umami-event-tab={activeTab}
                 >

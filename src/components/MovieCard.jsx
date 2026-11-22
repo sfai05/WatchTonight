@@ -12,11 +12,11 @@ function getYouTubeEmbedUrl(url) {
     const parsed = new URL(url)
     if (parsed.hostname.includes("youtu.be")) {
       const id = parsed.pathname.replace("/", "")
-      return id ? `https://www.youtube.com/embed/${id}` : null
+      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
     }
     if (parsed.hostname.includes("youtube.com")) {
       const id = parsed.searchParams.get("v")
-      return id ? `https://www.youtube.com/embed/${id}` : null
+      return id ? `https://www.youtube-nocookie.com/embed/${id}` : null
     }
   } catch {
     return null
@@ -62,7 +62,7 @@ export function MovieCard({
 
   return (
     <div
-      className={`brand-surface flex h-full flex-col gap-3 rounded-[1.55rem] p-2 transition-[transform,box-shadow] duration-500 ease-out hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${
+      className={`brand-surface flex h-full flex-col gap-3 rounded-[1.55rem] p-2 transition-shadow duration-500 ease-out motion-safe:transition-[transform,box-shadow] motion-safe:hover:-translate-y-0.5 hover:shadow-[0_36px_88px_rgba(0,0,0,0.44),_0_8px_20px_rgba(0,0,0,0.2)] ${
         isDeferred ? "card-deferred" : ""
       } ${className}`}
     >
@@ -70,7 +70,7 @@ export function MovieCard({
         <DialogTrigger asChild>
           <button
             type="button"
-            className="group relative block w-full cursor-pointer overflow-hidden rounded-[1.2rem] border border-[#e4d8ab]/8 bg-[rgba(10,20,18,0.4)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            className="group relative block w-full cursor-pointer overflow-hidden rounded-[1.2rem] border border-[#e4d8ab]/8 bg-[rgba(10,20,18,0.4)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
             aria-label={`View details for ${movie.title}`}
             data-umami-event="Open details"
             data-umami-event-title={movie.title}
@@ -91,7 +91,7 @@ export function MovieCard({
                   alt={`${movie.title} poster`}
                   width="500"
                   height="750"
-                  className={`aspect-[2/3] w-full object-cover transition-[transform,opacity] duration-500 ease-out group-hover:scale-[1.04] ${
+                  className={`aspect-[2/3] w-full object-cover transition-opacity duration-500 ease-out motion-safe:transition-[transform,opacity] motion-safe:group-hover:scale-[1.04] ${
                     isPosterLoaded ? "opacity-100" : "opacity-0"
                   }`}
                   loading={isAboveFold ? "eager" : "lazy"}
@@ -102,14 +102,14 @@ export function MovieCard({
                 />
               </>
             ) : (
-              <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-muted text-muted-foreground text-sm">
+              <div className="flex aspect-[2/3] w-full items-center justify-center rounded bg-muted text-brand-cream text-sm">
                 No poster
               </div>
             )}
 
             {/* Score badge — top right, always visible */}
             {score && (
-              <div className="absolute right-2 top-2 flex items-center gap-1 rounded-full border border-[#e4d8ab]/20 bg-[rgba(10,20,18,0.72)] px-2.5 py-1 font-mono text-[0.6875rem] uppercase tracking-[0.12em] text-brand-cream backdrop-blur-sm transition-transform duration-300 group-hover:scale-105">
+              <div className="absolute right-2 top-2 flex items-center gap-1 rounded-full border border-[#e4d8ab]/20 bg-[rgba(10,20,18,0.72)] px-2.5 py-1 font-mono text-[0.6875rem] uppercase tracking-[0.12em] text-brand-cream backdrop-blur-sm motion-safe:transition-transform motion-safe:duration-300 motion-safe:group-hover:scale-105">
                 <StarIcon />
                 <span className="sr-only">Rating: {score} out of 10</span>
                 <span aria-hidden="true">{score}</span>
@@ -118,7 +118,7 @@ export function MovieCard({
 
             {/* AI description — fades in with a gentle upward drift on hover or focus */}
             {movie.description && (
-              <div className="absolute bottom-0 left-0 right-0 translate-y-2 opacity-0 transition-[opacity,transform] duration-500 ease-out group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100">
+              <div className="absolute bottom-0 left-0 right-0 opacity-0 transition-opacity duration-500 ease-out motion-safe:translate-y-2 motion-safe:transition-[opacity,transform] motion-safe:group-hover:translate-y-0 group-hover:opacity-100 motion-safe:group-focus-visible:translate-y-0 group-focus-visible:opacity-100">
                 <div className="bg-gradient-to-t from-[rgba(6,12,12,0.98)] via-[rgba(6,12,12,0.85)] via-45% to-transparent px-3 pb-3 pt-20">
                   <p className="text-sm leading-5 text-brand-cream line-clamp-4 [text-shadow:0_1px_3px_rgba(0,0,0,0.7)]">
                     &ldquo;{movie.description}&rdquo;

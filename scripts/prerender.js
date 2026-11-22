@@ -31,12 +31,14 @@ function truncate(value, max) {
 
 function replaceTag(html, regex, replacement) {
   if (!regex.test(html)) return html
-  return html.replace(regex, replacement)
+  return html.replace(regex, () => replacement)
 }
 
 function renderPage(template, page) {
   const escapedTitle = escapeHtml(page.title)
   const escapedDescription = escapeHtml(page.description)
+  const escapedUrl = escapeHtml(page.url)
+  const escapedImage = escapeHtml(page.image)
 
   let html = template
 
@@ -49,7 +51,7 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<link\s+rel="canonical"\s+href="[^"]*"\s*\/>/,
-    `<link rel="canonical" href="${page.url}" />`
+    `<link rel="canonical" href="${escapedUrl}" />`
   )
   html = replaceTag(
     html,
@@ -64,12 +66,12 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<meta\s+property="og:url"\s+content="[^"]*"\s*\/>/,
-    `<meta property="og:url" content="${page.url}" />`
+    `<meta property="og:url" content="${escapedUrl}" />`
   )
   html = replaceTag(
     html,
     /<meta\s+property="og:image"\s+content="[^"]*"\s*\/>/,
-    `<meta property="og:image" content="${page.image}" />`
+    `<meta property="og:image" content="${escapedImage}" />`
   )
   html = replaceTag(
     html,
@@ -84,11 +86,11 @@ function renderPage(template, page) {
   html = replaceTag(
     html,
     /<meta\s+name="twitter:image"\s+content="[^"]*"\s*\/>/,
-    `<meta name="twitter:image" content="${page.image}" />`
+    `<meta name="twitter:image" content="${escapedImage}" />`
   )
 
   const jsonLd = `<script id="wt-jsonld" type="application/ld+json">${JSON.stringify(page.structuredData).replace(/</g, "\\u003c")}</script>`
-  html = html.replace("</head>", `${jsonLd}\n  </head>`)
+  html = html.replace("</head>", () => `${jsonLd}\n  </head>`)
   html = replaceTag(
     html,
     /<div\s+id=["']root["']\s*>\s*<\/div>/,
@@ -256,6 +258,16 @@ function buildTvPage(season, slug) {
       "@context": "https://schema.org",
       "@type": "TVSeason",
       name: title,
+      ...(season.series_name
+        ? {
+            partOfSeries: {
+              "@type": "TVSeries",
+              name: season.series_name,
+            },
+          }
+        : {}),
+      seasonNumber: season.season_number || undefined,
+      numberOfEpisodes: season.episode_count || undefined,
       description: overview || undefined,
       image: season.poster_path
         ? `https://image.tmdb.org/t/p/w500${season.poster_path}`
