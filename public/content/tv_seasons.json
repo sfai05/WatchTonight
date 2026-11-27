@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T17:30:03.625240+00:00",
+  "generated_at": "2026-11-27T17:08:37.570115+00:00",
   "count": 30,
   "seasons": [
     {
@@ -9,9 +9,9 @@
       "season_number": 2,
       "season_id": 479648,
       "air_date": "2026-11-01",
-      "age_days": 25,
-      "best_rank": 15,
-      "description": "Michael C. Hall and Brian Cox turn this New York hunt into relentless tension.",
+      "age_days": 26,
+      "best_rank": 3,
+      "description": "Michael C. Hall and Brian Cox turn this New York crime sequel into pure tension.",
       "overview": "Season 2 finds Dexter caught between two killers, one notorious and the other terrorizing New York in ways no one ever anticipated, all while battling his greatest enemy yet, a mid-life crisis. Harrison continues his own pursuit of justice as father and son face their darkest chapter.",
       "episode_count": 10,
       "total_episodes": 20,
@@ -164,53 +164,66 @@
       "backdrop_path": "/vcpj6rRDS93ImHCLPY8bwBuFGjR.jpg"
     },
     {
-      "series_id": 247718,
-      "series_name": "MobLand",
-      "series_imdb_id": "tt31510819",
-      "season_number": 2,
-      "season_id": 528409,
-      "air_date": "2026-09-18",
-      "age_days": 69,
-      "best_rank": 5,
-      "description": "Tom Hardy and Pierce Brosnan anchor a fierce crime finale already renewed for Season 3.",
-      "overview": "In the second season, the Harrigans struggle to show a unified front as rising rivals threaten their fractured criminal empire – and Harry Da Souza, their street-smart and formidable 'fixer', must walk a dangerous tightrope when tensions within the family intensify. As violence spills into every corner of their lives, loyalties snap, safety proves temporary, and the battle for power leaves no room for mercy.",
+      "series_id": 117488,
+      "series_name": "Yellowjackets",
+      "series_imdb_id": "tt11041332",
+      "season_number": 4,
+      "season_id": 469273,
+      "air_date": "2026-11-22",
+      "age_days": 5,
+      "best_rank": 10,
+      "description": "Its polarizing final season is underway weekly, pulling survivors out of the wilderness.",
+      "overview": "In Yellowjackets Season 4, rescue draws closer to the teens’ wilderness location, but the survivors’ long-awaited salvation threatens to expose their darkest secrets. In the present-day timeline, an old flame has a homecoming of her own, returning to town with a hidden agenda. Happy returns? Not in the Yellowjackets’ world.",
       "episode_count": 10,
-      "total_episodes": 20,
+      "total_episodes": 39,
       "genres": [
+        "Horror",
         "Drama",
-        "Crime"
+        "Thriller",
+        "Mystery"
       ],
       "top_actors": [
-        "Tom Hardy",
-        "Pierce Brosnan",
-        "Paddy Considine"
+        "Melanie Lynskey",
+        "Tawny Cypress",
+        "Sophie Nélisse"
       ],
       "production_companies": [
-        "MTV Entertainment Studios",
-        "101 Studios",
-        "Toff Guy Films",
-        "Easter Partisan",
-        "Hardy Son & Baker",
-        "Paramount Television Studios"
+        "Entertainment One",
+        "Beer Christmas",
+        "Lock Jaw",
+        "Showtime Networks",
+        "Lionsgate Television"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=JSTcJ1uTjiY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
-      "tvdb_id": 446831,
-      "tvdb_season_id": 2225152,
-      "network": "Paramount+",
-      "runtime": 47,
+      "trailer_url": "https://www.youtube.com/watch?v=zDFHivyECDU",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fW8ZDhrle0t6gQ0FSrIMWqVhbMl.jpg",
+      "tvdb_id": 399731,
+      "tvdb_season_id": 2212942,
+      "network": "Paramount+ with Showtime",
+      "runtime": 57,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 98.0,
+        "composite_score": 97.0,
         "imdb": {
-          "rating": 8.3,
-          "votes": 147224,
-          "season_rating": 8.3
+          "rating": 7.7,
+          "votes": 117471,
+          "season_rating": null
         }
       },
       "streaming_availability": {
         "US": {
           "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ],
             "buy": [
               {
                 "provider_id": 10,
@@ -234,7 +247,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=US"
         },
         "UK": {
           "services": {
@@ -263,15 +276,15 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=GB"
+          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=GB"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
               }
             ],
             "buy": [
@@ -287,7 +300,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -316,11 +329,440 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=AU"
         }
       },
-      "poster_path": "/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
-      "backdrop_path": "/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg"
+      "poster_path": "/fW8ZDhrle0t6gQ0FSrIMWqVhbMl.jpg",
+      "backdrop_path": "/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg"
+    },
+    {
+      "series_id": 81723,
+      "series_name": "The Gilded Age",
+      "series_imdb_id": "tt4406178",
+      "season_number": 4,
+      "season_id": 523370,
+      "air_date": "2026-11-01",
+      "age_days": 26,
+      "best_rank": 6,
+      "description": "Lavish HBO prestige drama where high-society power plays keep Sunday nights buzzing.",
+      "overview": "Bertha Russell changed Society at a cost. Now, her family must reckon with the consequences as Agnes van Rhijn seizes an opportunity to regain her position. Meanwhile, Marian forges a new path for herself, and Peggy works to be accepted by her future in-laws. In this new era, you must be careful what you wish for.",
+      "episode_count": 8,
+      "total_episodes": 33,
+      "genres": [
+        "Drama"
+      ],
+      "top_actors": [
+        "Carrie Coon",
+        "Morgan Spector",
+        "Louisa Jacobson"
+      ],
+      "production_companies": [
+        "Universal Television",
+        "HBO",
+        "Neamo Film and Television"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=9iCJd_X-zYs",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
+      "tvdb_id": 364412,
+      "tvdb_season_id": 2265339,
+      "network": "HBO",
+      "runtime": 55,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 96.0,
+        "imdb": {
+          "rating": 8.1,
+          "votes": 54903,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 29,
+                "provider_name": "Sky Go",
+                "logo_path": "/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+              },
+              {
+                "provider_id": 39,
+                "provider_name": "Now TV",
+                "logo_path": "/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 130,
+                "provider_name": "Sky Store",
+                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=AU"
+        }
+      },
+      "poster_path": "/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
+      "backdrop_path": "/afUVsProh46h31w2EvL7qyHXrqj.jpg"
+    },
+    {
+      "series_id": 244447,
+      "series_name": "The Hunting Wives",
+      "series_imdb_id": "tt31038430",
+      "season_number": 2,
+      "season_id": 526876,
+      "air_date": "2026-11-26",
+      "age_days": 1,
+      "best_rank": 5,
+      "description": "Netflix's shamelessly addictive, twist-filled East Texas thriller just returned with fresh scandal.",
+      "overview": "Sophie trades city life for East Texas and falls into a wealthy socialite's magnetic orbit — where a clique of housewives hide deadly secrets.",
+      "episode_count": 8,
+      "total_episodes": 16,
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Brittany Snow",
+        "Malin Akerman",
+        "Dermot Mulroney"
+      ],
+      "production_companies": [
+        "3 Arts Entertainment",
+        "Lionsgate Television",
+        "Pleasingly Pulp"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=Vhwp06fwk6k",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/p5zIPiI70T8fVyMhPZeiFzIMSp6.jpg",
+      "tvdb_id": 440472,
+      "tvdb_season_id": 2205926,
+      "network": "Netflix",
+      "runtime": 53,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 93.0,
+        "imdb": {
+          "rating": 6.8,
+          "votes": 20023,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 21,
+                "provider_name": "Stan",
+                "logo_path": "/6dOWQKIRIxDmX5FD4g5dPsHxFn3.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=AU"
+        }
+      },
+      "poster_path": "/p5zIPiI70T8fVyMhPZeiFzIMSp6.jpg",
+      "backdrop_path": "/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg"
+    },
+    {
+      "series_id": 84773,
+      "series_name": "The Lord of the Rings: The Rings of Power",
+      "series_imdb_id": "tt7631058",
+      "season_number": 3,
+      "season_id": 467821,
+      "air_date": "2026-11-11",
+      "age_days": 16,
+      "best_rank": 2,
+      "description": "Just dropped its epic season finale as Sauron races to forge the One Ring.",
+      "overview": "Jumping forward several years from the events of Season Two, Season Three takes place at the height of the War of the Elves and Sauron, as the Dark Lord seeks to craft the One Ring that will give him the edge he needs to win the war, bind all peoples to his will - and at last rule all Middle-earth.",
+      "episode_count": 8,
+      "total_episodes": 24,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Adventure",
+        "Action",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Charlie Vickers",
+        "Morfydd Clark",
+        "Robert Aramayo"
+      ],
+      "production_companies": [
+        "Amazon Studios",
+        "New Line Cinema",
+        "Amazon MGM Studios"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=maP_Kyy3DCA",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+      "tvdb_id": 367506,
+      "tvdb_season_id": 2171719,
+      "network": "Prime Video",
+      "runtime": 67,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 91.2,
+        "imdb": {
+          "rating": 7.12,
+          "votes": 451631,
+          "season_rating": 7.12
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 119,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 119,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=AU"
+        }
+      },
+      "poster_path": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
+      "backdrop_path": "/uVOcz7JBOuZxsx9IYpx6Ah174LX.jpg"
     },
     {
       "series_id": 85077,
@@ -329,12 +771,12 @@
       "season_number": 6,
       "season_id": 508698,
       "air_date": "2026-11-15",
-      "age_days": 11,
+      "age_days": 12,
       "best_rank": 29,
-      "description": "Climbing to #2 on Prime Video, Season 6 chronicles Jesus's final hours with emotional weight.",
+      "description": "Beloved historical drama climbs Prime Video charts with an intense, emotional sixth chapter.",
       "overview": "The hour has come. Season 6 captures Jesus' final day through the eyes of those who love Him-and those who condemn Him. In the face of loneliness and death, He stands resolute in His plan that has always led to one place: the cross.",
       "episode_count": 6,
-      "total_episodes": 46,
+      "total_episodes": 47,
       "genres": [
         "Family",
         "Drama",
@@ -481,58 +923,53 @@
       "backdrop_path": "/2YQFwn9aF7huTFHxn9lFTAn14F.jpg"
     },
     {
-      "series_id": 244447,
-      "series_name": "The Hunting Wives",
-      "series_imdb_id": "tt31038430",
+      "series_id": 247718,
+      "series_name": "MobLand",
+      "series_imdb_id": "tt31510819",
       "season_number": 2,
-      "season_id": 526876,
-      "air_date": "2026-11-26",
-      "age_days": 0,
-      "best_rank": 4,
-      "description": "Dropped today on Netflix, Malin Akerman and Brittany Snow deliver delightfully messy Texas chaos.",
-      "overview": "Sophie trades city life for East Texas and falls into a wealthy socialite's magnetic orbit — where a clique of housewives hide deadly secrets.",
-      "episode_count": 8,
-      "total_episodes": 16,
+      "season_id": 528409,
+      "air_date": "2026-09-18",
+      "age_days": 70,
+      "best_rank": 6,
+      "description": "Tom Hardy and Pierce Brosnan ignite this gritty Paramount+ crime saga's freshly dropped finale.",
+      "overview": "In the second season, the Harrigans struggle to show a unified front as rising rivals threaten their fractured criminal empire – and Harry Da Souza, their street-smart and formidable 'fixer', must walk a dangerous tightrope when tensions within the family intensify. As violence spills into every corner of their lives, loyalties snap, safety proves temporary, and the battle for power leaves no room for mercy.",
+      "episode_count": 10,
+      "total_episodes": 20,
       "genres": [
         "Drama",
-        "Thriller",
-        "Mystery"
+        "Crime"
       ],
       "top_actors": [
-        "Brittany Snow",
-        "Malin Akerman",
-        "Dermot Mulroney"
+        "Tom Hardy",
+        "Pierce Brosnan",
+        "Paddy Considine"
       ],
       "production_companies": [
-        "3 Arts Entertainment",
-        "Lionsgate Television",
-        "Pleasingly Pulp"
+        "MTV Entertainment Studios",
+        "101 Studios",
+        "Toff Guy Films",
+        "Easter Partisan",
+        "Hardy Son & Baker",
+        "Paramount Television Studios"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=Vhwp06fwk6k",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/p5zIPiI70T8fVyMhPZeiFzIMSp6.jpg",
-      "tvdb_id": 440472,
-      "tvdb_season_id": 2205926,
-      "network": "Netflix",
-      "runtime": 49,
+      "trailer_url": "https://www.youtube.com/watch?v=JSTcJ1uTjiY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
+      "tvdb_id": 446831,
+      "tvdb_season_id": 2225152,
+      "network": "Paramount+",
+      "runtime": 47,
       "status": "Continuing",
       "ratings": {
         "composite_score": 93.0,
         "imdb": {
-          "rating": 6.8,
-          "votes": 20023,
-          "season_rating": null
+          "rating": 8.3,
+          "votes": 147224,
+          "season_rating": 8.3
         }
       },
       "streaming_availability": {
         "US": {
           "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ],
             "buy": [
               {
                 "provider_id": 10,
@@ -556,172 +993,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 230,
-                "provider_name": "Crave",
-                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 21,
-                "provider_name": "Stan",
-                "logo_path": "/6dOWQKIRIxDmX5FD4g5dPsHxFn3.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/244447-the-hunting-wives/watch?locale=AU"
-        }
-      },
-      "poster_path": "/p5zIPiI70T8fVyMhPZeiFzIMSp6.jpg",
-      "backdrop_path": "/6PerjrTmwTNiRcfn0SpjU8N9Nio.jpg"
-    },
-    {
-      "series_id": 117488,
-      "series_name": "Yellowjackets",
-      "series_imdb_id": "tt11041332",
-      "season_number": 4,
-      "season_id": 469273,
-      "air_date": "2026-11-22",
-      "age_days": 4,
-      "best_rank": 20,
-      "description": "Yellowjackets begins its final reckoning with Melanie Lynskey, Hilary Swank, and mounting survival dread.",
-      "overview": "In Yellowjackets Season 4, rescue draws closer to the teens’ wilderness location, but the survivors’ long-awaited salvation threatens to expose their darkest secrets. In the present-day timeline, an old flame has a homecoming of her own, returning to town with a hidden agenda. Happy returns? Not in the Yellowjackets’ world.",
-      "episode_count": 10,
-      "total_episodes": 39,
-      "genres": [
-        "Horror",
-        "Drama",
-        "Thriller",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Melanie Lynskey",
-        "Tawny Cypress",
-        "Sophie Nélisse"
-      ],
-      "production_companies": [
-        "Entertainment One",
-        "Beer Christmas",
-        "Lock Jaw",
-        "Showtime Networks",
-        "Lionsgate Television"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=zDFHivyECDU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fW8ZDhrle0t6gQ0FSrIMWqVhbMl.jpg",
-      "tvdb_id": 399731,
-      "tvdb_season_id": 2212942,
-      "network": "Paramount+ with Showtime",
-      "runtime": 57,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 92.0,
-        "imdb": {
-          "rating": 7.7,
-          "votes": 117471,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=US"
         },
         "UK": {
           "services": {
@@ -750,15 +1022,15 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=GB"
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=GB"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 230,
-                "provider_name": "Crave",
-                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
               }
             ],
             "buy": [
@@ -774,7 +1046,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -803,11 +1075,1058 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/117488-yellowjackets/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/247718-mobland/watch?locale=AU"
         }
       },
-      "poster_path": "/fW8ZDhrle0t6gQ0FSrIMWqVhbMl.jpg",
-      "backdrop_path": "/ibFWJDWS8cTO6s2vZVd2uKDm8p.jpg"
+      "poster_path": "/fTlH5NNTXOP96mElp0DaIStRVvK.jpg",
+      "backdrop_path": "/h0OC7ouop8YLwbAVfS3UUE2Lw4T.jpg"
+    },
+    {
+      "series_id": 103540,
+      "series_name": "Percy Jackson and the Olympians",
+      "series_imdb_id": "tt12324366",
+      "season_number": 3,
+      "season_id": 532117,
+      "air_date": "2026-11-20",
+      "age_days": 7,
+      "best_rank": 8,
+      "description": "Acclaimed fantasy adaptation raises the stakes with a darker quest and new episodes weekly.",
+      "overview": "The stakes are higher than ever before as Percy is faced with the sudden disappearance of Annabeth and the impending Great Prophecy provided by the Oracle of Delphi, dictating the fate of Olympus. As foretold by the Oracle of Delphi, one demigod child of the \"Big Three\" is fated to raise Olympus to new heights or bring it crashing into ruin, with their own life hanging in the balance.",
+      "episode_count": 8,
+      "total_episodes": 24,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Adventure"
+      ],
+      "top_actors": [
+        "Walker Scobell",
+        "Leah Sava Jeffries",
+        "Aryan Simhadri"
+      ],
+      "production_companies": [
+        "The Gotham Group",
+        "Co-Lab21",
+        "Mythomagic",
+        "Quaker Moving Pictures",
+        "20th Television"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=nD45l6hCyN8",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
+      "tvdb_id": 415151,
+      "tvdb_season_id": 2261085,
+      "network": "Disney+",
+      "runtime": 41,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 90.0,
+        "imdb": {
+          "rating": 7.0,
+          "votes": 54328,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=AU"
+        }
+      },
+      "poster_path": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
+      "backdrop_path": "/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg"
+    },
+    {
+      "series_id": 95480,
+      "series_name": "Slow Horses",
+      "series_imdb_id": "tt5875444",
+      "season_number": 6,
+      "season_id": 521992,
+      "air_date": "2026-09-16",
+      "age_days": 72,
+      "best_rank": 4,
+      "description": "Gary Oldman leads TV's sharpest spy thriller, freshly renewed through a landmark tenth season.",
+      "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
+      "episode_count": 6,
+      "total_episodes": 36,
+      "genres": [
+        "Suspense",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Gary Oldman",
+        "Jack Lowden",
+        "Kristin Scott Thomas"
+      ],
+      "production_companies": [
+        "See-Saw Films",
+        "Flying Studio Pictures",
+        "Sony Pictures Television"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=mZbJxpYHLuI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
+      "tvdb_id": 372264,
+      "tvdb_season_id": 2213966,
+      "network": "Apple TV",
+      "runtime": 46,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 98.5,
+        "imdb": {
+          "rating": 8.35,
+          "votes": 162097,
+          "season_rating": 8.35
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 350,
+                "provider_name": "Apple TV",
+                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=AU"
+        }
+      },
+      "poster_path": "/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
+      "backdrop_path": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg"
+    },
+    {
+      "series_id": 279246,
+      "series_name": "The Remarried Empress",
+      "series_imdb_id": "tt39325975",
+      "season_number": 1,
+      "season_id": 432651,
+      "air_date": "2026-11-03",
+      "age_days": 24,
+      "best_rank": 13,
+      "description": "Disney+'s biggest Korean premiere ever delivers opulent palace intrigue and sweeping royal romance.",
+      "overview": "Beloved Empress Navier of the Eastern Empire has built and led a prosperous land alongside her husband, Emperor Sovieshu. One day her world is shattered when the emperor brings Rashta, a runaway slave, back to the palace with the intention of making her his mistress. But even as the threat of a broken future looms over her, Navier refuses to let her emotions sway her, and when Prince Heinrey, a rival leader of the Western Kingdom, shows interest in her, Navier will make a life-changing decision to rewrite her destiny.",
+      "episode_count": 10,
+      "total_episodes": 10,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Romance"
+      ],
+      "top_actors": [
+        "Shin Min-a",
+        "Ju Ji-hoon",
+        "Lee Jong-suk"
+      ],
+      "production_companies": [
+        "Studio N",
+        "Beyond Story",
+        "Heavyweight",
+        "Disney Channel"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=aScUjuKvHSo",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oYQg1fKSRbjeqFRci2J6yMYmzxY.jpg",
+      "tvdb_id": 455351,
+      "tvdb_season_id": 2150338,
+      "network": "Disney+",
+      "runtime": 53,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": 8.25,
+          "votes": null,
+          "season_rating": 8.25
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=AU"
+        }
+      },
+      "poster_path": "/oYQg1fKSRbjeqFRci2J6yMYmzxY.jpg",
+      "backdrop_path": "/fNcpHmuZLKoyhNMBEzdqzX8iIvg.jpg"
+    },
+    {
+      "series_id": 213375,
+      "series_name": "VisionQuest",
+      "series_imdb_id": "tt23112594",
+      "season_number": 1,
+      "season_id": 314452,
+      "air_date": "2026-10-13",
+      "age_days": 45,
+      "best_rank": 9,
+      "description": "Paul Bettany and James Spader cap Marvel's WandaVision trilogy in a cerebral sci-fi binge.",
+      "overview": "The Vision, rebooted and having escaped from those who sought to weaponize him, has been in hiding. Searching for new meaning, he consults the AI personas embedded in his programming, including Friday, Edith, Jarvis, and the infamous Ultron. His discreet existence ends when a bounty placed on his head thrusts him on the run with Thomas Shepherd, a mysterious boy who may be Vision's son reincarnate. As Vision evades capture, he must confront his nature, resist Ultron's influence, and unravel the enigma that is his young companion if he's to survive.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Adventure"
+      ],
+      "top_actors": [
+        "Paul Bettany",
+        "James Spader",
+        "Ruaridh Mollica"
+      ],
+      "production_companies": [
+        "Marvel Studios",
+        "Kevin Feige Productions"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=1UE2Oh_IwHs",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+      "tvdb_id": 426606,
+      "tvdb_season_id": 2027603,
+      "network": "Disney+",
+      "runtime": 54,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": 94.5,
+        "imdb": {
+          "rating": 8.25,
+          "votes": 14696,
+          "season_rating": 8.25
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=AU"
+        }
+      },
+      "poster_path": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
+      "backdrop_path": "/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg"
+    },
+    {
+      "series_id": 300523,
+      "series_name": "The Blue Road",
+      "series_imdb_id": "tt38336631",
+      "season_number": 1,
+      "season_id": 474913,
+      "air_date": "2026-11-20",
+      "age_days": 7,
+      "best_rank": 12,
+      "description": "Son Suk-ku and Eita Nagayama clash in Netflix's gritty cross-border serial killer hunt.",
+      "overview": "",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Drama",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Son Suk-ku",
+        "Eita Nagayama"
+      ],
+      "production_companies": [
+        "SHOTCAKE"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=n1omQI6g3v0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5YA4Ds1y2000P7MxLQ1eH59ueA1.jpg",
+      "tvdb_id": 460319,
+      "tvdb_season_id": 2172242,
+      "network": "Netflix",
+      "runtime": 45,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": 7.94,
+          "votes": null,
+          "season_rating": 7.94
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=AU"
+        }
+      },
+      "poster_path": "/5YA4Ds1y2000P7MxLQ1eH59ueA1.jpg",
+      "backdrop_path": "/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg"
+    },
+    {
+      "series_id": 218347,
+      "series_name": "Sweetpea",
+      "series_imdb_id": "tt11218290",
+      "season_number": 2,
+      "season_id": 431728,
+      "air_date": "2026-11-26",
+      "age_days": 1,
+      "best_rank": 16,
+      "description": "Ella Purnell returns for darkly comic mayhem as a copycat threatens her quiet life.",
+      "overview": "In Season 2, wallflower-turned-killer Rhiannon Lewis is navigating a new promotion, an irresistible rebound, and a copycat killer threatening to expose her. The kill list is mounting, and she is forced to question whether her perfect ex, AJ, was right: is she a monster?",
+      "episode_count": 6,
+      "total_episodes": 12,
+      "genres": [
+        "Mini-Series",
+        "Drama",
+        "Comedy",
+        "Thriller"
+      ],
+      "top_actors": [
+        "Ella Purnell",
+        "Jon Pointing",
+        "Jeremy Swift"
+      ],
+      "production_companies": [
+        "See-Saw Films",
+        "Sky Studios",
+        "fanboy",
+        "Motion Content Group"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=H9ZG804ruig",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/A4A0juWk4ofqP6Q0TFY6CRhcCAa.jpg",
+      "tvdb_id": 421654,
+      "tvdb_season_id": 2275470,
+      "network": "Sky Atlantic (UK)",
+      "runtime": 45,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 87.0,
+        "imdb": {
+          "rating": 7.2,
+          "votes": 23169,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 43,
+                "provider_name": "Starz",
+                "logo_path": "/h25xjouKmiSmFiiqw0aDXbxGZo7.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/218347-sweetpea/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 29,
+                "provider_name": "Sky Go",
+                "logo_path": "/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
+              },
+              {
+                "provider_id": 39,
+                "provider_name": "Now TV",
+                "logo_path": "/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/218347-sweetpea/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/218347-sweetpea/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 385,
+                "provider_name": "BINGE",
+                "logo_path": "/1Hzele1xJnA7xfQyWKNQnTnWAio.png"
+              },
+              {
+                "provider_id": 134,
+                "provider_name": "Foxtel Now",
+                "logo_path": "/qRZkZY5kgqXaLr4QFp7ON0wG5rB.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/218347-sweetpea/watch?locale=AU"
+        }
+      },
+      "poster_path": "/A4A0juWk4ofqP6Q0TFY6CRhcCAa.jpg",
+      "backdrop_path": "/xE8SLBIwNQ1kkCz45XDaPYzv0wz.jpg"
+    },
+    {
+      "series_id": 207484,
+      "series_name": "Outlander: Blood of My Blood",
+      "series_imdb_id": "tt18332852",
+      "season_number": 2,
+      "season_id": 511310,
+      "air_date": "2026-09-18",
+      "age_days": 70,
+      "best_rank": 35,
+      "description": "Sweeping Highland romance reaches its Season 2 finale today amid the 1715 Jacobite Rising.",
+      "overview": "In the second season, our lovers are separated once again as the Scottish Highlands are split in two by the 1715 Jacobite Rising, thrusting the clans into war and forcing them to choose a side in the rebellion.",
+      "episode_count": 10,
+      "total_episodes": 20,
+      "genres": [
+        "Science Fiction",
+        "Fantasy",
+        "Drama",
+        "Romance",
+        "History"
+      ],
+      "top_actors": [
+        "Harriet Slater",
+        "Jamie Roy",
+        "Hermione Corfield"
+      ],
+      "production_companies": [
+        "Tall Ship Productions",
+        "Sony Pictures Television",
+        "Story Mining & Supply Company",
+        "No Fooling Productions",
+        "Left Bank Pictures"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=WgHz4xivOso",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg",
+      "tvdb_id": 429964,
+      "tvdb_season_id": 2210953,
+      "network": "STARZ",
+      "runtime": 62,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 83.3,
+        "imdb": {
+          "rating": 8.33,
+          "votes": 7490,
+          "season_rating": 8.33
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 43,
+                "provider_name": "Starz",
+                "logo_path": "/h25xjouKmiSmFiiqw0aDXbxGZo7.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207484-outlander-blood-of-my-blood/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 130,
+                "provider_name": "Sky Store",
+                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207484-outlander-blood-of-my-blood/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207484-outlander-blood-of-my-blood/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 21,
+                "provider_name": "Stan",
+                "logo_path": "/6dOWQKIRIxDmX5FD4g5dPsHxFn3.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/207484-outlander-blood-of-my-blood/watch?locale=AU"
+        }
+      },
+      "poster_path": "/1pGBdq4ssO2p5H2WFMlADH6pwZ6.jpg",
+      "backdrop_path": "/lCnOoI8eYo6sTbnoSI2qwt2ZzVb.jpg"
+    },
+    {
+      "series_id": 153312,
+      "series_name": "Tulsa King",
+      "series_imdb_id": "tt16358384",
+      "season_number": 4,
+      "season_id": 486637,
+      "air_date": "2026-10-16",
+      "age_days": 42,
+      "best_rank": 11,
+      "description": "Sylvester Stallone keeps the Oklahoma crime empire rolling with new Paramount+ episodes every Friday.",
+      "overview": "In season four, Dwight fights to legitimize his empire and protect his crew as corrupt politicians, dangerous new enemies, and a crushing personal loss hit from every direction. However, every hard-won gain comes with even harder truths: about loyalty, leadership and the cost of ambition. Each move drags Dwight deeper into the street instincts he left behind in New York - turning Tulsa into a battleground and Dwight into the one threat no one can afford to underestimate.",
+      "episode_count": 10,
+      "total_episodes": 39,
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "top_actors": [
+        "Sylvester Stallone",
+        "Martin Starr",
+        "Jay Will"
+      ],
+      "production_companies": [
+        "101 Studios",
+        "MTV Entertainment Studios",
+        "Bosque Ranch Productions",
+        "Balboa Productions",
+        "Cold Front Productions",
+        "Paramount Television Studios",
+        "Square Head Pictures"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=Qq8yAg8urfY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aqvDey0veLcY7XkoDWGFOqRAD3I.jpg",
+      "tvdb_id": 413215,
+      "tvdb_season_id": 2224598,
+      "network": "Paramount+",
+      "runtime": 40,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 78.0,
+        "imdb": {
+          "rating": 7.1,
+          "votes": 121614,
+          "season_rating": 7.1
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "buy": [
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
+                "provider_id": 7,
+                "provider_name": "Fandango At Home",
+                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 130,
+                "provider_name": "Sky Store",
+                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 531,
+                "provider_name": "Paramount Plus",
+                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=AU"
+        }
+      },
+      "poster_path": "/aqvDey0veLcY7XkoDWGFOqRAD3I.jpg",
+      "backdrop_path": "/v1d3baYqMfyQKxBHXu5Pmu6vTZ3.jpg"
+    },
+    {
+      "series_id": 314360,
+      "series_name": "YAGA",
+      "series_imdb_id": "tt39980704",
+      "season_number": 1,
+      "season_id": 501109,
+      "air_date": "2026-10-23",
+      "age_days": 35,
+      "best_rank": 18,
+      "description": "Record-breaking AMC+ supernatural mystery drops its two-part finale tonight after scoring a renewal.",
+      "overview": "The myth of the witch Baba Yaga is reinvigorated when a private investigator comes to a small coastal town to investigate the disappearance of a young heir to a powerful fishery and finds himself at odds with an apprehensive local detective, a sexy university professor with a taste for younger men, and a labyrinth of enigmatic suspects, secret lives and ancient magic.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Fantasy",
+        "Drama"
+      ],
+      "top_actors": [
+        "Noah Reid",
+        "Clark Backo",
+        "Hudson Williams"
+      ],
+      "production_companies": [
+        "Blink49 Studios",
+        "Front Street Pictures"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=NZgbgXAlK_Q",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/vndmnETaEYG8gB5airnAd1tR8aV.jpg",
+      "tvdb_id": 464467,
+      "tvdb_season_id": 2190325,
+      "network": "Crave",
+      "runtime": 30,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": 8.3,
+          "votes": null,
+          "season_rating": 8.3
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 528,
+                "provider_name": "AMC+ Amazon Channel",
+                "logo_path": "/tg5ufQ1GkYDCMxSSxemfeKWcvRe.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/314360-yaga/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 39,
+                "provider_name": "Now TV",
+                "logo_path": "/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/314360-yaga/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 230,
+                "provider_name": "Crave",
+                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/314360-yaga/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 385,
+                "provider_name": "BINGE",
+                "logo_path": "/1Hzele1xJnA7xfQyWKNQnTnWAio.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/314360-yaga/watch?locale=AU"
+        }
+      },
+      "poster_path": "/vndmnETaEYG8gB5airnAd1tR8aV.jpg",
+      "backdrop_path": "/owhTL4n2r9ryfxyYlhHKt97ogVk.jpg"
     },
     {
       "series_id": 46923,
@@ -816,9 +2135,9 @@
       "season_number": 11,
       "season_id": 553610,
       "air_date": "2026-11-12",
-      "age_days": 14,
-      "best_rank": 4,
-      "description": "Ashley Jensen investigates a chilling island cold case during Alison O'Donnell's farewell season.",
+      "age_days": 15,
+      "best_rank": 16,
+      "description": "Atmospheric Scottish detective drama tackles a chilling cold case in Alison O'Donnell's farewell season.",
       "overview": "Set against the stark backdrop of Scotland's rugged coastline, DI Jimmy Perez and his team investigate murders in the small island community of Shetland.",
       "episode_count": 6,
       "total_episodes": 60,
@@ -844,7 +2163,7 @@
       "runtime": 59,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 99.0,
+        "composite_score": 84.0,
         "imdb": {
           "rating": 7.4,
           "votes": 32828,
@@ -953,48 +2272,46 @@
       "backdrop_path": "/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg"
     },
     {
-      "series_id": 84773,
-      "series_name": "The Lord of the Rings: The Rings of Power",
-      "series_imdb_id": "tt7631058",
-      "season_number": 3,
-      "season_id": 467821,
-      "air_date": "2026-11-11",
-      "age_days": 15,
-      "best_rank": 2,
-      "description": "Prime Video's Middle-earth epic grows darker as Sauron's war against the Elves escalates.",
-      "overview": "Jumping forward several years from the events of Season Two, Season Three takes place at the height of the War of the Elves and Sauron, as the Dark Lord seeks to craft the One Ring that will give him the edge he needs to win the war, bind all peoples to his will - and at last rule all Middle-earth.",
-      "episode_count": 8,
-      "total_episodes": 24,
+      "series_id": 258165,
+      "series_name": "East of Eden",
+      "series_imdb_id": "tt21097264",
+      "season_number": 1,
+      "season_id": 400373,
+      "air_date": "2026-10-01",
+      "age_days": 57,
+      "best_rank": null,
+      "description": "Florence Pugh commands Zoe Kazan's lush, acclaimed Netflix adaptation of John Steinbeck's classic.",
+      "overview": "In the farmlands of the Salinas Valley in California, successive generations of two families, the Trasks and the Hamiltons, are destined to reenact the fateful story of Cain and Abel.",
+      "episode_count": 7,
+      "total_episodes": 7,
       "genres": [
-        "Fantasy",
+        "Mini-Series",
         "Drama",
-        "Adventure",
-        "Action",
-        "Mystery"
+        "Romance"
       ],
       "top_actors": [
-        "Charlie Vickers",
-        "Morfydd Clark",
-        "Robert Aramayo"
+        "Florence Pugh",
+        "Christopher Abbott",
+        "Mike Faist"
       ],
       "production_companies": [
-        "Amazon Studios",
-        "New Line Cinema",
-        "Amazon MGM Studios"
+        "Fifth Season",
+        "Anonymous Content",
+        "Collab"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=maP_Kyy3DCA",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
-      "tvdb_id": 367506,
-      "tvdb_season_id": 2171719,
-      "network": "Prime Video",
-      "runtime": 67,
-      "status": "Continuing",
+      "trailer_url": "https://www.youtube.com/watch?v=M9NWvGZViCg",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+      "tvdb_id": 430034,
+      "tvdb_season_id": 2042814,
+      "network": "Netflix",
+      "runtime": 59,
+      "status": "Ended",
       "ratings": {
-        "composite_score": 91.2,
+        "composite_score": 84.3,
         "imdb": {
-          "rating": 7.12,
-          "votes": 451631,
-          "season_rating": 7.12
+          "rating": 8.23,
+          "votes": 10352,
+          "season_rating": 8.23
         }
       },
       "streaming_availability": {
@@ -1002,93 +2319,95 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=US"
         },
         "UK": {
           "services": {
             "subscription": [
               {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=GB"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=GB"
         },
         "CA": {
           "services": {
             "subscription": [
               {
-                "provider_id": 119,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 119,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/84773-the-lord-of-the-rings-the-rings-of-power/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=AU"
         }
       },
-      "poster_path": "/bMXWXKM9ydUmMTNvDnYo9QtCBRt.jpg",
-      "backdrop_path": "/uVOcz7JBOuZxsx9IYpx6Ah174LX.jpg"
+      "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
+      "backdrop_path": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg"
     },
     {
-      "series_id": 81723,
-      "series_name": "The Gilded Age",
-      "series_imdb_id": "tt4406178",
-      "season_number": 4,
-      "season_id": 523370,
-      "air_date": "2026-11-01",
-      "age_days": 25,
+      "series_id": 95350,
+      "series_name": "Lanterns",
+      "series_imdb_id": "tt26545992",
+      "season_number": 1,
+      "season_id": 165308,
+      "air_date": "2026-08-16",
+      "age_days": 103,
       "best_rank": null,
-      "description": "Carrie Coon and Morgan Spector clash over high society in HBO's lavish Sunday drama.",
-      "overview": "Bertha Russell changed Society at a cost. Now, her family must reckon with the consequences as Agnes van Rhijn seizes an opportunity to regain her position. Meanwhile, Marian forges a new path for herself, and Peggy works to be accepted by her future in-laws. In this new era, you must be careful what you wish for.",
+      "description": "Kyle Chandler and Aaron Pierre bring grounded detective grit to HBO's sci-fi mystery.",
+      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
       "episode_count": 8,
-      "total_episodes": 33,
+      "total_episodes": 8,
       "genres": [
-        "Drama"
+        "Science Fiction",
+        "Mystery"
       ],
       "top_actors": [
-        "Carrie Coon",
-        "Morgan Spector",
-        "Louisa Jacobson"
+        "Kyle Chandler",
+        "Aaron Pierre",
+        "Kelly Macdonald"
       ],
       "production_companies": [
-        "Universal Television",
+        "DC Studios",
         "HBO",
-        "Neamo Film and Television"
+        "Warner Bros. Television",
+        "Man, Woman & Child Productions"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=9iCJd_X-zYs",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
-      "tvdb_id": 364412,
-      "tvdb_season_id": 2265339,
+      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "tvdb_id": 376098,
+      "tvdb_season_id": 2005527,
       "network": "HBO",
-      "runtime": 55,
+      "runtime": 53,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 86.0,
+        "composite_score": 84.0,
         "imdb": {
-          "rating": 8.1,
-          "votes": 54903,
-          "season_rating": null
+          "rating": 8.4,
+          "votes": 65291,
+          "season_rating": 8.4
         }
       },
       "streaming_availability": {
@@ -1113,31 +2432,21 @@
                 "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
               },
               {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
                 "provider_id": 7,
                 "provider_name": "Fandango At Home",
                 "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
         },
         "UK": {
           "services": {
             "subscription": [
               {
-                "provider_id": 29,
-                "provider_name": "Sky Go",
-                "logo_path": "/1Yvl9eP3pmktqChitnFhHJHcBtX.png"
-              },
-              {
-                "provider_id": 39,
-                "provider_name": "Now TV",
-                "logo_path": "/oFAnvlaEW2KT6J7XM0DXjlWqKu9.png"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
               }
             ],
             "buy": [
@@ -1150,15 +2459,10 @@
                 "provider_id": 10,
                 "provider_name": "Amazon Video",
                 "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 130,
-                "provider_name": "Sky Store",
-                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=GB"
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=GB"
         },
         "CA": {
           "services": {
@@ -1182,15 +2486,15 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
+                "provider_id": 1899,
+                "provider_name": "HBO Max",
+                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
               }
             ],
             "buy": [
@@ -1211,563 +2515,52 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/81723-the-gilded-age/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
         }
       },
-      "poster_path": "/tdsuFe0JVLqjxfptElRA9YFJcUE.jpg",
-      "backdrop_path": "/afUVsProh46h31w2EvL7qyHXrqj.jpg"
+      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
+      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg"
     },
     {
-      "series_id": 103540,
-      "series_name": "Percy Jackson and the Olympians",
-      "series_imdb_id": "tt12324366",
-      "season_number": 3,
-      "season_id": 532117,
-      "air_date": "2026-11-20",
-      "age_days": 6,
-      "best_rank": 14,
-      "description": "Walker Scobell leads a darker, high-stakes Titan's Curse quest streaming weekly on Disney+.",
-      "overview": "The stakes are higher than ever before as Percy is faced with the sudden disappearance of Annabeth and the impending Great Prophecy provided by the Oracle of Delphi, dictating the fate of Olympus. As foretold by the Oracle of Delphi, one demigod child of the \"Big Three\" is fated to raise Olympus to new heights or bring it crashing into ruin, with their own life hanging in the balance.",
-      "episode_count": 8,
-      "total_episodes": 24,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Adventure"
-      ],
-      "top_actors": [
-        "Walker Scobell",
-        "Leah Sava Jeffries",
-        "Aryan Simhadri"
-      ],
-      "production_companies": [
-        "The Gotham Group",
-        "Co-Lab21",
-        "Mythomagic",
-        "Quaker Moving Pictures",
-        "20th Television"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=nD45l6hCyN8",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
-      "tvdb_id": 415151,
-      "tvdb_season_id": 2261085,
-      "network": "Disney+",
-      "runtime": 40,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 85.0,
-        "imdb": {
-          "rating": 7.0,
-          "votes": 54328,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              },
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              },
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/103540-percy-jackson-and-the-olympians/watch?locale=AU"
-        }
-      },
-      "poster_path": "/zofPiEpwCRYaezOncTlQwXebHFU.jpg",
-      "backdrop_path": "/dLIKNqBi9L1cVbwuniXkaNOsIXg.jpg"
-    },
-    {
-      "series_id": 279246,
-      "series_name": "The Remarried Empress",
-      "series_imdb_id": "tt39325975",
+      "series_id": 288673,
+      "series_name": "Carrie",
+      "series_imdb_id": "tt11540908",
       "season_number": 1,
-      "season_id": 432651,
-      "air_date": "2026-11-03",
-      "age_days": 23,
-      "best_rank": 10,
-      "description": "Disney+'s record-breaking Korean fantasy romance just wrapped its addictive palace intrigue run.",
-      "overview": "Beloved Empress Navier of the Eastern Empire has built and led a prosperous land alongside her husband, Emperor Sovieshu. One day her world is shattered when the emperor brings Rashta, a runaway slave, back to the palace with the intention of making her his mistress. But even as the threat of a broken future looms over her, Navier refuses to let her emotions sway her, and when Prince Heinrey, a rival leader of the Western Kingdom, shows interest in her, Navier will make a life-changing decision to rewrite her destiny.",
-      "episode_count": 10,
-      "total_episodes": 10,
-      "genres": [
-        "Fantasy",
-        "Drama",
-        "Romance"
-      ],
-      "top_actors": [
-        "Shin Min-a",
-        "Ju Ji-hoon",
-        "Lee Jong-suk"
-      ],
-      "production_companies": [
-        "Studio N",
-        "Beyond Story",
-        "Heavyweight",
-        "Disney Channel"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=aScUjuKvHSo",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/oYQg1fKSRbjeqFRci2J6yMYmzxY.jpg",
-      "tvdb_id": 455351,
-      "tvdb_season_id": 2150338,
-      "network": "Disney+",
-      "runtime": 53,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": null,
-        "imdb": {
-          "rating": 8.25,
-          "votes": null,
-          "season_rating": 8.25
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/279246-jaehon-hwanghu/watch?locale=AU"
-        }
-      },
-      "poster_path": "/oYQg1fKSRbjeqFRci2J6yMYmzxY.jpg",
-      "backdrop_path": "/fNcpHmuZLKoyhNMBEzdqzX8iIvg.jpg"
-    },
-    {
-      "series_id": 213375,
-      "series_name": "VisionQuest",
-      "series_imdb_id": "tt23112594",
-      "season_number": 1,
-      "season_id": 314452,
-      "air_date": "2026-10-13",
-      "age_days": 44,
-      "best_rank": 9,
-      "description": "Paul Bettany and James Spader headline Marvel's cerebral AI thriller with huge finale viewership.",
-      "overview": "The Vision, rebooted and having escaped from those who sought to weaponize him, has been in hiding. Searching for new meaning, he consults the AI personas embedded in his programming, including Friday, Edith, Jarvis, and the infamous Ultron. His discreet existence ends when a bounty placed on his head thrusts him on the run with Thomas Shepherd, a mysterious boy who may be Vision's son reincarnate. As Vision evades capture, he must confront his nature, resist Ultron's influence, and unravel the enigma that is his young companion if he's to survive.",
+      "season_id": 450854,
+      "air_date": "2026-10-07",
+      "age_days": 51,
+      "best_rank": null,
+      "description": "Mike Flanagan's modern Stephen King horror update already earned a second season on Prime.",
+      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
       "episode_count": 8,
       "total_episodes": 8,
       "genres": [
-        "Science Fiction",
-        "Drama",
-        "Adventure"
+        "Horror",
+        "Drama"
       ],
       "top_actors": [
-        "Paul Bettany",
-        "James Spader",
-        "Ruaridh Mollica"
+        "Summer H. Howell",
+        "Samantha Sloyan",
+        "Siena Agudong"
       ],
       "production_companies": [
-        "Marvel Studios",
-        "Kevin Feige Productions"
+        "Amazon MGM Studios",
+        "Red Room Pictures",
+        "Reunion Pacific Entertainment"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=1UE2Oh_IwHs",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
-      "tvdb_id": 426606,
-      "tvdb_season_id": 2027603,
-      "network": "Disney+",
-      "runtime": 54,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 94.5,
-        "imdb": {
-          "rating": 8.25,
-          "votes": 14696,
-          "season_rating": 8.25
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/213375-visionquest/watch?locale=AU"
-        }
-      },
-      "poster_path": "/xK27l5uwaVyZSlENWnmLlWwDQNS.jpg",
-      "backdrop_path": "/uoXXbN2PrOxH6UKyP7kYwmGpAAP.jpg"
-    },
-    {
-      "series_id": 225385,
-      "series_name": "Black Doves",
-      "series_imdb_id": "tt27995113",
-      "season_number": 2,
-      "season_id": 539082,
-      "air_date": "2026-11-05",
-      "age_days": 21,
-      "best_rank": 38,
-      "description": "Keira Knightley and Ben Whishaw power Netflix's #1 global hit with 96% Rotten Tomatoes acclaim.",
-      "overview": "Helen is still betraying her nation's secrets to the covert organization she serves: the Black Doves. But after the misadventures of last Christmas, and with her husband Wallace, preparing to become Prime Minister, she is walking a more treacherous line than ever.",
-      "episode_count": 6,
-      "total_episodes": 12,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Keira Knightley",
-        "Ben Whishaw",
-        "Sarah Lancashire"
-      ],
-      "production_companies": [
-        "SISTER",
-        "Noisy Bear (GB)"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=MOU2thjq6Z0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/qPtkGZfXkwkacR2oH3zbvdvFfH9.jpg",
-      "tvdb_id": 441315,
-      "tvdb_season_id": 2188322,
-      "network": "Netflix",
-      "runtime": 53,
+      "trailer_url": "https://www.youtube.com/watch?v=jkUw2nh6fT0",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
+      "tvdb_id": 455755,
+      "tvdb_season_id": 2152061,
+      "network": "Prime Video",
+      "runtime": 52,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 87.2,
+        "composite_score": 83.5,
         "imdb": {
-          "rating": 8.22,
-          "votes": 76581,
-          "season_rating": 8.22
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/225385-black-doves/watch?locale=AU"
-        }
-      },
-      "poster_path": "/qPtkGZfXkwkacR2oH3zbvdvFfH9.jpg",
-      "backdrop_path": "/uyL0MH8gtDlChQKpfpkVoUP41VY.jpg"
-    },
-    {
-      "series_id": 95480,
-      "series_name": "Slow Horses",
-      "series_imdb_id": "tt5875444",
-      "season_number": 6,
-      "season_id": 521992,
-      "air_date": "2026-09-16",
-      "age_days": 71,
-      "best_rank": 8,
-      "description": "Gary Oldman leads Slough House on the run in an acclaimed 100% Fresh season.",
-      "overview": "In season six, the Slow Horses are on the run as Diana Taverner embroils them all in a fatally high-stakes game of retaliation and revenge.",
-      "episode_count": 6,
-      "total_episodes": 36,
-      "genres": [
-        "Suspense",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Gary Oldman",
-        "Jack Lowden",
-        "Kristin Scott Thomas"
-      ],
-      "production_companies": [
-        "See-Saw Films",
-        "Flying Studio Pictures",
-        "Sony Pictures Television"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=mZbJxpYHLuI",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
-      "tvdb_id": 372264,
-      "tvdb_season_id": 2213966,
-      "network": "Apple TV",
-      "runtime": 46,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 93.5,
-        "imdb": {
-          "rating": 8.35,
-          "votes": 162097,
-          "season_rating": 8.35
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 350,
-                "provider_name": "Apple TV",
-                "logo_path": "/v9SnyvYt0U3KGgBH3Sbh3z4yODe.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95480-slow-horses/watch?locale=AU"
-        }
-      },
-      "poster_path": "/w2jauz2PeSjFQifDObI3qDen4f7.jpg",
-      "backdrop_path": "/gPQppUnLx9vqPDLz3WwZ2HJsNbt.jpg"
-    },
-    {
-      "series_id": 303745,
-      "series_name": "Love in Disguise",
-      "series_imdb_id": "tt45246384",
-      "season_number": 1,
-      "season_id": 481385,
-      "air_date": "2026-10-19",
-      "age_days": 38,
-      "best_rank": 12,
-      "description": "Yim Si-wan and Seorina sparkle in Prime Video's twisty undercover office rom-com, now complete.",
-      "overview": "대한민국을 발칵 뒤집은 '캐비닛 살인 사건'의 유력한 용의자로 지목된 태강그룹의 후계자 윤이준 상무. 사건의 진실을 파악하기 위해 형사 강재희는 발칙한 계획을 실행한다. 이준을 밀착 감시하기 위해 여자가 아닌 남자로, 형사가 아닌 수행비서로 태강그룹에 잠입한 것! 아슬아슬한 동행 속, 사건은 새로운 국면을 맞이하며 잔혹한 진실이 드러나기 시작하는데... 사건이 진실에 가까워질수록 이준과 재희는 서로의 진심에 가까워지기 시작한다. 높아만 지는 심박수는 감출 길이 없고, 그 마음이 자꾸만 입 밖으로 새어 나오려 하니. 사건과 사심 사이, 이준과 재희는 위태로운 줄타기를 이어가는데...! 정체를 숨긴 재희와 비밀을 숨긴 이준. 과연 두 사람은 서로의 진심에 닿을 수 있을까?",
-      "episode_count": 12,
-      "total_episodes": 12,
-      "genres": [
-        "Comedy",
-        "Action",
-        "Romance"
-      ],
-      "top_actors": [
-        "Yim Si-wan",
-        "Seorina",
-        "Kim Jung-hyun"
-      ],
-      "production_companies": [
-        "CJ ENM Studios",
-        "피타팻스튜디오"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=Q7Xj7sASXSU",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
-      "tvdb_id": 469591,
-      "tvdb_season_id": 2212967,
-      "network": "tvN",
-      "runtime": 62,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": null,
-        "imdb": {
-          "rating": 9.07,
-          "votes": null,
-          "season_rating": 9.07
+          "rating": 8.15,
+          "votes": 3419,
+          "season_rating": 8.15
         }
       },
       "streaming_availability": {
@@ -1781,7 +2574,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/303745-naui-yujoeingan/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=US"
         },
         "UK": {
           "services": {
@@ -1793,7 +2586,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/303745-naui-yujoeingan/watch?locale=GB"
+          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=GB"
         },
         "CA": {
           "services": {
@@ -1805,7 +2598,7 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/303745-naui-yujoeingan/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=CA"
         },
         "AU": {
           "services": {
@@ -1817,247 +2610,11 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/303745-naui-yujoeingan/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=AU"
         }
       },
-      "poster_path": "/c9DEtqCDZBPL9i06WmbDrcndrBy.jpg",
-      "backdrop_path": "/ob7m6JqZ7jSOocR3VL73VxRC6Is.jpg"
-    },
-    {
-      "series_id": 300523,
-      "series_name": "The Blue Road",
-      "series_imdb_id": "tt38336631",
-      "season_number": 1,
-      "season_id": 474913,
-      "air_date": "2026-11-20",
-      "age_days": 6,
-      "best_rank": 7,
-      "description": "Son Suk-ku and Eita Nagayama hunt a cross-border serial killer in Netflix's gritty thriller.",
-      "overview": "",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Son Suk-ku",
-        "Eita Nagayama"
-      ],
-      "production_companies": [
-        "SHOTCAKE"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=n1omQI6g3v0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/5YA4Ds1y2000P7MxLQ1eH59ueA1.jpg",
-      "tvdb_id": 460319,
-      "tvdb_season_id": 2172242,
-      "network": "Netflix",
-      "runtime": 45,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": null,
-        "imdb": {
-          "rating": 7.94,
-          "votes": null,
-          "season_rating": 7.94
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/300523-puleungil/watch?locale=AU"
-        }
-      },
-      "poster_path": "/5YA4Ds1y2000P7MxLQ1eH59ueA1.jpg",
-      "backdrop_path": "/7ojpD6ARKYhRxnsjzMIrorOfj4T.jpg"
-    },
-    {
-      "series_id": 273247,
-      "series_name": "The Lowdown",
-      "series_imdb_id": "tt31289994",
-      "season_number": 2,
-      "season_id": 536194,
-      "air_date": "2026-10-14",
-      "age_days": 43,
-      "best_rank": 30,
-      "description": "Ethan Hawke and Tommy Lee Jones shine in FX's acclaimed noir, wrapping last night.",
-      "overview": "In a world where truth lies buried beneath layers of power and deception, season 2 pushes deeper into the cost of uncovering what others are desperate to keep hidden. As new conspiracies emerge, alliances fracture, and every revelation carries dangerous consequences. Ethan Hawke leads with quiet intensity, Keith David commands every scene with authority, Ryan Kiera Armstrong delivers striking emotional depth, and Mahershala Ali brings layered gravitas—elevating each moment with tension and nuance. Dark, gripping, and intellectually charged, the second season is a high-stakes drama about truth, loyalty, and the price of digging too deep.",
-      "episode_count": 8,
-      "total_episodes": 16,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Suspense"
-      ],
-      "top_actors": [
-        "Ethan Hawke"
-      ],
-      "production_companies": [
-        "FX Productions",
-        "Crazy Eagle Media"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=cE9bq37W3Qo",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
-      "tvdb_id": 450085,
-      "tvdb_season_id": 2238951,
-      "network": "FX",
-      "runtime": 51,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 75.0,
-        "imdb": {
-          "rating": 7.3,
-          "votes": 10435,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              },
-              {
-                "provider_id": 15,
-                "provider_name": "Hulu",
-                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/273247-the-lowdown/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/273247-the-lowdown/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/273247-the-lowdown/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 337,
-                "provider_name": "Disney Plus",
-                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/273247-the-lowdown/watch?locale=AU"
-        }
-      },
-      "poster_path": "/jgfHT7oLJtBDlRABiTTEp2AEret.jpg",
-      "backdrop_path": "/xz9YhlTE5gdr1mrQkY01vDvQF59.jpg"
+      "poster_path": "/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
+      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg"
     },
     {
       "series_id": 2190,
@@ -2066,9 +2623,9 @@
       "season_number": 29,
       "season_id": 517335,
       "air_date": "2026-09-16",
-      "age_days": 71,
+      "age_days": 72,
       "best_rank": 17,
-      "description": "Fresh off its sixth Emmy, South Park wrapped Season 29 skewering AI and gaming.",
+      "description": "Still bitingly topical in Season 29, delivering fresh animated satire straight to streaming charts.",
       "overview": "Join Stan, Kyle, Cartman and Kenny for the historic 29th season of South America.",
       "episode_count": 6,
       "total_episodes": 337,
@@ -2218,616 +2775,15 @@
       "backdrop_path": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg"
     },
     {
-      "series_id": 153312,
-      "series_name": "Tulsa King",
-      "series_imdb_id": "tt16358384",
-      "season_number": 4,
-      "season_id": 486637,
-      "air_date": "2026-10-16",
-      "age_days": 41,
-      "best_rank": 19,
-      "description": "Sylvester Stallone defends his Oklahoma empire against crooked politicians in Paramount+'s crime hit.",
-      "overview": "In season four, Dwight fights to legitimize his empire and protect his crew as corrupt politicians, dangerous new enemies, and a crushing personal loss hit from every direction. However, every hard-won gain comes with even harder truths: about loyalty, leadership and the cost of ambition. Each move drags Dwight deeper into the street instincts he left behind in New York - turning Tulsa into a battleground and Dwight into the one threat no one can afford to underestimate.",
-      "episode_count": 10,
-      "total_episodes": 39,
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "top_actors": [
-        "Sylvester Stallone",
-        "Martin Starr",
-        "Jay Will"
-      ],
-      "production_companies": [
-        "101 Studios",
-        "MTV Entertainment Studios",
-        "Bosque Ranch Productions",
-        "Balboa Productions",
-        "Cold Front Productions",
-        "Paramount Television Studios",
-        "Square Head Pictures"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=Qq8yAg8urfY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aqvDey0veLcY7XkoDWGFOqRAD3I.jpg",
-      "tvdb_id": 413215,
-      "tvdb_season_id": 2224598,
-      "network": "Paramount+",
-      "runtime": 40,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 78.0,
-        "imdb": {
-          "rating": 7.1,
-          "votes": 121614,
-          "season_rating": 7.1
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 3,
-                "provider_name": "Google Play Movies",
-                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 130,
-                "provider_name": "Sky Store",
-                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 531,
-                "provider_name": "Paramount Plus",
-                "logo_path": "/pkx3klJlwW5JdtaulvDx6hDNtch.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/153312-tulsa-king/watch?locale=AU"
-        }
-      },
-      "poster_path": "/aqvDey0veLcY7XkoDWGFOqRAD3I.jpg",
-      "backdrop_path": "/mNHRGO1gFpR2CYZdANe72kcKq7G.jpg"
-    },
-    {
-      "series_id": 258165,
-      "series_name": "East of Eden",
-      "series_imdb_id": "tt21097264",
-      "season_number": 1,
-      "season_id": 400373,
-      "air_date": "2026-10-01",
-      "age_days": 56,
-      "best_rank": null,
-      "description": "Florence Pugh commands Netflix's lush, moody adaptation of John Steinbeck's classic family saga.",
-      "overview": "In the farmlands of the Salinas Valley in California, successive generations of two families, the Trasks and the Hamiltons, are destined to reenact the fateful story of Cain and Abel.",
-      "episode_count": 7,
-      "total_episodes": 7,
-      "genres": [
-        "Mini-Series",
-        "Drama",
-        "Romance"
-      ],
-      "top_actors": [
-        "Florence Pugh",
-        "Christopher Abbott",
-        "Mike Faist"
-      ],
-      "production_companies": [
-        "Fifth Season",
-        "Anonymous Content",
-        "Collab"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=M9NWvGZViCg",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
-      "tvdb_id": 430034,
-      "tvdb_season_id": 2042814,
-      "network": "Netflix",
-      "runtime": 59,
-      "status": "Ended",
-      "ratings": {
-        "composite_score": 84.3,
-        "imdb": {
-          "rating": 8.23,
-          "votes": 10352,
-          "season_rating": 8.23
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/258165-east-of-eden/watch?locale=AU"
-        }
-      },
-      "poster_path": "/axdUor6gLMTrrB1UF4Qfy0TTSyX.jpg",
-      "backdrop_path": "/70RZX7kNjA0Qjn6HigB1oMvFJ8R.jpg"
-    },
-    {
-      "series_id": 95350,
-      "series_name": "Lanterns",
-      "series_imdb_id": "tt26545992",
-      "season_number": 1,
-      "season_id": 165308,
-      "air_date": "2026-08-16",
-      "age_days": 102,
-      "best_rank": null,
-      "description": "Kyle Chandler and Aaron Pierre bring True Detective grit to HBO's acclaimed DC mystery.",
-      "overview": "Follows intergalactic cops John Stewart and Hal Jordan as they uncover a dark mystery.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Science Fiction",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Kyle Chandler",
-        "Aaron Pierre",
-        "Kelly Macdonald"
-      ],
-      "production_companies": [
-        "DC Studios",
-        "HBO",
-        "Warner Bros. Television",
-        "Man, Woman & Child Productions"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=-05WmSAmLK4",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
-      "tvdb_id": 376098,
-      "tvdb_season_id": 2005527,
-      "network": "HBO",
-      "runtime": 53,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 84.0,
-        "imdb": {
-          "rating": 8.4,
-          "votes": 65291,
-          "season_rating": 8.4
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 7,
-                "provider_name": "Fandango At Home",
-                "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 230,
-                "provider_name": "Crave",
-                "logo_path": "/a2o4bE63LR71m8jHrkx9BnBucN0.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
-              }
-            ],
-            "buy": [
-              {
-                "provider_id": 2,
-                "provider_name": "Apple TV Store",
-                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
-              },
-              {
-                "provider_id": 10,
-                "provider_name": "Amazon Video",
-                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
-              },
-              {
-                "provider_id": 436,
-                "provider_name": "Fetch TV",
-                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/95350-lanterns/watch?locale=AU"
-        }
-      },
-      "poster_path": "/j9PTWG0Xn0NeIRhGGFJbciNYWvS.jpg",
-      "backdrop_path": "/wJjnJbVUwPz0GADAgpFt9nWtzUu.jpg"
-    },
-    {
-      "series_id": 96677,
-      "series_name": "Lupin",
-      "series_imdb_id": "tt2531336",
-      "season_number": 3,
-      "season_id": 456251,
-      "air_date": "2026-10-23",
-      "age_days": 34,
-      "best_rank": 37,
-      "description": "Omar Sy's stylish Parisian thief outsmarts a daring copycat in Netflix's top non-English hit.",
-      "overview": "After four years in prison, Assane is ready to start a new life with his family. But the emergence of a mysterious copycat forces Lupin to return to his most brilliant schemes.",
-      "episode_count": 8,
-      "total_episodes": 25,
-      "genres": [
-        "Drama",
-        "Crime",
-        "Action",
-        "Mystery"
-      ],
-      "top_actors": [
-        "Omar Sy",
-        "Ludivine Sagnier",
-        "Antoine Gouy"
-      ],
-      "production_companies": [
-        "Gaumont",
-        "Carrousel Studios"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=Vr4zLkYblMA",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
-      "tvdb_id": 375921,
-      "tvdb_season_id": 2258322,
-      "network": "Netflix",
-      "runtime": 46,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 78.0,
-        "imdb": {
-          "rating": 7.6,
-          "votes": 162224,
-          "season_rating": 7.6
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=AU"
-        }
-      },
-      "poster_path": "/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
-      "backdrop_path": "/jgAZYiuRV37pCxmhx8NTdhE36RL.jpg"
-    },
-    {
-      "series_id": 288673,
-      "series_name": "Carrie",
-      "series_imdb_id": "tt11540908",
-      "season_number": 1,
-      "season_id": 450854,
-      "air_date": "2026-10-07",
-      "age_days": 50,
-      "best_rank": null,
-      "description": "Mike Flanagan modernizes Stephen King's iconic horror tale with a magnetic Summer H. Howell.",
-      "overview": "After her father's sudden, untimely death thrusts her into the unforgiving ecosystem of public high school, Carrie is forced to navigate a viral bullying scandal that tears through her community, the relentless pressure and casual cruelty of the social media age, and the awakening of mysterious telekinetic powers that rise alongside her adolescence.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Horror",
-        "Drama"
-      ],
-      "top_actors": [
-        "Summer H. Howell",
-        "Samantha Sloyan",
-        "Siena Agudong"
-      ],
-      "production_companies": [
-        "Amazon MGM Studios",
-        "Red Room Pictures",
-        "Reunion Pacific Entertainment"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=jkUw2nh6fT0",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
-      "tvdb_id": 455755,
-      "tvdb_season_id": 2152061,
-      "network": "Prime Video",
-      "runtime": 52,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 83.5,
-        "imdb": {
-          "rating": 8.15,
-          "votes": 3419,
-          "season_rating": 8.15
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 119,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 119,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/288673-carrie/watch?locale=AU"
-        }
-      },
-      "poster_path": "/aL1Iid9DFfR6No2fNftgeyRmIQV.jpg",
-      "backdrop_path": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg"
-    },
-    {
       "series_id": 211288,
       "series_name": "Tracker",
       "series_imdb_id": "tt13875494",
       "season_number": 4,
       "season_id": 532134,
       "air_date": "2026-10-04",
-      "age_days": 53,
+      "age_days": 54,
       "best_rank": null,
-      "description": "Justin Hartley returns for reliable Sunday-night missing-persons action across CBS and Paramount+.",
+      "description": "Justin Hartley's dependable survivalist-for-hire thriller delivers crisp, high-stakes weekly cases on Paramount+.",
       "overview": "Lone-wolf survivalist Colter Shaw roams the country as a \"reward seeker,\" using his expert tracking skills to help private citizens and law enforcement solve all manner of mysteries while contending with his own fractured family.",
       "episode_count": 10,
       "total_episodes": 65,
@@ -2955,15 +2911,205 @@
       "backdrop_path": "/5C5cMYUlmX6BU5YxBqhp7ZpSd3Q.jpg"
     },
     {
+      "series_id": 291507,
+      "series_name": "The Body",
+      "series_imdb_id": "tt8014982",
+      "season_number": 1,
+      "season_id": 456459,
+      "air_date": "2026-11-11",
+      "age_days": 16,
+      "best_rank": 7,
+      "description": "Buzzworthy Netflix psychodrama blends early-2000s nostalgia, Catholic guilt, and dark teen-girl hysteria.",
+      "overview": "After a dance-team initiation goes awry, a group of badly behaved Catholic school girls begin having prophetic visions that set off mass hysteria in their town.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Drama"
+      ],
+      "top_actors": [
+        "Kristina Bogic",
+        "Geena Meszaros",
+        "Sara Boustany"
+      ],
+      "production_companies": [
+        "Felix Culpa",
+        "Ingénue",
+        "North Road Television Studios"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=wl7uj7n7DoY",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dlpA3iKKT0AfhQf91kgsJbD04AC.jpg",
+      "tvdb_id": 463695,
+      "tvdb_season_id": 2187036,
+      "network": "Netflix",
+      "runtime": 55,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": 8.65,
+          "votes": null,
+          "season_rating": 8.65
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=AU"
+        }
+      },
+      "poster_path": "/dlpA3iKKT0AfhQf91kgsJbD04AC.jpg",
+      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg"
+    },
+    {
+      "series_id": 96677,
+      "series_name": "Lupin",
+      "series_imdb_id": "tt2531336",
+      "season_number": 3,
+      "season_id": 456251,
+      "air_date": "2026-10-23",
+      "age_days": 35,
+      "best_rank": 28,
+      "description": "Omar Sy brings effortless charisma back to Netflix for another round of brilliant heists.",
+      "overview": "After four years in prison, Assane is ready to start a new life with his family. But the emergence of a mysterious copycat forces Lupin to return to his most brilliant schemes.",
+      "episode_count": 8,
+      "total_episodes": 25,
+      "genres": [
+        "Drama",
+        "Crime",
+        "Action",
+        "Mystery"
+      ],
+      "top_actors": [
+        "Omar Sy",
+        "Ludivine Sagnier",
+        "Antoine Gouy"
+      ],
+      "production_companies": [
+        "Gaumont",
+        "Carrousel Studios"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=Vr4zLkYblMA",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
+      "tvdb_id": 375921,
+      "tvdb_season_id": 2258322,
+      "network": "Netflix",
+      "runtime": 46,
+      "status": "Continuing",
+      "ratings": {
+        "composite_score": 78.0,
+        "imdb": {
+          "rating": 7.6,
+          "votes": 162224,
+          "season_rating": 7.6
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 8,
+                "provider_name": "Netflix",
+                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/96677-lupin/watch?locale=AU"
+        }
+      },
+      "poster_path": "/9V58kbuqNfO9lH0lJ3Uny5euypO.jpg",
+      "backdrop_path": "/jgAZYiuRV37pCxmhx8NTdhE36RL.jpg"
+    },
+    {
       "series_id": 273207,
       "series_name": "Neagley",
       "series_imdb_id": "tt33539520",
       "season_number": 1,
       "season_id": 421460,
       "air_date": "2026-09-16",
-      "age_days": 71,
+      "age_days": 72,
       "best_rank": null,
-      "description": "Maria Sten steps out of Reacher's shadow in a punchy Chicago private investigator spinoff.",
+      "description": "Maria Sten steps into the spotlight in a punchy, fast-paced Reacher spinoff on Prime.",
       "overview": "Frances Neagley is a private investigator in Chicago. When she learns that a beloved friend from her past has been killed in a suspicious accident, she becomes hell bent on justice. Using everything she's learned from Jack Reacher and her time as a member of the 110 Special Investigators, Neagley puts herself on a dangerous path to uncover a menacing evil.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -3050,43 +3196,47 @@
       "backdrop_path": "/uYOYLFQ4q7asuhdiKXCqGaeAQUH.jpg"
     },
     {
-      "series_id": 321958,
-      "series_name": "Line of Fire",
-      "series_imdb_id": "tt39365612",
-      "season_number": 1,
-      "season_id": 515438,
-      "air_date": "2026-09-21",
-      "age_days": 66,
-      "best_rank": null,
-      "description": "Peter Krause and Hope Davis headline NBC's snappy family-of-agents drama earning 87% Rotten Tomatoes.",
-      "overview": "A family of law enforcement agents bridges personal differences and crosses professional boundaries as they tackle cases for the FBI, US Marshals, Secret Service and Department of Justice. After a seemingly cut-and-dry case turns into a deadly conspiracy, they must use the expertise from a lifetime of protecting civilians and politicians to protect one another and bring the killer to justice … even if it means betraying their sworn code.",
-      "episode_count": 10,
-      "total_episodes": 13,
+      "series_id": 1413,
+      "series_name": "American Horror Story",
+      "series_imdb_id": "tt1844624",
+      "season_number": 13,
+      "season_id": 528425,
+      "air_date": "2026-09-24",
+      "age_days": 64,
+      "best_rank": 18,
+      "description": "Sarah Paulson, Evan Peters, and Angela Bassett reunite for Ryan Murphy's eerie thirteenth installment.",
+      "overview": "Follows Ben DeSoto, a hospice caretaker suffering from triskaidekaphobia, who takes a strange job at The Apollyon, an eerie residential building inhabited by characters from seasons past.",
+      "episode_count": 13,
+      "total_episodes": 145,
       "genres": [
+        "Horror",
         "Drama",
-        "Crime"
+        "Thriller"
       ],
       "top_actors": [
-        "Peter Krause",
-        "Hope Davis",
-        "Kat Cunning"
+        "Sarah Paulson",
+        "Evan Peters",
+        "Angela Bassett"
       ],
       "production_companies": [
-        "Universal Television"
+        "Ryan Murphy Television",
+        "Brad Falchuk Teley-vision",
+        "20th Century Fox Television",
+        "20th Television"
       ],
-      "trailer_url": "https://www.youtube.com/watch?v=gp4bgJ3N0fw",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/pN17UHdhurLsQPI275fkuzSluUf.jpg",
-      "tvdb_id": 477711,
-      "tvdb_season_id": 2249083,
-      "network": "NBC",
-      "runtime": 42,
+      "trailer_url": "https://www.youtube.com/watch?v=gQf4Vya5PbI",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/s8Nbz8ok2v3Uw5sRwSC6eWJLX25.jpg",
+      "tvdb_id": 250487,
+      "tvdb_season_id": 2263357,
+      "network": "FX",
+      "runtime": 43,
       "status": "Continuing",
       "ratings": {
-        "composite_score": 77.8,
+        "composite_score": 68.7,
         "imdb": {
-          "rating": 7.78,
-          "votes": 2012,
-          "season_rating": 7.78
+          "rating": 6.37,
+          "votes": 366749,
+          "season_rating": 6.37
         }
       },
       "streaming_availability": {
@@ -3094,9 +3244,19 @@
           "services": {
             "subscription": [
               {
-                "provider_id": 386,
-                "provider_name": "Peacock Premium",
-                "logo_path": "/a1UIdq5BrkcAxnxcUhFsNbXnxeu.png"
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              },
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 15,
+                "provider_name": "Hulu",
+                "logo_path": "/44uAnmSqvA4yBOdbPWN8YgQHjWm.png"
               }
             ],
             "buy": [
@@ -3111,16 +3271,57 @@
                 "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
               },
               {
+                "provider_id": 3,
+                "provider_name": "Google Play Movies",
+                "logo_path": "/aZRENwYILujqs0RVOZutTh0BVGV.png"
+              },
+              {
                 "provider_id": 7,
                 "provider_name": "Fandango At Home",
                 "logo_path": "/wpOt6x0dRxTrIzuBosto4LGd7E9.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/321958-line-of-fire/watch?locale=US"
+          "link": "https://www.themoviedb.org/tv/1413-american-horror-story/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 130,
+                "provider_name": "Sky Store",
+                "logo_path": "/nNkZ1JKe6vNhzti14KiKEUWHE6H.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/1413-american-horror-story/watch?locale=GB"
         },
         "CA": {
           "services": {
+            "subscription": [
+              {
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              }
+            ],
             "buy": [
               {
                 "provider_id": 2,
@@ -3129,201 +3330,50 @@
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/321958-line-of-fire/watch?locale=CA"
+          "link": "https://www.themoviedb.org/tv/1413-american-horror-story/watch?locale=CA"
         },
         "AU": {
           "services": {
             "subscription": [
               {
-                "provider_id": 1899,
-                "provider_name": "HBO Max",
-                "logo_path": "/skypuy7SXuugIQeYg0IglmzoKaS.png"
+                "provider_id": 337,
+                "provider_name": "Disney Plus",
+                "logo_path": "/5eZ872CghnHFLB1j8grszbrx0dx.png"
+              },
+              {
+                "provider_id": 385,
+                "provider_name": "BINGE",
+                "logo_path": "/1Hzele1xJnA7xfQyWKNQnTnWAio.png"
+              },
+              {
+                "provider_id": 134,
+                "provider_name": "Foxtel Now",
+                "logo_path": "/qRZkZY5kgqXaLr4QFp7ON0wG5rB.png"
+              }
+            ],
+            "buy": [
+              {
+                "provider_id": 2,
+                "provider_name": "Apple TV Store",
+                "logo_path": "/qdEGArH3lKfFnAtYXMkSYk5wxuG.png"
+              },
+              {
+                "provider_id": 10,
+                "provider_name": "Amazon Video",
+                "logo_path": "/jn6TLbtaTZntTRX9UYucHJvpQx1.png"
+              },
+              {
+                "provider_id": 436,
+                "provider_name": "Fetch TV",
+                "logo_path": "/hFTUerTxMwrM9RIo9z48qxCsi7z.png"
               }
             ]
           },
-          "link": "https://www.themoviedb.org/tv/321958-line-of-fire/watch?locale=AU"
+          "link": "https://www.themoviedb.org/tv/1413-american-horror-story/watch?locale=AU"
         }
       },
-      "poster_path": "/pN17UHdhurLsQPI275fkuzSluUf.jpg",
-      "backdrop_path": "/wywNNHCRHJ129yTGTYBujnP4vRq.jpg"
-    },
-    {
-      "series_id": 291507,
-      "series_name": "The Body",
-      "series_imdb_id": "tt8014982",
-      "season_number": 1,
-      "season_id": 456459,
-      "air_date": "2026-11-11",
-      "age_days": 15,
-      "best_rank": 6,
-      "description": "Social media edits propelled this 2004 Catholic schoolgirl horror drama to #1 on Netflix.",
-      "overview": "After a dance-team initiation goes awry, a group of badly behaved Catholic school girls begin having prophetic visions that set off mass hysteria in their town.",
-      "episode_count": 8,
-      "total_episodes": 8,
-      "genres": [
-        "Drama"
-      ],
-      "top_actors": [
-        "Kristina Bogic",
-        "Geena Meszaros",
-        "Sara Boustany"
-      ],
-      "production_companies": [
-        "Felix Culpa",
-        "Ingénue",
-        "North Road Television Studios"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=wl7uj7n7DoY",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/dlpA3iKKT0AfhQf91kgsJbD04AC.jpg",
-      "tvdb_id": 463695,
-      "tvdb_season_id": 2187036,
-      "network": "Netflix",
-      "runtime": 55,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": null,
-        "imdb": {
-          "rating": 8.65,
-          "votes": null,
-          "season_rating": 8.65
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=GB"
-        },
-        "CA": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=CA"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 8,
-                "provider_name": "Netflix",
-                "logo_path": "/rK1KljqmbvO9HQa1PBFLILWah72.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/291507-the-body/watch?locale=AU"
-        }
-      },
-      "poster_path": "/dlpA3iKKT0AfhQf91kgsJbD04AC.jpg",
-      "backdrop_path": "/hYJqUoXRZnodGxgVZTM8uwr5kbC.jpg"
-    },
-    {
-      "series_id": 253372,
-      "series_name": "The Institute",
-      "series_imdb_id": "tt10946316",
-      "season_number": 2,
-      "season_id": 547058,
-      "air_date": "2026-11-08",
-      "age_days": 18,
-      "best_rank": 40,
-      "description": "Ben Barnes and Joe Freeman keep the Stephen King thriller moving on MGM+ Sundays.",
-      "overview": "Luke Ellis, a 12-year-old genius, is kidnapped and awakens at The Institute, a facility full of children who all got there the same way he did, and all of whom possess unusual abilities. Former police officer Tim Jamieson's story and Luke’s are destined to collide.",
-      "episode_count": 8,
-      "total_episodes": 16,
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "top_actors": [
-        "Ben Barnes",
-        "Joe Freeman",
-        "Simone Miller"
-      ],
-      "production_companies": [
-        "MGM+ Studios",
-        "Spyglass Media Group",
-        "Sashajo Productions",
-        "Nomadicfilm"
-      ],
-      "trailer_url": "https://www.youtube.com/watch?v=gCIPNRM2bXk",
-      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
-      "tvdb_id": 451177,
-      "tvdb_season_id": 2271488,
-      "network": "MGM+",
-      "runtime": 52,
-      "status": "Continuing",
-      "ratings": {
-        "composite_score": 72.0,
-        "imdb": {
-          "rating": 6.7,
-          "votes": 11603,
-          "season_rating": null
-        }
-      },
-      "streaming_availability": {
-        "US": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/253372-the-institute/watch?locale=US"
-        },
-        "UK": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 9,
-                "provider_name": "Amazon Prime Video",
-                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/253372-the-institute/watch?locale=GB"
-        },
-        "AU": {
-          "services": {
-            "subscription": [
-              {
-                "provider_id": 21,
-                "provider_name": "Stan",
-                "logo_path": "/6dOWQKIRIxDmX5FD4g5dPsHxFn3.png"
-              }
-            ]
-          },
-          "link": "https://www.themoviedb.org/tv/253372-the-institute/watch?locale=AU"
-        }
-      },
-      "poster_path": "/4MwXkOAMd9ObxdacasPFM32n9dZ.jpg",
-      "backdrop_path": "/wWleS7DxsoGCkOPisNf8OZ2udiD.jpg"
+      "poster_path": "/s8Nbz8ok2v3Uw5sRwSC6eWJLX25.jpg",
+      "backdrop_path": "/5G4Bnc4Q0YUK1bwLEUYmIsmm2Ib.jpg"
     },
     {
       "series_id": 254630,
@@ -3332,9 +3382,9 @@
       "season_number": 1,
       "season_id": 394085,
       "air_date": "2026-11-12",
-      "age_days": 14,
-      "best_rank": 11,
-      "description": "Anthony Mackie and Jamie Dornan clash across Europe in Apple TV's sleek heist thriller.",
+      "age_days": 15,
+      "best_rank": 20,
+      "description": "Anthony Mackie and Jamie Dornan headline a sleek, multi-timeline European bank heist thriller.",
       "overview": "A disgraced FBI agent and an American career criminal play a zero-sum game of cat and mouse across Europe. At the center of it all is the daring, epic raid on a bank vault deep beneath the streets of Zurich.",
       "episode_count": 8,
       "total_episodes": 8,
@@ -3431,9 +3481,9 @@
       "season_number": 1,
       "season_id": 455170,
       "air_date": "2026-11-23",
-      "age_days": 3,
-      "best_rank": 18,
-      "description": "Amy Poehler and Hugh Laurie anchor a breezy Greek archaeological caper from Michael Schur.",
+      "age_days": 4,
+      "best_rank": 15,
+      "description": "Amy Poehler and Michael Schur reunite for a breezy Peacock comedy set in Greece.",
       "overview": "Follows four women who work at an archeological dig in Greece. When the team uncovers a long-buried secret with the potential to rewrite history, they find themselves at the center of a high-stakes international conspiracy.",
       "episode_count": 10,
       "total_episodes": 10,
@@ -3506,15 +3556,113 @@
       "backdrop_path": "/apHJDHRa0LMtZlcMvKK74InRMfc.jpg"
     },
     {
+      "series_id": 171802,
+      "series_name": "Blade Runner 2099",
+      "series_imdb_id": "tt18224594",
+      "season_number": 1,
+      "season_id": 259438,
+      "air_date": "2026-11-24",
+      "age_days": 3,
+      "best_rank": 1,
+      "description": "Michelle Yeoh and Hunter Schafer anchor Prime Video's visually stunning, much-debated sci-fi event.",
+      "overview": "Cora, a fugitive turned Blade Runner, partners with Olwen, a dying Replicant, to hunt a runaway in a reborn Los Angeles. Together they uncover a truth threatening to destroy their fragile city.",
+      "episode_count": 8,
+      "total_episodes": 8,
+      "genres": [
+        "Science Fiction",
+        "Mini-Series"
+      ],
+      "top_actors": [
+        "Michelle Yeoh",
+        "Hunter Schafer",
+        "Dimitri Abold"
+      ],
+      "production_companies": [
+        "Scott Free Productions",
+        "Amazon MGM Studios",
+        "Alcon Television Group",
+        "Noetic",
+        "J.A. Green Construction Corp.",
+        "Cynthia Yorkin Productions"
+      ],
+      "trailer_url": "https://www.youtube.com/watch?v=1d4x_eSdqNc",
+      "poster_url": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
+      "tvdb_id": 424855,
+      "tvdb_season_id": 2020047,
+      "network": "Prime Video",
+      "runtime": 57,
+      "status": "Ended",
+      "ratings": {
+        "composite_score": null,
+        "imdb": {
+          "rating": null,
+          "votes": null,
+          "season_rating": null
+        }
+      },
+      "streaming_availability": {
+        "US": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/171802-blade-runner-2099/watch?locale=US"
+        },
+        "UK": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 9,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/171802-blade-runner-2099/watch?locale=GB"
+        },
+        "CA": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 119,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/171802-blade-runner-2099/watch?locale=CA"
+        },
+        "AU": {
+          "services": {
+            "subscription": [
+              {
+                "provider_id": 119,
+                "provider_name": "Amazon Prime Video",
+                "logo_path": "/gMZdpavHmxFNnLpMHwVxfqeux2g.png"
+              }
+            ]
+          },
+          "link": "https://www.themoviedb.org/tv/171802-blade-runner-2099/watch?locale=AU"
+        }
+      },
+      "poster_path": "/d8IKBDXQvj3d6clsjqydT4xcw14.jpg",
+      "backdrop_path": "/rACaCUxa8WAxkqdpZl0vGqBmIJg.jpg"
+    },
+    {
       "series_id": 310209,
       "series_name": "Nine to Six",
       "series_imdb_id": "tt41743360",
       "season_number": 1,
       "season_id": 493199,
       "air_date": "2026-11-25",
-      "age_days": 1,
-      "best_rank": 8,
-      "description": "Park Min-young and Yook Sung-jae spark slow-burn office chemistry in Prime Video's brand-new rom-com.",
+      "age_days": 2,
+      "best_rank": 14,
+      "description": "Park Min-young and Yook Sung-jae spark charming chemistry in this new Korean office rom-com.",
       "overview": "A false accusation threatens a deputy manager's job as she navigates corporate rivalries alongside a kindly intern and a director who sees her potential.",
       "episode_count": 3,
       "total_episodes": 12,
@@ -3596,7 +3744,7 @@
         }
       },
       "poster_path": "/jWXdb28fDubtLaTfFcmfAZcByGj.jpg",
-      "backdrop_path": "/y6vS0tG9uQPOU9y2YhuZ0Uga99c.jpg"
+      "backdrop_path": "/eQQ5z8oHYBGTAVsvRm9TYibCWVD.jpg"
     }
   ]
 }
